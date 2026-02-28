@@ -1,0 +1,165 @@
+{
+    "levelCode": "A1",
+    "order": 2,
+    "title_en": "Daily Life & Verbs",
+    "title_it": "Vita Quotidiana",
+    "description_it": "Parla delle tue abitudini quotidiane con il Present Simple",
+    "icon": "🌅",
+    "lessons": [
+        {
+            "order": 1,
+            "title_en": "Common Verbs",
+            "title_it": "Verbi Comuni",
+            "type": "vocabulary",
+            "estimated_minutes": 6,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice 'mangiare' in inglese?",
+                    "audio_text": "eat",
+                    "options": [
+                        "eat",
+                        "sleep",
+                        "drink",
+                        "work"
+                    ],
+                    "correct_answer": "eat",
+                    "difficulty": 1
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Traduci: bere",
+                    "audio_text": "drink",
+                    "correct_answer": "drink",
+                    "difficulty": 1
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i verbi italiani con quelli inglesi:",
+                    "options": [
+                        "dormire",
+                        "lavorare",
+                        "andare",
+                        "venire",
+                        "sleep",
+                        "work",
+                        "go",
+                        "come"
+                    ],
+                    "correct_answer": "dormire:sleep|lavorare:work|andare:go|venire:come",
+                    "difficulty": 1
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Traduci: Mi sveglio alle 7.",
+                    "audio_text": "I wake up at 7.",
+                    "correct_answer": "I wake up at 7.",
+                    "explanation_it": "'Wake up' = svegliarsi. È un phrasal verb: 'wake' + 'up' insieme hanno un significato specifico.",
+                    "grammar_rule": "wake up = svegliarsi (phrasal verb)",
+                    "difficulty": 2
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Every morning I _____ breakfast at 8 o'clock.",
+                    "prompt_it": "Completa: ogni mattina faccio colazione alle 8",
+                    "correct_answer": "eat",
+                    "explanation_it": "'eat breakfast' = fare colazione. In inglese si dice letteralmente 'mangiare la colazione'.",
+                    "difficulty": 2
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è l'orario corretto in inglese per le 3 del pomeriggio?",
+                    "audio_text": "It's three o'clock.",
+                    "options": [
+                        "It's three o'clock.",
+                        "It's the three.",
+                        "It's at three.",
+                        "It are three."
+                    ],
+                    "correct_answer": "It's three o'clock.",
+                    "explanation_it": "Per dire l'ora in inglese: 'It's [numero] o'clock'. 'O'clock' significa '...in punto'.",
+                    "grammar_rule": "It's [hour] o'clock = Sono le [ora] in punto",
+                    "difficulty": 2
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "title_en": "Present Simple",
+            "title_it": "Presente Semplice",
+            "type": "grammar",
+            "estimated_minutes": 8,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è la forma corretta? 'Lei mangia la pizza.'",
+                    "audio_text": "She eats pizza.",
+                    "options": [
+                        "She eats pizza.",
+                        "She eat pizza.",
+                        "She eating pizza.",
+                        "She is eat pizza."
+                    ],
+                    "correct_answer": "She eats pizza.",
+                    "explanation_it": "Con he/she/it al Present Simple aggiunge sempre la -s al verbo: eat → eats, work → works, go → goes.",
+                    "grammar_rule": "Present Simple: he/she/it + verbo + S (eat→eats, go→goes, watch→watches)",
+                    "difficulty": 2
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "He _____ to work every day. (go)",
+                    "prompt_it": "Completa con la forma corretta di 'go':",
+                    "correct_answer": "goes",
+                    "explanation_it": "Con 'he' al Present Simple, 'go' diventa 'goes' (non goess). Attenzione: verbi che finiscono in -o/-go/-do aggiungono -es.",
+                    "grammar_rule": "go → goes | do → does | watch → watches",
+                    "difficulty": 2
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come formi una domanda al Present Simple?",
+                    "audio_text": "Do you work here?",
+                    "options": [
+                        "Do you work here?",
+                        "You work here?",
+                        "Are you work here?",
+                        "Does you work here?"
+                    ],
+                    "correct_answer": "Do you work here?",
+                    "explanation_it": "Le domande al Present Simple usano l'ausiliare DO/DOES: DO (I/you/we/they) + verbo base. DOES (he/she/it) + verbo base.",
+                    "grammar_rule": "Domande: DO/DOES + soggetto + verbo base",
+                    "difficulty": 2
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Traduci: Non lavoro il sabato.",
+                    "audio_text": "I don't work on Saturdays.",
+                    "correct_answer": "I don't work on Saturdays.",
+                    "explanation_it": "Forma negativa: soggetto + DON'T/DOESN'T + verbo base. 'Don't' = do not (contrazione).",
+                    "grammar_rule": "Negazione: I/you/we/they + don't + verbo | he/she/it + doesn't + verbo",
+                    "difficulty": 3
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Riordina: 'Lui non mangia carne'",
+                    "options": [
+                        "He",
+                        "doesn't",
+                        "meat",
+                        "eat"
+                    ],
+                    "correct_answer": "He doesn't eat meat",
+                    "explanation_it": "Con 'he' la negazione usa 'doesn't' (does not). Il verbo principale rimane alla forma base: 'eat' (non 'eats').",
+                    "difficulty": 3
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "_____ she speak Italian? Yes, she _____!",
+                    "prompt_it": "Completa la domanda e la risposta breve:",
+                    "correct_answer": "Does she speak Italian? Yes, she does!",
+                    "explanation_it": "Con she: Does + she + verbo base? La risposta breve è 'Yes, she does' (non 'Yes, she speaks').",
+                    "difficulty": 3
+                }
+            ]
+        }
+    ]
+}

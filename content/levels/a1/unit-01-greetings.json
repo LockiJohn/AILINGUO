@@ -1,0 +1,290 @@
+{
+    "levelCode": "A1",
+    "order": 1,
+    "title_en": "Greetings & Introductions",
+    "title_it": "Saluti e Presentazioni",
+    "description_it": "Impara a salutare e a presentarti in inglese",
+    "icon": "👋",
+    "lessons": [
+        {
+            "order": 1,
+            "title_en": "Basic Greetings",
+            "title_it": "Saluti di Base",
+            "type": "vocabulary",
+            "estimated_minutes": 5,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice 'Ciao' (informale) in inglese?",
+                    "audio_text": "Hi",
+                    "options": [
+                        "Hi",
+                        "Bye",
+                        "Sorry",
+                        "Please"
+                    ],
+                    "correct_answer": "Hi",
+                    "explanation_it": "'Hi' è il saluto informale più comune in inglese, equivalente al nostro 'Ciao'.",
+                    "difficulty": 1
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice 'Buongiorno' in inglese?",
+                    "audio_text": "Good morning",
+                    "options": [
+                        "Good morning",
+                        "Good night",
+                        "Good evening",
+                        "Good afternoon"
+                    ],
+                    "correct_answer": "Good morning",
+                    "explanation_it": "'Good morning' si usa al mattino (fino alle 12). 'Good afternoon' nel pomeriggio, 'Good evening' la sera.",
+                    "difficulty": 1
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Traduci in inglese: Buonasera",
+                    "audio_text": "Good evening",
+                    "correct_answer": "Good evening",
+                    "explanation_it": "'Good evening' si usa la sera. Non confonderlo con 'Good night' che si dice solo quando si va a dormire.",
+                    "difficulty": 1
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice 'Arrivederci' in inglese?",
+                    "audio_text": "Goodbye",
+                    "options": [
+                        "Goodbye",
+                        "Hello",
+                        "Thank you",
+                        "Sorry"
+                    ],
+                    "correct_answer": "Goodbye",
+                    "explanation_it": "'Goodbye' è il saluto formale di congedo. Informalmente puoi dire 'Bye' o 'See you'.",
+                    "difficulty": 1
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "How are you?",
+                    "audio_text": "How are you?",
+                    "correct_answer": "Come stai?",
+                    "explanation_it": "'How are you?' letteralmente 'Come sei?' si traduce con 'Come stai?'. Attenzione: non confondere 'how' (come) con 'what' (che cosa).",
+                    "grammar_rule": "how = come | what = che cosa / qual",
+                    "difficulty": 1
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_en": "How do you answer 'How are you?' when you feel good?",
+                    "audio_text": "I'm fine, thank you",
+                    "options": [
+                        "I'm fine, thank you",
+                        "My name is Marco",
+                        "I'm from Italy",
+                        "See you later"
+                    ],
+                    "correct_answer": "I'm fine, thank you",
+                    "explanation_it": "'I'm fine, thank you' significa 'Sto bene, grazie'. Puoi anche dire 'I'm great!' (ottimo) o 'Not bad' (non male).",
+                    "difficulty": 1
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Riordina le parole per formare: 'Nice to meet you'",
+                    "options": [
+                        "you",
+                        "nice",
+                        "meet",
+                        "to"
+                    ],
+                    "correct_answer": "nice to meet you",
+                    "explanation_it": "'Nice to meet you' significa 'Piacere di conoscerti'. È la frase standard quando si incontra qualcuno per la prima volta.",
+                    "difficulty": 1
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "Good morning! How are you?",
+                    "correct_answer": "Good morning! How are you?",
+                    "explanation_it": "Questo è un saluto completo del mattino. 'Good morning' + 'How are you?' è la combinazione più comune.",
+                    "difficulty": 2
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Pronuncia questa frase ad alta voce:",
+                    "audio_text": "Hello, nice to meet you!",
+                    "correct_answer": "Hello, nice to meet you!",
+                    "explanation_it": "Fai attenzione alla pronuncia di 'nice' [naɪs] e 'meet' [miːt].",
+                    "difficulty": 2
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Good _____, I'm John. Nice to meet you.",
+                    "prompt_it": "Completa con il saluto del mattino:",
+                    "correct_answer": "morning",
+                    "explanation_it": "'Good morning' si usa dal risveglio fino a mezzogiorno.",
+                    "difficulty": 1
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "title_en": "Introducing Yourself",
+            "title_it": "Presentarsi",
+            "type": "vocabulary",
+            "estimated_minutes": 7,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come chiedi il nome a qualcuno in inglese?",
+                    "audio_text": "What's your name?",
+                    "options": [
+                        "What's your name?",
+                        "How are you?",
+                        "Where are you?",
+                        "Who are you?"
+                    ],
+                    "correct_answer": "What's your name?",
+                    "explanation_it": "'What's your name?' = 'Come ti chiami?'. 'What's' è la contrazione di 'What is'.",
+                    "grammar_rule": "What is = What's (contrazione)",
+                    "difficulty": 1
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Traduci: Mi chiamo Marco.",
+                    "audio_text": "My name is Marco.",
+                    "correct_answer": "My name is Marco.",
+                    "explanation_it": "In inglese NON si dice 'I call myself Marco'. La struttura corretta è 'My name is [nome]'.",
+                    "grammar_rule": "My name is = Mi chiamo (letteralmente: Il mio nome è)",
+                    "difficulty": 1
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come chiedi a qualcuno da dove viene?",
+                    "audio_text": "Where are you from?",
+                    "options": [
+                        "Where are you from?",
+                        "Who are you from?",
+                        "What are you from?",
+                        "How are you from?"
+                    ],
+                    "correct_answer": "Where are you from?",
+                    "explanation_it": "'Where are you from?' = 'Da dove vieni?'. 'Where' significa 'dove'.",
+                    "difficulty": 1
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Traduci: Sono italiano.",
+                    "audio_text": "I'm Italian.",
+                    "correct_answer": "I'm Italian.",
+                    "explanation_it": "In inglese le nazionalità si scrivono sempre con la maiuscola: Italian, French, Spanish...",
+                    "grammar_rule": "Le nazionalità in inglese hanno sempre la maiuscola",
+                    "difficulty": 1
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I'm _____ Italy. I live in Rome.",
+                    "prompt_it": "Completa con la preposizione corretta:",
+                    "correct_answer": "from",
+                    "explanation_it": "'From' indica la provenienza. 'I'm from Italy' = 'Sono dell'Italia / Vengo dall'Italia'.",
+                    "grammar_rule": "from = da (provenienza)",
+                    "difficulty": 2
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice 'Ho 30 anni' in inglese?",
+                    "audio_text": "I'm 30 years old.",
+                    "options": [
+                        "I'm 30 years old.",
+                        "I have 30 years.",
+                        "I am 30 years.",
+                        "I have 30 years old."
+                    ],
+                    "correct_answer": "I'm 30 years old.",
+                    "explanation_it": "Errore classico degli italiani: in inglese NON si dice 'I have 30 years'. Si usa TO BE: 'I AM 30 years old'.",
+                    "grammar_rule": "Età in inglese: I AM [numero] years old (non I HAVE [numero] years!)",
+                    "difficulty": 2
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Riordina: 'Il mio nome è Sara e vengo dall'Italia'",
+                    "options": [
+                        "My",
+                        "name",
+                        "is",
+                        "Sara",
+                        "and",
+                        "I'm",
+                        "from",
+                        "Italy"
+                    ],
+                    "correct_answer": "My name is Sara and I'm from Italy",
+                    "explanation_it": "Struttura: My name is [nome] and I'm from [paese].",
+                    "difficulty": 2
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Presentati in inglese (usa il tuo nome vero!):",
+                    "audio_text": "Hello! My name is Michele. I'm from Italy. Nice to meet you!",
+                    "correct_answer": "Hello! My name is Michele. I'm from Italy. Nice to meet you!",
+                    "explanation_it": "Prova a dire il tuo vero nome e a sostituire 'Michele' con il tuo. Questa è la struttura base di una presentazione.",
+                    "difficulty": 2
+                }
+            ]
+        },
+        {
+            "order": 3,
+            "title_en": "Numbers 1–20",
+            "title_it": "Numeri 1–20",
+            "type": "vocabulary",
+            "estimated_minutes": 6,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice '7' in inglese?",
+                    "audio_text": "seven",
+                    "options": [
+                        "seven",
+                        "six",
+                        "eight",
+                        "five"
+                    ],
+                    "correct_answer": "seven",
+                    "difficulty": 1
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Scrivi in inglese: dodici",
+                    "audio_text": "twelve",
+                    "correct_answer": "twelve",
+                    "explanation_it": "I numeri da 11 a 19 hanno forme irregolari: eleven, twelve, thirteen... venti si dice twenty.",
+                    "difficulty": 1
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_en": "What's the English word for '15'?",
+                    "audio_text": "fifteen",
+                    "options": [
+                        "fifteen",
+                        "fifty",
+                        "fourteen",
+                        "sixteen"
+                    ],
+                    "correct_answer": "fifteen",
+                    "explanation_it": "Attenzione: 'fifteen' (15) vs 'fifty' (50). La pronuncia è diversa: /ˈfɪftiːn/ vs /ˈfɪfti/.",
+                    "difficulty": 2
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "three, seven, fifteen, twenty",
+                    "correct_answer": "three, seven, fifteen, twenty",
+                    "difficulty": 2
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I have _____ cats and _____ dogs. (3 gatti e 5 cani)",
+                    "correct_answer": "three and five",
+                    "explanation_it": "In inglese i numeri si scrivono per esteso nelle frasi. 'three' = 3, 'five' = 5.",
+                    "difficulty": 2
+                }
+            ]
+        }
+    ]
+}

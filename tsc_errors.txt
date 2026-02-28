@@ -1,0 +1,4 @@
+﻿electron/ipc/lesson.ts(23,31): error TS2345: Argument of type 'DatabaseSync' is not assignable to parameter of type 'Database'.
+  Type 'DatabaseSync' is missing the following properties from type 'Database': memory, readonly, name, inTransaction, and 7 more.
+electron/main.ts(57,37): error TS2345: Argument of type 'Database' is not assignable to parameter of type 'DatabaseSync'.
+  Type 'Database' is missing the following properties from type 'DatabaseSync': enableLoadExtension, enableDefensive, location, setAuthorizer, and 6 more.
