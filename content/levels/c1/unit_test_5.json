@@ -1,202 +1,287 @@
 {
   "levelCode": "C1",
   "order": 5,
-  "title_en": "Unit 5: C1 Mastery",
-  "title_it": "Unità 5: Padronanza C1",
-  "description_it": "Migliora le tue competenze di livello C1 con frasi complete ed esempi d'uso quotidiano.",
+  "title_en": "Unit 5: Debating & Ethics",
+  "title_it": "Unità 5: Debating & Ethics",
+  "description_it": "Padroneggia il vocabolario e la grammatica legati a Debating & Ethics. Regola focus: Emphasis and Register.",
   "icon": "🌍",
   "lessons": [
     {
       "order": 1,
       "title_en": "Vocabulary Practice 1",
-      "title_it": "Esercizio di Fraseologia 1",
+      "title_it": "Esercizio di Vocabolario 1",
       "type": "vocabulary",
-      "estimated_minutes": 5,
+      "estimated_minutes": 6,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Raramente ho visto un tramonto così bello.\"",
-          "correct_answer": "Seldom have I seen such a beautiful sunset."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Avendo finito il rapporto, andò a casa.\"",
+          "correct_answer": "Having finished the report, she went home.",
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"facilitare\"?",
+          "options": [
+            "quintessential",
+            "facilitate",
+            "paradigm",
+            "idiosyncrasy"
+          ],
+          "correct_answer": "facilitate",
+          "explanation_it": "La traduzione corretta è \"facilitate\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
+          "prompt_en": "L'italiano è: La decisione fu ferocemente dibattuta.. Completa la frase in inglese: The decision was ___ debated.",
+          "correct_answer": "fiercely",
+          "options": [
+            "fiercely",
+            "fierce",
+            "more fierce",
+            "fierceness"
+          ],
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"quintessenziale\"?",
+          "options": [
+            "quintessential",
+            "idiosyncrasy",
+            "paradigm",
+            "ubiquitous"
+          ],
+          "correct_answer": "quintessential",
+          "explanation_it": "La traduzione corretta è \"quintessential\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"La decisione fu ferocemente dibattuta.\"",
+          "correct_answer": "The decision was fiercely debated.",
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"paradigma\"?",
+          "options": [
+            "quintessential",
+            "paradigm",
+            "idiosyncrasy",
+            "ubiquitous"
+          ],
+          "correct_answer": "paradigm",
+          "explanation_it": "La traduzione corretta è \"paradigm\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: Avendo finito il rapporto, andò a casa.. Completa la frase in inglese: ___ the report, she went home.",
           "correct_answer": "Having finished",
           "options": [
-            "Have finished",
             "Finishing",
-            "Finished",
-            "Having finished"
-          ]
+            "Having finished",
+            "Have finished",
+            "Finished"
+          ],
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
+          "prompt_it": "Come si traduce \"dannoso\"?",
           "options": [
-            "It is optional that you attend the meeting.",
-            "It is unnecessary that you attend the meeting.",
-            "It is trivial that you attend the meeting.",
-            "It is quintessential that you attend the meeting."
+            "detrimental",
+            "idiosyncrasy",
+            "paradigm",
+            "quintessential"
           ],
-          "correct_answer": "It is quintessential that you attend the meeting.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\"."
+          "correct_answer": "detrimental",
+          "explanation_it": "La traduzione corretta è \"detrimental\"."
         },
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Mitiga i rischi pianificando in anticipo.\"",
-          "correct_answer": "He mitigates the risks by planning ahead."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
-          "correct_answer": "But for",
-          "options": [
-            "Without",
-            "But for",
-            "Except",
-            "Unless"
-          ]
+          "prompt_it": "Traduci l'intera frase in inglese: \"È essenziale che lui arrivi in orario.\"",
+          "correct_answer": "It is essential that he arrive on time.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
+          "prompt_it": "Come si traduce \"intrinseco\"?",
           "options": [
-            "Not only is she smart, but she is also hardworking.",
-            "Not only she is smart, but she is also hardworking.",
-            "Not only she was smart, but she is also hardworking.",
-            "Not only was she smart, but she is also hardworking."
+            "quintessential",
+            "paradigm",
+            "idiosyncrasy",
+            "inherent"
           ],
-          "correct_answer": "Not only is she smart, but she is also hardworking.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Non appena sono arrivato, ha iniziato a diluviare.\"",
-          "correct_answer": "No sooner had I arrived than it started pouring."
+          "correct_answer": "inherent",
+          "explanation_it": "La traduzione corretta è \"inherent\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Se mi fossi reso conto del pericolo, non sarei andato.. Completa la frase in inglese: ___ I realized the danger, I wouldn't have gone.",
+          "prompt_en": "L'italiano è: Se avessi saputo la verità, non avrei accettato.. Completa la frase in inglese: ___ I known the truth, I wouldn't have agreed.",
           "correct_answer": "Had",
           "options": [
             "If",
-            "Were",
+            "Should",
             "Had",
-            "Should"
-          ]
+            "Were"
+          ],
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"ambivalente\"?",
+          "options": [
+            "paradigm",
+            "idiosyncrasy",
+            "ambivalent",
+            "quintessential"
+          ],
+          "correct_answer": "ambivalent",
+          "explanation_it": "La traduzione corretta è \"ambivalent\"."
         }
       ]
     },
     {
       "order": 2,
       "title_en": "Listening Practice 2",
-      "title_it": "Esercizio di Ascolto 2",
+      "title_it": "Esercizio di Ascolto e Parlato 2",
       "type": "listening",
       "estimated_minutes": 8,
       "exercises": [
         {
-          "type": "listening",
+          "type": "translation",
           "difficulty": 3,
-          "audio_text": "Seldom have I seen such a beautiful sunset.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "Seldom have I seen such a beautiful sunset.",
-            "Seldom I have seen such a beautiful sunset.",
-            "Seldom did I see such a beautiful sunset."
-          ],
-          "correct_answer": "Seldom have I seen such a beautiful sunset."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Se avessi saputo la verità, non avrei accettato.\"",
+          "correct_answer": "Had I known the truth, I wouldn't have agreed.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "Having finished his work, he went home.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "mitigate",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "Finishing his work, he went home.",
-            "Having finished his work, he went home.",
-            "Finished his work, he went home."
+            "mitigate",
+            "idiosyncrasy",
+            "paradigm",
+            "quintessential"
           ],
-          "correct_answer": "Having finished his work, he went home."
+          "correct_answer": "mitigate"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 3,
+          "audio_text": "Not only is it dangerous, but it is also illegal.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "Not only is it dangerous, but it is also illegal.",
+          "explanation_it": "Pronuncia chiaramente: \"Not only is it dangerous, but it is also illegal.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"onnipresente\"?",
+          "options": [
+            "quintessential",
+            "idiosyncrasy",
+            "ubiquitous",
+            "paradigm"
+          ],
+          "correct_answer": "ubiquitous",
+          "explanation_it": "La traduzione corretta è \"ubiquitous\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Avendo finito il rapporto, andò a casa.\"",
+          "correct_answer": "Having finished the report, she went home.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "It is quintessential that you attend the meeting.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "quintessential",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "It is trivial that you attend the meeting.",
-            "It is optional that you attend the meeting.",
-            "It is quintessential that you attend the meeting."
+            "ubiquitous",
+            "idiosyncrasy",
+            "quintessential",
+            "paradigm"
           ],
-          "correct_answer": "It is quintessential that you attend the meeting."
+          "correct_answer": "quintessential"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 3,
+          "audio_text": "Not only is it dangerous, but it is also illegal.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "Not only is it dangerous, but it is also illegal.",
+          "explanation_it": "Pronuncia chiaramente: \"Not only is it dangerous, but it is also illegal.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"quintessenziale\"?",
+          "options": [
+            "idiosyncrasy",
+            "quintessential",
+            "paradigm",
+            "ubiquitous"
+          ],
+          "correct_answer": "quintessential",
+          "explanation_it": "La traduzione corretta è \"quintessential\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Se avessi saputo la verità, non avrei accettato.\"",
+          "correct_answer": "Had I known the truth, I wouldn't have agreed.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "He mitigates the risks by planning ahead.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "ubiquitous",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "He ignores the risks by planning ahead.",
-            "He aggravates the risks by planning ahead.",
-            "He mitigates the risks by planning ahead."
+            "idiosyncrasy",
+            "ubiquitous",
+            "quintessential",
+            "paradigm"
           ],
-          "correct_answer": "He mitigates the risks by planning ahead."
+          "correct_answer": "ubiquitous"
         },
         {
-          "type": "listening",
+          "type": "speaking",
           "difficulty": 3,
-          "audio_text": "But for your help, I would have failed.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "Without your help, I would have failed.",
-            "Except your help, I would have failed.",
-            "But for your help, I would have failed."
-          ],
-          "correct_answer": "But for your help, I would have failed."
+          "audio_text": "It is essential that he arrive on time.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "It is essential that he arrive on time.",
+          "explanation_it": "Pronuncia chiaramente: \"It is essential that he arrive on time.\""
         },
         {
-          "type": "listening",
+          "type": "multiple_choice",
           "difficulty": 3,
-          "audio_text": "Not only is she smart, but she is also hardworking.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "prompt_it": "Come si traduce \"effimero\"?",
           "options": [
-            "Not only is she smart, but she is also hardworking.",
-            "Not only she is smart, but she is also hardworking.",
-            "Not only she was smart, but she is also hardworking."
+            "quintessential",
+            "idiosyncrasy",
+            "ephemeral",
+            "paradigm"
           ],
-          "correct_answer": "Not only is she smart, but she is also hardworking."
-        },
-        {
-          "type": "listening",
-          "difficulty": 3,
-          "audio_text": "No sooner had I arrived than it started pouring.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "No sooner had I arrived then it started pouring.",
-            "No sooner had I arrived when it started pouring.",
-            "No sooner had I arrived than it started pouring."
-          ],
-          "correct_answer": "No sooner had I arrived than it started pouring."
-        },
-        {
-          "type": "listening",
-          "difficulty": 3,
-          "audio_text": "Had I realized the danger, I wouldn't have gone.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "Had I realized the danger, I wouldn't have gone.",
-            "If I realized the danger, I wouldn't have gone.",
-            "Should I realized the danger, I wouldn't have gone."
-          ],
-          "correct_answer": "Had I realized the danger, I wouldn't have gone."
+          "correct_answer": "ephemeral",
+          "explanation_it": "La traduzione corretta è \"ephemeral\"."
         }
       ]
     },
@@ -205,289 +290,424 @@
       "title_en": "Grammar Practice 3",
       "title_it": "Esercizio di Grammatica 3",
       "type": "grammar",
-      "estimated_minutes": 3,
+      "estimated_minutes": 4,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Raramente ho visto un tramonto così bello.\"",
-          "correct_answer": "Seldom have I seen such a beautiful sunset.",
-          "grammar_rule": "Participle Clauses Avanzate"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
-          "correct_answer": "Having finished",
-          "options": [
-            "Finished",
-            "Finishing",
-            "Having finished",
-            "Have finished"
-          ],
-          "grammar_rule": "Participle Clauses Avanzate"
+          "prompt_it": "Traduci l'intera frase in inglese: \"La decisione fu ferocemente dibattuta.\"",
+          "correct_answer": "The decision was fiercely debated.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
+          "prompt_it": "Come si traduce \"ambivalente\"?",
           "options": [
-            "It is quintessential that you attend the meeting.",
-            "It is unnecessary that you attend the meeting.",
-            "It is trivial that you attend the meeting.",
-            "It is optional that you attend the meeting."
+            "ambivalent",
+            "idiosyncrasy",
+            "paradigm",
+            "quintessential"
           ],
-          "correct_answer": "It is quintessential that you attend the meeting.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\".",
-          "grammar_rule": "Participle Clauses Avanzate"
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Mitiga i rischi pianificando in anticipo.\"",
-          "correct_answer": "He mitigates the risks by planning ahead.",
-          "grammar_rule": "Participle Clauses Avanzate"
+          "correct_answer": "ambivalent",
+          "explanation_it": "La traduzione corretta è \"ambivalent\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
-          "correct_answer": "But for",
-          "options": [
-            "Without",
-            "Unless",
-            "Except",
-            "But for"
-          ],
-          "grammar_rule": "Participle Clauses Avanzate"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
-          "options": [
-            "Not only she is smart, but she is also hardworking.",
-            "Not only is she smart, but she is also hardworking.",
-            "Not only was she smart, but she is also hardworking.",
-            "Not only she was smart, but she is also hardworking."
-          ],
-          "correct_answer": "Not only is she smart, but she is also hardworking.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\".",
-          "grammar_rule": "Participle Clauses Avanzate"
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Non appena sono arrivato, ha iniziato a diluviare.\"",
-          "correct_answer": "No sooner had I arrived than it started pouring.",
-          "grammar_rule": "Participle Clauses Avanzate"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Se mi fossi reso conto del pericolo, non sarei andato.. Completa la frase in inglese: ___ I realized the danger, I wouldn't have gone.",
+          "prompt_en": "L'italiano è: Se avessi saputo la verità, non avrei accettato.. Completa la frase in inglese: ___ I known the truth, I wouldn't have agreed.",
           "correct_answer": "Had",
           "options": [
-            "Were",
-            "Should",
+            "Had",
             "If",
-            "Had"
+            "Should",
+            "Were"
           ],
-          "grammar_rule": "Participle Clauses Avanzate"
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"idiosincrasia\"?",
+          "options": [
+            "idiosyncrasy",
+            "paradigm",
+            "quintessential",
+            "ubiquitous"
+          ],
+          "correct_answer": "idiosyncrasy",
+          "explanation_it": "La traduzione corretta è \"idiosyncrasy\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Avendo finito il rapporto, andò a casa.\"",
+          "correct_answer": "Having finished the report, she went home.",
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"mitigare\"?",
+          "options": [
+            "paradigm",
+            "idiosyncrasy",
+            "mitigate",
+            "quintessential"
+          ],
+          "correct_answer": "mitigate",
+          "explanation_it": "La traduzione corretta è \"mitigate\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: La decisione fu ferocemente dibattuta.. Completa la frase in inglese: The decision was ___ debated.",
+          "correct_answer": "fiercely",
+          "options": [
+            "more fierce",
+            "fierceness",
+            "fierce",
+            "fiercely"
+          ],
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"facilitare\"?",
+          "options": [
+            "facilitate",
+            "idiosyncrasy",
+            "paradigm",
+            "quintessential"
+          ],
+          "correct_answer": "facilitate",
+          "explanation_it": "La traduzione corretta è \"facilitate\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Se avessi saputo la verità, non avrei accettato.\"",
+          "correct_answer": "Had I known the truth, I wouldn't have agreed.",
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"paradigma\"?",
+          "options": [
+            "paradigm",
+            "idiosyncrasy",
+            "quintessential",
+            "ubiquitous"
+          ],
+          "correct_answer": "paradigm",
+          "explanation_it": "La traduzione corretta è \"paradigm\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: È essenziale che lui arrivi in orario.. Completa la frase in inglese: It is essential that he ___ on time.",
+          "correct_answer": "arrive",
+          "options": [
+            "arrived",
+            "arrives",
+            "arriving",
+            "arrive"
+          ],
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"onnipresente\"?",
+          "options": [
+            "quintessential",
+            "ubiquitous",
+            "paradigm",
+            "idiosyncrasy"
+          ],
+          "correct_answer": "ubiquitous",
+          "explanation_it": "La traduzione corretta è \"ubiquitous\"."
         }
       ]
     },
     {
       "order": 4,
       "title_en": "Listening Practice 4",
-      "title_it": "Esercizio di Ascolto 4",
+      "title_it": "Esercizio di Ascolto e Parlato 4",
       "type": "listening",
-      "estimated_minutes": 5,
+      "estimated_minutes": 6,
       "exercises": [
         {
-          "type": "listening",
+          "type": "translation",
           "difficulty": 3,
-          "audio_text": "Seldom have I seen such a beautiful sunset.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "Seldom have I seen such a beautiful sunset.",
-            "Seldom did I see such a beautiful sunset.",
-            "Seldom I have seen such a beautiful sunset."
-          ],
-          "correct_answer": "Seldom have I seen such a beautiful sunset."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Se avessi saputo la verità, non avrei accettato.\"",
+          "correct_answer": "Had I known the truth, I wouldn't have agreed.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "Having finished his work, he went home.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "ambivalent",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "Having finished his work, he went home.",
-            "Finished his work, he went home.",
-            "Finishing his work, he went home."
+            "ambivalent",
+            "quintessential",
+            "idiosyncrasy",
+            "paradigm"
           ],
-          "correct_answer": "Having finished his work, he went home."
+          "correct_answer": "ambivalent"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 3,
+          "audio_text": "Having finished the report, she went home.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "Having finished the report, she went home.",
+          "explanation_it": "Pronuncia chiaramente: \"Having finished the report, she went home.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"paradigma\"?",
+          "options": [
+            "paradigm",
+            "ubiquitous",
+            "idiosyncrasy",
+            "quintessential"
+          ],
+          "correct_answer": "paradigm",
+          "explanation_it": "La traduzione corretta è \"paradigm\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"È essenziale che lui arrivi in orario.\"",
+          "correct_answer": "It is essential that he arrive on time.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "It is quintessential that you attend the meeting.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "paradigm",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "It is trivial that you attend the meeting.",
-            "It is optional that you attend the meeting.",
-            "It is quintessential that you attend the meeting."
+            "paradigm",
+            "idiosyncrasy",
+            "quintessential",
+            "ubiquitous"
           ],
-          "correct_answer": "It is quintessential that you attend the meeting."
+          "correct_answer": "paradigm"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 3,
+          "audio_text": "The decision was fiercely debated.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "The decision was fiercely debated.",
+          "explanation_it": "Pronuncia chiaramente: \"The decision was fiercely debated.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"onnipresente\"?",
+          "options": [
+            "quintessential",
+            "ubiquitous",
+            "idiosyncrasy",
+            "paradigm"
+          ],
+          "correct_answer": "ubiquitous",
+          "explanation_it": "La traduzione corretta è \"ubiquitous\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Avendo finito il rapporto, andò a casa.\"",
+          "correct_answer": "Having finished the report, she went home.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "He mitigates the risks by planning ahead.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "mitigate",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "He aggravates the risks by planning ahead.",
-            "He mitigates the risks by planning ahead.",
-            "He ignores the risks by planning ahead."
+            "idiosyncrasy",
+            "mitigate",
+            "paradigm",
+            "quintessential"
           ],
-          "correct_answer": "He mitigates the risks by planning ahead."
+          "correct_answer": "mitigate"
         },
         {
-          "type": "listening",
+          "type": "speaking",
           "difficulty": 3,
-          "audio_text": "But for your help, I would have failed.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "But for your help, I would have failed.",
-            "Except your help, I would have failed.",
-            "Without your help, I would have failed."
-          ],
-          "correct_answer": "But for your help, I would have failed."
+          "audio_text": "Had I known the truth, I wouldn't have agreed.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "Had I known the truth, I wouldn't have agreed.",
+          "explanation_it": "Pronuncia chiaramente: \"Had I known the truth, I wouldn't have agreed.\""
         },
         {
-          "type": "listening",
+          "type": "multiple_choice",
           "difficulty": 3,
-          "audio_text": "Not only is she smart, but she is also hardworking.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "prompt_it": "Come si traduce \"onnipresente\"?",
           "options": [
-            "Not only she is smart, but she is also hardworking.",
-            "Not only is she smart, but she is also hardworking.",
-            "Not only she was smart, but she is also hardworking."
+            "idiosyncrasy",
+            "quintessential",
+            "ubiquitous",
+            "paradigm"
           ],
-          "correct_answer": "Not only is she smart, but she is also hardworking."
-        },
-        {
-          "type": "listening",
-          "difficulty": 3,
-          "audio_text": "No sooner had I arrived than it started pouring.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "No sooner had I arrived than it started pouring.",
-            "No sooner had I arrived when it started pouring.",
-            "No sooner had I arrived then it started pouring."
-          ],
-          "correct_answer": "No sooner had I arrived than it started pouring."
-        },
-        {
-          "type": "listening",
-          "difficulty": 3,
-          "audio_text": "Had I realized the danger, I wouldn't have gone.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "If I realized the danger, I wouldn't have gone.",
-            "Had I realized the danger, I wouldn't have gone.",
-            "Should I realized the danger, I wouldn't have gone."
-          ],
-          "correct_answer": "Had I realized the danger, I wouldn't have gone."
+          "correct_answer": "ubiquitous",
+          "explanation_it": "La traduzione corretta è \"ubiquitous\"."
         }
       ]
     },
     {
       "order": 5,
       "title_en": "Vocabulary Practice 5",
-      "title_it": "Esercizio di Fraseologia 5",
+      "title_it": "Esercizio di Vocabolario 5",
       "type": "vocabulary",
       "estimated_minutes": 8,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Raramente ho visto un tramonto così bello.\"",
-          "correct_answer": "Seldom have I seen such a beautiful sunset."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
-          "correct_answer": "Having finished",
-          "options": [
-            "Finished",
-            "Having finished",
-            "Have finished",
-            "Finishing"
-          ]
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non solo è pericoloso, ma è anche illegale.\"",
+          "correct_answer": "Not only is it dangerous, but it is also illegal.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
+          "prompt_it": "Come si traduce \"intrinseco\"?",
           "options": [
-            "It is quintessential that you attend the meeting.",
-            "It is optional that you attend the meeting.",
-            "It is trivial that you attend the meeting.",
-            "It is unnecessary that you attend the meeting."
+            "quintessential",
+            "paradigm",
+            "idiosyncrasy",
+            "inherent"
           ],
-          "correct_answer": "It is quintessential that you attend the meeting.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Mitiga i rischi pianificando in anticipo.\"",
-          "correct_answer": "He mitigates the risks by planning ahead."
+          "correct_answer": "inherent",
+          "explanation_it": "La traduzione corretta è \"inherent\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
-          "correct_answer": "But for",
-          "options": [
-            "But for",
-            "Unless",
-            "Except",
-            "Without"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
-          "options": [
-            "Not only is she smart, but she is also hardworking.",
-            "Not only was she smart, but she is also hardworking.",
-            "Not only she is smart, but she is also hardworking.",
-            "Not only she was smart, but she is also hardworking."
-          ],
-          "correct_answer": "Not only is she smart, but she is also hardworking.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Non appena sono arrivato, ha iniziato a diluviare.\"",
-          "correct_answer": "No sooner had I arrived than it started pouring."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Se mi fossi reso conto del pericolo, non sarei andato.. Completa la frase in inglese: ___ I realized the danger, I wouldn't have gone.",
+          "prompt_en": "L'italiano è: Se avessi saputo la verità, non avrei accettato.. Completa la frase in inglese: ___ I known the truth, I wouldn't have agreed.",
           "correct_answer": "Had",
           "options": [
             "Had",
-            "Were",
             "If",
-            "Should"
-          ]
+            "Should",
+            "Were"
+          ],
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"alleviare\"?",
+          "options": [
+            "paradigm",
+            "quintessential",
+            "idiosyncrasy",
+            "alleviate"
+          ],
+          "correct_answer": "alleviate",
+          "explanation_it": "La traduzione corretta è \"alleviate\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Avendo finito il rapporto, andò a casa.\"",
+          "correct_answer": "Having finished the report, she went home.",
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"paradigma\"?",
+          "options": [
+            "paradigm",
+            "idiosyncrasy",
+            "quintessential",
+            "ubiquitous"
+          ],
+          "correct_answer": "paradigm",
+          "explanation_it": "La traduzione corretta è \"paradigm\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: Se avessi saputo la verità, non avrei accettato.. Completa la frase in inglese: ___ I known the truth, I wouldn't have agreed.",
+          "correct_answer": "Had",
+          "options": [
+            "Had",
+            "If",
+            "Should",
+            "Were"
+          ],
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"mitigare\"?",
+          "options": [
+            "mitigate",
+            "idiosyncrasy",
+            "quintessential",
+            "paradigm"
+          ],
+          "correct_answer": "mitigate",
+          "explanation_it": "La traduzione corretta è \"mitigate\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non solo è pericoloso, ma è anche illegale.\"",
+          "correct_answer": "Not only is it dangerous, but it is also illegal.",
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"lucrativo\"?",
+          "options": [
+            "quintessential",
+            "paradigm",
+            "idiosyncrasy",
+            "lucrative"
+          ],
+          "correct_answer": "lucrative",
+          "explanation_it": "La traduzione corretta è \"lucrative\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: È essenziale che lui arrivi in orario.. Completa la frase in inglese: It is essential that he ___ on time.",
+          "correct_answer": "arrive",
+          "options": [
+            "arrive",
+            "arrives",
+            "arriving",
+            "arrived"
+          ],
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"mitigare\"?",
+          "options": [
+            "idiosyncrasy",
+            "quintessential",
+            "mitigate",
+            "paradigm"
+          ],
+          "correct_answer": "mitigate",
+          "explanation_it": "La traduzione corretta è \"mitigate\"."
         }
       ]
     },
@@ -496,95 +716,145 @@
       "title_en": "Grammar Practice 6",
       "title_it": "Esercizio di Grammatica 6",
       "type": "grammar",
-      "estimated_minutes": 3,
+      "estimated_minutes": 4,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Raramente ho visto un tramonto così bello.\"",
-          "correct_answer": "Seldom have I seen such a beautiful sunset.",
-          "grammar_rule": "Participle Clauses Avanzate"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
-          "correct_answer": "Having finished",
-          "options": [
-            "Have finished",
-            "Finishing",
-            "Finished",
-            "Having finished"
-          ],
-          "grammar_rule": "Participle Clauses Avanzate"
+          "prompt_it": "Traduci l'intera frase in inglese: \"La decisione fu ferocemente dibattuta.\"",
+          "correct_answer": "The decision was fiercely debated.",
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
+          "prompt_it": "Come si traduce \"idiosincrasia\"?",
           "options": [
-            "It is quintessential that you attend the meeting.",
-            "It is optional that you attend the meeting.",
-            "It is trivial that you attend the meeting.",
-            "It is unnecessary that you attend the meeting."
+            "quintessential",
+            "idiosyncrasy",
+            "ubiquitous",
+            "paradigm"
           ],
-          "correct_answer": "It is quintessential that you attend the meeting.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\".",
-          "grammar_rule": "Participle Clauses Avanzate"
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Mitiga i rischi pianificando in anticipo.\"",
-          "correct_answer": "He mitigates the risks by planning ahead.",
-          "grammar_rule": "Participle Clauses Avanzate"
+          "correct_answer": "idiosyncrasy",
+          "explanation_it": "La traduzione corretta è \"idiosyncrasy\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
-          "correct_answer": "But for",
+          "prompt_en": "L'italiano è: Non solo è pericoloso, ma è anche illegale.. Completa la frase in inglese: Not only ___ dangerous, but it is also illegal.",
+          "correct_answer": "is it",
           "options": [
-            "But for",
-            "Without",
-            "Unless",
-            "Except"
+            "was it",
+            "is it",
+            "it is",
+            "it was"
           ],
-          "grammar_rule": "Participle Clauses Avanzate"
+          "grammar_rule": "Emphasis and Register"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
+          "prompt_it": "Come si traduce \"superfluo\"?",
           "options": [
-            "Not only is she smart, but she is also hardworking.",
-            "Not only she is smart, but she is also hardworking.",
-            "Not only she was smart, but she is also hardworking.",
-            "Not only was she smart, but she is also hardworking."
+            "quintessential",
+            "superfluous",
+            "paradigm",
+            "idiosyncrasy"
           ],
-          "correct_answer": "Not only is she smart, but she is also hardworking.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\".",
-          "grammar_rule": "Participle Clauses Avanzate"
+          "correct_answer": "superfluous",
+          "explanation_it": "La traduzione corretta è \"superfluous\"."
         },
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Non appena sono arrivato, ha iniziato a diluviare.\"",
-          "correct_answer": "No sooner had I arrived than it started pouring.",
-          "grammar_rule": "Participle Clauses Avanzate"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Avendo finito il rapporto, andò a casa.\"",
+          "correct_answer": "Having finished the report, she went home.",
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"paradigma\"?",
+          "options": [
+            "quintessential",
+            "idiosyncrasy",
+            "ubiquitous",
+            "paradigm"
+          ],
+          "correct_answer": "paradigm",
+          "explanation_it": "La traduzione corretta è \"paradigm\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Se mi fossi reso conto del pericolo, non sarei andato.. Completa la frase in inglese: ___ I realized the danger, I wouldn't have gone.",
-          "correct_answer": "Had",
+          "prompt_en": "L'italiano è: La decisione fu ferocemente dibattuta.. Completa la frase in inglese: The decision was ___ debated.",
+          "correct_answer": "fiercely",
           "options": [
-            "Had",
-            "Were",
-            "If",
-            "Should"
+            "fiercely",
+            "more fierce",
+            "fierce",
+            "fierceness"
           ],
-          "grammar_rule": "Participle Clauses Avanzate"
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"effimero\"?",
+          "options": [
+            "ephemeral",
+            "idiosyncrasy",
+            "paradigm",
+            "quintessential"
+          ],
+          "correct_answer": "ephemeral",
+          "explanation_it": "La traduzione corretta è \"ephemeral\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"La decisione fu ferocemente dibattuta.\"",
+          "correct_answer": "The decision was fiercely debated.",
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"idiosincrasia\"?",
+          "options": [
+            "ubiquitous",
+            "quintessential",
+            "paradigm",
+            "idiosyncrasy"
+          ],
+          "correct_answer": "idiosyncrasy",
+          "explanation_it": "La traduzione corretta è \"idiosyncrasy\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: La decisione fu ferocemente dibattuta.. Completa la frase in inglese: The decision was ___ debated.",
+          "correct_answer": "fiercely",
+          "options": [
+            "more fierce",
+            "fierceness",
+            "fierce",
+            "fiercely"
+          ],
+          "grammar_rule": "Emphasis and Register"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"superfluo\"?",
+          "options": [
+            "paradigm",
+            "superfluous",
+            "quintessential",
+            "idiosyncrasy"
+          ],
+          "correct_answer": "superfluous",
+          "explanation_it": "La traduzione corretta è \"superfluous\"."
         }
       ]
     }

@@ -1,85 +1,37 @@
 {
   "levelCode": "A2",
   "order": 5,
-  "title_en": "Unit 5: A2 Mastery",
-  "title_it": "Unità 5: Padronanza A2",
-  "description_it": "Migliora le tue competenze di livello A2 con frasi complete ed esempi d'uso quotidiano.",
+  "title_en": "Unit 5: City & Directions",
+  "title_it": "Unità 5: City & Directions",
+  "description_it": "Padroneggia il vocabolario e la grammatica legati a City & Directions. Regola focus: Modals (can, must, should).",
   "icon": "🌍",
   "lessons": [
     {
       "order": 1,
       "title_en": "Vocabulary Practice 1",
-      "title_it": "Esercizio di Fraseologia 1",
+      "title_it": "Esercizio di Vocabolario 1",
       "type": "vocabulary",
-      "estimated_minutes": 5,
+      "estimated_minutes": 6,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
-          "correct_answer": "She is cooking dinner right now."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
-          "correct_answer": "better",
-          "options": [
-            "best",
-            "good",
-            "well",
-            "better"
-          ]
+          "prompt_it": "Traduci l'intera frase in inglese: \"Viaggeremo a Londra la prossima settimana.\"",
+          "correct_answer": "We will travel to London next week.",
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
+          "prompt_it": "Come si traduce \"perché\"?",
           "options": [
-            "We will meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We did meet tomorrow at noon.",
-            "We do meet tomorrow at noon."
+            "hotel",
+            "airport",
+            "because",
+            "ticket"
           ],
-          "correct_answer": "We will meet tomorrow at noon.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
-          "correct_answer": "Have you ever been to Paris?"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
-          "correct_answer": "sleeping",
-          "options": [
-            "sleep",
-            "slept",
-            "sleeps",
-            "sleeping"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
-          "options": [
-            "I don't want to buy everything.",
-            "I don't want to buy nothing.",
-            "I don't want to buy something.",
-            "I don't want to buy anything."
-          ],
-          "correct_answer": "I don't want to buy anything.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
-          "correct_answer": "They must leave immediately."
+          "correct_answer": "because",
+          "explanation_it": "La traduzione corretta è \"because\"."
         },
         {
           "type": "fill_in_the_blank",
@@ -87,116 +39,249 @@
           "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
           "correct_answer": "went",
           "options": [
-            "went",
+            "going",
             "go",
-            "gone",
-            "going"
-          ]
+            "went",
+            "gone"
+          ],
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"economico\"?",
+          "options": [
+            "cheap",
+            "ticket",
+            "airport",
+            "hotel"
+          ],
+          "correct_answer": "cheap",
+          "explanation_it": "La traduzione corretta è \"cheap\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Viaggeremo a Londra la prossima settimana.\"",
+          "correct_answer": "We will travel to London next week.",
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"hotel\"?",
+          "options": [
+            "ticket",
+            "airport",
+            "hotel",
+            "restaurant"
+          ],
+          "correct_answer": "hotel",
+          "explanation_it": "La traduzione corretta è \"hotel\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: Viaggeremo a Londra la prossima settimana.. Completa la frase in inglese: We will ___ to London next week.",
+          "correct_answer": "travel",
+          "options": [
+            "travel",
+            "travels",
+            "traveled",
+            "traveling"
+          ],
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"bello\"?",
+          "options": [
+            "beautiful",
+            "airport",
+            "hotel",
+            "ticket"
+          ],
+          "correct_answer": "beautiful",
+          "explanation_it": "La traduzione corretta è \"beautiful\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"biglietto\"?",
+          "options": [
+            "ticket",
+            "hotel",
+            "airport",
+            "restaurant"
+          ],
+          "correct_answer": "ticket",
+          "explanation_it": "La traduzione corretta è \"ticket\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: Devi indossare la cintura di sicurezza.. Completa la frase in inglese: You ___ wear a seatbelt.",
+          "correct_answer": "must",
+          "options": [
+            "must",
+            "can",
+            "may",
+            "might"
+          ],
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"costoso\"?",
+          "options": [
+            "expensive",
+            "airport",
+            "ticket",
+            "hotel"
+          ],
+          "correct_answer": "expensive",
+          "explanation_it": "La traduzione corretta è \"expensive\"."
         }
       ]
     },
     {
       "order": 2,
       "title_en": "Listening Practice 2",
-      "title_it": "Esercizio di Ascolto 2",
+      "title_it": "Esercizio di Ascolto e Parlato 2",
       "type": "listening",
       "estimated_minutes": 8,
       "exercises": [
         {
-          "type": "listening",
+          "type": "translation",
           "difficulty": 3,
-          "audio_text": "She is cooking dinner right now.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "She is cooking dinner right now.",
-            "She is cooks dinner right now.",
-            "She is cooked dinner right now."
-          ],
-          "correct_answer": "She is cooking dinner right now."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Viaggeremo a Londra la prossima settimana.\"",
+          "correct_answer": "We will travel to London next week.",
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "This book is better than that one.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "never",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "This book is best than that one.",
-            "This book is good than that one.",
-            "This book is better than that one."
+            "never",
+            "hotel",
+            "airport",
+            "ticket"
           ],
-          "correct_answer": "This book is better than that one."
+          "correct_answer": "never"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 3,
+          "audio_text": "We will travel to London next week.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "We will travel to London next week.",
+          "explanation_it": "Pronuncia chiaramente: \"We will travel to London next week.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"biglietto\"?",
+          "options": [
+            "ticket",
+            "airport",
+            "restaurant",
+            "hotel"
+          ],
+          "correct_answer": "ticket",
+          "explanation_it": "La traduzione corretta è \"ticket\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "We will meet tomorrow at noon.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "expensive",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "We will meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We do meet tomorrow at noon."
+            "expensive",
+            "airport",
+            "hotel",
+            "ticket"
           ],
-          "correct_answer": "We will meet tomorrow at noon."
+          "correct_answer": "expensive"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 3,
+          "audio_text": "Rome is older than New York.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "Rome is older than New York.",
+          "explanation_it": "Pronuncia chiaramente: \"Rome is older than New York.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"economico\"?",
+          "options": [
+            "ticket",
+            "cheap",
+            "airport",
+            "hotel"
+          ],
+          "correct_answer": "cheap",
+          "explanation_it": "La traduzione corretta è \"cheap\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "Have you ever been to Paris?",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "restaurant",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "Have you never been to Paris?",
-            "Have you ever been to Paris?",
-            "Have you always been to Paris?"
+            "airport",
+            "hotel",
+            "ticket",
+            "restaurant"
           ],
-          "correct_answer": "Have you ever been to Paris?"
+          "correct_answer": "restaurant"
         },
         {
-          "type": "listening",
+          "type": "speaking",
           "difficulty": 3,
-          "audio_text": "He was sleeping when the phone rang.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "He was sleeping when the phone rang.",
-            "He was sleeps when the phone rang.",
-            "He was slept when the phone rang."
-          ],
-          "correct_answer": "He was sleeping when the phone rang."
+          "audio_text": "Rome is older than New York.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "Rome is older than New York.",
+          "explanation_it": "Pronuncia chiaramente: \"Rome is older than New York.\""
         },
         {
-          "type": "listening",
+          "type": "multiple_choice",
           "difficulty": 3,
-          "audio_text": "I don't want to buy anything.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "prompt_it": "Come si traduce \"mai\"?",
           "options": [
-            "I don't want to buy nothing.",
-            "I don't want to buy anything.",
-            "I don't want to buy something."
+            "never",
+            "airport",
+            "ticket",
+            "hotel"
           ],
-          "correct_answer": "I don't want to buy anything."
-        },
-        {
-          "type": "listening",
-          "difficulty": 3,
-          "audio_text": "They must leave immediately.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "They can leave immediately.",
-            "They may leave immediately.",
-            "They must leave immediately."
-          ],
-          "correct_answer": "They must leave immediately."
-        },
-        {
-          "type": "listening",
-          "difficulty": 3,
-          "audio_text": "I went to the cinema yesterday.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I go to the cinema yesterday.",
-            "I gone to the cinema yesterday.",
-            "I went to the cinema yesterday."
-          ],
-          "correct_answer": "I went to the cinema yesterday."
+          "correct_answer": "never",
+          "explanation_it": "La traduzione corretta è \"never\"."
         }
       ]
     },
@@ -205,207 +290,284 @@
       "title_en": "Grammar Practice 3",
       "title_it": "Esercizio di Grammatica 3",
       "type": "grammar",
-      "estimated_minutes": 3,
+      "estimated_minutes": 4,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 3,
           "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
           "correct_answer": "She is cooking dinner right now.",
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
-          "correct_answer": "better",
-          "options": [
-            "good",
-            "well",
-            "better",
-            "best"
-          ],
-          "grammar_rule": "Aggettivi Comparativi"
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
+          "prompt_it": "Come si traduce \"ristorante\"?",
           "options": [
-            "We did meet tomorrow at noon.",
-            "We do meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We will meet tomorrow at noon."
+            "restaurant",
+            "airport",
+            "hotel",
+            "ticket"
           ],
-          "correct_answer": "We will meet tomorrow at noon.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\".",
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
-          "correct_answer": "Have you ever been to Paris?",
-          "grammar_rule": "Aggettivi Comparativi"
+          "correct_answer": "restaurant",
+          "explanation_it": "La traduzione corretta è \"restaurant\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
-          "correct_answer": "sleeping",
+          "prompt_en": "L'italiano è: Devi indossare la cintura di sicurezza.. Completa la frase in inglese: You ___ wear a seatbelt.",
+          "correct_answer": "must",
           "options": [
-            "sleep",
-            "slept",
-            "sleeps",
-            "sleeping"
+            "must",
+            "can",
+            "may",
+            "might"
           ],
-          "grammar_rule": "Aggettivi Comparativi"
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
+          "prompt_it": "Come si traduce \"aeroporto\"?",
           "options": [
-            "I don't want to buy nothing.",
-            "I don't want to buy something.",
-            "I don't want to buy anything.",
-            "I don't want to buy everything."
+            "airport",
+            "hotel",
+            "restaurant",
+            "ticket"
           ],
-          "correct_answer": "I don't want to buy anything.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\".",
-          "grammar_rule": "Aggettivi Comparativi"
+          "correct_answer": "airport",
+          "explanation_it": "La traduzione corretta è \"airport\"."
         },
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
-          "correct_answer": "They must leave immediately.",
-          "grammar_rule": "Aggettivi Comparativi"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"ristorante\"?",
+          "options": [
+            "airport",
+            "hotel",
+            "ticket",
+            "restaurant"
+          ],
+          "correct_answer": "restaurant",
+          "explanation_it": "La traduzione corretta è \"restaurant\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
-          "correct_answer": "went",
+          "prompt_en": "L'italiano è: Roma è più antica di New York.. Completa la frase in inglese: Rome is ___ than New York.",
+          "correct_answer": "older",
           "options": [
-            "gone",
-            "going",
-            "go",
-            "went"
+            "more old",
+            "oldest",
+            "old",
+            "older"
           ],
-          "grammar_rule": "Aggettivi Comparativi"
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"scarpe\"?",
+          "options": [
+            "ticket",
+            "airport",
+            "shoes",
+            "hotel"
+          ],
+          "correct_answer": "shoes",
+          "explanation_it": "La traduzione corretta è \"shoes\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"mai\"?",
+          "options": [
+            "ticket",
+            "hotel",
+            "airport",
+            "never"
+          ],
+          "correct_answer": "never",
+          "explanation_it": "La traduzione corretta è \"never\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: Devi indossare la cintura di sicurezza.. Completa la frase in inglese: You ___ wear a seatbelt.",
+          "correct_answer": "must",
+          "options": [
+            "might",
+            "may",
+            "can",
+            "must"
+          ],
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"ospedale\"?",
+          "options": [
+            "ticket",
+            "airport",
+            "hotel",
+            "hospital"
+          ],
+          "correct_answer": "hospital",
+          "explanation_it": "La traduzione corretta è \"hospital\"."
         }
       ]
     },
     {
       "order": 4,
       "title_en": "Listening Practice 4",
-      "title_it": "Esercizio di Ascolto 4",
+      "title_it": "Esercizio di Ascolto e Parlato 4",
       "type": "listening",
-      "estimated_minutes": 5,
+      "estimated_minutes": 6,
       "exercises": [
         {
-          "type": "listening",
+          "type": "translation",
           "difficulty": 3,
-          "audio_text": "She is cooking dinner right now.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "She is cooked dinner right now.",
-            "She is cooks dinner right now.",
-            "She is cooking dinner right now."
-          ],
-          "correct_answer": "She is cooking dinner right now."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "This book is better than that one.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "airport",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "This book is better than that one.",
-            "This book is good than that one.",
-            "This book is best than that one."
+            "hotel",
+            "ticket",
+            "restaurant",
+            "airport"
           ],
-          "correct_answer": "This book is better than that one."
+          "correct_answer": "airport"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 3,
+          "audio_text": "Rome is older than New York.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "Rome is older than New York.",
+          "explanation_it": "Pronuncia chiaramente: \"Rome is older than New York.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"costoso\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "expensive"
+          ],
+          "correct_answer": "expensive",
+          "explanation_it": "La traduzione corretta è \"expensive\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "We will meet tomorrow at noon.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "cheap",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "We would meet tomorrow at noon.",
-            "We do meet tomorrow at noon.",
-            "We will meet tomorrow at noon."
+            "airport",
+            "hotel",
+            "ticket",
+            "cheap"
           ],
-          "correct_answer": "We will meet tomorrow at noon."
+          "correct_answer": "cheap"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 3,
+          "audio_text": "You must wear a seatbelt.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "You must wear a seatbelt.",
+          "explanation_it": "Pronuncia chiaramente: \"You must wear a seatbelt.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"medico\"?",
+          "options": [
+            "airport",
+            "doctor",
+            "hotel",
+            "ticket"
+          ],
+          "correct_answer": "doctor",
+          "explanation_it": "La traduzione corretta è \"doctor\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Viaggeremo a Londra la prossima settimana.\"",
+          "correct_answer": "We will travel to London next week.",
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "listening",
           "difficulty": 3,
-          "audio_text": "Have you ever been to Paris?",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "sometimes",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "Have you always been to Paris?",
-            "Have you ever been to Paris?",
-            "Have you never been to Paris?"
+            "sometimes",
+            "ticket",
+            "hotel",
+            "airport"
           ],
-          "correct_answer": "Have you ever been to Paris?"
+          "correct_answer": "sometimes"
         },
         {
-          "type": "listening",
-          "difficulty": 3,
-          "audio_text": "He was sleeping when the phone rang.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "He was sleeping when the phone rang.",
-            "He was sleeps when the phone rang.",
-            "He was slept when the phone rang."
-          ],
-          "correct_answer": "He was sleeping when the phone rang."
-        },
-        {
-          "type": "listening",
-          "difficulty": 3,
-          "audio_text": "I don't want to buy anything.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I don't want to buy anything.",
-            "I don't want to buy something.",
-            "I don't want to buy nothing."
-          ],
-          "correct_answer": "I don't want to buy anything."
-        },
-        {
-          "type": "listening",
-          "difficulty": 3,
-          "audio_text": "They must leave immediately.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "They can leave immediately.",
-            "They must leave immediately.",
-            "They may leave immediately."
-          ],
-          "correct_answer": "They must leave immediately."
-        },
-        {
-          "type": "listening",
+          "type": "speaking",
           "difficulty": 3,
           "audio_text": "I went to the cinema yesterday.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "I went to the cinema yesterday.",
+          "explanation_it": "Pronuncia chiaramente: \"I went to the cinema yesterday.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"mai\"?",
           "options": [
-            "I go to the cinema yesterday.",
-            "I gone to the cinema yesterday.",
-            "I went to the cinema yesterday."
+            "hotel",
+            "airport",
+            "ticket",
+            "never"
           ],
-          "correct_answer": "I went to the cinema yesterday."
+          "correct_answer": "never",
+          "explanation_it": "La traduzione corretta è \"never\"."
         }
       ]
     },
     {
       "order": 5,
       "title_en": "Vocabulary Practice 5",
-      "title_it": "Esercizio di Fraseologia 5",
+      "title_it": "Esercizio di Vocabolario 5",
       "type": "vocabulary",
       "estimated_minutes": 8,
       "exercises": [
@@ -413,81 +575,139 @@
           "type": "translation",
           "difficulty": 3,
           "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
-          "correct_answer": "She is cooking dinner right now."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
-          "correct_answer": "better",
-          "options": [
-            "better",
-            "good",
-            "well",
-            "best"
-          ]
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
+          "prompt_it": "Come si traduce \"bello\"?",
           "options": [
-            "We did meet tomorrow at noon.",
-            "We do meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We will meet tomorrow at noon."
+            "beautiful",
+            "airport",
+            "hotel",
+            "ticket"
           ],
-          "correct_answer": "We will meet tomorrow at noon.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
-          "correct_answer": "Have you ever been to Paris?"
+          "correct_answer": "beautiful",
+          "explanation_it": "La traduzione corretta è \"beautiful\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
-          "correct_answer": "sleeping",
+          "prompt_en": "L'italiano è: Lei sta preparando la cena in questo momento.. Completa la frase in inglese: She is ___ dinner right now.",
+          "correct_answer": "cooking",
           "options": [
-            "sleeping",
-            "slept",
-            "sleep",
-            "sleeps"
-          ]
+            "cooking",
+            "cooks",
+            "cooked",
+            "cook"
+          ],
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
+          "prompt_it": "Come si traduce \"difficile\"?",
           "options": [
-            "I don't want to buy something.",
-            "I don't want to buy everything.",
-            "I don't want to buy anything.",
-            "I don't want to buy nothing."
+            "difficult",
+            "airport",
+            "ticket",
+            "hotel"
           ],
-          "correct_answer": "I don't want to buy anything.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\"."
+          "correct_answer": "difficult",
+          "explanation_it": "La traduzione corretta è \"difficult\"."
         },
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
-          "correct_answer": "They must leave immediately."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Viaggeremo a Londra la prossima settimana.\"",
+          "correct_answer": "We will travel to London next week.",
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"camicia\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "shirt"
+          ],
+          "correct_answer": "shirt",
+          "explanation_it": "La traduzione corretta è \"shirt\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
-          "correct_answer": "went",
+          "prompt_en": "L'italiano è: Devi indossare la cintura di sicurezza.. Completa la frase in inglese: You ___ wear a seatbelt.",
+          "correct_answer": "must",
           "options": [
-            "going",
-            "went",
-            "gone",
-            "go"
-          ]
+            "must",
+            "might",
+            "may",
+            "can"
+          ],
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"medico\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "doctor"
+          ],
+          "correct_answer": "doctor",
+          "explanation_it": "La traduzione corretta è \"doctor\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Roma è più antica di New York.\"",
+          "correct_answer": "Rome is older than New York.",
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"scarpe\"?",
+          "options": [
+            "ticket",
+            "airport",
+            "shoes",
+            "hotel"
+          ],
+          "correct_answer": "shoes",
+          "explanation_it": "La traduzione corretta è \"shoes\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: Roma è più antica di New York.. Completa la frase in inglese: Rome is ___ than New York.",
+          "correct_answer": "older",
+          "options": [
+            "oldest",
+            "old",
+            "older",
+            "more old"
+          ],
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"perché\"?",
+          "options": [
+            "ticket",
+            "airport",
+            "because",
+            "hotel"
+          ],
+          "correct_answer": "because",
+          "explanation_it": "La traduzione corretta è \"because\"."
         }
       ]
     },
@@ -496,82 +716,73 @@
       "title_en": "Grammar Practice 6",
       "title_it": "Esercizio di Grammatica 6",
       "type": "grammar",
-      "estimated_minutes": 3,
+      "estimated_minutes": 4,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
-          "correct_answer": "She is cooking dinner right now.",
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 3,
-          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
-          "correct_answer": "better",
-          "options": [
-            "better",
-            "good",
-            "best",
-            "well"
-          ],
-          "grammar_rule": "Aggettivi Comparativi"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
+          "prompt_it": "Come si traduce \"perché\"?",
           "options": [
-            "We did meet tomorrow at noon.",
-            "We do meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We will meet tomorrow at noon."
+            "because",
+            "airport",
+            "hotel",
+            "ticket"
           ],
-          "correct_answer": "We will meet tomorrow at noon.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\".",
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "translation",
-          "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
-          "correct_answer": "Have you ever been to Paris?",
-          "grammar_rule": "Aggettivi Comparativi"
+          "correct_answer": "because",
+          "explanation_it": "La traduzione corretta è \"because\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 3,
-          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
-          "correct_answer": "sleeping",
+          "prompt_en": "L'italiano è: Devi indossare la cintura di sicurezza.. Completa la frase in inglese: You ___ wear a seatbelt.",
+          "correct_answer": "must",
           "options": [
-            "slept",
-            "sleeps",
-            "sleeping",
-            "sleep"
+            "must",
+            "can",
+            "may",
+            "might"
           ],
-          "grammar_rule": "Aggettivi Comparativi"
+          "grammar_rule": "Modals (can, must, should)"
         },
         {
           "type": "multiple_choice",
           "difficulty": 3,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
+          "prompt_it": "Come si traduce \"ristorante\"?",
           "options": [
-            "I don't want to buy everything.",
-            "I don't want to buy nothing.",
-            "I don't want to buy something.",
-            "I don't want to buy anything."
+            "ticket",
+            "restaurant",
+            "airport",
+            "hotel"
           ],
-          "correct_answer": "I don't want to buy anything.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\".",
-          "grammar_rule": "Aggettivi Comparativi"
+          "correct_answer": "restaurant",
+          "explanation_it": "La traduzione corretta è \"restaurant\"."
         },
         {
           "type": "translation",
           "difficulty": 3,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
-          "correct_answer": "They must leave immediately.",
-          "grammar_rule": "Aggettivi Comparativi"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Roma è più antica di New York.\"",
+          "correct_answer": "Rome is older than New York.",
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"costoso\"?",
+          "options": [
+            "ticket",
+            "hotel",
+            "airport",
+            "expensive"
+          ],
+          "correct_answer": "expensive",
+          "explanation_it": "La traduzione corretta è \"expensive\"."
         },
         {
           "type": "fill_in_the_blank",
@@ -579,12 +790,71 @@
           "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
           "correct_answer": "went",
           "options": [
-            "went",
             "going",
+            "gone",
             "go",
-            "gone"
+            "went"
           ],
-          "grammar_rule": "Aggettivi Comparativi"
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"biglietto\"?",
+          "options": [
+            "restaurant",
+            "airport",
+            "hotel",
+            "ticket"
+          ],
+          "correct_answer": "ticket",
+          "explanation_it": "La traduzione corretta è \"ticket\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Viaggeremo a Londra la prossima settimana.\"",
+          "correct_answer": "We will travel to London next week.",
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"medico\"?",
+          "options": [
+            "doctor",
+            "hotel",
+            "airport",
+            "ticket"
+          ],
+          "correct_answer": "doctor",
+          "explanation_it": "La traduzione corretta è \"doctor\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "L'italiano è: Devi indossare la cintura di sicurezza.. Completa la frase in inglese: You ___ wear a seatbelt.",
+          "correct_answer": "must",
+          "options": [
+            "must",
+            "might",
+            "can",
+            "may"
+          ],
+          "grammar_rule": "Modals (can, must, should)"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"perché\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "because",
+            "airport"
+          ],
+          "correct_answer": "because",
+          "explanation_it": "La traduzione corretta è \"because\"."
         }
       ]
     }

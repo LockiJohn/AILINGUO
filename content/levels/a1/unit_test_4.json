@@ -1,202 +1,287 @@
 {
   "levelCode": "A1",
   "order": 4,
-  "title_en": "Unit 4: A1 Mastery",
-  "title_it": "Unità 4: Padronanza A1",
-  "description_it": "Migliora le tue competenze di livello A1 con frasi complete ed esempi d'uso quotidiano.",
+  "title_en": "Unit 4: Food & Drink",
+  "title_it": "Unità 4: Food & Drink",
+  "description_it": "Padroneggia il vocabolario e la grammatica legati a Food & Drink. Regola focus: Possessive Adjectives, 'Have got'.",
   "icon": "🏆",
   "lessons": [
     {
       "order": 1,
       "title_en": "Vocabulary Practice 1",
-      "title_it": "Esercizio di Fraseologia 1",
+      "title_it": "Esercizio di Vocabolario 1",
       "type": "vocabulary",
-      "estimated_minutes": 5,
+      "estimated_minutes": 6,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
-          "correct_answer": "She likes apples."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
-          "correct_answer": "cat",
-          "options": [
-            "cat",
-            "mouse",
-            "dog",
-            "bird"
-          ]
+          "prompt_it": "Traduci l'intera frase in inglese: \"Mi piace la pizza.\"",
+          "correct_answer": "I like pizza.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
+          "prompt_it": "Come si traduce \"triste\"?",
           "options": [
-            "We go to school every day.",
-            "We goes to school every day.",
-            "We going to school every day.",
-            "We went to school every day."
+            "please",
+            "goodbye",
+            "hello",
+            "sad"
           ],
-          "correct_answer": "We go to school every day.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
-          "correct_answer": "My name is John."
+          "correct_answer": "sad",
+          "explanation_it": "La traduzione corretta è \"sad\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
-          "correct_answer": "friends",
+          "prompt_en": "L'italiano è: Il cielo è blu.. Completa la frase in inglese: The sky is ___.",
+          "correct_answer": "blue",
           "options": [
-            "teachers",
-            "enemies",
-            "friends",
-            "parents"
-          ]
+            "blue",
+            "red",
+            "black",
+            "green"
+          ],
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
+          "prompt_it": "Come si traduce \"acqua\"?",
           "options": [
-            "I had a red car.",
-            "I having a red car.",
-            "I has a red car.",
-            "I have a red car."
+            "please",
+            "hello",
+            "water",
+            "goodbye"
           ],
-          "correct_answer": "I have a red car.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\"."
+          "correct_answer": "water",
+          "explanation_it": "La traduzione corretta è \"water\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
-          "correct_answer": "You read a book."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Mi piace la pizza.\"",
+          "correct_answer": "I like pizza.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ciao\"?",
+          "options": [
+            "please",
+            "goodbye",
+            "hello",
+            "thank you"
+          ],
+          "correct_answer": "hello",
+          "explanation_it": "La traduzione corretta è \"hello\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
-          "correct_answer": "am",
+          "prompt_en": "L'italiano è: Lei è mia sorella.. Completa la frase in inglese: She is my ___.",
+          "correct_answer": "sister",
           "options": [
-            "are",
-            "be",
-            "am",
-            "is"
-          ]
+            "sister",
+            "brother",
+            "uncle",
+            "father"
+          ],
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"per favore\"?",
+          "options": [
+            "please",
+            "thank you",
+            "hello",
+            "goodbye"
+          ],
+          "correct_answer": "please",
+          "explanation_it": "La traduzione corretta è \"please\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Mi piace la pizza.\"",
+          "correct_answer": "I like pizza.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"casa\"?",
+          "options": [
+            "please",
+            "hello",
+            "goodbye",
+            "house"
+          ],
+          "correct_answer": "house",
+          "explanation_it": "La traduzione corretta è \"house\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Il cielo è blu.. Completa la frase in inglese: The sky is ___.",
+          "correct_answer": "blue",
+          "options": [
+            "green",
+            "red",
+            "black",
+            "blue"
+          ],
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"no\"?",
+          "options": [
+            "please",
+            "hello",
+            "no",
+            "goodbye"
+          ],
+          "correct_answer": "no",
+          "explanation_it": "La traduzione corretta è \"no\"."
         }
       ]
     },
     {
       "order": 2,
       "title_en": "Listening Practice 2",
-      "title_it": "Esercizio di Ascolto 2",
+      "title_it": "Esercizio di Ascolto e Parlato 2",
       "type": "listening",
       "estimated_minutes": 8,
       "exercises": [
         {
-          "type": "listening",
+          "type": "translation",
           "difficulty": 2,
-          "audio_text": "She likes apples.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "She likes apples.",
-            "She like apples.",
-            "She liking apples."
-          ],
-          "correct_answer": "She likes apples."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vengo dall'Italia.\"",
+          "correct_answer": "I am from Italy.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The cat is black.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "sad",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "The cat is black.",
-            "The dog is black.",
-            "The bird is black."
+            "please",
+            "goodbye",
+            "hello",
+            "sad"
           ],
-          "correct_answer": "The cat is black."
+          "correct_answer": "sad"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "I am from Italy.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "I am from Italy.",
+          "explanation_it": "Pronuncia chiaramente: \"I am from Italy.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"acqua\"?",
+          "options": [
+            "please",
+            "goodbye",
+            "hello",
+            "water"
+          ],
+          "correct_answer": "water",
+          "explanation_it": "La traduzione corretta è \"water\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Ciao, mi chiamo John.\"",
+          "correct_answer": "Hello, my name is John.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "We go to school every day.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "yes",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "We go to school every day.",
-            "We goes to school every day.",
-            "We going to school every day."
+            "please",
+            "goodbye",
+            "hello",
+            "yes"
           ],
-          "correct_answer": "We go to school every day."
+          "correct_answer": "yes"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "I am from Italy.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "I am from Italy.",
+          "explanation_it": "Pronuncia chiaramente: \"I am from Italy.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"pane\"?",
+          "options": [
+            "bread",
+            "goodbye",
+            "hello",
+            "please"
+          ],
+          "correct_answer": "bread",
+          "explanation_it": "La traduzione corretta è \"bread\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Ciao, mi chiamo John.\"",
+          "correct_answer": "Hello, my name is John.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "My name is John.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "mother",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "My house is John.",
-            "My age is John.",
-            "My name is John."
+            "hello",
+            "goodbye",
+            "please",
+            "mother"
           ],
-          "correct_answer": "My name is John."
+          "correct_answer": "mother"
         },
         {
-          "type": "listening",
+          "type": "speaking",
           "difficulty": 2,
-          "audio_text": "They are my friends.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "They are my enemies.",
-            "They are my friends.",
-            "They are my teachers."
-          ],
-          "correct_answer": "They are my friends."
+          "audio_text": "I like pizza.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "I like pizza.",
+          "explanation_it": "Pronuncia chiaramente: \"I like pizza.\""
         },
         {
-          "type": "listening",
+          "type": "multiple_choice",
           "difficulty": 2,
-          "audio_text": "I have a red car.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "prompt_it": "Come si traduce \"per favore\"?",
           "options": [
-            "I has a red car.",
-            "I have a red car.",
-            "I having a red car."
+            "please",
+            "hello",
+            "goodbye",
+            "thank you"
           ],
-          "correct_answer": "I have a red car."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "You read a book.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "You read a book.",
-            "You write a book.",
-            "You listen a book."
-          ],
-          "correct_answer": "You read a book."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "I am a student.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I is a student.",
-            "I am a student.",
-            "I are a student."
-          ],
-          "correct_answer": "I am a student."
+          "correct_answer": "please",
+          "explanation_it": "La traduzione corretta è \"please\"."
         }
       ]
     },
@@ -205,289 +290,424 @@
       "title_en": "Grammar Practice 3",
       "title_it": "Esercizio di Grammatica 3",
       "type": "grammar",
-      "estimated_minutes": 3,
+      "estimated_minutes": 4,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
-          "correct_answer": "She likes apples.",
-          "grammar_rule": "Verb To Be: Essere in inglese."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
-          "correct_answer": "cat",
-          "options": [
-            "mouse",
-            "bird",
-            "dog",
-            "cat"
-          ],
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Ciao, mi chiamo John.\"",
+          "correct_answer": "Hello, my name is John.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
+          "prompt_it": "Come si traduce \"triste\"?",
           "options": [
-            "We go to school every day.",
-            "We goes to school every day.",
-            "We going to school every day.",
-            "We went to school every day."
+            "please",
+            "goodbye",
+            "hello",
+            "sad"
           ],
-          "correct_answer": "We go to school every day.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\".",
-          "grammar_rule": "Verb To Be: Essere in inglese."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
-          "correct_answer": "My name is John.",
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "correct_answer": "sad",
+          "explanation_it": "La traduzione corretta è \"sad\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
-          "correct_answer": "friends",
+          "prompt_en": "L'italiano è: Lei è mia sorella.. Completa la frase in inglese: She is my ___.",
+          "correct_answer": "sister",
           "options": [
-            "teachers",
-            "enemies",
-            "parents",
-            "friends"
+            "uncle",
+            "sister",
+            "father",
+            "brother"
           ],
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
+          "prompt_it": "Come si traduce \"arrivederci\"?",
           "options": [
-            "I had a red car.",
-            "I having a red car.",
-            "I has a red car.",
-            "I have a red car."
+            "thank you",
+            "please",
+            "hello",
+            "goodbye"
           ],
-          "correct_answer": "I have a red car.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\".",
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "correct_answer": "goodbye",
+          "explanation_it": "La traduzione corretta è \"goodbye\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
-          "correct_answer": "You read a book.",
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Ciao, mi chiamo John.\"",
+          "correct_answer": "Hello, my name is John.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"felice\"?",
+          "options": [
+            "goodbye",
+            "happy",
+            "hello",
+            "please"
+          ],
+          "correct_answer": "happy",
+          "explanation_it": "La traduzione corretta è \"happy\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
-          "correct_answer": "am",
+          "prompt_en": "L'italiano è: Vengo dall'Italia.. Completa la frase in inglese: I am ___ Italy.",
+          "correct_answer": "from",
           "options": [
-            "are",
-            "is",
-            "am",
-            "be"
+            "at",
+            "from",
+            "in",
+            "to"
           ],
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"sì\"?",
+          "options": [
+            "please",
+            "goodbye",
+            "hello",
+            "yes"
+          ],
+          "correct_answer": "yes",
+          "explanation_it": "La traduzione corretta è \"yes\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Mi piace la pizza.\"",
+          "correct_answer": "I like pizza.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ciao\"?",
+          "options": [
+            "hello",
+            "goodbye",
+            "please",
+            "thank you"
+          ],
+          "correct_answer": "hello",
+          "explanation_it": "La traduzione corretta è \"hello\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Mi piace la pizza.. Completa la frase in inglese: I ___ pizza.",
+          "correct_answer": "like",
+          "options": [
+            "like",
+            "likes",
+            "liking",
+            "liked"
+          ],
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"felice\"?",
+          "options": [
+            "please",
+            "happy",
+            "hello",
+            "goodbye"
+          ],
+          "correct_answer": "happy",
+          "explanation_it": "La traduzione corretta è \"happy\"."
         }
       ]
     },
     {
       "order": 4,
       "title_en": "Listening Practice 4",
-      "title_it": "Esercizio di Ascolto 4",
+      "title_it": "Esercizio di Ascolto e Parlato 4",
       "type": "listening",
-      "estimated_minutes": 5,
+      "estimated_minutes": 6,
       "exercises": [
         {
-          "type": "listening",
+          "type": "translation",
           "difficulty": 2,
-          "audio_text": "She likes apples.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "She like apples.",
-            "She likes apples.",
-            "She liking apples."
-          ],
-          "correct_answer": "She likes apples."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei è mia sorella.\"",
+          "correct_answer": "She is my sister.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The cat is black.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "house",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "The bird is black.",
-            "The dog is black.",
-            "The cat is black."
+            "house",
+            "please",
+            "hello",
+            "goodbye"
           ],
-          "correct_answer": "The cat is black."
+          "correct_answer": "house"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "The sky is blue.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "The sky is blue.",
+          "explanation_it": "Pronuncia chiaramente: \"The sky is blue.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ciao\"?",
+          "options": [
+            "goodbye",
+            "hello",
+            "please",
+            "thank you"
+          ],
+          "correct_answer": "hello",
+          "explanation_it": "La traduzione corretta è \"hello\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vengo dall'Italia.\"",
+          "correct_answer": "I am from Italy.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "We go to school every day.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "dog",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "We go to school every day.",
-            "We goes to school every day.",
-            "We going to school every day."
+            "goodbye",
+            "please",
+            "hello",
+            "dog"
           ],
-          "correct_answer": "We go to school every day."
+          "correct_answer": "dog"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "I like pizza.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "I like pizza.",
+          "explanation_it": "Pronuncia chiaramente: \"I like pizza.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"arrivederci\"?",
+          "options": [
+            "thank you",
+            "please",
+            "hello",
+            "goodbye"
+          ],
+          "correct_answer": "goodbye",
+          "explanation_it": "La traduzione corretta è \"goodbye\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Ciao, mi chiamo John.\"",
+          "correct_answer": "Hello, my name is John.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "My name is John.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "audio_text": "mother",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "My house is John.",
-            "My name is John.",
-            "My age is John."
+            "mother",
+            "goodbye",
+            "hello",
+            "please"
           ],
-          "correct_answer": "My name is John."
+          "correct_answer": "mother"
         },
         {
-          "type": "listening",
+          "type": "speaking",
           "difficulty": 2,
-          "audio_text": "They are my friends.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "They are my enemies.",
-            "They are my friends.",
-            "They are my teachers."
-          ],
-          "correct_answer": "They are my friends."
+          "audio_text": "She is my sister.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "She is my sister.",
+          "explanation_it": "Pronuncia chiaramente: \"She is my sister.\""
         },
         {
-          "type": "listening",
+          "type": "multiple_choice",
           "difficulty": 2,
-          "audio_text": "I have a red car.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "prompt_it": "Come si traduce \"padre\"?",
           "options": [
-            "I have a red car.",
-            "I has a red car.",
-            "I having a red car."
+            "hello",
+            "father",
+            "please",
+            "goodbye"
           ],
-          "correct_answer": "I have a red car."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "You read a book.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "You write a book.",
-            "You read a book.",
-            "You listen a book."
-          ],
-          "correct_answer": "You read a book."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "I am a student.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I are a student.",
-            "I is a student.",
-            "I am a student."
-          ],
-          "correct_answer": "I am a student."
+          "correct_answer": "father",
+          "explanation_it": "La traduzione corretta è \"father\"."
         }
       ]
     },
     {
       "order": 5,
       "title_en": "Vocabulary Practice 5",
-      "title_it": "Esercizio di Fraseologia 5",
+      "title_it": "Esercizio di Vocabolario 5",
       "type": "vocabulary",
       "estimated_minutes": 8,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
-          "correct_answer": "She likes apples."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
-          "correct_answer": "cat",
-          "options": [
-            "cat",
-            "mouse",
-            "dog",
-            "bird"
-          ]
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vengo dall'Italia.\"",
+          "correct_answer": "I am from Italy.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
+          "prompt_it": "Come si traduce \"per favore\"?",
           "options": [
-            "We go to school every day.",
-            "We goes to school every day.",
-            "We going to school every day.",
-            "We went to school every day."
+            "please",
+            "hello",
+            "thank you",
+            "goodbye"
           ],
-          "correct_answer": "We go to school every day.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
-          "correct_answer": "My name is John."
+          "correct_answer": "please",
+          "explanation_it": "La traduzione corretta è \"please\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
-          "correct_answer": "friends",
+          "prompt_en": "L'italiano è: Mi piace la pizza.. Completa la frase in inglese: I ___ pizza.",
+          "correct_answer": "like",
           "options": [
-            "teachers",
-            "friends",
-            "enemies",
-            "parents"
-          ]
+            "liked",
+            "liking",
+            "likes",
+            "like"
+          ],
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
+          "prompt_it": "Come si traduce \"padre\"?",
           "options": [
-            "I have a red car.",
-            "I has a red car.",
-            "I having a red car.",
-            "I had a red car."
+            "hello",
+            "please",
+            "father",
+            "goodbye"
           ],
-          "correct_answer": "I have a red car.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\"."
+          "correct_answer": "father",
+          "explanation_it": "La traduzione corretta è \"father\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
-          "correct_answer": "You read a book."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Mi piace la pizza.\"",
+          "correct_answer": "I like pizza.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"madre\"?",
+          "options": [
+            "hello",
+            "please",
+            "goodbye",
+            "mother"
+          ],
+          "correct_answer": "mother",
+          "explanation_it": "La traduzione corretta è \"mother\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
-          "correct_answer": "am",
+          "prompt_en": "L'italiano è: Vengo dall'Italia.. Completa la frase in inglese: I am ___ Italy.",
+          "correct_answer": "from",
           "options": [
-            "are",
-            "is",
-            "am",
-            "be"
-          ]
+            "at",
+            "to",
+            "in",
+            "from"
+          ],
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"acqua\"?",
+          "options": [
+            "please",
+            "hello",
+            "water",
+            "goodbye"
+          ],
+          "correct_answer": "water",
+          "explanation_it": "La traduzione corretta è \"water\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei è mia sorella.\"",
+          "correct_answer": "She is my sister.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"felice\"?",
+          "options": [
+            "goodbye",
+            "happy",
+            "hello",
+            "please"
+          ],
+          "correct_answer": "happy",
+          "explanation_it": "La traduzione corretta è \"happy\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Lei è mia sorella.. Completa la frase in inglese: She is my ___.",
+          "correct_answer": "sister",
+          "options": [
+            "brother",
+            "father",
+            "sister",
+            "uncle"
+          ],
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ciao\"?",
+          "options": [
+            "goodbye",
+            "thank you",
+            "please",
+            "hello"
+          ],
+          "correct_answer": "hello",
+          "explanation_it": "La traduzione corretta è \"hello\"."
         }
       ]
     },
@@ -496,95 +716,145 @@
       "title_en": "Grammar Practice 6",
       "title_it": "Esercizio di Grammatica 6",
       "type": "grammar",
-      "estimated_minutes": 3,
+      "estimated_minutes": 4,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
-          "correct_answer": "She likes apples.",
-          "grammar_rule": "Verb To Be: Essere in inglese."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
-          "correct_answer": "cat",
-          "options": [
-            "bird",
-            "dog",
-            "mouse",
-            "cat"
-          ],
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Il cielo è blu.\"",
+          "correct_answer": "The sky is blue.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
+          "prompt_it": "Come si traduce \"ciao\"?",
           "options": [
-            "We go to school every day.",
-            "We went to school every day.",
-            "We goes to school every day.",
-            "We going to school every day."
+            "please",
+            "goodbye",
+            "hello",
+            "thank you"
           ],
-          "correct_answer": "We go to school every day.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\".",
-          "grammar_rule": "Verb To Be: Essere in inglese."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
-          "correct_answer": "My name is John.",
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "correct_answer": "hello",
+          "explanation_it": "La traduzione corretta è \"hello\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
-          "correct_answer": "friends",
+          "prompt_en": "L'italiano è: Mi piace la pizza.. Completa la frase in inglese: I ___ pizza.",
+          "correct_answer": "like",
           "options": [
-            "parents",
-            "friends",
-            "enemies",
-            "teachers"
+            "like",
+            "liking",
+            "liked",
+            "likes"
           ],
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
+          "prompt_it": "Come si traduce \"padre\"?",
           "options": [
-            "I having a red car.",
-            "I has a red car.",
-            "I have a red car.",
-            "I had a red car."
+            "please",
+            "hello",
+            "father",
+            "goodbye"
           ],
-          "correct_answer": "I have a red car.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\".",
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "correct_answer": "father",
+          "explanation_it": "La traduzione corretta è \"father\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
-          "correct_answer": "You read a book.",
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vengo dall'Italia.\"",
+          "correct_answer": "I am from Italy.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ciao\"?",
+          "options": [
+            "please",
+            "thank you",
+            "goodbye",
+            "hello"
+          ],
+          "correct_answer": "hello",
+          "explanation_it": "La traduzione corretta è \"hello\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
-          "correct_answer": "am",
+          "prompt_en": "L'italiano è: Vengo dall'Italia.. Completa la frase in inglese: I am ___ Italy.",
+          "correct_answer": "from",
           "options": [
-            "am",
-            "is",
-            "be",
-            "are"
+            "from",
+            "in",
+            "to",
+            "at"
           ],
-          "grammar_rule": "Verb To Be: Essere in inglese."
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"arrivederci\"?",
+          "options": [
+            "goodbye",
+            "hello",
+            "thank you",
+            "please"
+          ],
+          "correct_answer": "goodbye",
+          "explanation_it": "La traduzione corretta è \"goodbye\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Il cielo è blu.\"",
+          "correct_answer": "The sky is blue.",
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"blu\"?",
+          "options": [
+            "please",
+            "goodbye",
+            "hello",
+            "blue"
+          ],
+          "correct_answer": "blue",
+          "explanation_it": "La traduzione corretta è \"blue\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Lei è mia sorella.. Completa la frase in inglese: She is my ___.",
+          "correct_answer": "sister",
+          "options": [
+            "uncle",
+            "father",
+            "brother",
+            "sister"
+          ],
+          "grammar_rule": "Possessive Adjectives, 'Have got'"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"sì\"?",
+          "options": [
+            "goodbye",
+            "hello",
+            "yes",
+            "please"
+          ],
+          "correct_answer": "yes",
+          "explanation_it": "La traduzione corretta è \"yes\"."
         }
       ]
     }

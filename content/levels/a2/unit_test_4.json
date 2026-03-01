@@ -1,85 +1,687 @@
 {
   "levelCode": "A2",
   "order": 4,
-  "title_en": "Unit 4: A2 Mastery",
-  "title_it": "Unità 4: Padronanza A2",
-  "description_it": "Migliora le tue competenze di livello A2 con frasi complete ed esempi d'uso quotidiano.",
+  "title_en": "Unit 4: Health & Body",
+  "title_it": "Unità 4: Health & Body",
+  "description_it": "Padroneggia il vocabolario e la grammatica legati a Health & Body. Regola focus: Countable/Uncountable, Quantifiers.",
   "icon": "🏆",
   "lessons": [
     {
       "order": 1,
       "title_en": "Vocabulary Practice 1",
-      "title_it": "Esercizio di Fraseologia 1",
+      "title_it": "Esercizio di Vocabolario 1",
       "type": "vocabulary",
-      "estimated_minutes": 5,
+      "estimated_minutes": 6,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Roma è più antica di New York.\"",
+          "correct_answer": "Rome is older than New York.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"medico\"?",
+          "options": [
+            "doctor",
+            "airport",
+            "hotel",
+            "ticket"
+          ],
+          "correct_answer": "doctor",
+          "explanation_it": "La traduzione corretta è \"doctor\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Viaggeremo a Londra la prossima settimana.. Completa la frase in inglese: We will ___ to London next week.",
+          "correct_answer": "travel",
+          "options": [
+            "traveling",
+            "travels",
+            "traveled",
+            "travel"
+          ],
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"bello\"?",
+          "options": [
+            "ticket",
+            "hotel",
+            "airport",
+            "beautiful"
+          ],
+          "correct_answer": "beautiful",
+          "explanation_it": "La traduzione corretta è \"beautiful\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Sono andato al cinema ieri.\"",
+          "correct_answer": "I went to the cinema yesterday.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"perché\"?",
+          "options": [
+            "hotel",
+            "airport",
+            "because",
+            "ticket"
+          ],
+          "correct_answer": "because",
+          "explanation_it": "La traduzione corretta è \"because\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Devi indossare la cintura di sicurezza.. Completa la frase in inglese: You ___ wear a seatbelt.",
+          "correct_answer": "must",
+          "options": [
+            "might",
+            "may",
+            "can",
+            "must"
+          ],
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"a volte\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "sometimes"
+          ],
+          "correct_answer": "sometimes",
+          "explanation_it": "La traduzione corretta è \"sometimes\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Viaggeremo a Londra la prossima settimana.\"",
+          "correct_answer": "We will travel to London next week.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ospedale\"?",
+          "options": [
+            "hospital",
+            "airport",
+            "ticket",
+            "hotel"
+          ],
+          "correct_answer": "hospital",
+          "explanation_it": "La traduzione corretta è \"hospital\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Lei sta preparando la cena in questo momento.. Completa la frase in inglese: She is ___ dinner right now.",
+          "correct_answer": "cooking",
+          "options": [
+            "cooks",
+            "cooking",
+            "cook",
+            "cooked"
+          ],
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"aeroporto\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "restaurant"
+          ],
+          "correct_answer": "airport",
+          "explanation_it": "La traduzione corretta è \"airport\"."
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title_en": "Listening Practice 2",
+      "title_it": "Esercizio di Ascolto e Parlato 2",
+      "type": "listening",
+      "estimated_minutes": 8,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
           "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
-          "correct_answer": "She is cooking dinner right now."
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "listening",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
-          "correct_answer": "better",
+          "audio_text": "never",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "well",
-            "better",
-            "good",
-            "best"
-          ]
+            "never",
+            "airport",
+            "ticket",
+            "hotel"
+          ],
+          "correct_answer": "never"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "We will travel to London next week.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "We will travel to London next week.",
+          "explanation_it": "Pronuncia chiaramente: \"We will travel to London next week.\""
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
+          "prompt_it": "Come si traduce \"medico\"?",
           "options": [
-            "We will meet tomorrow at noon.",
-            "We did meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We do meet tomorrow at noon."
+            "ticket",
+            "airport",
+            "doctor",
+            "hotel"
           ],
-          "correct_answer": "We will meet tomorrow at noon.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\"."
+          "correct_answer": "doctor",
+          "explanation_it": "La traduzione corretta è \"doctor\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
-          "correct_answer": "Have you ever been to Paris?"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "listening",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
-          "correct_answer": "sleeping",
+          "audio_text": "never",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
           "options": [
-            "sleeps",
-            "sleeping",
-            "sleep",
-            "slept"
-          ]
+            "never",
+            "airport",
+            "ticket",
+            "hotel"
+          ],
+          "correct_answer": "never"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "We will travel to London next week.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "We will travel to London next week.",
+          "explanation_it": "Pronuncia chiaramente: \"We will travel to London next week.\""
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
+          "prompt_it": "Come si traduce \"mai\"?",
           "options": [
-            "I don't want to buy everything.",
-            "I don't want to buy nothing.",
-            "I don't want to buy something.",
-            "I don't want to buy anything."
+            "never",
+            "hotel",
+            "ticket",
+            "airport"
           ],
-          "correct_answer": "I don't want to buy anything.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\"."
+          "correct_answer": "never",
+          "explanation_it": "La traduzione corretta è \"never\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
-          "correct_answer": "They must leave immediately."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "sometimes",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
+          "options": [
+            "ticket",
+            "airport",
+            "sometimes",
+            "hotel"
+          ],
+          "correct_answer": "sometimes"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "Rome is older than New York.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "Rome is older than New York.",
+          "explanation_it": "Pronuncia chiaramente: \"Rome is older than New York.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"costoso\"?",
+          "options": [
+            "expensive",
+            "hotel",
+            "ticket",
+            "airport"
+          ],
+          "correct_answer": "expensive",
+          "explanation_it": "La traduzione corretta è \"expensive\"."
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title_en": "Grammar Practice 3",
+      "title_it": "Esercizio di Grammatica 3",
+      "type": "grammar",
+      "estimated_minutes": 4,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Sono andato al cinema ieri.\"",
+          "correct_answer": "I went to the cinema yesterday.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"perché\"?",
+          "options": [
+            "hotel",
+            "because",
+            "airport",
+            "ticket"
+          ],
+          "correct_answer": "because",
+          "explanation_it": "La traduzione corretta è \"because\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Lei sta preparando la cena in questo momento.. Completa la frase in inglese: She is ___ dinner right now.",
+          "correct_answer": "cooking",
+          "options": [
+            "cook",
+            "cooked",
+            "cooks",
+            "cooking"
+          ],
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ristorante\"?",
+          "options": [
+            "ticket",
+            "airport",
+            "hotel",
+            "restaurant"
+          ],
+          "correct_answer": "restaurant",
+          "explanation_it": "La traduzione corretta è \"restaurant\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"camicia\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "shirt"
+          ],
+          "correct_answer": "shirt",
+          "explanation_it": "La traduzione corretta è \"shirt\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
+          "correct_answer": "went",
+          "options": [
+            "go",
+            "going",
+            "went",
+            "gone"
+          ],
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"biglietto\"?",
+          "options": [
+            "restaurant",
+            "hotel",
+            "airport",
+            "ticket"
+          ],
+          "correct_answer": "ticket",
+          "explanation_it": "La traduzione corretta è \"ticket\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"bello\"?",
+          "options": [
+            "beautiful",
+            "hotel",
+            "ticket",
+            "airport"
+          ],
+          "correct_answer": "beautiful",
+          "explanation_it": "La traduzione corretta è \"beautiful\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Viaggeremo a Londra la prossima settimana.. Completa la frase in inglese: We will ___ to London next week.",
+          "correct_answer": "travel",
+          "options": [
+            "travel",
+            "traveled",
+            "travels",
+            "traveling"
+          ],
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ristorante\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "restaurant"
+          ],
+          "correct_answer": "restaurant",
+          "explanation_it": "La traduzione corretta è \"restaurant\"."
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title_en": "Listening Practice 4",
+      "title_it": "Esercizio di Ascolto e Parlato 4",
+      "type": "listening",
+      "estimated_minutes": 6,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Roma è più antica di New York.\"",
+          "correct_answer": "Rome is older than New York.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "sometimes",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "sometimes"
+          ],
+          "correct_answer": "sometimes"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "She is cooking dinner right now.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "She is cooking dinner right now.",
+          "explanation_it": "Pronuncia chiaramente: \"She is cooking dinner right now.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ristorante\"?",
+          "options": [
+            "restaurant",
+            "hotel",
+            "airport",
+            "ticket"
+          ],
+          "correct_answer": "restaurant",
+          "explanation_it": "La traduzione corretta è \"restaurant\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Roma è più antica di New York.\"",
+          "correct_answer": "Rome is older than New York.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "cheap",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
+          "options": [
+            "cheap",
+            "hotel",
+            "ticket",
+            "airport"
+          ],
+          "correct_answer": "cheap"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "She is cooking dinner right now.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "She is cooking dinner right now.",
+          "explanation_it": "Pronuncia chiaramente: \"She is cooking dinner right now.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"difficile\"?",
+          "options": [
+            "difficult",
+            "airport",
+            "ticket",
+            "hotel"
+          ],
+          "correct_answer": "difficult",
+          "explanation_it": "La traduzione corretta è \"difficult\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Roma è più antica di New York.\"",
+          "correct_answer": "Rome is older than New York.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "hotel",
+          "prompt_it": "Scrivi la parola esatta che hai sentito.",
+          "options": [
+            "hotel",
+            "airport",
+            "ticket",
+            "restaurant"
+          ],
+          "correct_answer": "hotel"
+        },
+        {
+          "type": "speaking",
+          "difficulty": 2,
+          "audio_text": "She is cooking dinner right now.",
+          "prompt_it": "Ascolta e ripeti al microfono la seguente frase.",
+          "correct_answer": "She is cooking dinner right now.",
+          "explanation_it": "Pronuncia chiaramente: \"She is cooking dinner right now.\""
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"mai\"?",
+          "options": [
+            "hotel",
+            "never",
+            "ticket",
+            "airport"
+          ],
+          "correct_answer": "never",
+          "explanation_it": "La traduzione corretta è \"never\"."
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title_en": "Vocabulary Practice 5",
+      "title_it": "Esercizio di Vocabolario 5",
+      "type": "vocabulary",
+      "estimated_minutes": 8,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"mai\"?",
+          "options": [
+            "never",
+            "airport",
+            "hotel",
+            "ticket"
+          ],
+          "correct_answer": "never",
+          "explanation_it": "La traduzione corretta è \"never\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Viaggeremo a Londra la prossima settimana.. Completa la frase in inglese: We will ___ to London next week.",
+          "correct_answer": "travel",
+          "options": [
+            "travel",
+            "travels",
+            "traveled",
+            "traveling"
+          ],
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"ristorante\"?",
+          "options": [
+            "restaurant",
+            "airport",
+            "ticket",
+            "hotel"
+          ],
+          "correct_answer": "restaurant",
+          "explanation_it": "La traduzione corretta è \"restaurant\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"costoso\"?",
+          "options": [
+            "expensive",
+            "airport",
+            "ticket",
+            "hotel"
+          ],
+          "correct_answer": "expensive",
+          "explanation_it": "La traduzione corretta è \"expensive\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Devi indossare la cintura di sicurezza.. Completa la frase in inglese: You ___ wear a seatbelt.",
+          "correct_answer": "must",
+          "options": [
+            "must",
+            "can",
+            "may",
+            "might"
+          ],
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"costoso\"?",
+          "options": [
+            "expensive",
+            "airport",
+            "hotel",
+            "ticket"
+          ],
+          "correct_answer": "expensive",
+          "explanation_it": "La traduzione corretta è \"expensive\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"aeroporto\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "restaurant"
+          ],
+          "correct_answer": "airport",
+          "explanation_it": "La traduzione corretta è \"airport\"."
         },
         {
           "type": "fill_in_the_blank",
@@ -89,405 +691,23 @@
           "options": [
             "went",
             "go",
-            "going",
-            "gone"
-          ]
-        }
-      ]
-    },
-    {
-      "order": 2,
-      "title_en": "Listening Practice 2",
-      "title_it": "Esercizio di Ascolto 2",
-      "type": "listening",
-      "estimated_minutes": 8,
-      "exercises": [
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "She is cooking dinner right now.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "She is cooks dinner right now.",
-            "She is cooking dinner right now.",
-            "She is cooked dinner right now."
-          ],
-          "correct_answer": "She is cooking dinner right now."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "This book is better than that one.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "This book is better than that one.",
-            "This book is good than that one.",
-            "This book is best than that one."
-          ],
-          "correct_answer": "This book is better than that one."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "We will meet tomorrow at noon.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "We would meet tomorrow at noon.",
-            "We do meet tomorrow at noon.",
-            "We will meet tomorrow at noon."
-          ],
-          "correct_answer": "We will meet tomorrow at noon."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "Have you ever been to Paris?",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "Have you ever been to Paris?",
-            "Have you never been to Paris?",
-            "Have you always been to Paris?"
-          ],
-          "correct_answer": "Have you ever been to Paris?"
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "He was sleeping when the phone rang.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "He was sleeping when the phone rang.",
-            "He was sleeps when the phone rang.",
-            "He was slept when the phone rang."
-          ],
-          "correct_answer": "He was sleeping when the phone rang."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "I don't want to buy anything.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I don't want to buy nothing.",
-            "I don't want to buy something.",
-            "I don't want to buy anything."
-          ],
-          "correct_answer": "I don't want to buy anything."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "They must leave immediately.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "They can leave immediately.",
-            "They must leave immediately.",
-            "They may leave immediately."
-          ],
-          "correct_answer": "They must leave immediately."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "I went to the cinema yesterday.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I went to the cinema yesterday.",
-            "I go to the cinema yesterday.",
-            "I gone to the cinema yesterday."
-          ],
-          "correct_answer": "I went to the cinema yesterday."
-        }
-      ]
-    },
-    {
-      "order": 3,
-      "title_en": "Grammar Practice 3",
-      "title_it": "Esercizio di Grammatica 3",
-      "type": "grammar",
-      "estimated_minutes": 3,
-      "exercises": [
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
-          "correct_answer": "She is cooking dinner right now.",
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
-          "correct_answer": "better",
-          "options": [
-            "best",
-            "well",
-            "good",
-            "better"
-          ],
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
-          "options": [
-            "We would meet tomorrow at noon.",
-            "We did meet tomorrow at noon.",
-            "We do meet tomorrow at noon.",
-            "We will meet tomorrow at noon."
-          ],
-          "correct_answer": "We will meet tomorrow at noon.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\".",
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
-          "correct_answer": "Have you ever been to Paris?",
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
-          "correct_answer": "sleeping",
-          "options": [
-            "sleeps",
-            "slept",
-            "sleeping",
-            "sleep"
-          ],
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
-          "options": [
-            "I don't want to buy something.",
-            "I don't want to buy everything.",
-            "I don't want to buy nothing.",
-            "I don't want to buy anything."
-          ],
-          "correct_answer": "I don't want to buy anything.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\".",
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
-          "correct_answer": "They must leave immediately.",
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
-          "correct_answer": "went",
-          "options": [
             "gone",
-            "going",
-            "go",
-            "went"
+            "going"
           ],
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        }
-      ]
-    },
-    {
-      "order": 4,
-      "title_en": "Listening Practice 4",
-      "title_it": "Esercizio di Ascolto 4",
-      "type": "listening",
-      "estimated_minutes": 5,
-      "exercises": [
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "She is cooking dinner right now.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "She is cooking dinner right now.",
-            "She is cooks dinner right now.",
-            "She is cooked dinner right now."
-          ],
-          "correct_answer": "She is cooking dinner right now."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "This book is better than that one.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "This book is best than that one.",
-            "This book is good than that one.",
-            "This book is better than that one."
-          ],
-          "correct_answer": "This book is better than that one."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "We will meet tomorrow at noon.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "We will meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We do meet tomorrow at noon."
-          ],
-          "correct_answer": "We will meet tomorrow at noon."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "Have you ever been to Paris?",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "Have you never been to Paris?",
-            "Have you ever been to Paris?",
-            "Have you always been to Paris?"
-          ],
-          "correct_answer": "Have you ever been to Paris?"
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "He was sleeping when the phone rang.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "He was sleeping when the phone rang.",
-            "He was sleeps when the phone rang.",
-            "He was slept when the phone rang."
-          ],
-          "correct_answer": "He was sleeping when the phone rang."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "I don't want to buy anything.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I don't want to buy anything.",
-            "I don't want to buy something.",
-            "I don't want to buy nothing."
-          ],
-          "correct_answer": "I don't want to buy anything."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "They must leave immediately.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "They must leave immediately.",
-            "They may leave immediately.",
-            "They can leave immediately."
-          ],
-          "correct_answer": "They must leave immediately."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "I went to the cinema yesterday.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I gone to the cinema yesterday.",
-            "I go to the cinema yesterday.",
-            "I went to the cinema yesterday."
-          ],
-          "correct_answer": "I went to the cinema yesterday."
-        }
-      ]
-    },
-    {
-      "order": 5,
-      "title_en": "Vocabulary Practice 5",
-      "title_it": "Esercizio di Fraseologia 5",
-      "type": "vocabulary",
-      "estimated_minutes": 8,
-      "exercises": [
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
-          "correct_answer": "She is cooking dinner right now."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
-          "correct_answer": "better",
-          "options": [
-            "better",
-            "good",
-            "well",
-            "best"
-          ]
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
+          "prompt_it": "Come si traduce \"costoso\"?",
           "options": [
-            "We will meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We do meet tomorrow at noon.",
-            "We did meet tomorrow at noon."
+            "hotel",
+            "expensive",
+            "airport",
+            "ticket"
           ],
-          "correct_answer": "We will meet tomorrow at noon.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
-          "correct_answer": "Have you ever been to Paris?"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
-          "correct_answer": "sleeping",
-          "options": [
-            "sleep",
-            "slept",
-            "sleeps",
-            "sleeping"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
-          "options": [
-            "I don't want to buy anything.",
-            "I don't want to buy something.",
-            "I don't want to buy everything.",
-            "I don't want to buy nothing."
-          ],
-          "correct_answer": "I don't want to buy anything.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
-          "correct_answer": "They must leave immediately."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
-          "correct_answer": "went",
-          "options": [
-            "going",
-            "gone",
-            "go",
-            "went"
-          ]
+          "correct_answer": "expensive",
+          "explanation_it": "La traduzione corretta è \"expensive\"."
         }
       ]
     },
@@ -496,95 +716,145 @@
       "title_en": "Grammar Practice 6",
       "title_it": "Esercizio di Grammatica 6",
       "type": "grammar",
-      "estimated_minutes": 3,
+      "estimated_minutes": 4,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
-          "correct_answer": "She is cooking dinner right now.",
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
-          "correct_answer": "better",
-          "options": [
-            "better",
-            "good",
-            "best",
-            "well"
-          ],
-          "grammar_rule": "Present Continuous: Azioni in corso."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Viaggeremo a Londra la prossima settimana.\"",
+          "correct_answer": "We will travel to London next week.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
+          "prompt_it": "Come si traduce \"perché\"?",
           "options": [
-            "We do meet tomorrow at noon.",
-            "We did meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We will meet tomorrow at noon."
+            "airport",
+            "because",
+            "hotel",
+            "ticket"
           ],
-          "correct_answer": "We will meet tomorrow at noon.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\".",
-          "grammar_rule": "Present Continuous: Azioni in corso."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
-          "correct_answer": "Have you ever been to Paris?",
-          "grammar_rule": "Present Continuous: Azioni in corso."
+          "correct_answer": "because",
+          "explanation_it": "La traduzione corretta è \"because\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
-          "correct_answer": "sleeping",
+          "prompt_en": "L'italiano è: Roma è più antica di New York.. Completa la frase in inglese: Rome is ___ than New York.",
+          "correct_answer": "older",
           "options": [
-            "sleeps",
-            "slept",
-            "sleep",
-            "sleeping"
+            "oldest",
+            "older",
+            "more old",
+            "old"
           ],
-          "grammar_rule": "Present Continuous: Azioni in corso."
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
+          "prompt_it": "Come si traduce \"biglietto\"?",
           "options": [
-            "I don't want to buy something.",
-            "I don't want to buy everything.",
-            "I don't want to buy anything.",
-            "I don't want to buy nothing."
+            "ticket",
+            "airport",
+            "hotel",
+            "restaurant"
           ],
-          "correct_answer": "I don't want to buy anything.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\".",
-          "grammar_rule": "Present Continuous: Azioni in corso."
+          "correct_answer": "ticket",
+          "explanation_it": "La traduzione corretta è \"ticket\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
-          "correct_answer": "They must leave immediately.",
-          "grammar_rule": "Present Continuous: Azioni in corso."
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"a volte\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "sometimes"
+          ],
+          "correct_answer": "sometimes",
+          "explanation_it": "La traduzione corretta è \"sometimes\"."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
-          "correct_answer": "went",
+          "prompt_en": "L'italiano è: Roma è più antica di New York.. Completa la frase in inglese: Rome is ___ than New York.",
+          "correct_answer": "older",
           "options": [
-            "gone",
-            "go",
-            "going",
-            "went"
+            "more old",
+            "oldest",
+            "old",
+            "older"
           ],
-          "grammar_rule": "Present Continuous: Azioni in corso."
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"medico\"?",
+          "options": [
+            "doctor",
+            "airport",
+            "ticket",
+            "hotel"
+          ],
+          "correct_answer": "doctor",
+          "explanation_it": "La traduzione corretta è \"doctor\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devi indossare la cintura di sicurezza.\"",
+          "correct_answer": "You must wear a seatbelt.",
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"hotel\"?",
+          "options": [
+            "airport",
+            "restaurant",
+            "hotel",
+            "ticket"
+          ],
+          "correct_answer": "hotel",
+          "explanation_it": "La traduzione corretta è \"hotel\"."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Roma è più antica di New York.. Completa la frase in inglese: Rome is ___ than New York.",
+          "correct_answer": "older",
+          "options": [
+            "more old",
+            "oldest",
+            "old",
+            "older"
+          ],
+          "grammar_rule": "Countable/Uncountable, Quantifiers"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"bello\"?",
+          "options": [
+            "hotel",
+            "ticket",
+            "airport",
+            "beautiful"
+          ],
+          "correct_answer": "beautiful",
+          "explanation_it": "La traduzione corretta è \"beautiful\"."
         }
       ]
     }
