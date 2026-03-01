@@ -1,14 +1,17 @@
 import { useEffect, useState } from 'react'
 import { useUserStore } from '../../store/userStore'
 import type { StudySession } from '../../types'
+import { api } from '../../services/api'
 
 export default function StatsScreen() {
     const { stats, user, loadStats } = useUserStore()
     const [sessions, setSessions] = useState<StudySession[]>([])
+    const [weakWords, setWeakWords] = useState<Array<{ lapses: number, prompt_it: string, correct_answer: string }>>([])
 
     useEffect(() => {
         loadStats()
-        window.ailingo.getStudySessions(14).then(setSessions)
+        api.getStudySessions(14).then(setSessions)
+        api.getWeakWords().then(setWeakWords)
     }, [loadStats])
 
     const xp = stats?.total_xp ?? 0
@@ -90,6 +93,35 @@ export default function StatsScreen() {
                     ))}
                 </div>
             </div>
+
+            {/* Weak Words Spotlight */}
+            {weakWords.length > 0 && (
+                <div className="card" style={{ marginBottom: 'var(--space-8)', border: '1px solid var(--clr-primary-400)' }}>
+                    <h4 style={{ marginBottom: 'var(--space-4)', color: 'var(--clr-primary-300)' }}>🧠 I tuoi Punti Deboli</h4>
+                    <p className="text-muted" style={{ fontSize: 'var(--text-sm)', marginBottom: 'var(--space-4)' }}>
+                        Queste sono le parole e frasi su cui hai fatto più errori di recente. Concentrati su di esse!
+                    </p>
+                    <div style={{ display: 'grid', gap: 'var(--space-3)' }}>
+                        {weakWords.map((ww, i) => (
+                            <div key={i} style={{
+                                display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                                background: 'var(--clr-bg-surface)', padding: 'var(--space-3)', borderRadius: 'var(--radius-sm)'
+                            }}>
+                                <div>
+                                    <div style={{ fontWeight: 600, fontSize: 'var(--text-base)' }}>{ww.correct_answer}</div>
+                                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--clr-text-muted)' }}>{ww.prompt_it}</div>
+                                </div>
+                                <div style={{
+                                    background: 'rgba(239, 68, 68, 0.2)', color: '#ef4444',
+                                    padding: '4px 8px', borderRadius: '4px', fontSize: 'var(--text-xs)', fontWeight: 'bold'
+                                }}>
+                                    Sbagliata {ww.lapses} volte
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
 
             {/* Skill progress */}
             <div className="card" style={{ marginBottom: 'var(--space-8)' }}>

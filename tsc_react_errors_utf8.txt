@@ -1,0 +1,15 @@
+﻿src/App.tsx(38,11): error TS6133: 'navigate' is declared but its value is never read.
+src/screens/CourseMap/CourseMapScreen.tsx(26,11): error TS6133: 'loadLessons' is declared but its value is never read.
+src/screens/CourseMap/CourseMapScreen.tsx(30,15): error TS6133: 'res' is declared but its value is never read.
+src/screens/CourseMap/CourseMapScreen.tsx(60,35): error TS6133: 'i' is declared but its value is never read.
+src/screens/Dashboard/DashboardScreen.tsx(4,1): error TS6133: 'useSessionStore' is declared but its value is never read.
+src/screens/Exercise/ExerciseScreen.tsx(51,11): error TS6133: 'correctCount' is declared but its value is never read.
+src/screens/Exercise/FeedbackPanel.tsx(1,1): error TS6133: 'Exercise' is declared but its value is never read.
+src/screens/Exercise/types/ListenWriteExercise.tsx(1,20): error TS6133: 'useRef' is declared but its value is never read.
+src/screens/Exercise/types/SpeakingExercise.tsx(19,35): error TS2304: Cannot find name 'SpeechRecognition'.
+src/screens/Exercise/types/SpeakingExercise.tsx(24,15): error TS7022: 'SpeechRecognition' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.
+src/screens/Exercise/types/SpeakingExercise.tsx(24,42): error TS2339: Property 'SpeechRecognition' does not exist on type 'Window & typeof globalThis'.
+src/screens/Exercise/types/SpeakingExercise.tsx(37,25): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/screens/Exercise/types/WordOrderExercise.tsx(31,15): error TS6133: 'origIdx' is declared but its value is never read.
+src/screens/Results/ResultsScreen.tsx(43,15): error TS6133: 'wrongExercises' is declared but its value is never read.
+src/screens/Review/ReviewScreen.tsx(3,1): error TS6133: 'useSessionStore' is declared but its value is never read.

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useSessionStore } from '../../store/sessionStore'
 import type { Lesson, Exercise } from '../../types'
+import { api } from '../../services/api'
 
 export default function LessonScreen() {
     const { lessonId } = useParams<{ lessonId: string }>()
@@ -15,8 +16,8 @@ export default function LessonScreen() {
         if (!lessonId) return
         const id = parseInt(lessonId, 10)
         Promise.all([
-            window.ailingo.getLesson(id),
-            window.ailingo.getLessonExercises(id),
+            api.getLesson(id),
+            api.getLessonExercises(id),
         ]).then(([l, ex]) => {
             setLesson(l)
             setExercises(ex)

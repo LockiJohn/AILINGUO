@@ -83,6 +83,14 @@
                     "audio_text": "I'd like a pizza and a glass of water, please.",
                     "correct_answer": "I'd like a pizza and a glass of water, please.",
                     "difficulty": 2
+                },
+                {
+                    "type": "free_dictation",
+                    "prompt_it": "Ascolta e scrivi l'esatta frase (Dettato Libero)",
+                    "audio_text": "I'd like a pizza and a glass of water, please.",
+                    "correct_answer": "I'd like a pizza and a glass of water, please.",
+                    "grammar_rule": "Non dimenticare di digitare l'articolo prima del cibo in inglese. E ricorda The comma (virgola) tra le due clausole, ma non preoccuparti noi ignoriamo la punteggiatura!",
+                    "difficulty": 3
                 }
             ]
         },

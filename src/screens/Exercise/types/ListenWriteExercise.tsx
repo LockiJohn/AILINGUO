@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 import type { Exercise } from '../../../types'
 import FeedbackPanel from '../FeedbackPanel'
 import AudioButton from '../AudioButton'

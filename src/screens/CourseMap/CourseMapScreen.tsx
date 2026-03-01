@@ -3,12 +3,12 @@ import { useNavigate } from 'react-router-dom'
 import { useUserStore } from '../../store/userStore'
 import { useSessionStore } from '../../store/sessionStore'
 import type { Unit, Lesson } from '../../types'
+import { api } from '../../services/api'
 
 export default function CourseMapScreen() {
     const { user } = useUserStore()
     const [units, setUnits] = useState<Unit[]>([])
     const [expandedUnit, setExpandedUnit] = useState<number | null>(null)
-    const [lessons, setLessons] = useState<Record<number, Lesson[]>>({})
     const [isLoading, setIsLoading] = useState(true)
     const { startSession, setLesson } = useSessionStore()
     const navigate = useNavigate()
@@ -16,25 +16,16 @@ export default function CourseMapScreen() {
     const levelCode = user?.current_level ?? 'A1'
 
     useEffect(() => {
-        window.ailingo.getUnits(levelCode).then(u => {
+        api.getUnits(levelCode).then(u => {
             setUnits(u)
             if (u.length > 0) setExpandedUnit(u[0].id)
             setIsLoading(false)
         })
     }, [levelCode])
 
-    const loadLessons = async (unitId: number) => {
-        if (lessons[unitId]) return
-        // Fetch lessons for unit - we need to add this IPC. For now use the lesson list from the unit
-        // We'll derive lessons from exercise queries - simplified: load via a dedicated call
-        const res = await fetch(`ailingo://unit/${unitId}/lessons`).catch(() => null)
-        // fallback: just show unit info
-        setLessons(prev => ({ ...prev, [unitId]: [] }))
-    }
-
     const handleStartLesson = async (lesson: Lesson) => {
         await startSession()
-        const exercises = await window.ailingo.getLessonExercises(lesson.id)
+        const exercises = await api.getLessonExercises(lesson.id)
         setLesson({ id: lesson.id, title: lesson.title_it }, exercises)
         navigate('/exercise')
     }
@@ -57,7 +48,7 @@ export default function CourseMapScreen() {
             </div>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>
-                {units.map((unit, i) => {
+                {units.map((unit) => {
                     const isLocked = unit.is_locked === 1
                     const isExpanded = expandedUnit === unit.id
                     const completed = unit.completed_lessons ?? 0
@@ -128,7 +119,7 @@ function UnitLessons({ unitId, onStart }: { unitId: number; onStart: (l: Lesson)
 
     useEffect(() => {
         // Load lessons for this unit via direct DB query (added in IPC as get-unit-lessons)
-        window.ailingo.getUnitLessons(unitId).then(ls => {
+        api.getUnitLessons(unitId).then(ls => {
             setLessons(ls)
             setLoading(false)
         }).catch(() => setLoading(false))

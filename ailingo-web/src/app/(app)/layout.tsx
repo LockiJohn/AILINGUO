@@ -1,0 +1,24 @@
+import Sidebar from '@/components/layout/Sidebar'
+import { auth } from '@/auth'
+import { redirect } from 'next/navigation'
+
+export default async function AppLayout({
+    children,
+}: {
+    children: React.ReactNode
+}) {
+    const session = await auth()
+
+    if (!session || !session.user) {
+        redirect('/login')
+    }
+
+    return (
+        <div className="app-layout">
+            <Sidebar />
+            <main className="main-content">
+                {children}
+            </main>
+        </div>
+    )
+}

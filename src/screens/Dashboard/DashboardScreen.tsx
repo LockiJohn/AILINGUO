@@ -2,14 +2,30 @@ import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useUserStore } from '../../store/userStore'
 import { useSessionStore } from '../../store/sessionStore'
+import ActivityHeatmap from '../../components/ui/ActivityHeatmap'
+import { api } from '../../services/api'
 
 export default function DashboardScreen() {
     const { user, stats, loadStats } = useUserStore()
+    const { startSession, setLesson } = useSessionStore()
     const navigate = useNavigate()
 
     useEffect(() => {
         loadStats()
     }, [loadStats])
+
+    const handleQuickSession = async () => {
+        try {
+            const randomExercises = await api.getQuickSession()
+            if (randomExercises && randomExercises.length > 0) {
+                setLesson({ id: -1, title: '⚡ Ho 5 Minuti' }, randomExercises)
+                await startSession()
+                navigate('/exercise')
+            }
+        } catch (e) {
+            console.error('Failed quick session:', e)
+        }
+    }
 
     const xp = stats?.total_xp ?? 0
     const streak = stats?.current_streak ?? 0
@@ -69,16 +85,23 @@ export default function DashboardScreen() {
             </div>
 
             {/* CTA buttons */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)', marginBottom: 'var(--space-8)' }}>
-                <button className="btn btn-primary btn-lg" style={{ flexDirection: 'column', gap: 8, padding: 'var(--space-5)' }} onClick={() => navigate('/course')}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-4)', marginBottom: 'var(--space-8)' }}>
+                <button className="btn btn-primary btn-lg" style={{ flexDirection: 'column', gap: 8, padding: 'var(--space-4)' }} onClick={() => navigate('/course')}>
                     <span style={{ fontSize: '1.5rem' }}>📖</span>
                     Vai al Corso
                 </button>
-                <button className="btn btn-ghost btn-lg" style={{ flexDirection: 'column', gap: 8, padding: 'var(--space-5)' }} onClick={() => navigate('/review')}>
+                <button className="btn btn-ghost btn-lg" style={{ flexDirection: 'column', gap: 8, padding: 'var(--space-4)' }} onClick={() => navigate('/review')}>
                     <span style={{ fontSize: '1.5rem' }}>🔁</span>
                     Ripassa Ora
                 </button>
+                <button className="btn btn-accent btn-lg card-glow" style={{ flexDirection: 'column', gap: 8, padding: 'var(--space-4)' }} onClick={handleQuickSession}>
+                    <span style={{ fontSize: '1.5rem' }}>⚡</span>
+                    Ho 5 Minuti
+                </button>
             </div>
+
+            {/* Heatmap Github Style */}
+            <ActivityHeatmap />
 
             {/* Quick stats */}
             <h3 style={{ marginBottom: 'var(--space-4)' }}>Le tue statistiche</h3>

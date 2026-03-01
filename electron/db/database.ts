@@ -1,12 +1,24 @@
 import Database from 'better-sqlite3'
 import { join } from 'path'
-import { app } from 'electron'
+import fs from 'fs'
 
 let db: Database.Database
 
 export function initDatabase(): Database.Database {
-  const userDataPath = app.getPath('userData')
-  const dbPath = join(userDataPath, 'ailingo.db')
+  let dbPath: string
+  try {
+    // Try to get path from Electron if we're running in Electron
+    const { app } = require('electron')
+    const userDataPath = app.getPath('userData')
+    dbPath = join(userDataPath, 'ailingo.db')
+  } catch (e) {
+    // Fallback to local data directory for Express server
+    const dataDir = join(process.cwd(), 'data')
+    if (!fs.existsSync(dataDir)) {
+      fs.mkdirSync(dataDir, { recursive: true })
+    }
+    dbPath = join(dataDir, 'ailingo.db')
+  }
 
   db = new Database(dbPath)
   db.pragma('journal_mode = WAL')

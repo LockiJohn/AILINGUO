@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useSessionStore } from '../../store/sessionStore'
 import type { Exercise } from '../../types'
+import { api } from '../../services/api'
 
 export default function ReviewScreen() {
     const [queue, setQueue] = useState<Exercise[]>([])
@@ -14,7 +14,7 @@ export default function ReviewScreen() {
     const navigate = useNavigate()
 
     useEffect(() => {
-        window.ailingo.getReviewQueue().then(q => {
+        api.getReviewQueue().then(q => {
             setQueue(q)
             setLoading(false)
         })
@@ -53,7 +53,7 @@ export default function ReviewScreen() {
         setAnswered(true)
         // Update SM-2: quality 5 = perfect, 2 = hard, 0 = forgot
         const quality = correct ? 5 : 2
-        await window.ailingo.updateReviewItem(exercise.id, quality)
+        await api.updateReviewItem(exercise.id, quality)
     }
 
     const handleNext = () => {

@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import type { Exercise } from '../types'
+import { api } from '../services/api'
 
 interface SessionStore {
     sessionId: number | null
@@ -8,10 +9,11 @@ interface SessionStore {
     currentIndex: number
     results: Array<{ exercise: Exercise; isCorrect: boolean; userAnswer: string; timeMs: number }>
     startTime: number | null
+    comboCount: number
 
     startSession: () => Promise<void>
     setLesson: (lesson: { id: number; title: string }, exercises: Exercise[]) => void
-    recordResult: (exercise: Exercise, isCorrect: boolean, userAnswer: string, timeMs: number) => void
+    recordResult: (exercise: Exercise, isCorrect: boolean, userAnswer: string, timeMs: number, usedSolution?: boolean) => void
     nextExercise: () => void
     endSession: () => Promise<{ xp: number; accuracy: number }>
     reset: () => void
@@ -27,22 +29,24 @@ export const useSessionStore = create<SessionStore>((set, get) => ({
     currentIndex: 0,
     results: [],
     startTime: null,
+    comboCount: 0,
 
     startSession: async () => {
-        const { sessionId } = await window.ailingo.startSession()
+        const { sessionId } = await api.startSession()
         set({ sessionId, startTime: Date.now() })
     },
 
     setLesson: (lesson, exercises) => {
-        set({ currentLesson: lesson, exercises, currentIndex: 0, results: [] })
+        set({ currentLesson: lesson, exercises, currentIndex: 0, results: [], comboCount: 0 })
     },
 
-    recordResult: (exercise, isCorrect, userAnswer, timeMs) => {
+    recordResult: (exercise, isCorrect, userAnswer, timeMs, usedSolution = false) => {
         set((s) => ({
             results: [...s.results, { exercise, isCorrect, userAnswer, timeMs }],
+            comboCount: isCorrect && !usedSolution ? s.comboCount + 1 : 0
         }))
         // Persist to DB
-        window.ailingo.saveExerciseResult({
+        api.saveExerciseResult({
             exerciseId: exercise.id,
             userAnswer,
             isCorrect,
@@ -60,15 +64,21 @@ export const useSessionStore = create<SessionStore>((set, get) => ({
         const accuracy = results.length > 0 ? Math.round((correctCount / results.length) * 100) : 0
 
         let xp = 0
+        let tempCombo = 0
         for (const r of results) {
             if (r.isCorrect) {
+                tempCombo++
                 xp += XP_PER_CORRECT
+                // Combo multiplier: every 3 correct answers, give a bonus 15 XP
+                if (tempCombo > 0 && tempCombo % 3 === 0) xp += 15
                 if (r.timeMs < 5000) xp += XP_BONUS_SPEED
+            } else {
+                tempCombo = 0
             }
         }
 
         if (sessionId) {
-            await window.ailingo.endSession(sessionId, xp, results.length, accuracy)
+            await api.endSession(sessionId, xp, results.length, accuracy)
         }
 
         return { xp, accuracy }
@@ -82,6 +92,7 @@ export const useSessionStore = create<SessionStore>((set, get) => ({
             currentIndex: 0,
             results: [],
             startTime: null,
+            comboCount: 0,
         })
     },
 }))

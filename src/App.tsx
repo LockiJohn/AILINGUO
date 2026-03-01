@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, useNavigate } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useUserStore } from './store/userStore'
 import Sidebar from './components/layout/Sidebar'
@@ -11,6 +11,7 @@ import ResultsScreen from './screens/Results/ResultsScreen'
 import ReviewScreen from './screens/Review/ReviewScreen'
 import StatsScreen from './screens/Stats/StatsScreen'
 import SettingsScreen from './screens/Settings/SettingsScreen'
+import HelpScreen from './screens/Help/HelpScreen'
 
 function AppLayout() {
     return (
@@ -27,6 +28,7 @@ function AppLayout() {
                     <Route path="/review" element={<ReviewScreen />} />
                     <Route path="/stats" element={<StatsScreen />} />
                     <Route path="/settings" element={<SettingsScreen />} />
+                    <Route path="/help" element={<HelpScreen />} />
                 </Routes>
             </main>
         </div>
@@ -35,7 +37,6 @@ function AppLayout() {
 
 export default function App() {
     const { user, isLoading, loadUser } = useUserStore()
-    const navigate = useNavigate()
 
     useEffect(() => {
         loadUser()

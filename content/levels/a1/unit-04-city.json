@@ -1,0 +1,130 @@
+{
+    "levelCode": "A1",
+    "order": 4,
+    "title_en": "In the City & Directions",
+    "title_it": "In Città e Direzioni",
+    "description_it": "Sopravvivi in città: chiedi indicazioni e usa i mezzi pubblici",
+    "icon": "🗺️",
+    "lessons": [
+        {
+            "order": 1,
+            "title_en": "City Vocabulary",
+            "title_it": "Luoghi in Città",
+            "type": "vocabulary",
+            "estimated_minutes": 5,
+            "exercises": [
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i luoghi della città:",
+                    "options": [
+                        "farmacia",
+                        "stazione",
+                        "chiesa",
+                        "piazza",
+                        "pharmacy",
+                        "station",
+                        "church",
+                        "square"
+                    ],
+                    "correct_answer": "farmacia:pharmacy|stazione:station|chiesa:church|piazza:square",
+                    "difficulty": 1
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice 'Dov'è il bagno?' in inglese?",
+                    "audio_text": "Where is the bathroom?",
+                    "options": [
+                        "Where is the bathroom?",
+                        "Where are the bathroom?",
+                        "Where is the bath?",
+                        "Where bathroom is?"
+                    ],
+                    "correct_answer": "Where is the bathroom?",
+                    "explanation_it": "'Where is' (Dov'è) è singolare. 'Bathroom' o 'Restroom' sono più educati di 'Toilet'.",
+                    "grammar_rule": "Where is + singolare | Where are + plurale",
+                    "difficulty": 1
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Traduci: La banca è vicina.",
+                    "audio_text": "The bank is near.",
+                    "correct_answer": "The bank is near.",
+                    "explanation_it": "'Near' o 'Close' significano vicino. Attenzione a 'bank', che significa banca (l'istituto), non 'banco' (desk).",
+                    "grammar_rule": "Near / Close = vicino | Far = lontano",
+                    "difficulty": 2
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Excuse me, _____ is the train station?",
+                    "prompt_it": "Completa la richiesta di indicazioni:",
+                    "correct_answer": "where",
+                    "explanation_it": "Per chiedere indicazioni usa sempre 'where' (dove).",
+                    "difficulty": 2
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Pronuncia la frase per ringraziare chi ti ha aiutato:",
+                    "audio_text": "Thank you very much!",
+                    "correct_answer": "Thank you very much!",
+                    "difficulty": 2
+                },
+                {
+                    "type": "free_dictation",
+                    "prompt_it": "Ascolta l'indirizzo e scrivilo correttamente (Dettato Libero)",
+                    "audio_text": "The hospital is on the left.",
+                    "correct_answer": "The hospital is on the left.",
+                    "grammar_rule": "Direzioni: on the left (a sinistra) | on the right (a destra) | straight on (dritto)",
+                    "difficulty": 3
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "title_en": "Taking the Bus",
+            "title_it": "Prendere l'Autobus",
+            "type": "vocabulary",
+            "estimated_minutes": 6,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'Stop' in città?",
+                    "audio_text": "The next stop is Museum.",
+                    "options": [
+                        "Fermata dell'autobus/treno",
+                        "Fermati subito, pericolo!",
+                        "Un negozio di vestiti",
+                        "Uno stop della macchina"
+                    ],
+                    "correct_answer": "Fermata dell'autobus/treno",
+                    "explanation_it": "Sui mezzi pubblici, 'stop' è la fermata (es: bus stop). Da non confondere con il verbo fermare (to stop).",
+                    "difficulty": 1
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I need a _____ for the bus.",
+                    "prompt_it": "Cosa ti serve per salire sul pullman?",
+                    "correct_answer": "ticket",
+                    "explanation_it": "Il 'ticket' è il biglietto. Attenzione ai falsi amici: si dice 'ticket' per treni/bus, ma 'receipt' per lo scontrino del bar!",
+                    "difficulty": 2
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Traduci: Quanto costa un biglietto?",
+                    "audio_text": "How much is a ticket?",
+                    "correct_answer": "How much is a ticket?",
+                    "explanation_it": "Si usa sempre 'How much' per i soldi perché il denaro non è numerabile in inglese.",
+                    "grammar_rule": "How much + verbo essere per chiedere il prezzo",
+                    "difficulty": 2
+                },
+                {
+                    "type": "free_dictation",
+                    "prompt_it": "Ascolta e scrivi la domanda all'autista (Dettato)",
+                    "audio_text": "Does this bus go to the center?",
+                    "correct_answer": "Does this bus go to the center?",
+                    "grammar_rule": "Domande presenti (He/She/It): Does + Soggetto + Verbo base",
+                    "difficulty": 3
+                }
+            ]
+        }
+    ]
+}

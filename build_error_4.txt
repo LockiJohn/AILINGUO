@@ -1,0 +1,29 @@
+﻿
+> ailingo@0.1.0 build
+> tsc -p tsconfig.node.json && vite build && electron-builder
+
+At line:1 char:27
++ tsc -p 
+tsconfig.node.json && vite 
+build && electron-builder
++                          
+ ~~
+The token '&&' is not a 
+valid statement separator 
+in this version.
+At line:1 char:41
++ tsc -p 
+tsconfig.node.json && vite 
+build && electron-builder
++                          
+               ~~
+The token '&&' is not a 
+valid statement separator 
+in this version.
+    + CategoryInfo         
+     : ParserError: (:) [  
+  ], ParentContainsError   
+ RecordException
+    + FullyQualifiedErrorI 
+   d : InvalidEndOfLine
+ 

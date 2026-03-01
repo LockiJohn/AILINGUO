@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useUserStore } from '../../store/userStore'
+import { api } from '../../services/api'
 
 const LEVELS = [
     { code: 'A1', label: 'Principiante assoluto', desc: 'Non so nulla, parto da zero', icon: '🌱' },
@@ -21,8 +22,19 @@ export default function OnboardingScreen() {
         if (!name.trim() || !selectedLevel) return
         setIsLoading(true)
         try {
-            const user = await window.ailingo.createUser(name.trim(), selectedLevel)
+            const user = await api.createUser(name.trim(), selectedLevel)
             setUser(user)
+            navigate('/dashboard')
+        } finally {
+            setIsLoading(false)
+        }
+    }
+
+    const handleCreateDemo = async () => {
+        setIsLoading(true)
+        try {
+            const demoUser = await api.createDemoProfile()
+            setUser(demoUser)
             navigate('/dashboard')
         } finally {
             setIsLoading(false)
@@ -45,8 +57,16 @@ export default function OnboardingScreen() {
                             </div>
                         ))}
                     </div>
-                    <button className="btn btn-primary btn-lg btn-full" onClick={() => setStep('name')}>
+                    <button className="btn btn-primary btn-lg btn-full" onClick={() => setStep('name')} disabled={isLoading}>
                         Inizia il tuo percorso →
+                    </button>
+                    <button
+                        className="btn btn-outline btn-full mt-3"
+                        style={{ borderStyle: 'dashed', borderColor: 'var(--clr-primary-400)', marginTop: '12px' }}
+                        onClick={handleCreateDemo}
+                        disabled={isLoading}
+                    >
+                        🚀 {isLoading ? 'Generazione Database...' : 'Prova Profilo DEMO (Tutto sbloccato)'}
                     </button>
                 </div>
             </div>
@@ -60,16 +80,18 @@ export default function OnboardingScreen() {
                     <div style={{ fontSize: '3rem', marginBottom: 'var(--space-4)' }}>👋</div>
                     <h2 style={{ marginBottom: 'var(--space-2)' }}>Come ti chiami?</h2>
                     <p className="text-secondary" style={{ marginBottom: 'var(--space-6)' }}>Ti chiamerò così durante le lezioni</p>
-                    <input
-                        className="input"
-                        type="text"
-                        placeholder="Il tuo nome..."
-                        value={name}
-                        onChange={e => setName(e.target.value)}
-                        onKeyDown={e => e.key === 'Enter' && name.trim() && setStep('level')}
-                        autoFocus
-                        style={{ marginBottom: 'var(--space-4)', fontSize: 'var(--text-lg)', textAlign: 'center' }}
-                    />
+                    <div style={{ position: 'relative', maxWidth: 300, margin: '0 auto', marginBottom: 'var(--space-4)' }}>
+                        <input
+                            className="input"
+                            type="text"
+                            placeholder="Il tuo nome..."
+                            value={name}
+                            onChange={e => setName(e.target.value)}
+                            onKeyDown={e => e.key === 'Enter' && name.trim() && setStep('level')}
+                            autoFocus
+                            style={{ fontSize: 'var(--text-lg)', textAlign: 'center', width: '100%' }}
+                        />
+                    </div>
                     <button
                         className="btn btn-primary btn-lg btn-full"
                         onClick={() => setStep('level')}

@@ -5,10 +5,13 @@
   "main": "dist-electron/main.js",
   "scripts": {
     "dev": "concurrently -k \"npm run dev:vite\" \"npm run dev:electron\"",
+    "dev:server": "tsx server/index.ts",
     "dev:vite": "vite",
     "dev:electron": "wait-on http://localhost:5173 && tsc -p tsconfig.node.json && electron .",
     "build": "tsc -p tsconfig.node.json && vite build && electron-builder",
+    "build:server": "tsc --outDir dist-server server/index.ts",
     "build:vite": "vite build",
+    "start:server": "node dist-server/index.js",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -18,13 +21,18 @@
   "dependencies": {
     "@types/better-sqlite3": "^7.6.13",
     "better-sqlite3": "^12.6.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
     "drizzle-orm": "^0.30.6",
+    "express": "^5.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.22.3",
     "zustand": "^4.5.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
@@ -36,6 +44,7 @@
     "electron-builder": "^24.13.3",
     "electron-rebuild": "^3.2.9",
     "eslint": "^8.57.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.4.2",
     "vite": "^5.2.0",
     "vitest": "^1.4.0",
@@ -54,7 +63,8 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "assets/icon.ico"
+      "icon": "assets/icon.ico",
+      "signAndEditExecutable": false
     }
   }
 }

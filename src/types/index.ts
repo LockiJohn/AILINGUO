@@ -59,7 +59,7 @@ export interface Lesson {
 export interface Exercise {
     id: number
     lesson_id: number
-    type: 'multiple_choice' | 'translation_it_en' | 'translation_en_it' | 'word_order' | 'fill_blank' | 'listen_write' | 'speaking' | 'match_pairs'
+    type: 'multiple_choice' | 'translation_it_en' | 'translation_en_it' | 'word_order' | 'fill_blank' | 'listen_write' | 'speaking' | 'match_pairs' | 'free_dictation'
     prompt_en: string | null
     prompt_it: string | null
     audio_text: string | null
@@ -102,8 +102,12 @@ declare global {
             getUnitLessons: (unitId: number) => Promise<Lesson[]>
             getLesson: (lessonId: number) => Promise<Lesson>
             getLessonExercises: (lessonId: number) => Promise<Exercise[]>
+            getQuickSession: () => Promise<Exercise[]>
             getUser: () => Promise<User | null>
+            getAllUsers: () => Promise<User[]>
+            switchUser: (userId: number) => Promise<{ ok: boolean }>
             createUser: (name: string, level: string) => Promise<User>
+            createDemoProfile: () => Promise<User>
             getUserStats: () => Promise<UserStats>
             saveExerciseResult: (result: ExerciseResult) => Promise<{ ok: boolean }>
             completLesson: (lessonId: number, accuracy: number, xpEarned: number) => Promise<{ ok: boolean }>
@@ -111,6 +115,7 @@ declare global {
             updateReviewItem: (exerciseId: number, quality: number) => Promise<{ ok: boolean }>
             getBadges: () => Promise<Badge[]>
             getStudySessions: (days: number) => Promise<StudySession[]>
+            getWeakWords: () => Promise<Array<{ lapses: number, prompt_it: string, correct_answer: string }>>
             startSession: () => Promise<{ sessionId: number }>
             endSession: (sessionId: number, xpEarned: number, exerciseCount: number, accuracy: number) => Promise<{ ok: boolean }>
         }

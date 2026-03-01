@@ -1,0 +1,193 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id                  Int       @id @default(autoincrement())
+  email               String    @unique
+  passwordHash        String?
+  name                String
+  nativeLanguage      String    @default("it") @map("native_language")
+  targetLanguage      String    @default("en") @map("target_language")
+  currentLevel        String    @default("A1") @map("current_level")
+  onboardingComplete  Boolean   @default(false) @map("onboarding_complete")
+  createdAt           DateTime  @default(now()) @map("created_at")
+
+  stats               UserStats?
+  lessonProgresses    LessonProgress[]
+  exerciseResults     ExerciseResult[]
+  reviewQueueItems    ReviewQueue[]
+  userBadges          UserBadge[]
+  studySessions       StudySession[]
+
+  @@map("users")
+}
+
+model Level {
+  code          String  @id
+  nameIt        String  @map("name_it")
+  nameEn        String  @map("name_en")
+  descriptionIt String? @map("description_it")
+  sortOrder     Int     @map("sort_order")
+
+  units         Unit[]
+
+  @@map("levels")
+}
+
+model Unit {
+  id            Int     @id @default(autoincrement())
+  levelCode     String  @map("level_code")
+  sortOrder     Int     @map("sort_order")
+  titleEn       String  @map("title_en")
+  titleIt       String  @map("title_it")
+  descriptionIt String? @map("description_it")
+  icon          String  @default("📚")
+  isLocked      Boolean @default(true) @map("is_locked")
+
+  level         Level   @relation(fields: [levelCode], references: [code], onDelete: Cascade)
+  lessons       Lesson[]
+
+  @@map("units")
+}
+
+model Lesson {
+  id               Int     @id @default(autoincrement())
+  unitId           Int     @map("unit_id")
+  sortOrder        Int     @map("sort_order")
+  titleEn          String  @map("title_en")
+  titleIt          String  @map("title_it")
+  type             String  @default("vocabulary")
+  estimatedMinutes Int     @default(5) @map("estimated_minutes")
+
+  unit             Unit    @relation(fields: [unitId], references: [id], onDelete: Cascade)
+  exercises        Exercise[]
+  progresses       LessonProgress[]
+
+  @@map("lessons")
+}
+
+model Exercise {
+  id            Int     @id @default(autoincrement())
+  lessonId      Int     @map("lesson_id")
+  type          String
+  promptEn      String? @map("prompt_en")
+  promptIt      String? @map("prompt_it")
+  audioText     String? @map("audio_text")
+  optionsJson   String? @map("options_json") // Stored as JSON string
+  correctAnswer String  @map("correct_answer")
+  explanationIt String? @map("explanation_it")
+  grammarRule   String? @map("grammar_rule")
+  difficulty    Int     @default(1)
+
+  lesson        Lesson  @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  results       ExerciseResult[]
+  reviewQueue   ReviewQueue[]
+
+  @@map("exercises")
+}
+
+model LessonProgress {
+  id          Int      @id @default(autoincrement())
+  lessonId    Int      @map("lesson_id")
+  userId      Int      @map("user_id")
+  completedAt DateTime @default(now()) @map("completed_at")
+  accuracy    Float    @default(0)
+  xpEarned    Int      @default(0) @map("xp_earned")
+  attempts    Int      @default(1)
+
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("lesson_progress")
+}
+
+model ExerciseResult {
+  id             Int      @id @default(autoincrement())
+  exerciseId     Int      @map("exercise_id")
+  userId         Int      @map("user_id")
+  userAnswer     String?  @map("user_answer")
+  isCorrect      Boolean  @default(false) @map("is_correct")
+  responseTimeMs Int      @default(0) @map("response_time_ms")
+  seenAt         DateTime @default(now()) @map("seen_at")
+
+  exercise       Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("exercise_results")
+}
+
+model ReviewQueue {
+  id           Int      @id @default(autoincrement())
+  exerciseId   Int      @map("exercise_id")
+  userId       Int      @map("user_id")
+  nextReviewAt DateTime @default(now()) @map("next_review_at")
+  intervalDays Float    @default(1) @map("interval_days")
+  easeFactor   Float    @default(2.5) @map("ease_factor")
+  lapses       Int      @default(0)
+  repetitions  Int      @default(0)
+
+  exercise     Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([exerciseId, userId])
+  @@map("review_queue")
+}
+
+model UserStats {
+  userId        Int      @id @map("user_id")
+  totalXp       Int      @default(0) @map("total_xp")
+  currentStreak Int      @default(0) @map("current_streak")
+  longestStreak Int      @default(0) @map("longest_streak")
+  lastStudyDate String?  @map("last_study_date") // e.g. "2023-10-15"
+  userLevel     Int      @default(1) @map("user_level")
+
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_stats")
+}
+
+model Badge {
+  id            Int     @id @default(autoincrement())
+  code          String  @unique
+  nameIt        String  @map("name_it")
+  descriptionIt String? @map("description_it")
+  icon          String  @default("🏅")
+  xpRequired    Int     @default(0) @map("xp_required")
+  streakRequired Int     @default(0) @map("streak_required")
+
+  userBadges    UserBadge[]
+
+  @@map("badges")
+}
+
+model UserBadge {
+  userId   Int      @map("user_id")
+  badgeId  Int      @map("badge_id")
+  earnedAt DateTime @default(now()) @map("earned_at")
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badge    Badge    @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+
+  @@id([userId, badgeId])
+  @@map("user_badges")
+}
+
+model StudySession {
+  id            Int       @id @default(autoincrement())
+  userId        Int       @map("user_id")
+  startedAt     DateTime  @default(now()) @map("started_at")
+  endedAt       DateTime? @map("ended_at")
+  xpEarned      Int       @default(0) @map("xp_earned")
+  exerciseCount Int       @default(0) @map("exercise_count")
+  accuracy      Float     @default(0)
+
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("study_sessions")
+}

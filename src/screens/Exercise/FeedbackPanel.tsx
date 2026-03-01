@@ -1,4 +1,4 @@
-import type { Exercise } from '../../types'
+import Confetti from '../../components/ui/Confetti'
 
 interface Props {
     isCorrect: boolean
@@ -12,7 +12,8 @@ interface Props {
 
 export default function FeedbackPanel({ isCorrect, correctAnswer, userAnswer, explanation, grammarRule, onNext, speaking }: Props) {
     return (
-        <div className={`animate-slide-up ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`}>
+        <div className={`animate-slide-up ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`} style={{ position: 'relative' }}>
+            {isCorrect && <Confetti />}
             <div className="flex flex-between" style={{ marginBottom: 'var(--space-3)' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
                     <span style={{ fontSize: '1.25rem' }}>{isCorrect ? '✅' : '❌'}</span>

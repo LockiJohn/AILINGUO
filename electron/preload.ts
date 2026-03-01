@@ -8,11 +8,16 @@ contextBridge.exposeInMainWorld('ailingo', {
     getUnitLessons: (unitId: number) => ipcRenderer.invoke('get-unit-lessons', unitId),
     getLesson: (lessonId: number) => ipcRenderer.invoke('get-lesson', lessonId),
     getLessonExercises: (lessonId: number) => ipcRenderer.invoke('get-lesson-exercises', lessonId),
+    getQuickSession: () => ipcRenderer.invoke('get-quick-session'),
 
 
     // Progress
+    // Progress
     getUser: () => ipcRenderer.invoke('get-user'),
+    getAllUsers: () => ipcRenderer.invoke('get-all-users'),
+    switchUser: (userId: number) => ipcRenderer.invoke('switch-user', userId),
     createUser: (name: string, level: string) => ipcRenderer.invoke('create-user', name, level),
+    createDemoProfile: () => ipcRenderer.invoke('create-demo-profile'),
     getUserStats: () => ipcRenderer.invoke('get-user-stats'),
     saveExerciseResult: (result: ExerciseResult) => ipcRenderer.invoke('save-exercise-result', result),
     completLesson: (lessonId: number, accuracy: number, xpEarned: number) =>
@@ -22,6 +27,7 @@ contextBridge.exposeInMainWorld('ailingo', {
     getReviewQueue: () => ipcRenderer.invoke('get-review-queue'),
     updateReviewItem: (exerciseId: number, quality: number) =>
         ipcRenderer.invoke('update-review-item', exerciseId, quality),
+    getWeakWords: () => ipcRenderer.invoke('get-weak-words'),
 
     // Gamification
     getBadges: () => ipcRenderer.invoke('get-badges'),

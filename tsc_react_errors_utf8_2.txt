@@ -1,0 +1,4 @@
+﻿src/screens/CourseMap/CourseMapScreen.tsx(11,12): error TS6133: 'lessons' is declared but its value is never read.
+src/screens/CourseMap/CourseMapScreen.tsx(11,21): error TS6133: 'setLessons' is declared but its value is never read.
+src/screens/Exercise/ExerciseScreen.tsx(15,53): error TS6133: 'results' is declared but its value is never read.
+src/screens/Exercise/types/SpeakingExercise.tsx(26,35): error TS2304: Cannot find name 'SpeechRecognition'.

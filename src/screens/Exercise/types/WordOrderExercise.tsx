@@ -28,7 +28,6 @@ export default function WordOrderExercise({ exercise, onAnswer, onNext }: Props)
     const removeWord = (selIdx: number) => {
         if (answered) return
         const word = selected[selIdx]
-        const origIdx = shuffled.findIndex((w, i) => w === word && used[i])
         setSelected(prev => prev.filter((_, i) => i !== selIdx))
         setUsed(prev => {
             const n = [...prev]

@@ -37,4 +37,8 @@ export function registerLessonHandlers(ipcMain: IpcMain, db: Database.Database):
     ipcMain.handle('get-lesson-exercises', (_event, lessonId: number) => {
         return db.prepare('SELECT * FROM exercises WHERE lesson_id = ? ORDER BY RANDOM()').all(lessonId)
     })
+
+    ipcMain.handle('get-quick-session', () => {
+        return db.prepare('SELECT * FROM exercises ORDER BY RANDOM() LIMIT 10').all()
+    })
 }

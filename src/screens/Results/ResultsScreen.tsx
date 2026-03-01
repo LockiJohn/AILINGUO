@@ -40,7 +40,6 @@ export default function ResultsScreen() {
     }
 
     const handleReview = () => {
-        const wrongExercises = results.filter(r => !r.isCorrect).map(r => r.exercise)
         reset()
         navigate('/review')
     }
