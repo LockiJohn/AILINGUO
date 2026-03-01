@@ -1,6 +1,8 @@
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
+import helmet from 'helmet'
+import rateLimit from 'express-rate-limit'
 import { initDatabase } from '../electron/db/database'
 
 // Initialize environment variables
@@ -10,8 +12,17 @@ const app = express()
 const PORT = process.env.PORT || 3000
 
 // Middleware
+app.use(helmet())
 app.use(cors())
 app.use(express.json())
+
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 200, // Limit each IP to 200 requests per window
+    standardHeaders: true,
+    legacyHeaders: false,
+})
+app.use(limiter)
 
 // Initialize the database
 const db = initDatabase()
