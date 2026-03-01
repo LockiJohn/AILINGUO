@@ -1,0 +1,536 @@
+{
+  "levelCode": "C1",
+  "order": 5,
+  "title_en": "Unit 5: C1 Mastery",
+  "title_it": "Unità 5: Padronanza C1",
+  "description_it": "Migliora le tue competenze di livello C1 con questa unità immersiva.",
+  "icon": "🌍",
+  "lessons": [
+    {
+      "order": 1,
+      "title_en": "Vocabulary Practice 1",
+      "title_it": "Esercizio di Vocabolario 1",
+      "type": "vocabulary",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: mitigate",
+          "correct_answer": "mitigate"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (paradigm)",
+          "correct_answer": "paradigm"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"quintessential\"?",
+          "options": [
+            "quintessential",
+            "wrong",
+            "quintessentials",
+            "other"
+          ],
+          "correct_answer": "quintessential",
+          "explanation_it": "La traduzione corretta è quintessential."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: sycophant",
+          "correct_answer": "sycophant"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (zealous)",
+          "correct_answer": "zealous"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"ephemeral\"?",
+          "options": [
+            "other",
+            "wrong",
+            "ephemerals",
+            "ephemeral"
+          ],
+          "correct_answer": "ephemeral",
+          "explanation_it": "La traduzione corretta è ephemeral."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: idiosyncrasy",
+          "correct_answer": "idiosyncrasy"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (mitigate)",
+          "correct_answer": "mitigate"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title_en": "Listening Practice 2",
+      "title_it": "Esercizio di Ascolto 2",
+      "type": "listening",
+      "estimated_minutes": 8,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is mitigate.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "mitigate"
+          ],
+          "correct_answer": "mitigate"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is paradigm.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "paradigm",
+            "word",
+            "work"
+          ],
+          "correct_answer": "paradigm"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is quintessential.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "quintessential"
+          ],
+          "correct_answer": "quintessential"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is sycophant.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "sycophant",
+            "world",
+            "work",
+            "word"
+          ],
+          "correct_answer": "sycophant"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is zealous.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "zealous",
+            "word",
+            "world",
+            "work"
+          ],
+          "correct_answer": "zealous"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is ephemeral.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "ephemeral",
+            "word",
+            "world",
+            "work"
+          ],
+          "correct_answer": "ephemeral"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is idiosyncrasy.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "idiosyncrasy",
+            "world",
+            "work",
+            "word"
+          ],
+          "correct_answer": "idiosyncrasy"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is mitigate.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "mitigate",
+            "word",
+            "world",
+            "work"
+          ],
+          "correct_answer": "mitigate"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title_en": "Grammar Practice 3",
+      "title_it": "Esercizio di Grammatica 3",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: mitigate",
+          "correct_answer": "mitigate",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (paradigm)",
+          "correct_answer": "paradigm",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"quintessential\"?",
+          "options": [
+            "other",
+            "quintessential",
+            "quintessentials",
+            "wrong"
+          ],
+          "correct_answer": "quintessential",
+          "explanation_it": "La traduzione corretta è quintessential.",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: sycophant",
+          "correct_answer": "sycophant",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (zealous)",
+          "correct_answer": "zealous",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"ephemeral\"?",
+          "options": [
+            "other",
+            "wrong",
+            "ephemerals",
+            "ephemeral"
+          ],
+          "correct_answer": "ephemeral",
+          "explanation_it": "La traduzione corretta è ephemeral.",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: idiosyncrasy",
+          "correct_answer": "idiosyncrasy",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (mitigate)",
+          "correct_answer": "mitigate",
+          "grammar_rule": "Advanced Participle Clauses"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title_en": "Listening Practice 4",
+      "title_it": "Esercizio di Ascolto 4",
+      "type": "listening",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is mitigate.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "mitigate",
+            "world"
+          ],
+          "correct_answer": "mitigate"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is paradigm.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "paradigm"
+          ],
+          "correct_answer": "paradigm"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is quintessential.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "quintessential",
+            "word",
+            "work"
+          ],
+          "correct_answer": "quintessential"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is sycophant.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "sycophant"
+          ],
+          "correct_answer": "sycophant"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is zealous.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "zealous",
+            "word",
+            "world",
+            "work"
+          ],
+          "correct_answer": "zealous"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is ephemeral.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "ephemeral"
+          ],
+          "correct_answer": "ephemeral"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is idiosyncrasy.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "idiosyncrasy"
+          ],
+          "correct_answer": "idiosyncrasy"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is mitigate.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "work",
+            "world",
+            "mitigate",
+            "word"
+          ],
+          "correct_answer": "mitigate"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title_en": "Vocabulary Practice 5",
+      "title_it": "Esercizio di Vocabolario 5",
+      "type": "vocabulary",
+      "estimated_minutes": 8,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: mitigate",
+          "correct_answer": "mitigate"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (paradigm)",
+          "correct_answer": "paradigm"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"quintessential\"?",
+          "options": [
+            "wrong",
+            "other",
+            "quintessentials",
+            "quintessential"
+          ],
+          "correct_answer": "quintessential",
+          "explanation_it": "La traduzione corretta è quintessential."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: sycophant",
+          "correct_answer": "sycophant"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (zealous)",
+          "correct_answer": "zealous"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"ephemeral\"?",
+          "options": [
+            "ephemeral",
+            "ephemerals",
+            "wrong",
+            "other"
+          ],
+          "correct_answer": "ephemeral",
+          "explanation_it": "La traduzione corretta è ephemeral."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: idiosyncrasy",
+          "correct_answer": "idiosyncrasy"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (mitigate)",
+          "correct_answer": "mitigate"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title_en": "Grammar Practice 6",
+      "title_it": "Esercizio di Grammatica 6",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: mitigate",
+          "correct_answer": "mitigate",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (paradigm)",
+          "correct_answer": "paradigm",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"quintessential\"?",
+          "options": [
+            "other",
+            "wrong",
+            "quintessentials",
+            "quintessential"
+          ],
+          "correct_answer": "quintessential",
+          "explanation_it": "La traduzione corretta è quintessential.",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: sycophant",
+          "correct_answer": "sycophant",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (zealous)",
+          "correct_answer": "zealous",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"ephemeral\"?",
+          "options": [
+            "ephemeral",
+            "ephemerals",
+            "wrong",
+            "other"
+          ],
+          "correct_answer": "ephemeral",
+          "explanation_it": "La traduzione corretta è ephemeral.",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: idiosyncrasy",
+          "correct_answer": "idiosyncrasy",
+          "grammar_rule": "Advanced Participle Clauses"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (mitigate)",
+          "correct_answer": "mitigate",
+          "grammar_rule": "Advanced Participle Clauses"
+        }
+      ]
+    }
+  ]
+}

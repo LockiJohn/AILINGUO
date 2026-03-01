@@ -1,0 +1,536 @@
+{
+  "levelCode": "B1",
+  "order": 3,
+  "title_en": "Unit 3: B1 Mastery",
+  "title_it": "Unità 3: Padronanza B1",
+  "description_it": "Migliora le tue competenze di livello B1 con questa unità immersiva.",
+  "icon": "💡",
+  "lessons": [
+    {
+      "order": 1,
+      "title_en": "Vocabulary Practice 1",
+      "title_it": "Esercizio di Vocabolario 1",
+      "type": "vocabulary",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: advantage",
+          "correct_answer": "advantage"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (achieve)",
+          "correct_answer": "achieve"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"challenge\"?",
+          "options": [
+            "challenges",
+            "challenge",
+            "wrong",
+            "other"
+          ],
+          "correct_answer": "challenge",
+          "explanation_it": "La traduzione corretta è challenge."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: economy",
+          "correct_answer": "economy"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (improve)",
+          "correct_answer": "improve"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"knowledge\"?",
+          "options": [
+            "knowledges",
+            "wrong",
+            "knowledge",
+            "other"
+          ],
+          "correct_answer": "knowledge",
+          "explanation_it": "La traduzione corretta è knowledge."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: realize",
+          "correct_answer": "realize"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (success)",
+          "correct_answer": "success"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title_en": "Listening Practice 2",
+      "title_it": "Esercizio di Ascolto 2",
+      "type": "listening",
+      "estimated_minutes": 8,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is advantage.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "advantage",
+            "work",
+            "word",
+            "world"
+          ],
+          "correct_answer": "advantage"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is achieve.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "achieve",
+            "world",
+            "work",
+            "word"
+          ],
+          "correct_answer": "achieve"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is challenge.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "work",
+            "world",
+            "word",
+            "challenge"
+          ],
+          "correct_answer": "challenge"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is economy.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "world",
+            "work",
+            "economy"
+          ],
+          "correct_answer": "economy"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is improve.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "improve",
+            "work",
+            "word"
+          ],
+          "correct_answer": "improve"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is knowledge.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "knowledge",
+            "world",
+            "work"
+          ],
+          "correct_answer": "knowledge"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is realize.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "realize"
+          ],
+          "correct_answer": "realize"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is success.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "success",
+            "work",
+            "world"
+          ],
+          "correct_answer": "success"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title_en": "Grammar Practice 3",
+      "title_it": "Esercizio di Grammatica 3",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: advantage",
+          "correct_answer": "advantage",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (achieve)",
+          "correct_answer": "achieve",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"challenge\"?",
+          "options": [
+            "wrong",
+            "other",
+            "challenges",
+            "challenge"
+          ],
+          "correct_answer": "challenge",
+          "explanation_it": "La traduzione corretta è challenge.",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: economy",
+          "correct_answer": "economy",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (improve)",
+          "correct_answer": "improve",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"knowledge\"?",
+          "options": [
+            "wrong",
+            "other",
+            "knowledge",
+            "knowledges"
+          ],
+          "correct_answer": "knowledge",
+          "explanation_it": "La traduzione corretta è knowledge.",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: realize",
+          "correct_answer": "realize",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (success)",
+          "correct_answer": "success",
+          "grammar_rule": "Present Perfect"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title_en": "Listening Practice 4",
+      "title_it": "Esercizio di Ascolto 4",
+      "type": "listening",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is advantage.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "work",
+            "world",
+            "word",
+            "advantage"
+          ],
+          "correct_answer": "advantage"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is achieve.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "achieve",
+            "world",
+            "work",
+            "word"
+          ],
+          "correct_answer": "achieve"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is challenge.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "word",
+            "challenge",
+            "work"
+          ],
+          "correct_answer": "challenge"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is economy.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "economy",
+            "world",
+            "work",
+            "word"
+          ],
+          "correct_answer": "economy"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is improve.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "improve"
+          ],
+          "correct_answer": "improve"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is knowledge.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "knowledge"
+          ],
+          "correct_answer": "knowledge"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is realize.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "world",
+            "realize",
+            "work"
+          ],
+          "correct_answer": "realize"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is success.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "success"
+          ],
+          "correct_answer": "success"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title_en": "Vocabulary Practice 5",
+      "title_it": "Esercizio di Vocabolario 5",
+      "type": "vocabulary",
+      "estimated_minutes": 8,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: advantage",
+          "correct_answer": "advantage"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (achieve)",
+          "correct_answer": "achieve"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"challenge\"?",
+          "options": [
+            "challenges",
+            "challenge",
+            "other",
+            "wrong"
+          ],
+          "correct_answer": "challenge",
+          "explanation_it": "La traduzione corretta è challenge."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: economy",
+          "correct_answer": "economy"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (improve)",
+          "correct_answer": "improve"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"knowledge\"?",
+          "options": [
+            "wrong",
+            "knowledges",
+            "knowledge",
+            "other"
+          ],
+          "correct_answer": "knowledge",
+          "explanation_it": "La traduzione corretta è knowledge."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: realize",
+          "correct_answer": "realize"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (success)",
+          "correct_answer": "success"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title_en": "Grammar Practice 6",
+      "title_it": "Esercizio di Grammatica 6",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: advantage",
+          "correct_answer": "advantage",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (achieve)",
+          "correct_answer": "achieve",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"challenge\"?",
+          "options": [
+            "challenge",
+            "challenges",
+            "wrong",
+            "other"
+          ],
+          "correct_answer": "challenge",
+          "explanation_it": "La traduzione corretta è challenge.",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: economy",
+          "correct_answer": "economy",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (improve)",
+          "correct_answer": "improve",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"knowledge\"?",
+          "options": [
+            "other",
+            "knowledges",
+            "wrong",
+            "knowledge"
+          ],
+          "correct_answer": "knowledge",
+          "explanation_it": "La traduzione corretta è knowledge.",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: realize",
+          "correct_answer": "realize",
+          "grammar_rule": "Present Perfect"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (success)",
+          "correct_answer": "success",
+          "grammar_rule": "Present Perfect"
+        }
+      ]
+    }
+  ]
+}

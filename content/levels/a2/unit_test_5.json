@@ -1,0 +1,536 @@
+{
+  "levelCode": "A2",
+  "order": 5,
+  "title_en": "Unit 5: A2 Mastery",
+  "title_it": "Unità 5: Padronanza A2",
+  "description_it": "Migliora le tue competenze di livello A2 con questa unità immersiva.",
+  "icon": "🌍",
+  "lessons": [
+    {
+      "order": 1,
+      "title_en": "Vocabulary Practice 1",
+      "title_it": "Esercizio di Vocabolario 1",
+      "type": "vocabulary",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: weather",
+          "correct_answer": "weather"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (ticket)",
+          "correct_answer": "ticket"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"tomorrow\"?",
+          "options": [
+            "tomorrow",
+            "tomorrows",
+            "wrong",
+            "other"
+          ],
+          "correct_answer": "tomorrow",
+          "explanation_it": "La traduzione corretta è tomorrow."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: always",
+          "correct_answer": "always"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (kitchen)",
+          "correct_answer": "kitchen"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"river\"?",
+          "options": [
+            "wrong",
+            "other",
+            "rivers",
+            "river"
+          ],
+          "correct_answer": "river",
+          "explanation_it": "La traduzione corretta è river."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: mountain",
+          "correct_answer": "mountain"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (buy)",
+          "correct_answer": "buy"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title_en": "Listening Practice 2",
+      "title_it": "Esercizio di Ascolto 2",
+      "type": "listening",
+      "estimated_minutes": 8,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is weather.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "weather",
+            "world",
+            "work"
+          ],
+          "correct_answer": "weather"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is ticket.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "world",
+            "work",
+            "ticket"
+          ],
+          "correct_answer": "ticket"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is tomorrow.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "tomorrow"
+          ],
+          "correct_answer": "tomorrow"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is always.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "work",
+            "world",
+            "word",
+            "always"
+          ],
+          "correct_answer": "always"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is kitchen.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "word",
+            "kitchen",
+            "work"
+          ],
+          "correct_answer": "kitchen"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is river.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "river"
+          ],
+          "correct_answer": "river"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is mountain.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "mountain",
+            "word",
+            "world",
+            "work"
+          ],
+          "correct_answer": "mountain"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is buy.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "buy",
+            "world",
+            "work",
+            "word"
+          ],
+          "correct_answer": "buy"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title_en": "Grammar Practice 3",
+      "title_it": "Esercizio di Grammatica 3",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: weather",
+          "correct_answer": "weather",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (ticket)",
+          "correct_answer": "ticket",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"tomorrow\"?",
+          "options": [
+            "other",
+            "wrong",
+            "tomorrows",
+            "tomorrow"
+          ],
+          "correct_answer": "tomorrow",
+          "explanation_it": "La traduzione corretta è tomorrow.",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: always",
+          "correct_answer": "always",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (kitchen)",
+          "correct_answer": "kitchen",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"river\"?",
+          "options": [
+            "wrong",
+            "other",
+            "rivers",
+            "river"
+          ],
+          "correct_answer": "river",
+          "explanation_it": "La traduzione corretta è river.",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: mountain",
+          "correct_answer": "mountain",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (buy)",
+          "correct_answer": "buy",
+          "grammar_rule": "Comparatives"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title_en": "Listening Practice 4",
+      "title_it": "Esercizio di Ascolto 4",
+      "type": "listening",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is weather.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "weather",
+            "world",
+            "work"
+          ],
+          "correct_answer": "weather"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is ticket.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "world",
+            "ticket",
+            "work"
+          ],
+          "correct_answer": "ticket"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is tomorrow.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "tomorrow",
+            "world",
+            "word",
+            "work"
+          ],
+          "correct_answer": "tomorrow"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is always.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "always"
+          ],
+          "correct_answer": "always"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is kitchen.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "word",
+            "work",
+            "kitchen"
+          ],
+          "correct_answer": "kitchen"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is river.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "work",
+            "river",
+            "word"
+          ],
+          "correct_answer": "river"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is mountain.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "word",
+            "mountain",
+            "work"
+          ],
+          "correct_answer": "mountain"
+        },
+        {
+          "type": "listening",
+          "difficulty": 3,
+          "audio_text": "The word is buy.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "work",
+            "buy",
+            "word"
+          ],
+          "correct_answer": "buy"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title_en": "Vocabulary Practice 5",
+      "title_it": "Esercizio di Vocabolario 5",
+      "type": "vocabulary",
+      "estimated_minutes": 8,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: weather",
+          "correct_answer": "weather"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (ticket)",
+          "correct_answer": "ticket"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"tomorrow\"?",
+          "options": [
+            "tomorrow",
+            "tomorrows",
+            "wrong",
+            "other"
+          ],
+          "correct_answer": "tomorrow",
+          "explanation_it": "La traduzione corretta è tomorrow."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: always",
+          "correct_answer": "always"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (kitchen)",
+          "correct_answer": "kitchen"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"river\"?",
+          "options": [
+            "river",
+            "wrong",
+            "other",
+            "rivers"
+          ],
+          "correct_answer": "river",
+          "explanation_it": "La traduzione corretta è river."
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: mountain",
+          "correct_answer": "mountain"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (buy)",
+          "correct_answer": "buy"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title_en": "Grammar Practice 6",
+      "title_it": "Esercizio di Grammatica 6",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: weather",
+          "correct_answer": "weather",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (ticket)",
+          "correct_answer": "ticket",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"tomorrow\"?",
+          "options": [
+            "tomorrow",
+            "other",
+            "tomorrows",
+            "wrong"
+          ],
+          "correct_answer": "tomorrow",
+          "explanation_it": "La traduzione corretta è tomorrow.",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: always",
+          "correct_answer": "always",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (kitchen)",
+          "correct_answer": "kitchen",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 3,
+          "prompt_it": "Come si traduce \"river\"?",
+          "options": [
+            "river",
+            "rivers",
+            "wrong",
+            "other"
+          ],
+          "correct_answer": "river",
+          "explanation_it": "La traduzione corretta è river.",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "translation",
+          "difficulty": 3,
+          "prompt_it": "Scrivi la parola: mountain",
+          "correct_answer": "mountain",
+          "grammar_rule": "Comparatives"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 3,
+          "prompt_en": "The ___ is on the table. (buy)",
+          "correct_answer": "buy",
+          "grammar_rule": "Comparatives"
+        }
+      ]
+    }
+  ]
+}

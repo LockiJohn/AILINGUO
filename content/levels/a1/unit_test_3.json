@@ -1,0 +1,536 @@
+{
+  "levelCode": "A1",
+  "order": 3,
+  "title_en": "Unit 3: A1 Mastery",
+  "title_it": "Unità 3: Padronanza A1",
+  "description_it": "Migliora le tue competenze di livello A1 con questa unità immersiva.",
+  "icon": "💡",
+  "lessons": [
+    {
+      "order": 1,
+      "title_en": "Vocabulary Practice 1",
+      "title_it": "Esercizio di Vocabolario 1",
+      "type": "vocabulary",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: book",
+          "correct_answer": "book"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (car)",
+          "correct_answer": "car"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"dog\"?",
+          "options": [
+            "dog",
+            "dogs",
+            "wrong",
+            "other"
+          ],
+          "correct_answer": "dog",
+          "explanation_it": "La traduzione corretta è dog."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: house",
+          "correct_answer": "house"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (water)",
+          "correct_answer": "water"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"sun\"?",
+          "options": [
+            "other",
+            "sun",
+            "suns",
+            "wrong"
+          ],
+          "correct_answer": "sun",
+          "explanation_it": "La traduzione corretta è sun."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: happy",
+          "correct_answer": "happy"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (run)",
+          "correct_answer": "run"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title_en": "Listening Practice 2",
+      "title_it": "Esercizio di Ascolto 2",
+      "type": "listening",
+      "estimated_minutes": 8,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is book.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "book",
+            "world",
+            "work",
+            "word"
+          ],
+          "correct_answer": "book"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is car.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "car"
+          ],
+          "correct_answer": "car"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is dog.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "dog",
+            "world",
+            "word",
+            "work"
+          ],
+          "correct_answer": "dog"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is house.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "house",
+            "world",
+            "word",
+            "work"
+          ],
+          "correct_answer": "house"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is water.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "work",
+            "water",
+            "word"
+          ],
+          "correct_answer": "water"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is sun.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "work",
+            "sun",
+            "world",
+            "word"
+          ],
+          "correct_answer": "sun"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is happy.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "happy",
+            "world"
+          ],
+          "correct_answer": "happy"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is run.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "work",
+            "word",
+            "world",
+            "run"
+          ],
+          "correct_answer": "run"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title_en": "Grammar Practice 3",
+      "title_it": "Esercizio di Grammatica 3",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: book",
+          "correct_answer": "book",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (car)",
+          "correct_answer": "car",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"dog\"?",
+          "options": [
+            "other",
+            "dog",
+            "dogs",
+            "wrong"
+          ],
+          "correct_answer": "dog",
+          "explanation_it": "La traduzione corretta è dog.",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: house",
+          "correct_answer": "house",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (water)",
+          "correct_answer": "water",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"sun\"?",
+          "options": [
+            "suns",
+            "sun",
+            "other",
+            "wrong"
+          ],
+          "correct_answer": "sun",
+          "explanation_it": "La traduzione corretta è sun.",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: happy",
+          "correct_answer": "happy",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (run)",
+          "correct_answer": "run",
+          "grammar_rule": "Present Simple"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title_en": "Listening Practice 4",
+      "title_it": "Esercizio di Ascolto 4",
+      "type": "listening",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is book.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "book",
+            "word",
+            "world",
+            "work"
+          ],
+          "correct_answer": "book"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is car.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "car",
+            "word",
+            "world",
+            "work"
+          ],
+          "correct_answer": "car"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is dog.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "world",
+            "work",
+            "dog",
+            "word"
+          ],
+          "correct_answer": "dog"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is house.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "house"
+          ],
+          "correct_answer": "house"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is water.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "work",
+            "world",
+            "water"
+          ],
+          "correct_answer": "water"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is sun.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "sun",
+            "world",
+            "word",
+            "work"
+          ],
+          "correct_answer": "sun"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is happy.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "work",
+            "word",
+            "happy",
+            "world"
+          ],
+          "correct_answer": "happy"
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The word is run.",
+          "prompt_it": "Cosa hai sentito?",
+          "options": [
+            "word",
+            "run",
+            "world",
+            "work"
+          ],
+          "correct_answer": "run"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title_en": "Vocabulary Practice 5",
+      "title_it": "Esercizio di Vocabolario 5",
+      "type": "vocabulary",
+      "estimated_minutes": 8,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: book",
+          "correct_answer": "book"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (car)",
+          "correct_answer": "car"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"dog\"?",
+          "options": [
+            "other",
+            "wrong",
+            "dog",
+            "dogs"
+          ],
+          "correct_answer": "dog",
+          "explanation_it": "La traduzione corretta è dog."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: house",
+          "correct_answer": "house"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (water)",
+          "correct_answer": "water"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"sun\"?",
+          "options": [
+            "wrong",
+            "sun",
+            "other",
+            "suns"
+          ],
+          "correct_answer": "sun",
+          "explanation_it": "La traduzione corretta è sun."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: happy",
+          "correct_answer": "happy"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (run)",
+          "correct_answer": "run"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title_en": "Grammar Practice 6",
+      "title_it": "Esercizio di Grammatica 6",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: book",
+          "correct_answer": "book",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (car)",
+          "correct_answer": "car",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"dog\"?",
+          "options": [
+            "dog",
+            "dogs",
+            "wrong",
+            "other"
+          ],
+          "correct_answer": "dog",
+          "explanation_it": "La traduzione corretta è dog.",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: house",
+          "correct_answer": "house",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (water)",
+          "correct_answer": "water",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Come si traduce \"sun\"?",
+          "options": [
+            "wrong",
+            "sun",
+            "suns",
+            "other"
+          ],
+          "correct_answer": "sun",
+          "explanation_it": "La traduzione corretta è sun.",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Scrivi la parola: happy",
+          "correct_answer": "happy",
+          "grammar_rule": "Present Simple"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "The ___ is on the table. (run)",
+          "correct_answer": "run",
+          "grammar_rule": "Present Simple"
+        }
+      ]
+    }
+  ]
+}
