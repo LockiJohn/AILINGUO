@@ -1,7 +1,6 @@
 import Database from 'better-sqlite3'
 import { join } from 'path'
 import { readFileSync, existsSync, readdirSync } from 'fs'
-import { app } from 'electron'
 
 interface ContentUnit {
     levelCode: string; order: number; title_en: string; title_it: string
@@ -19,7 +18,6 @@ interface ContentExercise {
 
 export function loadUnitsForLevel(db: Database.Database, levelCode: string): void {
     const possiblePaths = [
-        join(app.getAppPath(), 'content', 'levels', levelCode.toLowerCase()),
         join(process.cwd(), 'content', 'levels', levelCode.toLowerCase()),
     ]
     let contentDir = ''
