@@ -3,77 +3,95 @@
   "order": 2,
   "title_en": "Unit 2: C1 Mastery",
   "title_it": "Unità 2: Padronanza C1",
-  "description_it": "Migliora le tue competenze di livello C1 con questa unità immersiva.",
+  "description_it": "Migliora le tue competenze di livello C1 con frasi complete ed esempi d'uso quotidiano.",
   "icon": "🚀",
   "lessons": [
     {
       "order": 1,
       "title_en": "Vocabulary Practice 1",
-      "title_it": "Esercizio di Vocabolario 1",
+      "title_it": "Esercizio di Fraseologia 1",
       "type": "vocabulary",
       "estimated_minutes": 5,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: mitigare",
-          "correct_answer": "mitigate"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Raramente ho visto un tramonto così bello.\"",
+          "correct_answer": "Seldom have I seen such a beautiful sunset."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'paradigma' is ___.",
-          "correct_answer": "paradigm"
+          "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
+          "correct_answer": "Having finished",
+          "options": [
+            "Having finished",
+            "Finished",
+            "Finishing",
+            "Have finished"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 1,
-          "prompt_it": "Come si traduce \"quintessenziale\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
           "options": [
-            "mitigate",
-            "idiosyncrasy",
-            "paradigm",
-            "quintessential"
+            "It is optional that you attend the meeting.",
+            "It is quintessential that you attend the meeting.",
+            "It is trivial that you attend the meeting.",
+            "It is unnecessary that you attend the meeting."
           ],
-          "correct_answer": "quintessential",
-          "explanation_it": "La traduzione corretta è \"quintessential\"."
+          "correct_answer": "It is quintessential that you attend the meeting.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\"."
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: adulatore",
-          "correct_answer": "sycophant"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Mitiga i rischi pianificando in anticipo.\"",
+          "correct_answer": "He mitigates the risks by planning ahead."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'zelante' is ___.",
-          "correct_answer": "zealous"
+          "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
+          "correct_answer": "But for",
+          "options": [
+            "Unless",
+            "Without",
+            "Except",
+            "But for"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 1,
-          "prompt_it": "Come si traduce \"effimero\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
           "options": [
-            "paradigm",
-            "ephemeral",
-            "idiosyncrasy",
-            "mitigate"
+            "Not only is she smart, but she is also hardworking.",
+            "Not only was she smart, but she is also hardworking.",
+            "Not only she was smart, but she is also hardworking.",
+            "Not only she is smart, but she is also hardworking."
           ],
-          "correct_answer": "ephemeral",
-          "explanation_it": "La traduzione corretta è \"ephemeral\"."
+          "correct_answer": "Not only is she smart, but she is also hardworking.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\"."
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: idiosincrasia",
-          "correct_answer": "idiosyncrasy"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non appena sono arrivato, ha iniziato a diluviare.\"",
+          "correct_answer": "No sooner had I arrived than it started pouring."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'mitigare' is ___.",
-          "correct_answer": "mitigate"
+          "prompt_en": "L'italiano è: Se mi fossi reso conto del pericolo, non sarei andato.. Completa la frase in inglese: ___ I realized the danger, I wouldn't have gone.",
+          "correct_answer": "Had",
+          "options": [
+            "Were",
+            "Should",
+            "If",
+            "Had"
+          ]
         }
       ]
     },
@@ -87,106 +105,98 @@
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "mitigate",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Seldom have I seen such a beautiful sunset.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "idiosyncrasy",
-            "quintessential",
-            "mitigate",
-            "paradigm"
+            "Seldom I have seen such a beautiful sunset.",
+            "Seldom have I seen such a beautiful sunset.",
+            "Seldom did I see such a beautiful sunset."
           ],
-          "correct_answer": "mitigate"
+          "correct_answer": "Seldom have I seen such a beautiful sunset."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "paradigm",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Having finished his work, he went home.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "mitigate",
-            "idiosyncrasy",
-            "quintessential",
-            "paradigm"
+            "Having finished his work, he went home.",
+            "Finished his work, he went home.",
+            "Finishing his work, he went home."
           ],
-          "correct_answer": "paradigm"
+          "correct_answer": "Having finished his work, he went home."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "quintessential",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "It is quintessential that you attend the meeting.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "mitigate",
-            "idiosyncrasy",
-            "quintessential",
-            "paradigm"
+            "It is quintessential that you attend the meeting.",
+            "It is optional that you attend the meeting.",
+            "It is trivial that you attend the meeting."
           ],
-          "correct_answer": "quintessential"
+          "correct_answer": "It is quintessential that you attend the meeting."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "sycophant",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "He mitigates the risks by planning ahead.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "sycophant",
-            "idiosyncrasy",
-            "mitigate",
-            "paradigm"
+            "He ignores the risks by planning ahead.",
+            "He aggravates the risks by planning ahead.",
+            "He mitigates the risks by planning ahead."
           ],
-          "correct_answer": "sycophant"
+          "correct_answer": "He mitigates the risks by planning ahead."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "zealous",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "But for your help, I would have failed.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "paradigm",
-            "mitigate",
-            "idiosyncrasy",
-            "zealous"
+            "Without your help, I would have failed.",
+            "But for your help, I would have failed.",
+            "Except your help, I would have failed."
           ],
-          "correct_answer": "zealous"
+          "correct_answer": "But for your help, I would have failed."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "ephemeral",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Not only is she smart, but she is also hardworking.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "mitigate",
-            "idiosyncrasy",
-            "ephemeral",
-            "paradigm"
+            "Not only is she smart, but she is also hardworking.",
+            "Not only she is smart, but she is also hardworking.",
+            "Not only she was smart, but she is also hardworking."
           ],
-          "correct_answer": "ephemeral"
+          "correct_answer": "Not only is she smart, but she is also hardworking."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "idiosyncrasy",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "No sooner had I arrived than it started pouring.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "paradigm",
-            "mitigate",
-            "quintessential",
-            "idiosyncrasy"
+            "No sooner had I arrived than it started pouring.",
+            "No sooner had I arrived when it started pouring.",
+            "No sooner had I arrived then it started pouring."
           ],
-          "correct_answer": "idiosyncrasy"
+          "correct_answer": "No sooner had I arrived than it started pouring."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "mitigate",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Had I realized the danger, I wouldn't have gone.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "paradigm",
-            "quintessential",
-            "idiosyncrasy",
-            "mitigate"
+            "Should I realized the danger, I wouldn't have gone.",
+            "If I realized the danger, I wouldn't have gone.",
+            "Had I realized the danger, I wouldn't have gone."
           ],
-          "correct_answer": "mitigate"
+          "correct_answer": "Had I realized the danger, I wouldn't have gone."
         }
       ]
     },
@@ -200,72 +210,90 @@
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: mitigare",
-          "correct_answer": "mitigate",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Raramente ho visto un tramonto così bello.\"",
+          "correct_answer": "Seldom have I seen such a beautiful sunset.",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'paradigma' is ___.",
-          "correct_answer": "paradigm",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
+          "correct_answer": "Having finished",
+          "options": [
+            "Have finished",
+            "Having finished",
+            "Finished",
+            "Finishing"
+          ],
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "multiple_choice",
           "difficulty": 1,
-          "prompt_it": "Come si traduce \"quintessenziale\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
           "options": [
-            "quintessential",
-            "paradigm",
-            "idiosyncrasy",
-            "mitigate"
+            "It is quintessential that you attend the meeting.",
+            "It is optional that you attend the meeting.",
+            "It is trivial that you attend the meeting.",
+            "It is unnecessary that you attend the meeting."
           ],
-          "correct_answer": "quintessential",
-          "explanation_it": "La traduzione corretta è \"quintessential\".",
-          "grammar_rule": "Advanced Participle Clauses"
+          "correct_answer": "It is quintessential that you attend the meeting.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\".",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: adulatore",
-          "correct_answer": "sycophant",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Mitiga i rischi pianificando in anticipo.\"",
+          "correct_answer": "He mitigates the risks by planning ahead.",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'zelante' is ___.",
-          "correct_answer": "zealous",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
+          "correct_answer": "But for",
+          "options": [
+            "But for",
+            "Except",
+            "Without",
+            "Unless"
+          ],
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "multiple_choice",
           "difficulty": 1,
-          "prompt_it": "Come si traduce \"effimero\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
           "options": [
-            "ephemeral",
-            "paradigm",
-            "idiosyncrasy",
-            "mitigate"
+            "Not only was she smart, but she is also hardworking.",
+            "Not only she was smart, but she is also hardworking.",
+            "Not only she is smart, but she is also hardworking.",
+            "Not only is she smart, but she is also hardworking."
           ],
-          "correct_answer": "ephemeral",
-          "explanation_it": "La traduzione corretta è \"ephemeral\".",
-          "grammar_rule": "Advanced Participle Clauses"
+          "correct_answer": "Not only is she smart, but she is also hardworking.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\".",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: idiosincrasia",
-          "correct_answer": "idiosyncrasy",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non appena sono arrivato, ha iniziato a diluviare.\"",
+          "correct_answer": "No sooner had I arrived than it started pouring.",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'mitigare' is ___.",
-          "correct_answer": "mitigate",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_en": "L'italiano è: Se mi fossi reso conto del pericolo, non sarei andato.. Completa la frase in inglese: ___ I realized the danger, I wouldn't have gone.",
+          "correct_answer": "Had",
+          "options": [
+            "Had",
+            "If",
+            "Should",
+            "Were"
+          ],
+          "grammar_rule": "Participle Clauses Avanzate"
         }
       ]
     },
@@ -279,177 +307,187 @@
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "mitigate",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Seldom have I seen such a beautiful sunset.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "paradigm",
-            "idiosyncrasy",
-            "quintessential",
-            "mitigate"
+            "Seldom have I seen such a beautiful sunset.",
+            "Seldom did I see such a beautiful sunset.",
+            "Seldom I have seen such a beautiful sunset."
           ],
-          "correct_answer": "mitigate"
+          "correct_answer": "Seldom have I seen such a beautiful sunset."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "paradigm",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Having finished his work, he went home.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "paradigm",
-            "idiosyncrasy",
-            "mitigate",
-            "quintessential"
+            "Finished his work, he went home.",
+            "Finishing his work, he went home.",
+            "Having finished his work, he went home."
           ],
-          "correct_answer": "paradigm"
+          "correct_answer": "Having finished his work, he went home."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "quintessential",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "It is quintessential that you attend the meeting.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "idiosyncrasy",
-            "paradigm",
-            "quintessential",
-            "mitigate"
+            "It is trivial that you attend the meeting.",
+            "It is optional that you attend the meeting.",
+            "It is quintessential that you attend the meeting."
           ],
-          "correct_answer": "quintessential"
+          "correct_answer": "It is quintessential that you attend the meeting."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "sycophant",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "He mitigates the risks by planning ahead.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "sycophant",
-            "idiosyncrasy",
-            "mitigate",
-            "paradigm"
+            "He mitigates the risks by planning ahead.",
+            "He ignores the risks by planning ahead.",
+            "He aggravates the risks by planning ahead."
           ],
-          "correct_answer": "sycophant"
+          "correct_answer": "He mitigates the risks by planning ahead."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "zealous",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "But for your help, I would have failed.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "zealous",
-            "paradigm",
-            "mitigate",
-            "idiosyncrasy"
+            "But for your help, I would have failed.",
+            "Except your help, I would have failed.",
+            "Without your help, I would have failed."
           ],
-          "correct_answer": "zealous"
+          "correct_answer": "But for your help, I would have failed."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "ephemeral",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Not only is she smart, but she is also hardworking.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "ephemeral",
-            "idiosyncrasy",
-            "mitigate",
-            "paradigm"
+            "Not only she was smart, but she is also hardworking.",
+            "Not only she is smart, but she is also hardworking.",
+            "Not only is she smart, but she is also hardworking."
           ],
-          "correct_answer": "ephemeral"
+          "correct_answer": "Not only is she smart, but she is also hardworking."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "idiosyncrasy",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "No sooner had I arrived than it started pouring.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "quintessential",
-            "mitigate",
-            "paradigm",
-            "idiosyncrasy"
+            "No sooner had I arrived then it started pouring.",
+            "No sooner had I arrived when it started pouring.",
+            "No sooner had I arrived than it started pouring."
           ],
-          "correct_answer": "idiosyncrasy"
+          "correct_answer": "No sooner had I arrived than it started pouring."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "mitigate",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Had I realized the danger, I wouldn't have gone.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "mitigate",
-            "idiosyncrasy",
-            "paradigm",
-            "quintessential"
+            "If I realized the danger, I wouldn't have gone.",
+            "Should I realized the danger, I wouldn't have gone.",
+            "Had I realized the danger, I wouldn't have gone."
           ],
-          "correct_answer": "mitigate"
+          "correct_answer": "Had I realized the danger, I wouldn't have gone."
         }
       ]
     },
     {
       "order": 5,
       "title_en": "Vocabulary Practice 5",
-      "title_it": "Esercizio di Vocabolario 5",
+      "title_it": "Esercizio di Fraseologia 5",
       "type": "vocabulary",
       "estimated_minutes": 8,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: mitigare",
-          "correct_answer": "mitigate"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Raramente ho visto un tramonto così bello.\"",
+          "correct_answer": "Seldom have I seen such a beautiful sunset."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'paradigma' is ___.",
-          "correct_answer": "paradigm"
+          "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
+          "correct_answer": "Having finished",
+          "options": [
+            "Have finished",
+            "Finishing",
+            "Finished",
+            "Having finished"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 1,
-          "prompt_it": "Come si traduce \"quintessenziale\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
           "options": [
-            "mitigate",
-            "idiosyncrasy",
-            "quintessential",
-            "paradigm"
+            "It is unnecessary that you attend the meeting.",
+            "It is quintessential that you attend the meeting.",
+            "It is optional that you attend the meeting.",
+            "It is trivial that you attend the meeting."
           ],
-          "correct_answer": "quintessential",
-          "explanation_it": "La traduzione corretta è \"quintessential\"."
+          "correct_answer": "It is quintessential that you attend the meeting.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\"."
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: adulatore",
-          "correct_answer": "sycophant"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Mitiga i rischi pianificando in anticipo.\"",
+          "correct_answer": "He mitigates the risks by planning ahead."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'zelante' is ___.",
-          "correct_answer": "zealous"
+          "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
+          "correct_answer": "But for",
+          "options": [
+            "Unless",
+            "But for",
+            "Except",
+            "Without"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 1,
-          "prompt_it": "Come si traduce \"effimero\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
           "options": [
-            "idiosyncrasy",
-            "mitigate",
-            "paradigm",
-            "ephemeral"
+            "Not only is she smart, but she is also hardworking.",
+            "Not only she is smart, but she is also hardworking.",
+            "Not only she was smart, but she is also hardworking.",
+            "Not only was she smart, but she is also hardworking."
           ],
-          "correct_answer": "ephemeral",
-          "explanation_it": "La traduzione corretta è \"ephemeral\"."
+          "correct_answer": "Not only is she smart, but she is also hardworking.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\"."
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: idiosincrasia",
-          "correct_answer": "idiosyncrasy"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non appena sono arrivato, ha iniziato a diluviare.\"",
+          "correct_answer": "No sooner had I arrived than it started pouring."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'mitigare' is ___.",
-          "correct_answer": "mitigate"
+          "prompt_en": "L'italiano è: Se mi fossi reso conto del pericolo, non sarei andato.. Completa la frase in inglese: ___ I realized the danger, I wouldn't have gone.",
+          "correct_answer": "Had",
+          "options": [
+            "Were",
+            "Should",
+            "If",
+            "Had"
+          ]
         }
       ]
     },
@@ -463,72 +501,90 @@
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: mitigare",
-          "correct_answer": "mitigate",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Raramente ho visto un tramonto così bello.\"",
+          "correct_answer": "Seldom have I seen such a beautiful sunset.",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'paradigma' is ___.",
-          "correct_answer": "paradigm",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
+          "correct_answer": "Having finished",
+          "options": [
+            "Finishing",
+            "Finished",
+            "Having finished",
+            "Have finished"
+          ],
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "multiple_choice",
           "difficulty": 1,
-          "prompt_it": "Come si traduce \"quintessenziale\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
           "options": [
-            "idiosyncrasy",
-            "quintessential",
-            "mitigate",
-            "paradigm"
+            "It is trivial that you attend the meeting.",
+            "It is unnecessary that you attend the meeting.",
+            "It is quintessential that you attend the meeting.",
+            "It is optional that you attend the meeting."
           ],
-          "correct_answer": "quintessential",
-          "explanation_it": "La traduzione corretta è \"quintessential\".",
-          "grammar_rule": "Advanced Participle Clauses"
+          "correct_answer": "It is quintessential that you attend the meeting.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\".",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: adulatore",
-          "correct_answer": "sycophant",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Mitiga i rischi pianificando in anticipo.\"",
+          "correct_answer": "He mitigates the risks by planning ahead.",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'zelante' is ___.",
-          "correct_answer": "zealous",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
+          "correct_answer": "But for",
+          "options": [
+            "But for",
+            "Except",
+            "Without",
+            "Unless"
+          ],
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "multiple_choice",
           "difficulty": 1,
-          "prompt_it": "Come si traduce \"effimero\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
           "options": [
-            "paradigm",
-            "mitigate",
-            "idiosyncrasy",
-            "ephemeral"
+            "Not only she was smart, but she is also hardworking.",
+            "Not only was she smart, but she is also hardworking.",
+            "Not only is she smart, but she is also hardworking.",
+            "Not only she is smart, but she is also hardworking."
           ],
-          "correct_answer": "ephemeral",
-          "explanation_it": "La traduzione corretta è \"ephemeral\".",
-          "grammar_rule": "Advanced Participle Clauses"
+          "correct_answer": "Not only is she smart, but she is also hardworking.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\".",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: idiosincrasia",
-          "correct_answer": "idiosyncrasy",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non appena sono arrivato, ha iniziato a diluviare.\"",
+          "correct_answer": "No sooner had I arrived than it started pouring.",
+          "grammar_rule": "Participle Clauses Avanzate"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'mitigare' is ___.",
-          "correct_answer": "mitigate",
-          "grammar_rule": "Advanced Participle Clauses"
+          "prompt_en": "L'italiano è: Se mi fossi reso conto del pericolo, non sarei andato.. Completa la frase in inglese: ___ I realized the danger, I wouldn't have gone.",
+          "correct_answer": "Had",
+          "options": [
+            "Were",
+            "Should",
+            "If",
+            "Had"
+          ],
+          "grammar_rule": "Participle Clauses Avanzate"
         }
       ]
     }

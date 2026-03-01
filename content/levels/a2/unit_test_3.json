@@ -3,77 +3,95 @@
   "order": 3,
   "title_en": "Unit 3: A2 Mastery",
   "title_it": "Unità 3: Padronanza A2",
-  "description_it": "Migliora le tue competenze di livello A2 con questa unità immersiva.",
+  "description_it": "Migliora le tue competenze di livello A2 con frasi complete ed esempi d'uso quotidiano.",
   "icon": "💡",
   "lessons": [
     {
       "order": 1,
       "title_en": "Vocabulary Practice 1",
-      "title_it": "Esercizio di Vocabolario 1",
+      "title_it": "Esercizio di Fraseologia 1",
       "type": "vocabulary",
       "estimated_minutes": 5,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: tempo",
-          "correct_answer": "weather"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'biglietto' is ___.",
-          "correct_answer": "ticket"
+          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
+          "correct_answer": "better",
+          "options": [
+            "better",
+            "good",
+            "best",
+            "well"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"domani\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
           "options": [
-            "journey",
-            "tomorrow",
-            "weather",
-            "ticket"
+            "We will meet tomorrow at noon.",
+            "We would meet tomorrow at noon.",
+            "We do meet tomorrow at noon.",
+            "We did meet tomorrow at noon."
           ],
-          "correct_answer": "tomorrow",
-          "explanation_it": "La traduzione corretta è \"tomorrow\"."
+          "correct_answer": "We will meet tomorrow at noon.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: sempre",
-          "correct_answer": "always"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
+          "correct_answer": "Have you ever been to Paris?"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'cucina' is ___.",
-          "correct_answer": "kitchen"
+          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
+          "correct_answer": "sleeping",
+          "options": [
+            "sleeping",
+            "sleeps",
+            "slept",
+            "sleep"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"fiume\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
           "options": [
-            "ticket",
-            "weather",
-            "journey",
-            "river"
+            "I don't want to buy something.",
+            "I don't want to buy anything.",
+            "I don't want to buy nothing.",
+            "I don't want to buy everything."
           ],
-          "correct_answer": "river",
-          "explanation_it": "La traduzione corretta è \"river\"."
+          "correct_answer": "I don't want to buy anything.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: montagna",
-          "correct_answer": "mountain"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
+          "correct_answer": "They must leave immediately."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'comprare' is ___.",
-          "correct_answer": "buy"
+          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
+          "correct_answer": "went",
+          "options": [
+            "went",
+            "go",
+            "gone",
+            "going"
+          ]
         }
       ]
     },
@@ -87,106 +105,98 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "weather",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "She is cooking dinner right now.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "tomorrow",
-            "journey",
-            "weather",
-            "ticket"
+            "She is cooking dinner right now.",
+            "She is cooks dinner right now.",
+            "She is cooked dinner right now."
           ],
-          "correct_answer": "weather"
+          "correct_answer": "She is cooking dinner right now."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "ticket",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "This book is better than that one.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "tomorrow",
-            "ticket",
-            "weather",
-            "journey"
+            "This book is best than that one.",
+            "This book is better than that one.",
+            "This book is good than that one."
           ],
-          "correct_answer": "ticket"
+          "correct_answer": "This book is better than that one."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "tomorrow",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "We will meet tomorrow at noon.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "ticket",
-            "journey",
-            "weather",
-            "tomorrow"
+            "We do meet tomorrow at noon.",
+            "We would meet tomorrow at noon.",
+            "We will meet tomorrow at noon."
           ],
-          "correct_answer": "tomorrow"
+          "correct_answer": "We will meet tomorrow at noon."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "always",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Have you ever been to Paris?",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "ticket",
-            "weather",
-            "journey",
-            "always"
+            "Have you always been to Paris?",
+            "Have you never been to Paris?",
+            "Have you ever been to Paris?"
           ],
-          "correct_answer": "always"
+          "correct_answer": "Have you ever been to Paris?"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "kitchen",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "He was sleeping when the phone rang.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "kitchen",
-            "journey",
-            "weather",
-            "ticket"
+            "He was slept when the phone rang.",
+            "He was sleeps when the phone rang.",
+            "He was sleeping when the phone rang."
           ],
-          "correct_answer": "kitchen"
+          "correct_answer": "He was sleeping when the phone rang."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "river",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I don't want to buy anything.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "ticket",
-            "weather",
-            "journey",
-            "river"
+            "I don't want to buy something.",
+            "I don't want to buy anything.",
+            "I don't want to buy nothing."
           ],
-          "correct_answer": "river"
+          "correct_answer": "I don't want to buy anything."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "mountain",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "They must leave immediately.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "ticket",
-            "weather",
-            "journey",
-            "mountain"
+            "They may leave immediately.",
+            "They can leave immediately.",
+            "They must leave immediately."
           ],
-          "correct_answer": "mountain"
+          "correct_answer": "They must leave immediately."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "buy",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I went to the cinema yesterday.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "buy",
-            "journey",
-            "weather",
-            "ticket"
+            "I gone to the cinema yesterday.",
+            "I go to the cinema yesterday.",
+            "I went to the cinema yesterday."
           ],
-          "correct_answer": "buy"
+          "correct_answer": "I went to the cinema yesterday."
         }
       ]
     },
@@ -200,72 +210,90 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: tempo",
-          "correct_answer": "weather",
-          "grammar_rule": "Past Simple"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'biglietto' is ___.",
-          "correct_answer": "ticket",
-          "grammar_rule": "Past Simple"
+          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
+          "correct_answer": "better",
+          "options": [
+            "well",
+            "best",
+            "good",
+            "better"
+          ],
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"domani\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
           "options": [
-            "journey",
-            "weather",
-            "ticket",
-            "tomorrow"
+            "We will meet tomorrow at noon.",
+            "We would meet tomorrow at noon.",
+            "We do meet tomorrow at noon.",
+            "We did meet tomorrow at noon."
           ],
-          "correct_answer": "tomorrow",
-          "explanation_it": "La traduzione corretta è \"tomorrow\".",
-          "grammar_rule": "Past Simple"
+          "correct_answer": "We will meet tomorrow at noon.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\".",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: sempre",
-          "correct_answer": "always",
-          "grammar_rule": "Past Simple"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
+          "correct_answer": "Have you ever been to Paris?",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'cucina' is ___.",
-          "correct_answer": "kitchen",
-          "grammar_rule": "Past Simple"
+          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
+          "correct_answer": "sleeping",
+          "options": [
+            "slept",
+            "sleep",
+            "sleeping",
+            "sleeps"
+          ],
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"fiume\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
           "options": [
-            "ticket",
-            "weather",
-            "journey",
-            "river"
+            "I don't want to buy something.",
+            "I don't want to buy everything.",
+            "I don't want to buy anything.",
+            "I don't want to buy nothing."
           ],
-          "correct_answer": "river",
-          "explanation_it": "La traduzione corretta è \"river\".",
-          "grammar_rule": "Past Simple"
+          "correct_answer": "I don't want to buy anything.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\".",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: montagna",
-          "correct_answer": "mountain",
-          "grammar_rule": "Past Simple"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
+          "correct_answer": "They must leave immediately.",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'comprare' is ___.",
-          "correct_answer": "buy",
-          "grammar_rule": "Past Simple"
+          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
+          "correct_answer": "went",
+          "options": [
+            "gone",
+            "go",
+            "going",
+            "went"
+          ],
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         }
       ]
     },
@@ -279,177 +307,187 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "weather",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "She is cooking dinner right now.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "tomorrow",
-            "ticket",
-            "journey",
-            "weather"
+            "She is cooked dinner right now.",
+            "She is cooks dinner right now.",
+            "She is cooking dinner right now."
           ],
-          "correct_answer": "weather"
+          "correct_answer": "She is cooking dinner right now."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "ticket",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "This book is better than that one.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "tomorrow",
-            "ticket",
-            "journey",
-            "weather"
+            "This book is good than that one.",
+            "This book is best than that one.",
+            "This book is better than that one."
           ],
-          "correct_answer": "ticket"
+          "correct_answer": "This book is better than that one."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "tomorrow",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "We will meet tomorrow at noon.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "ticket",
-            "journey",
-            "tomorrow",
-            "weather"
+            "We will meet tomorrow at noon.",
+            "We would meet tomorrow at noon.",
+            "We do meet tomorrow at noon."
           ],
-          "correct_answer": "tomorrow"
+          "correct_answer": "We will meet tomorrow at noon."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "always",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Have you ever been to Paris?",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "ticket",
-            "journey",
-            "always",
-            "weather"
+            "Have you never been to Paris?",
+            "Have you ever been to Paris?",
+            "Have you always been to Paris?"
           ],
-          "correct_answer": "always"
+          "correct_answer": "Have you ever been to Paris?"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "kitchen",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "He was sleeping when the phone rang.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "weather",
-            "journey",
-            "ticket",
-            "kitchen"
+            "He was slept when the phone rang.",
+            "He was sleeping when the phone rang.",
+            "He was sleeps when the phone rang."
           ],
-          "correct_answer": "kitchen"
+          "correct_answer": "He was sleeping when the phone rang."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "river",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I don't want to buy anything.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "ticket",
-            "river",
-            "weather",
-            "journey"
+            "I don't want to buy nothing.",
+            "I don't want to buy something.",
+            "I don't want to buy anything."
           ],
-          "correct_answer": "river"
+          "correct_answer": "I don't want to buy anything."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "mountain",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "They must leave immediately.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "weather",
-            "ticket",
-            "mountain",
-            "journey"
+            "They can leave immediately.",
+            "They must leave immediately.",
+            "They may leave immediately."
           ],
-          "correct_answer": "mountain"
+          "correct_answer": "They must leave immediately."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "buy",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I went to the cinema yesterday.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "buy",
-            "journey",
-            "weather",
-            "ticket"
+            "I gone to the cinema yesterday.",
+            "I go to the cinema yesterday.",
+            "I went to the cinema yesterday."
           ],
-          "correct_answer": "buy"
+          "correct_answer": "I went to the cinema yesterday."
         }
       ]
     },
     {
       "order": 5,
       "title_en": "Vocabulary Practice 5",
-      "title_it": "Esercizio di Vocabolario 5",
+      "title_it": "Esercizio di Fraseologia 5",
       "type": "vocabulary",
       "estimated_minutes": 8,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: tempo",
-          "correct_answer": "weather"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'biglietto' is ___.",
-          "correct_answer": "ticket"
+          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
+          "correct_answer": "better",
+          "options": [
+            "well",
+            "best",
+            "better",
+            "good"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"domani\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
           "options": [
-            "ticket",
-            "weather",
-            "journey",
-            "tomorrow"
+            "We will meet tomorrow at noon.",
+            "We would meet tomorrow at noon.",
+            "We did meet tomorrow at noon.",
+            "We do meet tomorrow at noon."
           ],
-          "correct_answer": "tomorrow",
-          "explanation_it": "La traduzione corretta è \"tomorrow\"."
+          "correct_answer": "We will meet tomorrow at noon.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: sempre",
-          "correct_answer": "always"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
+          "correct_answer": "Have you ever been to Paris?"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'cucina' is ___.",
-          "correct_answer": "kitchen"
+          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
+          "correct_answer": "sleeping",
+          "options": [
+            "sleep",
+            "sleeping",
+            "sleeps",
+            "slept"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"fiume\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
           "options": [
-            "river",
-            "journey",
-            "weather",
-            "ticket"
+            "I don't want to buy nothing.",
+            "I don't want to buy something.",
+            "I don't want to buy everything.",
+            "I don't want to buy anything."
           ],
-          "correct_answer": "river",
-          "explanation_it": "La traduzione corretta è \"river\"."
+          "correct_answer": "I don't want to buy anything.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: montagna",
-          "correct_answer": "mountain"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
+          "correct_answer": "They must leave immediately."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'comprare' is ___.",
-          "correct_answer": "buy"
+          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
+          "correct_answer": "went",
+          "options": [
+            "go",
+            "going",
+            "went",
+            "gone"
+          ]
         }
       ]
     },
@@ -463,72 +501,90 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: tempo",
-          "correct_answer": "weather",
-          "grammar_rule": "Past Simple"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'biglietto' is ___.",
-          "correct_answer": "ticket",
-          "grammar_rule": "Past Simple"
+          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
+          "correct_answer": "better",
+          "options": [
+            "better",
+            "well",
+            "best",
+            "good"
+          ],
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"domani\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
           "options": [
-            "ticket",
-            "tomorrow",
-            "weather",
-            "journey"
+            "We will meet tomorrow at noon.",
+            "We would meet tomorrow at noon.",
+            "We did meet tomorrow at noon.",
+            "We do meet tomorrow at noon."
           ],
-          "correct_answer": "tomorrow",
-          "explanation_it": "La traduzione corretta è \"tomorrow\".",
-          "grammar_rule": "Past Simple"
+          "correct_answer": "We will meet tomorrow at noon.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\".",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: sempre",
-          "correct_answer": "always",
-          "grammar_rule": "Past Simple"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
+          "correct_answer": "Have you ever been to Paris?",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'cucina' is ___.",
-          "correct_answer": "kitchen",
-          "grammar_rule": "Past Simple"
+          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
+          "correct_answer": "sleeping",
+          "options": [
+            "sleeping",
+            "slept",
+            "sleeps",
+            "sleep"
+          ],
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"fiume\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
           "options": [
-            "weather",
-            "river",
-            "ticket",
-            "journey"
+            "I don't want to buy anything.",
+            "I don't want to buy something.",
+            "I don't want to buy nothing.",
+            "I don't want to buy everything."
           ],
-          "correct_answer": "river",
-          "explanation_it": "La traduzione corretta è \"river\".",
-          "grammar_rule": "Past Simple"
+          "correct_answer": "I don't want to buy anything.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\".",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: montagna",
-          "correct_answer": "mountain",
-          "grammar_rule": "Past Simple"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
+          "correct_answer": "They must leave immediately.",
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'comprare' is ___.",
-          "correct_answer": "buy",
-          "grammar_rule": "Past Simple"
+          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
+          "correct_answer": "went",
+          "options": [
+            "went",
+            "go",
+            "gone",
+            "going"
+          ],
+          "grammar_rule": "Past Simple: Azioni finite nel passato."
         }
       ]
     }

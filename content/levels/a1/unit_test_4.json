@@ -3,77 +3,95 @@
   "order": 4,
   "title_en": "Unit 4: A1 Mastery",
   "title_it": "Unità 4: Padronanza A1",
-  "description_it": "Migliora le tue competenze di livello A1 con questa unità immersiva.",
+  "description_it": "Migliora le tue competenze di livello A1 con frasi complete ed esempi d'uso quotidiano.",
   "icon": "🏆",
   "lessons": [
     {
       "order": 1,
       "title_en": "Vocabulary Practice 1",
-      "title_it": "Esercizio di Vocabolario 1",
+      "title_it": "Esercizio di Fraseologia 1",
       "type": "vocabulary",
       "estimated_minutes": 5,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: libro",
-          "correct_answer": "book"
+          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
+          "correct_answer": "She likes apples."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'macchina' is ___.",
-          "correct_answer": "car"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 2,
-          "prompt_it": "Come si traduce \"cane\"?",
+          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
+          "correct_answer": "cat",
           "options": [
-            "apple",
+            "mouse",
+            "bird",
             "dog",
-            "car",
-            "book"
-          ],
-          "correct_answer": "dog",
-          "explanation_it": "La traduzione corretta è \"dog\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: casa",
-          "correct_answer": "house"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "The word for 'acqua' is ___.",
-          "correct_answer": "water"
+            "cat"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sole\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
-            "book",
-            "car",
-            "sun",
-            "apple"
+            "We went to school every day.",
+            "We going to school every day.",
+            "We goes to school every day.",
+            "We go to school every day."
           ],
-          "correct_answer": "sun",
-          "explanation_it": "La traduzione corretta è \"sun\"."
+          "correct_answer": "We go to school every day.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: felice",
-          "correct_answer": "happy"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
+          "correct_answer": "My name is John."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'correre' is ___.",
-          "correct_answer": "run"
+          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
+          "correct_answer": "friends",
+          "options": [
+            "enemies",
+            "parents",
+            "teachers",
+            "friends"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
+          "options": [
+            "I have a red car.",
+            "I has a red car.",
+            "I had a red car.",
+            "I having a red car."
+          ],
+          "correct_answer": "I have a red car.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
+          "correct_answer": "You read a book."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
+          "correct_answer": "am",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ]
         }
       ]
     },
@@ -87,106 +105,98 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "book",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "She likes apples.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "dog",
-            "book",
-            "car",
-            "apple"
+            "She likes apples.",
+            "She like apples.",
+            "She liking apples."
           ],
-          "correct_answer": "book"
+          "correct_answer": "She likes apples."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "car",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "The cat is black.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "book",
-            "apple",
-            "dog",
-            "car"
+            "The bird is black.",
+            "The dog is black.",
+            "The cat is black."
           ],
-          "correct_answer": "car"
+          "correct_answer": "The cat is black."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "dog",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "We go to school every day.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "apple",
-            "book",
-            "car",
-            "dog"
+            "We go to school every day.",
+            "We goes to school every day.",
+            "We going to school every day."
           ],
-          "correct_answer": "dog"
+          "correct_answer": "We go to school every day."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "house",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "My name is John.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "car",
-            "book",
-            "apple",
-            "house"
+            "My house is John.",
+            "My age is John.",
+            "My name is John."
           ],
-          "correct_answer": "house"
+          "correct_answer": "My name is John."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "water",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "They are my friends.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "book",
-            "apple",
-            "water",
-            "car"
+            "They are my friends.",
+            "They are my enemies.",
+            "They are my teachers."
           ],
-          "correct_answer": "water"
+          "correct_answer": "They are my friends."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "sun",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I have a red car.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "car",
-            "apple",
-            "sun",
-            "book"
+            "I have a red car.",
+            "I has a red car.",
+            "I having a red car."
           ],
-          "correct_answer": "sun"
+          "correct_answer": "I have a red car."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "happy",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "You read a book.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "happy",
-            "book",
-            "apple",
-            "car"
+            "You listen a book.",
+            "You read a book.",
+            "You write a book."
           ],
-          "correct_answer": "happy"
+          "correct_answer": "You read a book."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "run",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I am a student.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "run",
-            "car",
-            "apple",
-            "book"
+            "I is a student.",
+            "I am a student.",
+            "I are a student."
           ],
-          "correct_answer": "run"
+          "correct_answer": "I am a student."
         }
       ]
     },
@@ -200,72 +210,90 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: libro",
-          "correct_answer": "book",
-          "grammar_rule": "Verb To Be"
+          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
+          "correct_answer": "She likes apples.",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'macchina' is ___.",
-          "correct_answer": "car",
-          "grammar_rule": "Verb To Be"
+          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
+          "correct_answer": "cat",
+          "options": [
+            "bird",
+            "mouse",
+            "cat",
+            "dog"
+          ],
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"cane\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
-            "dog",
-            "car",
-            "book",
-            "apple"
+            "We go to school every day.",
+            "We goes to school every day.",
+            "We went to school every day.",
+            "We going to school every day."
           ],
-          "correct_answer": "dog",
-          "explanation_it": "La traduzione corretta è \"dog\".",
-          "grammar_rule": "Verb To Be"
+          "correct_answer": "We go to school every day.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\".",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: casa",
-          "correct_answer": "house",
-          "grammar_rule": "Verb To Be"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
+          "correct_answer": "My name is John.",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'acqua' is ___.",
-          "correct_answer": "water",
-          "grammar_rule": "Verb To Be"
+          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
+          "correct_answer": "friends",
+          "options": [
+            "parents",
+            "teachers",
+            "enemies",
+            "friends"
+          ],
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sole\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
           "options": [
-            "car",
-            "book",
-            "apple",
-            "sun"
+            "I have a red car.",
+            "I has a red car.",
+            "I having a red car.",
+            "I had a red car."
           ],
-          "correct_answer": "sun",
-          "explanation_it": "La traduzione corretta è \"sun\".",
-          "grammar_rule": "Verb To Be"
+          "correct_answer": "I have a red car.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\".",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: felice",
-          "correct_answer": "happy",
-          "grammar_rule": "Verb To Be"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
+          "correct_answer": "You read a book.",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'correre' is ___.",
-          "correct_answer": "run",
-          "grammar_rule": "Verb To Be"
+          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
+          "correct_answer": "am",
+          "options": [
+            "am",
+            "be",
+            "is",
+            "are"
+          ],
+          "grammar_rule": "Verb To Be: Essere in inglese."
         }
       ]
     },
@@ -279,177 +307,187 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "book",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "She likes apples.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "apple",
-            "book",
-            "dog",
-            "car"
+            "She liking apples.",
+            "She like apples.",
+            "She likes apples."
           ],
-          "correct_answer": "book"
+          "correct_answer": "She likes apples."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "car",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "The cat is black.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "dog",
-            "book",
-            "apple",
-            "car"
+            "The cat is black.",
+            "The dog is black.",
+            "The bird is black."
           ],
-          "correct_answer": "car"
+          "correct_answer": "The cat is black."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "dog",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "We go to school every day.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "dog",
-            "apple",
-            "book",
-            "car"
+            "We going to school every day.",
+            "We go to school every day.",
+            "We goes to school every day."
           ],
-          "correct_answer": "dog"
+          "correct_answer": "We go to school every day."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "house",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "My name is John.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "car",
-            "book",
-            "apple",
-            "house"
+            "My house is John.",
+            "My age is John.",
+            "My name is John."
           ],
-          "correct_answer": "house"
+          "correct_answer": "My name is John."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "water",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "They are my friends.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "water",
-            "apple",
-            "book",
-            "car"
+            "They are my friends.",
+            "They are my enemies.",
+            "They are my teachers."
           ],
-          "correct_answer": "water"
+          "correct_answer": "They are my friends."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "sun",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I have a red car.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "car",
-            "sun",
-            "book",
-            "apple"
+            "I has a red car.",
+            "I have a red car.",
+            "I having a red car."
           ],
-          "correct_answer": "sun"
+          "correct_answer": "I have a red car."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "happy",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "You read a book.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "car",
-            "book",
-            "apple",
-            "happy"
+            "You listen a book.",
+            "You write a book.",
+            "You read a book."
           ],
-          "correct_answer": "happy"
+          "correct_answer": "You read a book."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "run",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I am a student.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "apple",
-            "run",
-            "book",
-            "car"
+            "I are a student.",
+            "I am a student.",
+            "I is a student."
           ],
-          "correct_answer": "run"
+          "correct_answer": "I am a student."
         }
       ]
     },
     {
       "order": 5,
       "title_en": "Vocabulary Practice 5",
-      "title_it": "Esercizio di Vocabolario 5",
+      "title_it": "Esercizio di Fraseologia 5",
       "type": "vocabulary",
       "estimated_minutes": 8,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: libro",
-          "correct_answer": "book"
+          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
+          "correct_answer": "She likes apples."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'macchina' is ___.",
-          "correct_answer": "car"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 2,
-          "prompt_it": "Come si traduce \"cane\"?",
+          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
+          "correct_answer": "cat",
           "options": [
+            "mouse",
+            "bird",
             "dog",
-            "apple",
-            "book",
-            "car"
-          ],
-          "correct_answer": "dog",
-          "explanation_it": "La traduzione corretta è \"dog\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: casa",
-          "correct_answer": "house"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "The word for 'acqua' is ___.",
-          "correct_answer": "water"
+            "cat"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sole\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
-            "apple",
-            "sun",
-            "car",
-            "book"
+            "We goes to school every day.",
+            "We go to school every day.",
+            "We went to school every day.",
+            "We going to school every day."
           ],
-          "correct_answer": "sun",
-          "explanation_it": "La traduzione corretta è \"sun\"."
+          "correct_answer": "We go to school every day.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: felice",
-          "correct_answer": "happy"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
+          "correct_answer": "My name is John."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'correre' is ___.",
-          "correct_answer": "run"
+          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
+          "correct_answer": "friends",
+          "options": [
+            "teachers",
+            "parents",
+            "friends",
+            "enemies"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
+          "options": [
+            "I had a red car.",
+            "I have a red car.",
+            "I has a red car.",
+            "I having a red car."
+          ],
+          "correct_answer": "I have a red car.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
+          "correct_answer": "You read a book."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
+          "correct_answer": "am",
+          "options": [
+            "be",
+            "am",
+            "is",
+            "are"
+          ]
         }
       ]
     },
@@ -463,72 +501,90 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: libro",
-          "correct_answer": "book",
-          "grammar_rule": "Verb To Be"
+          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
+          "correct_answer": "She likes apples.",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'macchina' is ___.",
-          "correct_answer": "car",
-          "grammar_rule": "Verb To Be"
+          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
+          "correct_answer": "cat",
+          "options": [
+            "dog",
+            "bird",
+            "mouse",
+            "cat"
+          ],
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"cane\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
-            "book",
-            "car",
-            "apple",
-            "dog"
+            "We go to school every day.",
+            "We goes to school every day.",
+            "We went to school every day.",
+            "We going to school every day."
           ],
-          "correct_answer": "dog",
-          "explanation_it": "La traduzione corretta è \"dog\".",
-          "grammar_rule": "Verb To Be"
+          "correct_answer": "We go to school every day.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\".",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: casa",
-          "correct_answer": "house",
-          "grammar_rule": "Verb To Be"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
+          "correct_answer": "My name is John.",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'acqua' is ___.",
-          "correct_answer": "water",
-          "grammar_rule": "Verb To Be"
+          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
+          "correct_answer": "friends",
+          "options": [
+            "friends",
+            "enemies",
+            "teachers",
+            "parents"
+          ],
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sole\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
           "options": [
-            "apple",
-            "book",
-            "car",
-            "sun"
+            "I has a red car.",
+            "I have a red car.",
+            "I had a red car.",
+            "I having a red car."
           ],
-          "correct_answer": "sun",
-          "explanation_it": "La traduzione corretta è \"sun\".",
-          "grammar_rule": "Verb To Be"
+          "correct_answer": "I have a red car.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\".",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: felice",
-          "correct_answer": "happy",
-          "grammar_rule": "Verb To Be"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
+          "correct_answer": "You read a book.",
+          "grammar_rule": "Verb To Be: Essere in inglese."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'correre' is ___.",
-          "correct_answer": "run",
-          "grammar_rule": "Verb To Be"
+          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
+          "correct_answer": "am",
+          "options": [
+            "be",
+            "am",
+            "is",
+            "are"
+          ],
+          "grammar_rule": "Verb To Be: Essere in inglese."
         }
       ]
     }

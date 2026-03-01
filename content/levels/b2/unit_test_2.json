@@ -3,77 +3,95 @@
   "order": 2,
   "title_en": "Unit 2: B2 Mastery",
   "title_it": "Unità 2: Padronanza B2",
-  "description_it": "Migliora le tue competenze di livello B2 con questa unità immersiva.",
+  "description_it": "Migliora le tue competenze di livello B2 con frasi complete ed esempi d'uso quotidiano.",
   "icon": "🚀",
   "lessons": [
     {
       "order": 1,
       "title_en": "Vocabulary Practice 1",
-      "title_it": "Esercizio di Vocabolario 1",
+      "title_it": "Esercizio di Fraseologia 1",
       "type": "vocabulary",
       "estimated_minutes": 5,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: controverso",
-          "correct_answer": "controversial"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Se l'avessi saputo, ti avrei aiutato.\"",
+          "correct_answer": "If I had known, I would have helped you."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'ipotesi' is ___.",
-          "correct_answer": "hypothesis"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Come si traduce \"tuttavia\"?",
-          "options": [
-            "consequence",
-            "hypothesis",
-            "nevertheless",
-            "controversial"
-          ],
-          "correct_answer": "nevertheless",
-          "explanation_it": "La traduzione corretta è \"nevertheless\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: fenomeno",
-          "correct_answer": "phenomenon"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 1,
-          "prompt_en": "The word for 'sostenibile' is ___.",
-          "correct_answer": "sustainable"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Come si traduce \"onnipresente\"?",
-          "options": [
-            "ubiquitous",
-            "consequence",
-            "controversial",
-            "hypothesis"
-          ],
+          "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
           "correct_answer": "ubiquitous",
-          "explanation_it": "La traduzione corretta è \"ubiquitous\"."
+          "options": [
+            "unique",
+            "rare",
+            "isolated",
+            "ubiquitous"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
+          "options": [
+            "Despite the rain, we went for a walk.",
+            "Although the rain, we went for a walk.",
+            "However the rain, we went for a walk.",
+            "Even though the rain, we went for a walk."
+          ],
+          "correct_answer": "Despite the rain, we went for a walk.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\"."
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: conseguenza",
-          "correct_answer": "consequence"
+          "prompt_it": "Traduci l'intera frase in inglese: \"La casa verrà dipinta la prossima settimana.\"",
+          "correct_answer": "The house is being painted next week."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'controverso' is ___.",
-          "correct_answer": "controversial"
+          "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
+          "correct_answer": "stealing",
+          "options": [
+            "stolen",
+            "stealing",
+            "to steal",
+            "stole"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
+          "options": [
+            "I would rather you won't smoke here.",
+            "I would rather you don't smoke here.",
+            "I would rather you not smoke here.",
+            "I would rather you didn't smoke here."
+          ],
+          "correct_answer": "I would rather you didn't smoke here.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 1,
+          "prompt_it": "Traduci l'intera frase in inglese: \"È ora che ce ne andiamo.\"",
+          "correct_answer": "It's high time we left."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 1,
+          "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
+          "correct_answer": "had",
+          "options": [
+            "did",
+            "was",
+            "has",
+            "had"
+          ]
         }
       ]
     },
@@ -87,106 +105,98 @@
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "controversial",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "If I had known, I would have helped you.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "controversial",
-            "consequence",
-            "hypothesis",
-            "nevertheless"
+            "If I had known, I would have helped you.",
+            "If I had knew, I would have helped you.",
+            "If I had know, I would have helped you."
           ],
-          "correct_answer": "controversial"
+          "correct_answer": "If I had known, I would have helped you."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "hypothesis",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "The phenomenon is completely ubiquitous.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "hypothesis",
-            "consequence",
-            "nevertheless",
-            "controversial"
+            "The phenomenon is completely ubiquitous.",
+            "The phenomenon is completely unique.",
+            "The phenomenon is completely rare."
           ],
-          "correct_answer": "hypothesis"
+          "correct_answer": "The phenomenon is completely ubiquitous."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "nevertheless",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Despite the rain, we went for a walk.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "consequence",
-            "hypothesis",
-            "nevertheless",
-            "controversial"
+            "Even though the rain, we went for a walk.",
+            "Although the rain, we went for a walk.",
+            "Despite the rain, we went for a walk."
           ],
-          "correct_answer": "nevertheless"
+          "correct_answer": "Despite the rain, we went for a walk."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "phenomenon",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "The house is being painted next week.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "phenomenon",
-            "consequence",
-            "controversial",
-            "hypothesis"
+            "The house is been painted next week.",
+            "The house is being painted next week.",
+            "The house is be painted next week."
           ],
-          "correct_answer": "phenomenon"
+          "correct_answer": "The house is being painted next week."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "sustainable",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "He denied stealing the money.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "hypothesis",
-            "controversial",
-            "consequence",
-            "sustainable"
+            "He denied stealing the money.",
+            "He denied stole the money.",
+            "He denied to steal the money."
           ],
-          "correct_answer": "sustainable"
+          "correct_answer": "He denied stealing the money."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "ubiquitous",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I would rather you didn't smoke here.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "hypothesis",
-            "consequence",
-            "ubiquitous",
-            "controversial"
+            "I would rather you didn't smoke here.",
+            "I would rather you don't smoke here.",
+            "I would rather you won't smoke here."
           ],
-          "correct_answer": "ubiquitous"
+          "correct_answer": "I would rather you didn't smoke here."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "consequence",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "It's high time we left.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "nevertheless",
-            "consequence",
-            "controversial",
-            "hypothesis"
+            "It's high time we leave.",
+            "It's high time we leaving.",
+            "It's high time we left."
           ],
-          "correct_answer": "consequence"
+          "correct_answer": "It's high time we left."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "controversial",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "By the time we arrived, the movie had already started.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "controversial",
-            "hypothesis",
-            "nevertheless",
-            "consequence"
+            "By the time we arrived, the movie had already started.",
+            "By the time we arrived, the movie has already started.",
+            "By the time we arrived, the movie was already started."
           ],
-          "correct_answer": "controversial"
+          "correct_answer": "By the time we arrived, the movie had already started."
         }
       ]
     },
@@ -200,72 +210,90 @@
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: controverso",
-          "correct_answer": "controversial",
-          "grammar_rule": "Passive Voice"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Se l'avessi saputo, ti avrei aiutato.\"",
+          "correct_answer": "If I had known, I would have helped you.",
+          "grammar_rule": "Passive Voice complessa"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'ipotesi' is ___.",
-          "correct_answer": "hypothesis",
-          "grammar_rule": "Passive Voice"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Come si traduce \"tuttavia\"?",
-          "options": [
-            "controversial",
-            "consequence",
-            "nevertheless",
-            "hypothesis"
-          ],
-          "correct_answer": "nevertheless",
-          "explanation_it": "La traduzione corretta è \"nevertheless\".",
-          "grammar_rule": "Passive Voice"
-        },
-        {
-          "type": "translation",
-          "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: fenomeno",
-          "correct_answer": "phenomenon",
-          "grammar_rule": "Passive Voice"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 1,
-          "prompt_en": "The word for 'sostenibile' is ___.",
-          "correct_answer": "sustainable",
-          "grammar_rule": "Passive Voice"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Come si traduce \"onnipresente\"?",
+          "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
+          "correct_answer": "ubiquitous",
           "options": [
             "ubiquitous",
-            "consequence",
-            "hypothesis",
-            "controversial"
+            "unique",
+            "isolated",
+            "rare"
           ],
-          "correct_answer": "ubiquitous",
-          "explanation_it": "La traduzione corretta è \"ubiquitous\".",
-          "grammar_rule": "Passive Voice"
+          "grammar_rule": "Passive Voice complessa"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
+          "options": [
+            "Even though the rain, we went for a walk.",
+            "Although the rain, we went for a walk.",
+            "However the rain, we went for a walk.",
+            "Despite the rain, we went for a walk."
+          ],
+          "correct_answer": "Despite the rain, we went for a walk.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\".",
+          "grammar_rule": "Passive Voice complessa"
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: conseguenza",
-          "correct_answer": "consequence",
-          "grammar_rule": "Passive Voice"
+          "prompt_it": "Traduci l'intera frase in inglese: \"La casa verrà dipinta la prossima settimana.\"",
+          "correct_answer": "The house is being painted next week.",
+          "grammar_rule": "Passive Voice complessa"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'controverso' is ___.",
-          "correct_answer": "controversial",
-          "grammar_rule": "Passive Voice"
+          "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
+          "correct_answer": "stealing",
+          "options": [
+            "stealing",
+            "stole",
+            "stolen",
+            "to steal"
+          ],
+          "grammar_rule": "Passive Voice complessa"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
+          "options": [
+            "I would rather you not smoke here.",
+            "I would rather you won't smoke here.",
+            "I would rather you don't smoke here.",
+            "I would rather you didn't smoke here."
+          ],
+          "correct_answer": "I would rather you didn't smoke here.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\".",
+          "grammar_rule": "Passive Voice complessa"
+        },
+        {
+          "type": "translation",
+          "difficulty": 1,
+          "prompt_it": "Traduci l'intera frase in inglese: \"È ora che ce ne andiamo.\"",
+          "correct_answer": "It's high time we left.",
+          "grammar_rule": "Passive Voice complessa"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 1,
+          "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
+          "correct_answer": "had",
+          "options": [
+            "was",
+            "has",
+            "did",
+            "had"
+          ],
+          "grammar_rule": "Passive Voice complessa"
         }
       ]
     },
@@ -279,177 +307,187 @@
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "controversial",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "If I had known, I would have helped you.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "nevertheless",
-            "hypothesis",
-            "consequence",
-            "controversial"
+            "If I had know, I would have helped you.",
+            "If I had knew, I would have helped you.",
+            "If I had known, I would have helped you."
           ],
-          "correct_answer": "controversial"
+          "correct_answer": "If I had known, I would have helped you."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "hypothesis",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "The phenomenon is completely ubiquitous.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "nevertheless",
-            "controversial",
-            "consequence",
-            "hypothesis"
+            "The phenomenon is completely rare.",
+            "The phenomenon is completely unique.",
+            "The phenomenon is completely ubiquitous."
           ],
-          "correct_answer": "hypothesis"
+          "correct_answer": "The phenomenon is completely ubiquitous."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "nevertheless",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "Despite the rain, we went for a walk.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "nevertheless",
-            "consequence",
-            "controversial",
-            "hypothesis"
+            "Even though the rain, we went for a walk.",
+            "Although the rain, we went for a walk.",
+            "Despite the rain, we went for a walk."
           ],
-          "correct_answer": "nevertheless"
+          "correct_answer": "Despite the rain, we went for a walk."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "phenomenon",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "The house is being painted next week.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "phenomenon",
-            "consequence",
-            "controversial",
-            "hypothesis"
+            "The house is be painted next week.",
+            "The house is been painted next week.",
+            "The house is being painted next week."
           ],
-          "correct_answer": "phenomenon"
+          "correct_answer": "The house is being painted next week."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "sustainable",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "He denied stealing the money.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "sustainable",
-            "consequence",
-            "controversial",
-            "hypothesis"
+            "He denied stole the money.",
+            "He denied to steal the money.",
+            "He denied stealing the money."
           ],
-          "correct_answer": "sustainable"
+          "correct_answer": "He denied stealing the money."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "ubiquitous",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I would rather you didn't smoke here.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "hypothesis",
-            "ubiquitous",
-            "controversial",
-            "consequence"
+            "I would rather you won't smoke here.",
+            "I would rather you don't smoke here.",
+            "I would rather you didn't smoke here."
           ],
-          "correct_answer": "ubiquitous"
+          "correct_answer": "I would rather you didn't smoke here."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "consequence",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "It's high time we left.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "controversial",
-            "nevertheless",
-            "consequence",
-            "hypothesis"
+            "It's high time we left.",
+            "It's high time we leave.",
+            "It's high time we leaving."
           ],
-          "correct_answer": "consequence"
+          "correct_answer": "It's high time we left."
         },
         {
           "type": "listening",
           "difficulty": 1,
-          "audio_text": "controversial",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "By the time we arrived, the movie had already started.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "hypothesis",
-            "consequence",
-            "nevertheless",
-            "controversial"
+            "By the time we arrived, the movie had already started.",
+            "By the time we arrived, the movie was already started.",
+            "By the time we arrived, the movie has already started."
           ],
-          "correct_answer": "controversial"
+          "correct_answer": "By the time we arrived, the movie had already started."
         }
       ]
     },
     {
       "order": 5,
       "title_en": "Vocabulary Practice 5",
-      "title_it": "Esercizio di Vocabolario 5",
+      "title_it": "Esercizio di Fraseologia 5",
       "type": "vocabulary",
       "estimated_minutes": 8,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: controverso",
-          "correct_answer": "controversial"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Se l'avessi saputo, ti avrei aiutato.\"",
+          "correct_answer": "If I had known, I would have helped you."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'ipotesi' is ___.",
-          "correct_answer": "hypothesis"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Come si traduce \"tuttavia\"?",
-          "options": [
-            "controversial",
-            "nevertheless",
-            "consequence",
-            "hypothesis"
-          ],
-          "correct_answer": "nevertheless",
-          "explanation_it": "La traduzione corretta è \"nevertheless\"."
-        },
-        {
-          "type": "translation",
-          "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: fenomeno",
-          "correct_answer": "phenomenon"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 1,
-          "prompt_en": "The word for 'sostenibile' is ___.",
-          "correct_answer": "sustainable"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Come si traduce \"onnipresente\"?",
-          "options": [
-            "controversial",
-            "consequence",
-            "hypothesis",
-            "ubiquitous"
-          ],
+          "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
           "correct_answer": "ubiquitous",
-          "explanation_it": "La traduzione corretta è \"ubiquitous\"."
+          "options": [
+            "isolated",
+            "rare",
+            "unique",
+            "ubiquitous"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
+          "options": [
+            "Despite the rain, we went for a walk.",
+            "However the rain, we went for a walk.",
+            "Although the rain, we went for a walk.",
+            "Even though the rain, we went for a walk."
+          ],
+          "correct_answer": "Despite the rain, we went for a walk.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\"."
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: conseguenza",
-          "correct_answer": "consequence"
+          "prompt_it": "Traduci l'intera frase in inglese: \"La casa verrà dipinta la prossima settimana.\"",
+          "correct_answer": "The house is being painted next week."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'controverso' is ___.",
-          "correct_answer": "controversial"
+          "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
+          "correct_answer": "stealing",
+          "options": [
+            "stolen",
+            "stole",
+            "to steal",
+            "stealing"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
+          "options": [
+            "I would rather you don't smoke here.",
+            "I would rather you not smoke here.",
+            "I would rather you didn't smoke here.",
+            "I would rather you won't smoke here."
+          ],
+          "correct_answer": "I would rather you didn't smoke here.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\"."
+        },
+        {
+          "type": "translation",
+          "difficulty": 1,
+          "prompt_it": "Traduci l'intera frase in inglese: \"È ora che ce ne andiamo.\"",
+          "correct_answer": "It's high time we left."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 1,
+          "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
+          "correct_answer": "had",
+          "options": [
+            "did",
+            "was",
+            "has",
+            "had"
+          ]
         }
       ]
     },
@@ -463,72 +501,90 @@
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: controverso",
-          "correct_answer": "controversial",
-          "grammar_rule": "Passive Voice"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Se l'avessi saputo, ti avrei aiutato.\"",
+          "correct_answer": "If I had known, I would have helped you.",
+          "grammar_rule": "Passive Voice complessa"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'ipotesi' is ___.",
-          "correct_answer": "hypothesis",
-          "grammar_rule": "Passive Voice"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Come si traduce \"tuttavia\"?",
-          "options": [
-            "hypothesis",
-            "controversial",
-            "consequence",
-            "nevertheless"
-          ],
-          "correct_answer": "nevertheless",
-          "explanation_it": "La traduzione corretta è \"nevertheless\".",
-          "grammar_rule": "Passive Voice"
-        },
-        {
-          "type": "translation",
-          "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: fenomeno",
-          "correct_answer": "phenomenon",
-          "grammar_rule": "Passive Voice"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 1,
-          "prompt_en": "The word for 'sostenibile' is ___.",
-          "correct_answer": "sustainable",
-          "grammar_rule": "Passive Voice"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Come si traduce \"onnipresente\"?",
-          "options": [
-            "hypothesis",
-            "ubiquitous",
-            "consequence",
-            "controversial"
-          ],
+          "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
           "correct_answer": "ubiquitous",
-          "explanation_it": "La traduzione corretta è \"ubiquitous\".",
-          "grammar_rule": "Passive Voice"
+          "options": [
+            "isolated",
+            "rare",
+            "unique",
+            "ubiquitous"
+          ],
+          "grammar_rule": "Passive Voice complessa"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
+          "options": [
+            "However the rain, we went for a walk.",
+            "Even though the rain, we went for a walk.",
+            "Although the rain, we went for a walk.",
+            "Despite the rain, we went for a walk."
+          ],
+          "correct_answer": "Despite the rain, we went for a walk.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\".",
+          "grammar_rule": "Passive Voice complessa"
         },
         {
           "type": "translation",
           "difficulty": 1,
-          "prompt_it": "Scrivi la traduzione di: conseguenza",
-          "correct_answer": "consequence",
-          "grammar_rule": "Passive Voice"
+          "prompt_it": "Traduci l'intera frase in inglese: \"La casa verrà dipinta la prossima settimana.\"",
+          "correct_answer": "The house is being painted next week.",
+          "grammar_rule": "Passive Voice complessa"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 1,
-          "prompt_en": "The word for 'controverso' is ___.",
-          "correct_answer": "controversial",
-          "grammar_rule": "Passive Voice"
+          "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
+          "correct_answer": "stealing",
+          "options": [
+            "stealing",
+            "to steal",
+            "stole",
+            "stolen"
+          ],
+          "grammar_rule": "Passive Voice complessa"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
+          "options": [
+            "I would rather you won't smoke here.",
+            "I would rather you not smoke here.",
+            "I would rather you don't smoke here.",
+            "I would rather you didn't smoke here."
+          ],
+          "correct_answer": "I would rather you didn't smoke here.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\".",
+          "grammar_rule": "Passive Voice complessa"
+        },
+        {
+          "type": "translation",
+          "difficulty": 1,
+          "prompt_it": "Traduci l'intera frase in inglese: \"È ora che ce ne andiamo.\"",
+          "correct_answer": "It's high time we left.",
+          "grammar_rule": "Passive Voice complessa"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 1,
+          "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
+          "correct_answer": "had",
+          "options": [
+            "did",
+            "had",
+            "has",
+            "was"
+          ],
+          "grammar_rule": "Passive Voice complessa"
         }
       ]
     }

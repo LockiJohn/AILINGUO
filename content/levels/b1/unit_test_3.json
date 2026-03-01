@@ -3,77 +3,95 @@
   "order": 3,
   "title_en": "Unit 3: B1 Mastery",
   "title_it": "Unità 3: Padronanza B1",
-  "description_it": "Migliora le tue competenze di livello B1 con questa unità immersiva.",
+  "description_it": "Migliora le tue competenze di livello B1 con frasi complete ed esempi d'uso quotidiano.",
   "icon": "💡",
   "lessons": [
     {
       "order": 1,
       "title_en": "Vocabulary Practice 1",
-      "title_it": "Esercizio di Vocabolario 1",
+      "title_it": "Esercizio di Fraseologia 1",
       "type": "vocabulary",
       "estimated_minutes": 5,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: vantaggio",
-          "correct_answer": "advantage"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vivo qui dal 2010.\"",
+          "correct_answer": "I have lived here since 2010."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'raggiungere' is ___.",
-          "correct_answer": "achieve"
+          "prompt_en": "L'italiano è: Mi ha detto che era stanca.. Completa la frase in inglese: She ___ me that she was tired.",
+          "correct_answer": "told",
+          "options": [
+            "talked",
+            "said",
+            "told",
+            "spoke"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sfida\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"L'ambiente ha bisogno di essere protetto.\"?",
           "options": [
-            "challenge",
-            "environment",
-            "advantage",
-            "achieve"
+            "The environment needs to be protected.",
+            "The economy needs to be protected.",
+            "The technology needs to be protected.",
+            "The society needs to be protected."
           ],
-          "correct_answer": "challenge",
-          "explanation_it": "La traduzione corretta è \"challenge\"."
+          "correct_answer": "The environment needs to be protected.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"The environment needs to be protected.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: economia",
-          "correct_answer": "economy"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non devi per forza indossare la cravatta.\"",
+          "correct_answer": "You don't have to wear a tie."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'migliorare' is ___.",
-          "correct_answer": "improve"
+          "prompt_en": "L'italiano è: Sono abituato ad alzarmi presto.. Completa la frase in inglese: I am used to ___ up early.",
+          "correct_answer": "getting",
+          "options": [
+            "got",
+            "get",
+            "getting",
+            "to get"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"conoscenza\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"È riuscito a superare l'esame.\"?",
           "options": [
-            "advantage",
-            "achieve",
-            "knowledge",
-            "environment"
+            "He could to pass the exam.",
+            "He succeeded to pass the exam.",
+            "He managed to pass the exam.",
+            "He can to pass the exam."
           ],
-          "correct_answer": "knowledge",
-          "explanation_it": "La traduzione corretta è \"knowledge\"."
+          "correct_answer": "He managed to pass the exam.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"He managed to pass the exam.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: rendersi conto",
-          "correct_answer": "realize"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vorrei avere più tempo libero.\"",
+          "correct_answer": "I wish I had more free time."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'successo' is ___.",
-          "correct_answer": "success"
+          "prompt_en": "L'italiano è: Se piove, resteremo a casa.. Completa la frase in inglese: If it ___, we will stay at home.",
+          "correct_answer": "rains",
+          "options": [
+            "will rain",
+            "rained",
+            "rain",
+            "rains"
+          ]
         }
       ]
     },
@@ -87,106 +105,98 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "advantage",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I have lived here since 2010.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "achieve",
-            "challenge",
-            "environment",
-            "advantage"
+            "I have lived here from 2010.",
+            "I have lived here for 2010.",
+            "I have lived here since 2010."
           ],
-          "correct_answer": "advantage"
+          "correct_answer": "I have lived here since 2010."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "achieve",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "She told me that she was tired.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "advantage",
-            "challenge",
-            "achieve",
-            "environment"
+            "She told me that she was tired.",
+            "She said me that she was tired.",
+            "She spoke me that she was tired."
           ],
-          "correct_answer": "achieve"
+          "correct_answer": "She told me that she was tired."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "challenge",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "The environment needs to be protected.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "challenge",
-            "achieve",
-            "advantage",
-            "environment"
+            "The society needs to be protected.",
+            "The economy needs to be protected.",
+            "The environment needs to be protected."
           ],
-          "correct_answer": "challenge"
+          "correct_answer": "The environment needs to be protected."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "economy",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "You don't have to wear a tie.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "advantage",
-            "environment",
-            "economy",
-            "achieve"
+            "You don't have to wear a tie.",
+            "You don't mustn't wear a tie.",
+            "You don't should wear a tie."
           ],
-          "correct_answer": "economy"
+          "correct_answer": "You don't have to wear a tie."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "improve",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I am used to getting up early.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "improve",
-            "environment",
-            "advantage",
-            "achieve"
+            "I am used to getting up early.",
+            "I am used to got up early.",
+            "I am used to get up early."
           ],
-          "correct_answer": "improve"
+          "correct_answer": "I am used to getting up early."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "knowledge",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "He managed to pass the exam.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "knowledge",
-            "environment",
-            "advantage",
-            "achieve"
+            "He can to pass the exam.",
+            "He could to pass the exam.",
+            "He managed to pass the exam."
           ],
-          "correct_answer": "knowledge"
+          "correct_answer": "He managed to pass the exam."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "realize",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I wish I had more free time.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "advantage",
-            "realize",
-            "achieve",
-            "environment"
+            "I wish I have more free time.",
+            "I wish I will have more free time.",
+            "I wish I had more free time."
           ],
-          "correct_answer": "realize"
+          "correct_answer": "I wish I had more free time."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "success",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "If it rains, we will stay at home.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "achieve",
-            "advantage",
-            "environment",
-            "success"
+            "If it rained, we will stay at home.",
+            "If it rain, we will stay at home.",
+            "If it rains, we will stay at home."
           ],
-          "correct_answer": "success"
+          "correct_answer": "If it rains, we will stay at home."
         }
       ]
     },
@@ -200,72 +210,90 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: vantaggio",
-          "correct_answer": "advantage",
-          "grammar_rule": "Present Perfect"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vivo qui dal 2010.\"",
+          "correct_answer": "I have lived here since 2010.",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'raggiungere' is ___.",
-          "correct_answer": "achieve",
-          "grammar_rule": "Present Perfect"
+          "prompt_en": "L'italiano è: Mi ha detto che era stanca.. Completa la frase in inglese: She ___ me that she was tired.",
+          "correct_answer": "told",
+          "options": [
+            "told",
+            "said",
+            "spoke",
+            "talked"
+          ],
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sfida\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"L'ambiente ha bisogno di essere protetto.\"?",
           "options": [
-            "environment",
-            "achieve",
-            "challenge",
-            "advantage"
+            "The environment needs to be protected.",
+            "The economy needs to be protected.",
+            "The society needs to be protected.",
+            "The technology needs to be protected."
           ],
-          "correct_answer": "challenge",
-          "explanation_it": "La traduzione corretta è \"challenge\".",
-          "grammar_rule": "Present Perfect"
+          "correct_answer": "The environment needs to be protected.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"The environment needs to be protected.\".",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: economia",
-          "correct_answer": "economy",
-          "grammar_rule": "Present Perfect"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non devi per forza indossare la cravatta.\"",
+          "correct_answer": "You don't have to wear a tie.",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'migliorare' is ___.",
-          "correct_answer": "improve",
-          "grammar_rule": "Present Perfect"
+          "prompt_en": "L'italiano è: Sono abituato ad alzarmi presto.. Completa la frase in inglese: I am used to ___ up early.",
+          "correct_answer": "getting",
+          "options": [
+            "get",
+            "got",
+            "to get",
+            "getting"
+          ],
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"conoscenza\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"È riuscito a superare l'esame.\"?",
           "options": [
-            "knowledge",
-            "environment",
-            "advantage",
-            "achieve"
+            "He managed to pass the exam.",
+            "He succeeded to pass the exam.",
+            "He could to pass the exam.",
+            "He can to pass the exam."
           ],
-          "correct_answer": "knowledge",
-          "explanation_it": "La traduzione corretta è \"knowledge\".",
-          "grammar_rule": "Present Perfect"
+          "correct_answer": "He managed to pass the exam.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"He managed to pass the exam.\".",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: rendersi conto",
-          "correct_answer": "realize",
-          "grammar_rule": "Present Perfect"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vorrei avere più tempo libero.\"",
+          "correct_answer": "I wish I had more free time.",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'successo' is ___.",
-          "correct_answer": "success",
-          "grammar_rule": "Present Perfect"
+          "prompt_en": "L'italiano è: Se piove, resteremo a casa.. Completa la frase in inglese: If it ___, we will stay at home.",
+          "correct_answer": "rains",
+          "options": [
+            "rain",
+            "rained",
+            "rains",
+            "will rain"
+          ],
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         }
       ]
     },
@@ -279,177 +307,187 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "advantage",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I have lived here since 2010.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "challenge",
-            "achieve",
-            "environment",
-            "advantage"
+            "I have lived here from 2010.",
+            "I have lived here for 2010.",
+            "I have lived here since 2010."
           ],
-          "correct_answer": "advantage"
+          "correct_answer": "I have lived here since 2010."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "achieve",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "She told me that she was tired.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "advantage",
-            "environment",
-            "challenge",
-            "achieve"
+            "She spoke me that she was tired.",
+            "She told me that she was tired.",
+            "She said me that she was tired."
           ],
-          "correct_answer": "achieve"
+          "correct_answer": "She told me that she was tired."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "challenge",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "The environment needs to be protected.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "environment",
-            "challenge",
-            "achieve",
-            "advantage"
+            "The economy needs to be protected.",
+            "The society needs to be protected.",
+            "The environment needs to be protected."
           ],
-          "correct_answer": "challenge"
+          "correct_answer": "The environment needs to be protected."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "economy",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "You don't have to wear a tie.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "economy",
-            "environment",
-            "advantage",
-            "achieve"
+            "You don't should wear a tie.",
+            "You don't mustn't wear a tie.",
+            "You don't have to wear a tie."
           ],
-          "correct_answer": "economy"
+          "correct_answer": "You don't have to wear a tie."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "improve",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I am used to getting up early.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "achieve",
-            "advantage",
-            "environment",
-            "improve"
+            "I am used to getting up early.",
+            "I am used to get up early.",
+            "I am used to got up early."
           ],
-          "correct_answer": "improve"
+          "correct_answer": "I am used to getting up early."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "knowledge",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "He managed to pass the exam.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "achieve",
-            "advantage",
-            "environment",
-            "knowledge"
+            "He could to pass the exam.",
+            "He can to pass the exam.",
+            "He managed to pass the exam."
           ],
-          "correct_answer": "knowledge"
+          "correct_answer": "He managed to pass the exam."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "realize",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "I wish I had more free time.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "achieve",
-            "environment",
-            "realize",
-            "advantage"
+            "I wish I have more free time.",
+            "I wish I will have more free time.",
+            "I wish I had more free time."
           ],
-          "correct_answer": "realize"
+          "correct_answer": "I wish I had more free time."
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "success",
-          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
+          "audio_text": "If it rains, we will stay at home.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "advantage",
-            "achieve",
-            "environment",
-            "success"
+            "If it rained, we will stay at home.",
+            "If it rain, we will stay at home.",
+            "If it rains, we will stay at home."
           ],
-          "correct_answer": "success"
+          "correct_answer": "If it rains, we will stay at home."
         }
       ]
     },
     {
       "order": 5,
       "title_en": "Vocabulary Practice 5",
-      "title_it": "Esercizio di Vocabolario 5",
+      "title_it": "Esercizio di Fraseologia 5",
       "type": "vocabulary",
       "estimated_minutes": 8,
       "exercises": [
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: vantaggio",
-          "correct_answer": "advantage"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vivo qui dal 2010.\"",
+          "correct_answer": "I have lived here since 2010."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'raggiungere' is ___.",
-          "correct_answer": "achieve"
+          "prompt_en": "L'italiano è: Mi ha detto che era stanca.. Completa la frase in inglese: She ___ me that she was tired.",
+          "correct_answer": "told",
+          "options": [
+            "told",
+            "said",
+            "talked",
+            "spoke"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sfida\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"L'ambiente ha bisogno di essere protetto.\"?",
           "options": [
-            "environment",
-            "challenge",
-            "achieve",
-            "advantage"
+            "The environment needs to be protected.",
+            "The technology needs to be protected.",
+            "The economy needs to be protected.",
+            "The society needs to be protected."
           ],
-          "correct_answer": "challenge",
-          "explanation_it": "La traduzione corretta è \"challenge\"."
+          "correct_answer": "The environment needs to be protected.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"The environment needs to be protected.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: economia",
-          "correct_answer": "economy"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non devi per forza indossare la cravatta.\"",
+          "correct_answer": "You don't have to wear a tie."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'migliorare' is ___.",
-          "correct_answer": "improve"
+          "prompt_en": "L'italiano è: Sono abituato ad alzarmi presto.. Completa la frase in inglese: I am used to ___ up early.",
+          "correct_answer": "getting",
+          "options": [
+            "to get",
+            "got",
+            "get",
+            "getting"
+          ]
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"conoscenza\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"È riuscito a superare l'esame.\"?",
           "options": [
-            "knowledge",
-            "environment",
-            "advantage",
-            "achieve"
+            "He can to pass the exam.",
+            "He could to pass the exam.",
+            "He managed to pass the exam.",
+            "He succeeded to pass the exam."
           ],
-          "correct_answer": "knowledge",
-          "explanation_it": "La traduzione corretta è \"knowledge\"."
+          "correct_answer": "He managed to pass the exam.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"He managed to pass the exam.\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: rendersi conto",
-          "correct_answer": "realize"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vorrei avere più tempo libero.\"",
+          "correct_answer": "I wish I had more free time."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'successo' is ___.",
-          "correct_answer": "success"
+          "prompt_en": "L'italiano è: Se piove, resteremo a casa.. Completa la frase in inglese: If it ___, we will stay at home.",
+          "correct_answer": "rains",
+          "options": [
+            "will rain",
+            "rains",
+            "rain",
+            "rained"
+          ]
         }
       ]
     },
@@ -463,72 +501,90 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: vantaggio",
-          "correct_answer": "advantage",
-          "grammar_rule": "Present Perfect"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vivo qui dal 2010.\"",
+          "correct_answer": "I have lived here since 2010.",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'raggiungere' is ___.",
-          "correct_answer": "achieve",
-          "grammar_rule": "Present Perfect"
+          "prompt_en": "L'italiano è: Mi ha detto che era stanca.. Completa la frase in inglese: She ___ me that she was tired.",
+          "correct_answer": "told",
+          "options": [
+            "told",
+            "talked",
+            "said",
+            "spoke"
+          ],
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sfida\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"L'ambiente ha bisogno di essere protetto.\"?",
           "options": [
-            "achieve",
-            "advantage",
-            "environment",
-            "challenge"
+            "The economy needs to be protected.",
+            "The society needs to be protected.",
+            "The technology needs to be protected.",
+            "The environment needs to be protected."
           ],
-          "correct_answer": "challenge",
-          "explanation_it": "La traduzione corretta è \"challenge\".",
-          "grammar_rule": "Present Perfect"
+          "correct_answer": "The environment needs to be protected.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"The environment needs to be protected.\".",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: economia",
-          "correct_answer": "economy",
-          "grammar_rule": "Present Perfect"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Non devi per forza indossare la cravatta.\"",
+          "correct_answer": "You don't have to wear a tie.",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'migliorare' is ___.",
-          "correct_answer": "improve",
-          "grammar_rule": "Present Perfect"
+          "prompt_en": "L'italiano è: Sono abituato ad alzarmi presto.. Completa la frase in inglese: I am used to ___ up early.",
+          "correct_answer": "getting",
+          "options": [
+            "getting",
+            "get",
+            "got",
+            "to get"
+          ],
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"conoscenza\"?",
+          "prompt_it": "Qual è la traduzione esatta per: \"È riuscito a superare l'esame.\"?",
           "options": [
-            "knowledge",
-            "environment",
-            "advantage",
-            "achieve"
+            "He succeeded to pass the exam.",
+            "He can to pass the exam.",
+            "He could to pass the exam.",
+            "He managed to pass the exam."
           ],
-          "correct_answer": "knowledge",
-          "explanation_it": "La traduzione corretta è \"knowledge\".",
-          "grammar_rule": "Present Perfect"
+          "correct_answer": "He managed to pass the exam.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"He managed to pass the exam.\".",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la traduzione di: rendersi conto",
-          "correct_answer": "realize",
-          "grammar_rule": "Present Perfect"
+          "prompt_it": "Traduci l'intera frase in inglese: \"Vorrei avere più tempo libero.\"",
+          "correct_answer": "I wish I had more free time.",
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The word for 'successo' is ___.",
-          "correct_answer": "success",
-          "grammar_rule": "Present Perfect"
+          "prompt_en": "L'italiano è: Se piove, resteremo a casa.. Completa la frase in inglese: If it ___, we will stay at home.",
+          "correct_answer": "rains",
+          "options": [
+            "will rain",
+            "rains",
+            "rain",
+            "rained"
+          ],
+          "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         }
       ]
     }

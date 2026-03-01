@@ -140,6 +140,11 @@ app.post('/api/users/demo', (req, res) => {
     // Genera stats base
     db.prepare('INSERT INTO user_stats (user_id, total_xp, current_streak, longest_streak) VALUES (?, ?, ?, ?)').run(newId, 15000, 45, 45)
 
+    // Sblocca la prima unità intera (6 lezioni) così l'utente demo può vedere lo stato "Completato" e andare avanti
+    for (let i = 1; i <= 6; i++) {
+        db.prepare('INSERT INTO lesson_progress (lesson_id, user_id, accuracy, xp_earned) VALUES (?, ?, 95, 20)').run(i, newId)
+    }
+
     // Popola la heatmap con 168 giorni sparsi
     const insertSession = db.prepare('INSERT INTO study_sessions (user_id, started_at, ended_at, xp_earned, exercise_count, accuracy) VALUES (?, ?, ?, ?, ?, ?)')
     const today = new Date()

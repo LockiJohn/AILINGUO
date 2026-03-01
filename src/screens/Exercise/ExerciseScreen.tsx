@@ -121,43 +121,41 @@ export default function ExerciseScreen() {
     }
 
     return (
-        <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', padding: 'var(--space-6)' }}>
+        <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', padding: 'var(--space-4) var(--space-4) calc(var(--space-6) + 60px)' }}>
             {/* Top bar */}
-            <div className="flex flex-between" style={{ marginBottom: 'var(--space-6)', gap: 'var(--space-4)' }}>
-                <button className="btn btn-ghost btn-sm" onClick={() => navigate('/course')}>✕</button>
+            <div className="flex flex-between" style={{ marginBottom: 'var(--space-4)', gap: 'var(--space-3)' }}>
+                <button className="btn btn-ghost btn-sm" onClick={() => navigate('/course')} style={{ padding: '0 8px' }}>✕</button>
                 <div style={{ flex: 1 }}>
                     <div className="progress-bar" style={{ height: 8 }}>
                         <div className="progress-bar__fill" style={{ width: `${progress}%` }} />
                     </div>
                 </div>
                 {useSessionStore.getState().comboCount >= 2 && (
-                    <div className="combo-badge">
+                    <div className="combo-badge" style={{ fontSize: '0.7rem', padding: '2px 6px' }}>
                         🔥 {useSessionStore.getState().comboCount} COMBO
                     </div>
                 )}
+            </div>
 
-                <div className="flex gap-2">
-                    <button className="btn btn-ghost btn-sm" onClick={() => setShowHelp(true)} title="Istruzioni Esercizio">
-                        ❓ Cosa devo fare?
+            {/* Actions & Lesson title */}
+            <div className="flex flex-between flex-wrap" style={{ fontSize: 'var(--text-sm)', color: 'var(--clr-text-muted)', marginBottom: 'var(--space-4)', fontWeight: 600, gap: 'var(--space-2)' }}>
+                <span>{currentLesson?.title} · {currentIndex + 1}/{exercises.length}</span>
+                <div className="flex gap-2" style={{ flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+                    <button className="btn btn-ghost btn-sm" style={{ fontSize: '0.75rem', padding: '4px 8px' }} onClick={() => setShowHelp(true)} title="Istruzioni Esercizio">
+                        ❓ Aiuto
                     </button>
                     {exercise.grammar_rule && (
-                        <button className="btn btn-ghost btn-sm" onClick={() => setShowRule(true)} title="Spiegazione Grammaticale">
+                        <button className="btn btn-ghost btn-sm" style={{ fontSize: '0.75rem', padding: '4px 8px' }} onClick={() => setShowRule(true)} title="Spiegazione Grammaticale">
                             💡 Regola
                         </button>
                     )}
-                    <button className="btn btn-ghost btn-sm" onClick={() => { setShowSolution(true); setUsedSolution(true) }} title="Svela Soluzione (Nessun XP)">
-                        🔍 Soluzione
+                    <button className="btn btn-ghost btn-sm" style={{ fontSize: '0.75rem', padding: '4px 8px' }} onClick={() => { setShowSolution(true); setUsedSolution(true) }} title="Svela Soluzione (Nessun XP)">
+                        🔍 Soluz.
                     </button>
-                    <button className="btn btn-ghost btn-sm" onClick={handleSkip} title="Salta la domanda (Nessun XP)">
+                    <button className="btn btn-ghost btn-sm" style={{ fontSize: '0.75rem', padding: '4px 8px', color: 'var(--clr-error)' }} onClick={handleSkip} title="Salta la domanda (Nessun XP)">
                         ⏭️ Salta
                     </button>
-                    <div className="xp-chip">❤️ {exercises.length - currentIndex}</div>
                 </div>
-            </div>
-
-            {/* Lesson title */}
-            <div style={{ fontSize: 'var(--text-sm)', color: 'var(--clr-text-muted)', marginBottom: 'var(--space-4)', fontWeight: 600 }}>
-                {currentLesson?.title} · {currentIndex + 1}/{exercises.length}
             </div>
 
             {/* Exercise content */}
