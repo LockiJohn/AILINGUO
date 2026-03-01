@@ -16,63 +16,63 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: advantage",
+          "prompt_it": "Scrivi la traduzione di: vantaggio",
           "correct_answer": "advantage"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (achieve)",
+          "prompt_en": "The word for 'raggiungere' is ___.",
           "correct_answer": "achieve"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"challenge\"?",
+          "prompt_it": "Come si traduce \"sfida\"?",
           "options": [
             "challenge",
-            "challenges",
-            "wrong",
-            "other"
+            "achieve",
+            "environment",
+            "advantage"
           ],
           "correct_answer": "challenge",
-          "explanation_it": "La traduzione corretta è challenge."
+          "explanation_it": "La traduzione corretta è \"challenge\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: economy",
+          "prompt_it": "Scrivi la traduzione di: economia",
           "correct_answer": "economy"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (improve)",
+          "prompt_en": "The word for 'migliorare' is ___.",
           "correct_answer": "improve"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"knowledge\"?",
+          "prompt_it": "Come si traduce \"conoscenza\"?",
           "options": [
-            "wrong",
-            "knowledges",
-            "knowledge",
-            "other"
+            "achieve",
+            "advantage",
+            "environment",
+            "knowledge"
           ],
           "correct_answer": "knowledge",
-          "explanation_it": "La traduzione corretta è knowledge."
+          "explanation_it": "La traduzione corretta è \"knowledge\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: realize",
+          "prompt_it": "Scrivi la traduzione di: rendersi conto",
           "correct_answer": "realize"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (success)",
+          "prompt_en": "The word for 'successo' is ___.",
           "correct_answer": "success"
         }
       ]
@@ -87,51 +87,51 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is advantage.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "advantage",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
             "advantage",
-            "world",
-            "work",
-            "word"
+            "environment",
+            "achieve",
+            "challenge"
           ],
           "correct_answer": "advantage"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is achieve.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "achieve",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "achieve",
-            "world",
-            "word",
-            "work"
+            "challenge",
+            "advantage",
+            "environment",
+            "achieve"
           ],
           "correct_answer": "achieve"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is challenge.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "challenge",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
             "challenge",
-            "world"
+            "environment",
+            "advantage",
+            "achieve"
           ],
           "correct_answer": "challenge"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is economy.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "economy",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
+            "environment",
+            "achieve",
+            "advantage",
             "economy"
           ],
           "correct_answer": "economy"
@@ -139,51 +139,51 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is improve.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "improve",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "world",
-            "improve",
-            "word",
-            "work"
+            "achieve",
+            "advantage",
+            "environment",
+            "improve"
           ],
           "correct_answer": "improve"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is knowledge.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "knowledge",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
             "knowledge",
-            "world"
+            "environment",
+            "advantage",
+            "achieve"
           ],
           "correct_answer": "knowledge"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is realize.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "realize",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "realize",
-            "work",
-            "word",
-            "world"
+            "advantage",
+            "achieve",
+            "environment",
+            "realize"
           ],
           "correct_answer": "realize"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is success.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "success",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "world",
-            "work",
-            "word",
+            "achieve",
+            "advantage",
+            "environment",
             "success"
           ],
           "correct_answer": "success"
@@ -200,70 +200,70 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: advantage",
+          "prompt_it": "Scrivi la traduzione di: vantaggio",
           "correct_answer": "advantage",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (achieve)",
+          "prompt_en": "The word for 'raggiungere' is ___.",
           "correct_answer": "achieve",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"challenge\"?",
+          "prompt_it": "Come si traduce \"sfida\"?",
           "options": [
-            "wrong",
+            "achieve",
             "challenge",
-            "other",
-            "challenges"
+            "environment",
+            "advantage"
           ],
           "correct_answer": "challenge",
-          "explanation_it": "La traduzione corretta è challenge.",
+          "explanation_it": "La traduzione corretta è \"challenge\".",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: economy",
+          "prompt_it": "Scrivi la traduzione di: economia",
           "correct_answer": "economy",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (improve)",
+          "prompt_en": "The word for 'migliorare' is ___.",
           "correct_answer": "improve",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"knowledge\"?",
+          "prompt_it": "Come si traduce \"conoscenza\"?",
           "options": [
-            "knowledge",
-            "knowledges",
-            "wrong",
-            "other"
+            "advantage",
+            "environment",
+            "achieve",
+            "knowledge"
           ],
           "correct_answer": "knowledge",
-          "explanation_it": "La traduzione corretta è knowledge.",
+          "explanation_it": "La traduzione corretta è \"knowledge\".",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: realize",
+          "prompt_it": "Scrivi la traduzione di: rendersi conto",
           "correct_answer": "realize",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (success)",
+          "prompt_en": "The word for 'successo' is ___.",
           "correct_answer": "success",
           "grammar_rule": "First Conditional"
         }
@@ -279,77 +279,77 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is advantage.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "advantage",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "advantage",
-            "world",
-            "work",
-            "word"
+            "challenge",
+            "achieve",
+            "environment",
+            "advantage"
           ],
           "correct_answer": "advantage"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is achieve.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "achieve",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "achieve",
-            "world",
-            "work",
-            "word"
+            "advantage",
+            "challenge",
+            "environment",
+            "achieve"
           ],
           "correct_answer": "achieve"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is challenge.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "challenge",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "world",
-            "word",
-            "challenge"
+            "environment",
+            "challenge",
+            "advantage",
+            "achieve"
           ],
           "correct_answer": "challenge"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is economy.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "economy",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
+            "environment",
+            "achieve",
             "economy",
-            "word",
-            "world",
-            "work"
+            "advantage"
           ],
           "correct_answer": "economy"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is improve.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "improve",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "improve",
-            "world",
-            "work",
-            "word"
+            "achieve",
+            "advantage",
+            "environment",
+            "improve"
           ],
           "correct_answer": "improve"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is knowledge.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "knowledge",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
+            "achieve",
+            "advantage",
+            "environment",
             "knowledge"
           ],
           "correct_answer": "knowledge"
@@ -357,26 +357,26 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is realize.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "realize",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
+            "environment",
+            "achieve",
             "realize",
-            "word",
-            "world",
-            "work"
+            "advantage"
           ],
           "correct_answer": "realize"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is success.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "success",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
-            "success"
+            "success",
+            "environment",
+            "achieve",
+            "advantage"
           ],
           "correct_answer": "success"
         }
@@ -392,63 +392,63 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: advantage",
+          "prompt_it": "Scrivi la traduzione di: vantaggio",
           "correct_answer": "advantage"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (achieve)",
+          "prompt_en": "The word for 'raggiungere' is ___.",
           "correct_answer": "achieve"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"challenge\"?",
+          "prompt_it": "Come si traduce \"sfida\"?",
           "options": [
+            "achieve",
+            "advantage",
             "challenge",
-            "challenges",
-            "wrong",
-            "other"
+            "environment"
           ],
           "correct_answer": "challenge",
-          "explanation_it": "La traduzione corretta è challenge."
+          "explanation_it": "La traduzione corretta è \"challenge\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: economy",
+          "prompt_it": "Scrivi la traduzione di: economia",
           "correct_answer": "economy"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (improve)",
+          "prompt_en": "The word for 'migliorare' is ___.",
           "correct_answer": "improve"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"knowledge\"?",
+          "prompt_it": "Come si traduce \"conoscenza\"?",
           "options": [
-            "other",
-            "wrong",
-            "knowledges",
+            "achieve",
+            "advantage",
+            "environment",
             "knowledge"
           ],
           "correct_answer": "knowledge",
-          "explanation_it": "La traduzione corretta è knowledge."
+          "explanation_it": "La traduzione corretta è \"knowledge\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: realize",
+          "prompt_it": "Scrivi la traduzione di: rendersi conto",
           "correct_answer": "realize"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (success)",
+          "prompt_en": "The word for 'successo' is ___.",
           "correct_answer": "success"
         }
       ]
@@ -463,70 +463,70 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: advantage",
+          "prompt_it": "Scrivi la traduzione di: vantaggio",
           "correct_answer": "advantage",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (achieve)",
+          "prompt_en": "The word for 'raggiungere' is ___.",
           "correct_answer": "achieve",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"challenge\"?",
+          "prompt_it": "Come si traduce \"sfida\"?",
           "options": [
             "challenge",
-            "challenges",
-            "wrong",
-            "other"
+            "environment",
+            "advantage",
+            "achieve"
           ],
           "correct_answer": "challenge",
-          "explanation_it": "La traduzione corretta è challenge.",
+          "explanation_it": "La traduzione corretta è \"challenge\".",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: economy",
+          "prompt_it": "Scrivi la traduzione di: economia",
           "correct_answer": "economy",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (improve)",
+          "prompt_en": "The word for 'migliorare' is ___.",
           "correct_answer": "improve",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"knowledge\"?",
+          "prompt_it": "Come si traduce \"conoscenza\"?",
           "options": [
-            "knowledge",
-            "other",
-            "knowledges",
-            "wrong"
+            "achieve",
+            "environment",
+            "advantage",
+            "knowledge"
           ],
           "correct_answer": "knowledge",
-          "explanation_it": "La traduzione corretta è knowledge.",
+          "explanation_it": "La traduzione corretta è \"knowledge\".",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: realize",
+          "prompt_it": "Scrivi la traduzione di: rendersi conto",
           "correct_answer": "realize",
           "grammar_rule": "First Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (success)",
+          "prompt_en": "The word for 'successo' is ___.",
           "correct_answer": "success",
           "grammar_rule": "First Conditional"
         }

@@ -16,63 +16,63 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: book",
+          "prompt_it": "Scrivi la traduzione di: libro",
           "correct_answer": "book"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (car)",
+          "prompt_en": "The word for 'macchina' is ___.",
           "correct_answer": "car"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"dog\"?",
+          "prompt_it": "Come si traduce \"cane\"?",
           "options": [
             "dog",
-            "dogs",
-            "wrong",
-            "other"
+            "car",
+            "apple",
+            "book"
           ],
           "correct_answer": "dog",
-          "explanation_it": "La traduzione corretta è dog."
+          "explanation_it": "La traduzione corretta è \"dog\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: house",
+          "prompt_it": "Scrivi la traduzione di: casa",
           "correct_answer": "house"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (water)",
+          "prompt_en": "The word for 'acqua' is ___.",
           "correct_answer": "water"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sun\"?",
+          "prompt_it": "Come si traduce \"sole\"?",
           "options": [
-            "other",
-            "sun",
-            "suns",
-            "wrong"
+            "apple",
+            "book",
+            "car",
+            "sun"
           ],
           "correct_answer": "sun",
-          "explanation_it": "La traduzione corretta è sun."
+          "explanation_it": "La traduzione corretta è \"sun\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: happy",
+          "prompt_it": "Scrivi la traduzione di: felice",
           "correct_answer": "happy"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (run)",
+          "prompt_en": "The word for 'correre' is ___.",
           "correct_answer": "run"
         }
       ]
@@ -87,104 +87,104 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is book.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "book",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
             "book",
-            "world",
-            "work",
-            "word"
+            "dog",
+            "apple",
+            "car"
           ],
           "correct_answer": "book"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is car.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "car",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
-            "car"
+            "car",
+            "dog",
+            "apple",
+            "book"
           ],
           "correct_answer": "car"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is dog.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "dog",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
+            "car",
             "dog",
-            "world",
-            "word",
-            "work"
+            "book",
+            "apple"
           ],
           "correct_answer": "dog"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is house.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "house",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
             "house",
-            "world",
-            "word",
-            "work"
+            "car",
+            "apple",
+            "book"
           ],
           "correct_answer": "house"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is water.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "water",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "world",
-            "work",
-            "water",
-            "word"
+            "book",
+            "apple",
+            "car",
+            "water"
           ],
           "correct_answer": "water"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is sun.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "sun",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "sun",
-            "world",
-            "word"
+            "car",
+            "book",
+            "apple",
+            "sun"
           ],
           "correct_answer": "sun"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is happy.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "happy",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "happy",
-            "world"
+            "car",
+            "book",
+            "apple",
+            "happy"
           ],
           "correct_answer": "happy"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is run.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "run",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
-            "world",
-            "run"
+            "car",
+            "run",
+            "apple",
+            "book"
           ],
           "correct_answer": "run"
         }
@@ -200,70 +200,70 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: book",
+          "prompt_it": "Scrivi la traduzione di: libro",
           "correct_answer": "book",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (car)",
+          "prompt_en": "The word for 'macchina' is ___.",
           "correct_answer": "car",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"dog\"?",
+          "prompt_it": "Come si traduce \"cane\"?",
           "options": [
-            "other",
+            "car",
             "dog",
-            "dogs",
-            "wrong"
+            "book",
+            "apple"
           ],
           "correct_answer": "dog",
-          "explanation_it": "La traduzione corretta è dog.",
+          "explanation_it": "La traduzione corretta è \"dog\".",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: house",
+          "prompt_it": "Scrivi la traduzione di: casa",
           "correct_answer": "house",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (water)",
+          "prompt_en": "The word for 'acqua' is ___.",
           "correct_answer": "water",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sun\"?",
+          "prompt_it": "Come si traduce \"sole\"?",
           "options": [
-            "suns",
+            "car",
             "sun",
-            "other",
-            "wrong"
+            "apple",
+            "book"
           ],
           "correct_answer": "sun",
-          "explanation_it": "La traduzione corretta è sun.",
+          "explanation_it": "La traduzione corretta è \"sun\".",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: happy",
+          "prompt_it": "Scrivi la traduzione di: felice",
           "correct_answer": "happy",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (run)",
+          "prompt_en": "The word for 'correre' is ___.",
           "correct_answer": "run",
           "grammar_rule": "Present Simple"
         }
@@ -279,104 +279,104 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is book.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "book",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "book",
-            "word",
-            "world",
-            "work"
+            "dog",
+            "car",
+            "apple",
+            "book"
           ],
           "correct_answer": "book"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is car.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "car",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
             "car",
-            "word",
-            "world",
-            "work"
+            "apple",
+            "book",
+            "dog"
           ],
           "correct_answer": "car"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is dog.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "dog",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "world",
-            "work",
+            "car",
             "dog",
-            "word"
+            "apple",
+            "book"
           ],
           "correct_answer": "dog"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is house.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "house",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
-            "house"
+            "book",
+            "apple",
+            "house",
+            "car"
           ],
           "correct_answer": "house"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is water.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "water",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
-            "water"
+            "water",
+            "car",
+            "apple",
+            "book"
           ],
           "correct_answer": "water"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is sun.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "sun",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "sun",
-            "world",
-            "word",
-            "work"
+            "car",
+            "book",
+            "apple",
+            "sun"
           ],
           "correct_answer": "sun"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is happy.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "happy",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
-            "happy",
-            "world"
+            "car",
+            "book",
+            "apple",
+            "happy"
           ],
           "correct_answer": "happy"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is run.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "run",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
+            "apple",
+            "book",
             "run",
-            "world",
-            "work"
+            "car"
           ],
           "correct_answer": "run"
         }
@@ -392,63 +392,63 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: book",
+          "prompt_it": "Scrivi la traduzione di: libro",
           "correct_answer": "book"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (car)",
+          "prompt_en": "The word for 'macchina' is ___.",
           "correct_answer": "car"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"dog\"?",
+          "prompt_it": "Come si traduce \"cane\"?",
           "options": [
-            "other",
-            "wrong",
-            "dog",
-            "dogs"
+            "car",
+            "book",
+            "apple",
+            "dog"
           ],
           "correct_answer": "dog",
-          "explanation_it": "La traduzione corretta è dog."
+          "explanation_it": "La traduzione corretta è \"dog\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: house",
+          "prompt_it": "Scrivi la traduzione di: casa",
           "correct_answer": "house"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (water)",
+          "prompt_en": "The word for 'acqua' is ___.",
           "correct_answer": "water"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sun\"?",
+          "prompt_it": "Come si traduce \"sole\"?",
           "options": [
-            "wrong",
-            "sun",
-            "other",
-            "suns"
+            "apple",
+            "book",
+            "car",
+            "sun"
           ],
           "correct_answer": "sun",
-          "explanation_it": "La traduzione corretta è sun."
+          "explanation_it": "La traduzione corretta è \"sun\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: happy",
+          "prompt_it": "Scrivi la traduzione di: felice",
           "correct_answer": "happy"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (run)",
+          "prompt_en": "The word for 'correre' is ___.",
           "correct_answer": "run"
         }
       ]
@@ -463,70 +463,70 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: book",
+          "prompt_it": "Scrivi la traduzione di: libro",
           "correct_answer": "book",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (car)",
+          "prompt_en": "The word for 'macchina' is ___.",
           "correct_answer": "car",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"dog\"?",
+          "prompt_it": "Come si traduce \"cane\"?",
           "options": [
-            "dog",
-            "dogs",
-            "wrong",
-            "other"
+            "car",
+            "book",
+            "apple",
+            "dog"
           ],
           "correct_answer": "dog",
-          "explanation_it": "La traduzione corretta è dog.",
+          "explanation_it": "La traduzione corretta è \"dog\".",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: house",
+          "prompt_it": "Scrivi la traduzione di: casa",
           "correct_answer": "house",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (water)",
+          "prompt_en": "The word for 'acqua' is ___.",
           "correct_answer": "water",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"sun\"?",
+          "prompt_it": "Come si traduce \"sole\"?",
           "options": [
-            "wrong",
-            "sun",
-            "suns",
-            "other"
+            "car",
+            "book",
+            "apple",
+            "sun"
           ],
           "correct_answer": "sun",
-          "explanation_it": "La traduzione corretta è sun.",
+          "explanation_it": "La traduzione corretta è \"sun\".",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: happy",
+          "prompt_it": "Scrivi la traduzione di: felice",
           "correct_answer": "happy",
           "grammar_rule": "Present Simple"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (run)",
+          "prompt_en": "The word for 'correre' is ___.",
           "correct_answer": "run",
           "grammar_rule": "Present Simple"
         }

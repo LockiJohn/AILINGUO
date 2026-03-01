@@ -16,63 +16,63 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: mitigate",
+          "prompt_it": "Scrivi la traduzione di: mitigare",
           "correct_answer": "mitigate"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (paradigm)",
+          "prompt_en": "The word for 'paradigma' is ___.",
           "correct_answer": "paradigm"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"quintessential\"?",
+          "prompt_it": "Come si traduce \"quintessenziale\"?",
           "options": [
-            "quintessentials",
-            "other",
             "quintessential",
-            "wrong"
+            "idiosyncrasy",
+            "paradigm",
+            "mitigate"
           ],
           "correct_answer": "quintessential",
-          "explanation_it": "La traduzione corretta è quintessential."
+          "explanation_it": "La traduzione corretta è \"quintessential\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: sycophant",
+          "prompt_it": "Scrivi la traduzione di: adulatore",
           "correct_answer": "sycophant"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (zealous)",
+          "prompt_en": "The word for 'zelante' is ___.",
           "correct_answer": "zealous"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"ephemeral\"?",
+          "prompt_it": "Come si traduce \"effimero\"?",
           "options": [
-            "other",
-            "wrong",
             "ephemeral",
-            "ephemerals"
+            "idiosyncrasy",
+            "mitigate",
+            "paradigm"
           ],
           "correct_answer": "ephemeral",
-          "explanation_it": "La traduzione corretta è ephemeral."
+          "explanation_it": "La traduzione corretta è \"ephemeral\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: idiosyncrasy",
+          "prompt_it": "Scrivi la traduzione di: idiosincrasia",
           "correct_answer": "idiosyncrasy"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (mitigate)",
+          "prompt_en": "The word for 'mitigare' is ___.",
           "correct_answer": "mitigate"
         }
       ]
@@ -87,51 +87,51 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is mitigate.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "mitigate",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
             "mitigate",
-            "work",
-            "world"
+            "idiosyncrasy",
+            "quintessential",
+            "paradigm"
           ],
           "correct_answer": "mitigate"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is paradigm.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "paradigm",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
             "paradigm",
-            "word",
-            "world",
-            "work"
+            "idiosyncrasy",
+            "quintessential",
+            "mitigate"
           ],
           "correct_answer": "paradigm"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is quintessential.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "quintessential",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "quintessential",
-            "work",
-            "world",
-            "word"
+            "paradigm",
+            "mitigate",
+            "idiosyncrasy",
+            "quintessential"
           ],
           "correct_answer": "quintessential"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is sycophant.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "sycophant",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
+            "paradigm",
+            "mitigate",
+            "idiosyncrasy",
             "sycophant"
           ],
           "correct_answer": "sycophant"
@@ -139,38 +139,38 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is zealous.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "zealous",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
+            "idiosyncrasy",
+            "paradigm",
             "zealous",
-            "word",
-            "work",
-            "world"
+            "mitigate"
           ],
           "correct_answer": "zealous"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is ephemeral.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "ephemeral",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "world",
-            "word",
-            "ephemeral"
+            "paradigm",
+            "ephemeral",
+            "idiosyncrasy",
+            "mitigate"
           ],
           "correct_answer": "ephemeral"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is idiosyncrasy.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "idiosyncrasy",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
-            "world",
+            "paradigm",
+            "quintessential",
+            "mitigate",
             "idiosyncrasy"
           ],
           "correct_answer": "idiosyncrasy"
@@ -178,12 +178,12 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is mitigate.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "mitigate",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
-            "world",
+            "paradigm",
+            "quintessential",
+            "idiosyncrasy",
             "mitigate"
           ],
           "correct_answer": "mitigate"
@@ -200,70 +200,70 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: mitigate",
+          "prompt_it": "Scrivi la traduzione di: mitigare",
           "correct_answer": "mitigate",
           "grammar_rule": "Inversion"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (paradigm)",
+          "prompt_en": "The word for 'paradigma' is ___.",
           "correct_answer": "paradigm",
           "grammar_rule": "Inversion"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"quintessential\"?",
+          "prompt_it": "Come si traduce \"quintessenziale\"?",
           "options": [
             "quintessential",
-            "other",
-            "quintessentials",
-            "wrong"
+            "idiosyncrasy",
+            "mitigate",
+            "paradigm"
           ],
           "correct_answer": "quintessential",
-          "explanation_it": "La traduzione corretta è quintessential.",
+          "explanation_it": "La traduzione corretta è \"quintessential\".",
           "grammar_rule": "Inversion"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: sycophant",
+          "prompt_it": "Scrivi la traduzione di: adulatore",
           "correct_answer": "sycophant",
           "grammar_rule": "Inversion"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (zealous)",
+          "prompt_en": "The word for 'zelante' is ___.",
           "correct_answer": "zealous",
           "grammar_rule": "Inversion"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"ephemeral\"?",
+          "prompt_it": "Come si traduce \"effimero\"?",
           "options": [
-            "other",
-            "ephemeral",
-            "wrong",
-            "ephemerals"
+            "paradigm",
+            "idiosyncrasy",
+            "mitigate",
+            "ephemeral"
           ],
           "correct_answer": "ephemeral",
-          "explanation_it": "La traduzione corretta è ephemeral.",
+          "explanation_it": "La traduzione corretta è \"ephemeral\".",
           "grammar_rule": "Inversion"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: idiosyncrasy",
+          "prompt_it": "Scrivi la traduzione di: idiosincrasia",
           "correct_answer": "idiosyncrasy",
           "grammar_rule": "Inversion"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (mitigate)",
+          "prompt_en": "The word for 'mitigare' is ___.",
           "correct_answer": "mitigate",
           "grammar_rule": "Inversion"
         }
@@ -279,90 +279,90 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is mitigate.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "mitigate",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
-            "mitigate"
+            "mitigate",
+            "idiosyncrasy",
+            "paradigm",
+            "quintessential"
           ],
           "correct_answer": "mitigate"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is paradigm.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "paradigm",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "world",
-            "word",
+            "quintessential",
             "paradigm",
-            "work"
+            "mitigate",
+            "idiosyncrasy"
           ],
           "correct_answer": "paradigm"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is quintessential.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "quintessential",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
+            "paradigm",
             "quintessential",
-            "word",
-            "world",
-            "work"
+            "mitigate",
+            "idiosyncrasy"
           ],
           "correct_answer": "quintessential"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is sycophant.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "sycophant",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
             "sycophant",
-            "world",
-            "work"
+            "paradigm",
+            "mitigate",
+            "idiosyncrasy"
           ],
           "correct_answer": "sycophant"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is zealous.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "zealous",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
+            "idiosyncrasy",
+            "paradigm",
             "zealous",
-            "word",
-            "world",
-            "work"
+            "mitigate"
           ],
           "correct_answer": "zealous"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is ephemeral.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "ephemeral",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
             "ephemeral",
-            "world",
-            "work",
-            "word"
+            "idiosyncrasy",
+            "paradigm",
+            "mitigate"
           ],
           "correct_answer": "ephemeral"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is idiosyncrasy.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "idiosyncrasy",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "world",
-            "work",
-            "word",
+            "mitigate",
+            "paradigm",
+            "quintessential",
             "idiosyncrasy"
           ],
           "correct_answer": "idiosyncrasy"
@@ -370,13 +370,13 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is mitigate.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "mitigate",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
             "mitigate",
-            "world",
-            "work",
-            "word"
+            "idiosyncrasy",
+            "paradigm",
+            "quintessential"
           ],
           "correct_answer": "mitigate"
         }
@@ -392,63 +392,63 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: mitigate",
+          "prompt_it": "Scrivi la traduzione di: mitigare",
           "correct_answer": "mitigate"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (paradigm)",
+          "prompt_en": "The word for 'paradigma' is ___.",
           "correct_answer": "paradigm"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"quintessential\"?",
+          "prompt_it": "Come si traduce \"quintessenziale\"?",
           "options": [
             "quintessential",
-            "quintessentials",
-            "other",
-            "wrong"
+            "paradigm",
+            "idiosyncrasy",
+            "mitigate"
           ],
           "correct_answer": "quintessential",
-          "explanation_it": "La traduzione corretta è quintessential."
+          "explanation_it": "La traduzione corretta è \"quintessential\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: sycophant",
+          "prompt_it": "Scrivi la traduzione di: adulatore",
           "correct_answer": "sycophant"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (zealous)",
+          "prompt_en": "The word for 'zelante' is ___.",
           "correct_answer": "zealous"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"ephemeral\"?",
+          "prompt_it": "Come si traduce \"effimero\"?",
           "options": [
-            "wrong",
-            "ephemeral",
-            "ephemerals",
-            "other"
+            "paradigm",
+            "mitigate",
+            "idiosyncrasy",
+            "ephemeral"
           ],
           "correct_answer": "ephemeral",
-          "explanation_it": "La traduzione corretta è ephemeral."
+          "explanation_it": "La traduzione corretta è \"ephemeral\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: idiosyncrasy",
+          "prompt_it": "Scrivi la traduzione di: idiosincrasia",
           "correct_answer": "idiosyncrasy"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (mitigate)",
+          "prompt_en": "The word for 'mitigare' is ___.",
           "correct_answer": "mitigate"
         }
       ]
@@ -463,70 +463,70 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: mitigate",
+          "prompt_it": "Scrivi la traduzione di: mitigare",
           "correct_answer": "mitigate",
           "grammar_rule": "Inversion"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (paradigm)",
+          "prompt_en": "The word for 'paradigma' is ___.",
           "correct_answer": "paradigm",
           "grammar_rule": "Inversion"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"quintessential\"?",
+          "prompt_it": "Come si traduce \"quintessenziale\"?",
           "options": [
-            "other",
-            "wrong",
-            "quintessentials",
+            "paradigm",
+            "mitigate",
+            "idiosyncrasy",
             "quintessential"
           ],
           "correct_answer": "quintessential",
-          "explanation_it": "La traduzione corretta è quintessential.",
+          "explanation_it": "La traduzione corretta è \"quintessential\".",
           "grammar_rule": "Inversion"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: sycophant",
+          "prompt_it": "Scrivi la traduzione di: adulatore",
           "correct_answer": "sycophant",
           "grammar_rule": "Inversion"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (zealous)",
+          "prompt_en": "The word for 'zelante' is ___.",
           "correct_answer": "zealous",
           "grammar_rule": "Inversion"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"ephemeral\"?",
+          "prompt_it": "Come si traduce \"effimero\"?",
           "options": [
-            "ephemerals",
-            "other",
-            "wrong",
-            "ephemeral"
+            "ephemeral",
+            "idiosyncrasy",
+            "mitigate",
+            "paradigm"
           ],
           "correct_answer": "ephemeral",
-          "explanation_it": "La traduzione corretta è ephemeral.",
+          "explanation_it": "La traduzione corretta è \"ephemeral\".",
           "grammar_rule": "Inversion"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: idiosyncrasy",
+          "prompt_it": "Scrivi la traduzione di: idiosincrasia",
           "correct_answer": "idiosyncrasy",
           "grammar_rule": "Inversion"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (mitigate)",
+          "prompt_en": "The word for 'mitigare' is ___.",
           "correct_answer": "mitigate",
           "grammar_rule": "Inversion"
         }

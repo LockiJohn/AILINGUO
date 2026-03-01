@@ -16,63 +16,63 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: controversial",
+          "prompt_it": "Scrivi la traduzione di: controverso",
           "correct_answer": "controversial"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (hypothesis)",
+          "prompt_en": "The word for 'ipotesi' is ___.",
           "correct_answer": "hypothesis"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"nevertheless\"?",
+          "prompt_it": "Come si traduce \"tuttavia\"?",
           "options": [
-            "wrong",
             "nevertheless",
-            "other",
-            "neverthelesss"
+            "consequence",
+            "controversial",
+            "hypothesis"
           ],
           "correct_answer": "nevertheless",
-          "explanation_it": "La traduzione corretta è nevertheless."
+          "explanation_it": "La traduzione corretta è \"nevertheless\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: phenomenon",
+          "prompt_it": "Scrivi la traduzione di: fenomeno",
           "correct_answer": "phenomenon"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (sustainable)",
+          "prompt_en": "The word for 'sostenibile' is ___.",
           "correct_answer": "sustainable"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"ubiquitous\"?",
+          "prompt_it": "Come si traduce \"onnipresente\"?",
           "options": [
-            "ubiquitous",
-            "ubiquitouss",
-            "wrong",
-            "other"
+            "hypothesis",
+            "controversial",
+            "consequence",
+            "ubiquitous"
           ],
           "correct_answer": "ubiquitous",
-          "explanation_it": "La traduzione corretta è ubiquitous."
+          "explanation_it": "La traduzione corretta è \"ubiquitous\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: consequence",
+          "prompt_it": "Scrivi la traduzione di: conseguenza",
           "correct_answer": "consequence"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (controversial)",
+          "prompt_en": "The word for 'controverso' is ___.",
           "correct_answer": "controversial"
         }
       ]
@@ -87,104 +87,104 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is controversial.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "controversial",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
-            "controversial"
+            "nevertheless",
+            "consequence",
+            "controversial",
+            "hypothesis"
           ],
           "correct_answer": "controversial"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is hypothesis.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "hypothesis",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
-            "hypothesis"
+            "consequence",
+            "hypothesis",
+            "nevertheless",
+            "controversial"
           ],
           "correct_answer": "hypothesis"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is nevertheless.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "nevertheless",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
-            "nevertheless"
+            "nevertheless",
+            "hypothesis",
+            "controversial",
+            "consequence"
           ],
           "correct_answer": "nevertheless"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is phenomenon.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "phenomenon",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "world",
-            "word",
+            "consequence",
+            "controversial",
             "phenomenon",
-            "work"
+            "hypothesis"
           ],
           "correct_answer": "phenomenon"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is sustainable.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "sustainable",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
-            "sustainable",
-            "world"
+            "controversial",
+            "consequence",
+            "hypothesis",
+            "sustainable"
           ],
           "correct_answer": "sustainable"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is ubiquitous.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "ubiquitous",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
             "ubiquitous",
-            "world"
+            "consequence",
+            "hypothesis",
+            "controversial"
           ],
           "correct_answer": "ubiquitous"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is consequence.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "consequence",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "consequence",
-            "world",
-            "word",
-            "work"
+            "nevertheless",
+            "hypothesis",
+            "controversial",
+            "consequence"
           ],
           "correct_answer": "consequence"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is controversial.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "controversial",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
+            "consequence",
             "controversial",
-            "world",
-            "work"
+            "nevertheless",
+            "hypothesis"
           ],
           "correct_answer": "controversial"
         }
@@ -200,70 +200,70 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: controversial",
+          "prompt_it": "Scrivi la traduzione di: controverso",
           "correct_answer": "controversial",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (hypothesis)",
+          "prompt_en": "The word for 'ipotesi' is ___.",
           "correct_answer": "hypothesis",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"nevertheless\"?",
+          "prompt_it": "Come si traduce \"tuttavia\"?",
           "options": [
-            "other",
-            "wrong",
-            "neverthelesss",
-            "nevertheless"
+            "hypothesis",
+            "controversial",
+            "nevertheless",
+            "consequence"
           ],
           "correct_answer": "nevertheless",
-          "explanation_it": "La traduzione corretta è nevertheless.",
+          "explanation_it": "La traduzione corretta è \"nevertheless\".",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: phenomenon",
+          "prompt_it": "Scrivi la traduzione di: fenomeno",
           "correct_answer": "phenomenon",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (sustainable)",
+          "prompt_en": "The word for 'sostenibile' is ___.",
           "correct_answer": "sustainable",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"ubiquitous\"?",
+          "prompt_it": "Come si traduce \"onnipresente\"?",
           "options": [
-            "other",
-            "ubiquitouss",
+            "controversial",
+            "hypothesis",
             "ubiquitous",
-            "wrong"
+            "consequence"
           ],
           "correct_answer": "ubiquitous",
-          "explanation_it": "La traduzione corretta è ubiquitous.",
+          "explanation_it": "La traduzione corretta è \"ubiquitous\".",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: consequence",
+          "prompt_it": "Scrivi la traduzione di: conseguenza",
           "correct_answer": "consequence",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (controversial)",
+          "prompt_en": "The word for 'controverso' is ___.",
           "correct_answer": "controversial",
           "grammar_rule": "Third Conditional"
         }
@@ -279,12 +279,12 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is controversial.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "controversial",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
-            "world",
+            "nevertheless",
+            "hypothesis",
+            "consequence",
             "controversial"
           ],
           "correct_answer": "controversial"
@@ -292,64 +292,64 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is hypothesis.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "hypothesis",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
+            "consequence",
             "hypothesis",
-            "world",
-            "work",
-            "word"
+            "nevertheless",
+            "controversial"
           ],
           "correct_answer": "hypothesis"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is nevertheless.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "nevertheless",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "world",
-            "word",
-            "nevertheless"
+            "consequence",
+            "hypothesis",
+            "nevertheless",
+            "controversial"
           ],
           "correct_answer": "nevertheless"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is phenomenon.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "phenomenon",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "work",
-            "world",
-            "phenomenon"
+            "phenomenon",
+            "controversial",
+            "hypothesis",
+            "consequence"
           ],
           "correct_answer": "phenomenon"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is sustainable.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "sustainable",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "world",
-            "word",
-            "sustainable"
+            "sustainable",
+            "controversial",
+            "consequence",
+            "hypothesis"
           ],
           "correct_answer": "sustainable"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is ubiquitous.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "ubiquitous",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "work",
-            "word",
-            "world",
+            "controversial",
+            "hypothesis",
+            "consequence",
             "ubiquitous"
           ],
           "correct_answer": "ubiquitous"
@@ -357,26 +357,26 @@
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is consequence.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "consequence",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "consequence",
-            "word",
-            "work",
-            "world"
+            "nevertheless",
+            "hypothesis",
+            "controversial",
+            "consequence"
           ],
           "correct_answer": "consequence"
         },
         {
           "type": "listening",
           "difficulty": 2,
-          "audio_text": "The word is controversial.",
-          "prompt_it": "Cosa hai sentito?",
+          "audio_text": "controversial",
+          "prompt_it": "Scrivi la parola che hai sentito (in inglese).",
           "options": [
-            "word",
-            "world",
+            "hypothesis",
+            "consequence",
             "controversial",
-            "work"
+            "nevertheless"
           ],
           "correct_answer": "controversial"
         }
@@ -392,63 +392,63 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: controversial",
+          "prompt_it": "Scrivi la traduzione di: controverso",
           "correct_answer": "controversial"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (hypothesis)",
+          "prompt_en": "The word for 'ipotesi' is ___.",
           "correct_answer": "hypothesis"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"nevertheless\"?",
+          "prompt_it": "Come si traduce \"tuttavia\"?",
           "options": [
-            "nevertheless",
-            "other",
-            "wrong",
-            "neverthelesss"
+            "consequence",
+            "controversial",
+            "hypothesis",
+            "nevertheless"
           ],
           "correct_answer": "nevertheless",
-          "explanation_it": "La traduzione corretta è nevertheless."
+          "explanation_it": "La traduzione corretta è \"nevertheless\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: phenomenon",
+          "prompt_it": "Scrivi la traduzione di: fenomeno",
           "correct_answer": "phenomenon"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (sustainable)",
+          "prompt_en": "The word for 'sostenibile' is ___.",
           "correct_answer": "sustainable"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"ubiquitous\"?",
+          "prompt_it": "Come si traduce \"onnipresente\"?",
           "options": [
-            "other",
-            "wrong",
-            "ubiquitouss",
-            "ubiquitous"
+            "controversial",
+            "consequence",
+            "ubiquitous",
+            "hypothesis"
           ],
           "correct_answer": "ubiquitous",
-          "explanation_it": "La traduzione corretta è ubiquitous."
+          "explanation_it": "La traduzione corretta è \"ubiquitous\"."
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: consequence",
+          "prompt_it": "Scrivi la traduzione di: conseguenza",
           "correct_answer": "consequence"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (controversial)",
+          "prompt_en": "The word for 'controverso' is ___.",
           "correct_answer": "controversial"
         }
       ]
@@ -463,70 +463,70 @@
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: controversial",
+          "prompt_it": "Scrivi la traduzione di: controverso",
           "correct_answer": "controversial",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (hypothesis)",
+          "prompt_en": "The word for 'ipotesi' is ___.",
           "correct_answer": "hypothesis",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"nevertheless\"?",
+          "prompt_it": "Come si traduce \"tuttavia\"?",
           "options": [
             "nevertheless",
-            "neverthelesss",
-            "other",
-            "wrong"
+            "consequence",
+            "hypothesis",
+            "controversial"
           ],
           "correct_answer": "nevertheless",
-          "explanation_it": "La traduzione corretta è nevertheless.",
+          "explanation_it": "La traduzione corretta è \"nevertheless\".",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: phenomenon",
+          "prompt_it": "Scrivi la traduzione di: fenomeno",
           "correct_answer": "phenomenon",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (sustainable)",
+          "prompt_en": "The word for 'sostenibile' is ___.",
           "correct_answer": "sustainable",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "multiple_choice",
           "difficulty": 2,
-          "prompt_it": "Come si traduce \"ubiquitous\"?",
+          "prompt_it": "Come si traduce \"onnipresente\"?",
           "options": [
-            "other",
-            "wrong",
-            "ubiquitouss",
-            "ubiquitous"
+            "ubiquitous",
+            "consequence",
+            "controversial",
+            "hypothesis"
           ],
           "correct_answer": "ubiquitous",
-          "explanation_it": "La traduzione corretta è ubiquitous.",
+          "explanation_it": "La traduzione corretta è \"ubiquitous\".",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "translation",
           "difficulty": 2,
-          "prompt_it": "Scrivi la parola: consequence",
+          "prompt_it": "Scrivi la traduzione di: conseguenza",
           "correct_answer": "consequence",
           "grammar_rule": "Third Conditional"
         },
         {
           "type": "fill_in_the_blank",
           "difficulty": 2,
-          "prompt_en": "The ___ is on the table. (controversial)",
+          "prompt_en": "The word for 'controverso' is ___.",
           "correct_answer": "controversial",
           "grammar_rule": "Third Conditional"
         }
