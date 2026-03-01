@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "target": "ES2022",
+        "rootDir": ".",
+        "outDir": "dist-server",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": false,
+        "skipLibCheck": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "server/**/*",
+        "electron/db/**/*",
+        "electron/content/**/*"
+    ]
+}
