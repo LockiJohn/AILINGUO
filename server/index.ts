@@ -123,7 +123,7 @@ app.post('/api/users/create', (req, res) => {
 })
 
 app.post('/api/users/demo', (req, res) => {
-    const info = db.prepare('INSERT INTO users (name, current_level, onboarding_complete) VALUES (?, ?, 1)').run('Test Demo (B2)', 'B2')
+    const info = db.prepare('INSERT INTO users (name, current_level, onboarding_complete) VALUES (?, ?, 1)').run('Test Demo (A1)', 'A1')
     const newId = info.lastInsertRowid as number
 
     // Genera stats base
