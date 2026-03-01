@@ -19,9 +19,13 @@ interface ContentExercise {
 export function loadUnitsForLevel(db: Database.Database, levelCode: string): void {
     const possiblePaths = [
         join(process.cwd(), 'content', 'levels', levelCode.toLowerCase()),
+        join(__dirname, '..', '..', 'content', 'levels', levelCode.toLowerCase()), // from dist-server/electron/content
+        join(__dirname, '..', '..', '..', 'content', 'levels', levelCode.toLowerCase())
     ]
     let contentDir = ''
-    for (const p of possiblePaths) { if (existsSync(p)) { contentDir = p; break } }
+    for (const p of possiblePaths) {
+        if (existsSync(p)) { contentDir = p; break }
+    }
     if (!contentDir) { console.warn(`[Content] No content dir for ${levelCode}`); return }
 
     const files = readdirSync(contentDir).filter((f: string) => f.endsWith('.json')).sort()
