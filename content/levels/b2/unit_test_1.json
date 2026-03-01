@@ -25,9 +25,9 @@
           "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
           "correct_answer": "ubiquitous",
           "options": [
-            "unique",
             "isolated",
             "ubiquitous",
+            "unique",
             "rare"
           ]
         },
@@ -36,10 +36,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
           "options": [
-            "However the rain, we went for a walk.",
-            "Even though the rain, we went for a walk.",
             "Despite the rain, we went for a walk.",
-            "Although the rain, we went for a walk."
+            "However the rain, we went for a walk.",
+            "Although the rain, we went for a walk.",
+            "Even though the rain, we went for a walk."
           ],
           "correct_answer": "Despite the rain, we went for a walk.",
           "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\"."
@@ -57,9 +57,9 @@
           "correct_answer": "stealing",
           "options": [
             "stealing",
-            "to steal",
             "stole",
-            "stolen"
+            "stolen",
+            "to steal"
           ]
         },
         {
@@ -120,9 +120,9 @@
           "audio_text": "The phenomenon is completely ubiquitous.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "The phenomenon is completely rare.",
             "The phenomenon is completely ubiquitous.",
-            "The phenomenon is completely unique."
+            "The phenomenon is completely unique.",
+            "The phenomenon is completely rare."
           ],
           "correct_answer": "The phenomenon is completely ubiquitous."
         },
@@ -145,8 +145,8 @@
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
             "The house is be painted next week.",
-            "The house is being painted next week.",
-            "The house is been painted next week."
+            "The house is been painted next week.",
+            "The house is being painted next week."
           ],
           "correct_answer": "The house is being painted next week."
         },
@@ -156,9 +156,9 @@
           "audio_text": "He denied stealing the money.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "He denied stole the money.",
             "He denied stealing the money.",
-            "He denied to steal the money."
+            "He denied to steal the money.",
+            "He denied stole the money."
           ],
           "correct_answer": "He denied stealing the money."
         },
@@ -168,8 +168,8 @@
           "audio_text": "I would rather you didn't smoke here.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "I would rather you didn't smoke here.",
             "I would rather you don't smoke here.",
+            "I would rather you didn't smoke here.",
             "I would rather you won't smoke here."
           ],
           "correct_answer": "I would rather you didn't smoke here."
@@ -220,9 +220,9 @@
           "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
           "correct_answer": "ubiquitous",
           "options": [
-            "rare",
             "isolated",
             "ubiquitous",
+            "rare",
             "unique"
           ],
           "grammar_rule": "Third Conditional: Ipotesi irreali."
@@ -232,10 +232,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
           "options": [
-            "Although the rain, we went for a walk.",
+            "However the rain, we went for a walk.",
             "Even though the rain, we went for a walk.",
-            "Despite the rain, we went for a walk.",
-            "However the rain, we went for a walk."
+            "Although the rain, we went for a walk.",
+            "Despite the rain, we went for a walk."
           ],
           "correct_answer": "Despite the rain, we went for a walk.",
           "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\".",
@@ -254,10 +254,10 @@
           "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
           "correct_answer": "stealing",
           "options": [
-            "stolen",
             "stole",
-            "to steal",
-            "stealing"
+            "stolen",
+            "stealing",
+            "to steal"
           ],
           "grammar_rule": "Third Conditional: Ipotesi irreali."
         },
@@ -266,10 +266,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
           "options": [
-            "I would rather you don't smoke here.",
-            "I would rather you didn't smoke here.",
             "I would rather you won't smoke here.",
-            "I would rather you not smoke here."
+            "I would rather you don't smoke here.",
+            "I would rather you not smoke here.",
+            "I would rather you didn't smoke here."
           ],
           "correct_answer": "I would rather you didn't smoke here.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\".",
@@ -288,9 +288,9 @@
           "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
           "correct_answer": "had",
           "options": [
-            "had",
-            "has",
             "was",
+            "has",
+            "had",
             "did"
           ],
           "grammar_rule": "Third Conditional: Ipotesi irreali."
@@ -310,9 +310,9 @@
           "audio_text": "If I had known, I would have helped you.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "If I had know, I would have helped you.",
             "If I had knew, I would have helped you.",
-            "If I had known, I would have helped you.",
-            "If I had know, I would have helped you."
+            "If I had known, I would have helped you."
           ],
           "correct_answer": "If I had known, I would have helped you."
         },
@@ -334,8 +334,8 @@
           "audio_text": "Despite the rain, we went for a walk.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "Although the rain, we went for a walk.",
             "Despite the rain, we went for a walk.",
+            "Although the rain, we went for a walk.",
             "Even though the rain, we went for a walk."
           ],
           "correct_answer": "Despite the rain, we went for a walk."
@@ -346,8 +346,8 @@
           "audio_text": "The house is being painted next week.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "The house is being painted next week.",
             "The house is been painted next week.",
+            "The house is being painted next week.",
             "The house is be painted next week."
           ],
           "correct_answer": "The house is being painted next week."
@@ -359,8 +359,8 @@
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
             "He denied stealing the money.",
-            "He denied stole the money.",
-            "He denied to steal the money."
+            "He denied to steal the money.",
+            "He denied stole the money."
           ],
           "correct_answer": "He denied stealing the money."
         },
@@ -370,9 +370,9 @@
           "audio_text": "I would rather you didn't smoke here.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "I would rather you won't smoke here.",
             "I would rather you don't smoke here.",
-            "I would rather you didn't smoke here.",
-            "I would rather you won't smoke here."
+            "I would rather you didn't smoke here."
           ],
           "correct_answer": "I would rather you didn't smoke here."
         },
@@ -382,9 +382,9 @@
           "audio_text": "It's high time we left.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "It's high time we leaving.",
             "It's high time we leave.",
-            "It's high time we left.",
-            "It's high time we leaving."
+            "It's high time we left."
           ],
           "correct_answer": "It's high time we left."
         },
@@ -422,9 +422,9 @@
           "correct_answer": "ubiquitous",
           "options": [
             "rare",
+            "unique",
             "isolated",
-            "ubiquitous",
-            "unique"
+            "ubiquitous"
           ]
         },
         {
@@ -433,9 +433,9 @@
           "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
           "options": [
             "However the rain, we went for a walk.",
-            "Even though the rain, we went for a walk.",
+            "Despite the rain, we went for a walk.",
             "Although the rain, we went for a walk.",
-            "Despite the rain, we went for a walk."
+            "Even though the rain, we went for a walk."
           ],
           "correct_answer": "Despite the rain, we went for a walk.",
           "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\"."
@@ -452,9 +452,9 @@
           "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
           "correct_answer": "stealing",
           "options": [
-            "stealing",
-            "to steal",
             "stole",
+            "to steal",
+            "stealing",
             "stolen"
           ]
         },
@@ -463,10 +463,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
           "options": [
-            "I would rather you won't smoke here.",
             "I would rather you not smoke here.",
+            "I would rather you didn't smoke here.",
             "I would rather you don't smoke here.",
-            "I would rather you didn't smoke here."
+            "I would rather you won't smoke here."
           ],
           "correct_answer": "I would rather you didn't smoke here.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\"."
@@ -483,8 +483,8 @@
           "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
           "correct_answer": "had",
           "options": [
-            "did",
             "was",
+            "did",
             "has",
             "had"
           ]
@@ -511,10 +511,10 @@
           "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
           "correct_answer": "ubiquitous",
           "options": [
-            "isolated",
-            "rare",
+            "ubiquitous",
             "unique",
-            "ubiquitous"
+            "rare",
+            "isolated"
           ],
           "grammar_rule": "Third Conditional: Ipotesi irreali."
         },
@@ -523,10 +523,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
           "options": [
-            "However the rain, we went for a walk.",
             "Despite the rain, we went for a walk.",
             "Although the rain, we went for a walk.",
-            "Even though the rain, we went for a walk."
+            "Even though the rain, we went for a walk.",
+            "However the rain, we went for a walk."
           ],
           "correct_answer": "Despite the rain, we went for a walk.",
           "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\".",
@@ -545,10 +545,10 @@
           "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
           "correct_answer": "stealing",
           "options": [
-            "stealing",
+            "stolen",
             "to steal",
             "stole",
-            "stolen"
+            "stealing"
           ],
           "grammar_rule": "Third Conditional: Ipotesi irreali."
         },
@@ -557,10 +557,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
           "options": [
-            "I would rather you didn't smoke here.",
-            "I would rather you not smoke here.",
+            "I would rather you won't smoke here.",
             "I would rather you don't smoke here.",
-            "I would rather you won't smoke here."
+            "I would rather you didn't smoke here.",
+            "I would rather you not smoke here."
           ],
           "correct_answer": "I would rather you didn't smoke here.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\".",

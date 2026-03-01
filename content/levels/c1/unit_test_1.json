@@ -26,9 +26,9 @@
           "correct_answer": "Having finished",
           "options": [
             "Having finished",
-            "Finishing",
             "Finished",
-            "Have finished"
+            "Have finished",
+            "Finishing"
           ]
         },
         {
@@ -36,10 +36,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
           "options": [
-            "It is optional that you attend the meeting.",
             "It is quintessential that you attend the meeting.",
-            "It is unnecessary that you attend the meeting.",
-            "It is trivial that you attend the meeting."
+            "It is optional that you attend the meeting.",
+            "It is trivial that you attend the meeting.",
+            "It is unnecessary that you attend the meeting."
           ],
           "correct_answer": "It is quintessential that you attend the meeting.",
           "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\"."
@@ -56,10 +56,10 @@
           "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
           "correct_answer": "But for",
           "options": [
-            "Unless",
-            "Without",
             "Except",
-            "But for"
+            "But for",
+            "Unless",
+            "Without"
           ]
         },
         {
@@ -67,10 +67,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
           "options": [
-            "Not only she is smart, but she is also hardworking.",
             "Not only is she smart, but she is also hardworking.",
-            "Not only was she smart, but she is also hardworking.",
-            "Not only she was smart, but she is also hardworking."
+            "Not only she is smart, but she is also hardworking.",
+            "Not only she was smart, but she is also hardworking.",
+            "Not only was she smart, but she is also hardworking."
           ],
           "correct_answer": "Not only is she smart, but she is also hardworking.",
           "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\"."
@@ -87,10 +87,10 @@
           "prompt_en": "L'italiano è: Se mi fossi reso conto del pericolo, non sarei andato.. Completa la frase in inglese: ___ I realized the danger, I wouldn't have gone.",
           "correct_answer": "Had",
           "options": [
-            "Should",
-            "If",
+            "Were",
             "Had",
-            "Were"
+            "If",
+            "Should"
           ]
         }
       ]
@@ -109,8 +109,8 @@
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
             "Seldom have I seen such a beautiful sunset.",
-            "Seldom I have seen such a beautiful sunset.",
-            "Seldom did I see such a beautiful sunset."
+            "Seldom did I see such a beautiful sunset.",
+            "Seldom I have seen such a beautiful sunset."
           ],
           "correct_answer": "Seldom have I seen such a beautiful sunset."
         },
@@ -120,9 +120,9 @@
           "audio_text": "Having finished his work, he went home.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "Finishing his work, he went home.",
             "Finished his work, he went home.",
-            "Having finished his work, he went home."
+            "Having finished his work, he went home.",
+            "Finishing his work, he went home."
           ],
           "correct_answer": "Having finished his work, he went home."
         },
@@ -144,9 +144,9 @@
           "audio_text": "He mitigates the risks by planning ahead.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "He ignores the risks by planning ahead.",
             "He aggravates the risks by planning ahead.",
-            "He mitigates the risks by planning ahead."
+            "He mitigates the risks by planning ahead.",
+            "He ignores the risks by planning ahead."
           ],
           "correct_answer": "He mitigates the risks by planning ahead."
         },
@@ -156,9 +156,9 @@
           "audio_text": "But for your help, I would have failed.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "Without your help, I would have failed.",
             "Except your help, I would have failed.",
-            "But for your help, I would have failed.",
-            "Without your help, I would have failed."
+            "But for your help, I would have failed."
           ],
           "correct_answer": "But for your help, I would have failed."
         },
@@ -180,9 +180,9 @@
           "audio_text": "No sooner had I arrived than it started pouring.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "No sooner had I arrived when it started pouring.",
             "No sooner had I arrived than it started pouring.",
-            "No sooner had I arrived then it started pouring.",
-            "No sooner had I arrived when it started pouring."
+            "No sooner had I arrived then it started pouring."
           ],
           "correct_answer": "No sooner had I arrived than it started pouring."
         },
@@ -192,9 +192,9 @@
           "audio_text": "Had I realized the danger, I wouldn't have gone.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "Had I realized the danger, I wouldn't have gone.",
+            "Should I realized the danger, I wouldn't have gone.",
             "If I realized the danger, I wouldn't have gone.",
-            "Should I realized the danger, I wouldn't have gone."
+            "Had I realized the danger, I wouldn't have gone."
           ],
           "correct_answer": "Had I realized the danger, I wouldn't have gone."
         }
@@ -220,10 +220,10 @@
           "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
           "correct_answer": "Having finished",
           "options": [
-            "Finishing",
-            "Finished",
+            "Having finished",
             "Have finished",
-            "Having finished"
+            "Finished",
+            "Finishing"
           ],
           "grammar_rule": "Inversion: Strutture enfatiche."
         },
@@ -232,10 +232,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
           "options": [
-            "It is trivial that you attend the meeting.",
+            "It is optional that you attend the meeting.",
             "It is unnecessary that you attend the meeting.",
-            "It is quintessential that you attend the meeting.",
-            "It is optional that you attend the meeting."
+            "It is trivial that you attend the meeting.",
+            "It is quintessential that you attend the meeting."
           ],
           "correct_answer": "It is quintessential that you attend the meeting.",
           "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\".",
@@ -254,9 +254,9 @@
           "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
           "correct_answer": "But for",
           "options": [
+            "Unless",
             "Without",
             "Except",
-            "Unless",
             "But for"
           ],
           "grammar_rule": "Inversion: Strutture enfatiche."
@@ -266,8 +266,8 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
           "options": [
-            "Not only is she smart, but she is also hardworking.",
             "Not only she is smart, but she is also hardworking.",
+            "Not only is she smart, but she is also hardworking.",
             "Not only she was smart, but she is also hardworking.",
             "Not only was she smart, but she is also hardworking."
           ],
@@ -322,9 +322,9 @@
           "audio_text": "Having finished his work, he went home.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "Having finished his work, he went home.",
             "Finished his work, he went home.",
-            "Finishing his work, he went home."
+            "Finishing his work, he went home.",
+            "Having finished his work, he went home."
           ],
           "correct_answer": "Having finished his work, he went home."
         },
@@ -334,9 +334,9 @@
           "audio_text": "It is quintessential that you attend the meeting.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "It is quintessential that you attend the meeting.",
+            "It is trivial that you attend the meeting.",
             "It is optional that you attend the meeting.",
-            "It is trivial that you attend the meeting."
+            "It is quintessential that you attend the meeting."
           ],
           "correct_answer": "It is quintessential that you attend the meeting."
         },
@@ -346,8 +346,8 @@
           "audio_text": "He mitigates the risks by planning ahead.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "He aggravates the risks by planning ahead.",
             "He mitigates the risks by planning ahead.",
+            "He aggravates the risks by planning ahead.",
             "He ignores the risks by planning ahead."
           ],
           "correct_answer": "He mitigates the risks by planning ahead."
@@ -358,9 +358,9 @@
           "audio_text": "But for your help, I would have failed.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "Without your help, I would have failed.",
             "But for your help, I would have failed.",
-            "Except your help, I would have failed.",
-            "Without your help, I would have failed."
+            "Except your help, I would have failed."
           ],
           "correct_answer": "But for your help, I would have failed."
         },
@@ -382,9 +382,9 @@
           "audio_text": "No sooner had I arrived than it started pouring.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "No sooner had I arrived when it started pouring.",
             "No sooner had I arrived than it started pouring.",
-            "No sooner had I arrived then it started pouring.",
-            "No sooner had I arrived when it started pouring."
+            "No sooner had I arrived then it started pouring."
           ],
           "correct_answer": "No sooner had I arrived than it started pouring."
         },
@@ -394,9 +394,9 @@
           "audio_text": "Had I realized the danger, I wouldn't have gone.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "Had I realized the danger, I wouldn't have gone.",
             "If I realized the danger, I wouldn't have gone.",
-            "Should I realized the danger, I wouldn't have gone.",
-            "Had I realized the danger, I wouldn't have gone."
+            "Should I realized the danger, I wouldn't have gone."
           ],
           "correct_answer": "Had I realized the danger, I wouldn't have gone."
         }
@@ -421,10 +421,10 @@
           "prompt_en": "L'italiano è: Avendo finito il suo lavoro, andò a casa.. Completa la frase in inglese: ___ his work, he went home.",
           "correct_answer": "Having finished",
           "options": [
-            "Have finished",
             "Finishing",
             "Finished",
-            "Having finished"
+            "Having finished",
+            "Have finished"
           ]
         },
         {
@@ -432,10 +432,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
           "options": [
-            "It is unnecessary that you attend the meeting.",
-            "It is optional that you attend the meeting.",
             "It is quintessential that you attend the meeting.",
-            "It is trivial that you attend the meeting."
+            "It is optional that you attend the meeting.",
+            "It is trivial that you attend the meeting.",
+            "It is unnecessary that you attend the meeting."
           ],
           "correct_answer": "It is quintessential that you attend the meeting.",
           "explanation_it": "L'unica forma corretta e naturale è: \"It is quintessential that you attend the meeting.\"."
@@ -452,10 +452,10 @@
           "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
           "correct_answer": "But for",
           "options": [
-            "Without",
-            "Unless",
+            "But for",
             "Except",
-            "But for"
+            "Without",
+            "Unless"
           ]
         },
         {
@@ -463,8 +463,8 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
           "options": [
-            "Not only is she smart, but she is also hardworking.",
             "Not only she is smart, but she is also hardworking.",
+            "Not only is she smart, but she is also hardworking.",
             "Not only she was smart, but she is also hardworking.",
             "Not only was she smart, but she is also hardworking."
           ],
@@ -484,9 +484,9 @@
           "correct_answer": "Had",
           "options": [
             "Had",
-            "Should",
             "Were",
-            "If"
+            "If",
+            "Should"
           ]
         }
       ]
@@ -512,9 +512,9 @@
           "correct_answer": "Having finished",
           "options": [
             "Have finished",
-            "Having finished",
+            "Finishing",
             "Finished",
-            "Finishing"
+            "Having finished"
           ],
           "grammar_rule": "Inversion: Strutture enfatiche."
         },
@@ -523,9 +523,9 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"È essenziale che tu partecipi alla riunione.\"?",
           "options": [
+            "It is unnecessary that you attend the meeting.",
             "It is trivial that you attend the meeting.",
             "It is optional that you attend the meeting.",
-            "It is unnecessary that you attend the meeting.",
             "It is quintessential that you attend the meeting."
           ],
           "correct_answer": "It is quintessential that you attend the meeting.",
@@ -545,10 +545,10 @@
           "prompt_en": "L'italiano è: Se non fosse stato per il tuo aiuto, avrei fallito.. Completa la frase in inglese: ___ your help, I would have failed.",
           "correct_answer": "But for",
           "options": [
-            "Unless",
             "Except",
+            "Without",
             "But for",
-            "Without"
+            "Unless"
           ],
           "grammar_rule": "Inversion: Strutture enfatiche."
         },
@@ -557,10 +557,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Non solo è intelligente, ma è anche gran lavoratrice.\"?",
           "options": [
+            "Not only she was smart, but she is also hardworking.",
             "Not only was she smart, but she is also hardworking.",
-            "Not only is she smart, but she is also hardworking.",
             "Not only she is smart, but she is also hardworking.",
-            "Not only she was smart, but she is also hardworking."
+            "Not only is she smart, but she is also hardworking."
           ],
           "correct_answer": "Not only is she smart, but she is also hardworking.",
           "explanation_it": "L'unica forma corretta e naturale è: \"Not only is she smart, but she is also hardworking.\".",
@@ -580,8 +580,8 @@
           "correct_answer": "Had",
           "options": [
             "Had",
-            "If",
             "Were",
+            "If",
             "Should"
           ],
           "grammar_rule": "Inversion: Strutture enfatiche."

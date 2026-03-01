@@ -25,10 +25,10 @@
           "prompt_en": "L'italiano è: Mi ha detto che era stanca.. Completa la frase in inglese: She ___ me that she was tired.",
           "correct_answer": "told",
           "options": [
-            "talked",
-            "said",
             "told",
-            "spoke"
+            "said",
+            "spoke",
+            "talked"
           ]
         },
         {
@@ -36,10 +36,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"L'ambiente ha bisogno di essere protetto.\"?",
           "options": [
-            "The environment needs to be protected.",
-            "The economy needs to be protected.",
+            "The society needs to be protected.",
             "The technology needs to be protected.",
-            "The society needs to be protected."
+            "The environment needs to be protected.",
+            "The economy needs to be protected."
           ],
           "correct_answer": "The environment needs to be protected.",
           "explanation_it": "L'unica forma corretta e naturale è: \"The environment needs to be protected.\"."
@@ -56,9 +56,9 @@
           "prompt_en": "L'italiano è: Sono abituato ad alzarmi presto.. Completa la frase in inglese: I am used to ___ up early.",
           "correct_answer": "getting",
           "options": [
-            "got",
             "get",
             "getting",
+            "got",
             "to get"
           ]
         },
@@ -67,10 +67,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"È riuscito a superare l'esame.\"?",
           "options": [
-            "He could to pass the exam.",
-            "He succeeded to pass the exam.",
             "He managed to pass the exam.",
-            "He can to pass the exam."
+            "He could to pass the exam.",
+            "He can to pass the exam.",
+            "He succeeded to pass the exam."
           ],
           "correct_answer": "He managed to pass the exam.",
           "explanation_it": "L'unica forma corretta e naturale è: \"He managed to pass the exam.\"."
@@ -87,10 +87,10 @@
           "prompt_en": "L'italiano è: Se piove, resteremo a casa.. Completa la frase in inglese: If it ___, we will stay at home.",
           "correct_answer": "rains",
           "options": [
-            "will rain",
-            "rained",
+            "rains",
             "rain",
-            "rains"
+            "rained",
+            "will rain"
           ]
         }
       ]
@@ -121,8 +121,8 @@
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
             "She told me that she was tired.",
-            "She said me that she was tired.",
-            "She spoke me that she was tired."
+            "She spoke me that she was tired.",
+            "She said me that she was tired."
           ],
           "correct_answer": "She told me that she was tired."
         },
@@ -132,9 +132,9 @@
           "audio_text": "The environment needs to be protected.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "The society needs to be protected.",
+            "The environment needs to be protected.",
             "The economy needs to be protected.",
-            "The environment needs to be protected."
+            "The society needs to be protected."
           ],
           "correct_answer": "The environment needs to be protected."
         },
@@ -144,9 +144,9 @@
           "audio_text": "You don't have to wear a tie.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "You don't should wear a tie.",
             "You don't have to wear a tie.",
-            "You don't mustn't wear a tie.",
-            "You don't should wear a tie."
+            "You don't mustn't wear a tie."
           ],
           "correct_answer": "You don't have to wear a tie."
         },
@@ -156,9 +156,9 @@
           "audio_text": "I am used to getting up early.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "I am used to get up early.",
             "I am used to getting up early.",
-            "I am used to got up early.",
-            "I am used to get up early."
+            "I am used to got up early."
           ],
           "correct_answer": "I am used to getting up early."
         },
@@ -181,8 +181,8 @@
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
             "I wish I have more free time.",
-            "I wish I will have more free time.",
-            "I wish I had more free time."
+            "I wish I had more free time.",
+            "I wish I will have more free time."
           ],
           "correct_answer": "I wish I had more free time."
         },
@@ -192,9 +192,9 @@
           "audio_text": "If it rains, we will stay at home.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "If it rained, we will stay at home.",
+            "If it rains, we will stay at home.",
             "If it rain, we will stay at home.",
-            "If it rains, we will stay at home."
+            "If it rained, we will stay at home."
           ],
           "correct_answer": "If it rains, we will stay at home."
         }
@@ -220,10 +220,10 @@
           "prompt_en": "L'italiano è: Mi ha detto che era stanca.. Completa la frase in inglese: She ___ me that she was tired.",
           "correct_answer": "told",
           "options": [
+            "talked",
             "told",
             "said",
-            "spoke",
-            "talked"
+            "spoke"
           ],
           "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
@@ -254,10 +254,10 @@
           "prompt_en": "L'italiano è: Sono abituato ad alzarmi presto.. Completa la frase in inglese: I am used to ___ up early.",
           "correct_answer": "getting",
           "options": [
+            "getting",
             "get",
             "got",
-            "to get",
-            "getting"
+            "to get"
           ],
           "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
@@ -267,8 +267,8 @@
           "prompt_it": "Qual è la traduzione esatta per: \"È riuscito a superare l'esame.\"?",
           "options": [
             "He managed to pass the exam.",
-            "He succeeded to pass the exam.",
             "He could to pass the exam.",
+            "He succeeded to pass the exam.",
             "He can to pass the exam."
           ],
           "correct_answer": "He managed to pass the exam.",
@@ -289,9 +289,9 @@
           "correct_answer": "rains",
           "options": [
             "rain",
-            "rained",
             "rains",
-            "will rain"
+            "will rain",
+            "rained"
           ],
           "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         }
@@ -310,9 +310,9 @@
           "audio_text": "I have lived here since 2010.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "I have lived here from 2010.",
             "I have lived here for 2010.",
-            "I have lived here since 2010."
+            "I have lived here since 2010.",
+            "I have lived here from 2010."
           ],
           "correct_answer": "I have lived here since 2010."
         },
@@ -322,9 +322,9 @@
           "audio_text": "She told me that she was tired.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "She spoke me that she was tired.",
+            "She said me that she was tired.",
             "She told me that she was tired.",
-            "She said me that she was tired."
+            "She spoke me that she was tired."
           ],
           "correct_answer": "She told me that she was tired."
         },
@@ -334,8 +334,8 @@
           "audio_text": "The environment needs to be protected.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "The economy needs to be protected.",
             "The society needs to be protected.",
+            "The economy needs to be protected.",
             "The environment needs to be protected."
           ],
           "correct_answer": "The environment needs to be protected."
@@ -370,8 +370,8 @@
           "audio_text": "He managed to pass the exam.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "He could to pass the exam.",
             "He can to pass the exam.",
+            "He could to pass the exam.",
             "He managed to pass the exam."
           ],
           "correct_answer": "He managed to pass the exam."
@@ -382,8 +382,8 @@
           "audio_text": "I wish I had more free time.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "I wish I have more free time.",
             "I wish I will have more free time.",
+            "I wish I have more free time.",
             "I wish I had more free time."
           ],
           "correct_answer": "I wish I had more free time."
@@ -421,9 +421,9 @@
           "prompt_en": "L'italiano è: Mi ha detto che era stanca.. Completa la frase in inglese: She ___ me that she was tired.",
           "correct_answer": "told",
           "options": [
-            "told",
             "said",
             "talked",
+            "told",
             "spoke"
           ]
         },
@@ -433,8 +433,8 @@
           "prompt_it": "Qual è la traduzione esatta per: \"L'ambiente ha bisogno di essere protetto.\"?",
           "options": [
             "The environment needs to be protected.",
-            "The technology needs to be protected.",
             "The economy needs to be protected.",
+            "The technology needs to be protected.",
             "The society needs to be protected."
           ],
           "correct_answer": "The environment needs to be protected.",
@@ -454,8 +454,8 @@
           "options": [
             "to get",
             "got",
-            "get",
-            "getting"
+            "getting",
+            "get"
           ]
         },
         {
@@ -463,10 +463,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"È riuscito a superare l'esame.\"?",
           "options": [
-            "He can to pass the exam.",
+            "He succeeded to pass the exam.",
             "He could to pass the exam.",
             "He managed to pass the exam.",
-            "He succeeded to pass the exam."
+            "He can to pass the exam."
           ],
           "correct_answer": "He managed to pass the exam.",
           "explanation_it": "L'unica forma corretta e naturale è: \"He managed to pass the exam.\"."
@@ -483,10 +483,10 @@
           "prompt_en": "L'italiano è: Se piove, resteremo a casa.. Completa la frase in inglese: If it ___, we will stay at home.",
           "correct_answer": "rains",
           "options": [
-            "will rain",
-            "rains",
             "rain",
-            "rained"
+            "rained",
+            "rains",
+            "will rain"
           ]
         }
       ]
@@ -523,10 +523,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"L'ambiente ha bisogno di essere protetto.\"?",
           "options": [
+            "The environment needs to be protected.",
             "The economy needs to be protected.",
             "The society needs to be protected.",
-            "The technology needs to be protected.",
-            "The environment needs to be protected."
+            "The technology needs to be protected."
           ],
           "correct_answer": "The environment needs to be protected.",
           "explanation_it": "L'unica forma corretta e naturale è: \"The environment needs to be protected.\".",
@@ -545,10 +545,10 @@
           "prompt_en": "L'italiano è: Sono abituato ad alzarmi presto.. Completa la frase in inglese: I am used to ___ up early.",
           "correct_answer": "getting",
           "options": [
-            "getting",
-            "get",
+            "to get",
             "got",
-            "to get"
+            "get",
+            "getting"
           ],
           "grammar_rule": "Present Perfect: Passato recente con impatto sul presente."
         },
@@ -557,10 +557,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"È riuscito a superare l'esame.\"?",
           "options": [
-            "He succeeded to pass the exam.",
+            "He managed to pass the exam.",
             "He can to pass the exam.",
             "He could to pass the exam.",
-            "He managed to pass the exam."
+            "He succeeded to pass the exam."
           ],
           "correct_answer": "He managed to pass the exam.",
           "explanation_it": "L'unica forma corretta e naturale è: \"He managed to pass the exam.\".",
@@ -579,8 +579,8 @@
           "prompt_en": "L'italiano è: Se piove, resteremo a casa.. Completa la frase in inglese: If it ___, we will stay at home.",
           "correct_answer": "rains",
           "options": [
-            "will rain",
             "rains",
+            "will rain",
             "rain",
             "rained"
           ],

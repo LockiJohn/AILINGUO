@@ -26,8 +26,8 @@
           "correct_answer": "ubiquitous",
           "options": [
             "ubiquitous",
-            "unique",
             "isolated",
+            "unique",
             "rare"
           ]
         },
@@ -36,10 +36,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
           "options": [
-            "Although the rain, we went for a walk.",
-            "Despite the rain, we went for a walk.",
+            "However the rain, we went for a walk.",
             "Even though the rain, we went for a walk.",
-            "However the rain, we went for a walk."
+            "Although the rain, we went for a walk.",
+            "Despite the rain, we went for a walk."
           ],
           "correct_answer": "Despite the rain, we went for a walk.",
           "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\"."
@@ -67,10 +67,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
           "options": [
-            "I would rather you not smoke here.",
             "I would rather you didn't smoke here.",
+            "I would rather you don't smoke here.",
             "I would rather you won't smoke here.",
-            "I would rather you don't smoke here."
+            "I would rather you not smoke here."
           ],
           "correct_answer": "I would rather you didn't smoke here.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\"."
@@ -87,10 +87,10 @@
           "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
           "correct_answer": "had",
           "options": [
-            "had",
-            "has",
             "did",
-            "was"
+            "was",
+            "has",
+            "had"
           ]
         }
       ]
@@ -108,9 +108,211 @@
           "audio_text": "If I had known, I would have helped you.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "If I had known, I would have helped you.",
             "If I had knew, I would have helped you.",
-            "If I had know, I would have helped you."
+            "If I had know, I would have helped you.",
+            "If I had known, I would have helped you."
+          ],
+          "correct_answer": "If I had known, I would have helped you."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The phenomenon is completely ubiquitous.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "The phenomenon is completely rare.",
+            "The phenomenon is completely unique.",
+            "The phenomenon is completely ubiquitous."
+          ],
+          "correct_answer": "The phenomenon is completely ubiquitous."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "Despite the rain, we went for a walk.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "Although the rain, we went for a walk.",
+            "Despite the rain, we went for a walk.",
+            "Even though the rain, we went for a walk."
+          ],
+          "correct_answer": "Despite the rain, we went for a walk."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The house is being painted next week.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "The house is be painted next week.",
+            "The house is been painted next week.",
+            "The house is being painted next week."
+          ],
+          "correct_answer": "The house is being painted next week."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "He denied stealing the money.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "He denied stole the money.",
+            "He denied to steal the money.",
+            "He denied stealing the money."
+          ],
+          "correct_answer": "He denied stealing the money."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "I would rather you didn't smoke here.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "I would rather you don't smoke here.",
+            "I would rather you didn't smoke here.",
+            "I would rather you won't smoke here."
+          ],
+          "correct_answer": "I would rather you didn't smoke here."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "It's high time we left.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "It's high time we leaving.",
+            "It's high time we left.",
+            "It's high time we leave."
+          ],
+          "correct_answer": "It's high time we left."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "By the time we arrived, the movie had already started.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "By the time we arrived, the movie was already started.",
+            "By the time we arrived, the movie has already started.",
+            "By the time we arrived, the movie had already started."
+          ],
+          "correct_answer": "By the time we arrived, the movie had already started."
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title_en": "Grammar Practice 3",
+      "title_it": "Esercizio di Grammatica 3",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Se l'avessi saputo, ti avrei aiutato.\"",
+          "correct_answer": "If I had known, I would have helped you.",
+          "grammar_rule": "Third Conditional: Ipotesi irreali."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
+          "correct_answer": "ubiquitous",
+          "options": [
+            "unique",
+            "ubiquitous",
+            "rare",
+            "isolated"
+          ],
+          "grammar_rule": "Third Conditional: Ipotesi irreali."
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
+          "options": [
+            "However the rain, we went for a walk.",
+            "Even though the rain, we went for a walk.",
+            "Although the rain, we went for a walk.",
+            "Despite the rain, we went for a walk."
+          ],
+          "correct_answer": "Despite the rain, we went for a walk.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\".",
+          "grammar_rule": "Third Conditional: Ipotesi irreali."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"La casa verrà dipinta la prossima settimana.\"",
+          "correct_answer": "The house is being painted next week.",
+          "grammar_rule": "Third Conditional: Ipotesi irreali."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
+          "correct_answer": "stealing",
+          "options": [
+            "stealing",
+            "to steal",
+            "stolen",
+            "stole"
+          ],
+          "grammar_rule": "Third Conditional: Ipotesi irreali."
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
+          "options": [
+            "I would rather you didn't smoke here.",
+            "I would rather you not smoke here.",
+            "I would rather you don't smoke here.",
+            "I would rather you won't smoke here."
+          ],
+          "correct_answer": "I would rather you didn't smoke here.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\".",
+          "grammar_rule": "Third Conditional: Ipotesi irreali."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"È ora che ce ne andiamo.\"",
+          "correct_answer": "It's high time we left.",
+          "grammar_rule": "Third Conditional: Ipotesi irreali."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
+          "correct_answer": "had",
+          "options": [
+            "had",
+            "has",
+            "was",
+            "did"
+          ],
+          "grammar_rule": "Third Conditional: Ipotesi irreali."
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title_en": "Listening Practice 4",
+      "title_it": "Esercizio di Ascolto 4",
+      "type": "listening",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "If I had known, I would have helped you.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "If I had know, I would have helped you.",
+            "If I had knew, I would have helped you.",
+            "If I had known, I would have helped you."
           ],
           "correct_answer": "If I had known, I would have helped you."
         },
@@ -121,8 +323,8 @@
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
             "The phenomenon is completely ubiquitous.",
-            "The phenomenon is completely rare.",
-            "The phenomenon is completely unique."
+            "The phenomenon is completely unique.",
+            "The phenomenon is completely rare."
           ],
           "correct_answer": "The phenomenon is completely ubiquitous."
         },
@@ -132,9 +334,9 @@
           "audio_text": "Despite the rain, we went for a walk.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "Even though the rain, we went for a walk.",
+            "Despite the rain, we went for a walk.",
             "Although the rain, we went for a walk.",
-            "Despite the rain, we went for a walk."
+            "Even though the rain, we went for a walk."
           ],
           "correct_answer": "Despite the rain, we went for a walk."
         },
@@ -144,9 +346,9 @@
           "audio_text": "The house is being painted next week.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "The house is being painted next week.",
             "The house is been painted next week.",
-            "The house is be painted next week.",
-            "The house is being painted next week."
+            "The house is be painted next week."
           ],
           "correct_answer": "The house is being painted next week."
         },
@@ -180,9 +382,9 @@
           "audio_text": "It's high time we left.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "It's high time we left.",
             "It's high time we leaving.",
-            "It's high time we leave."
+            "It's high time we leave.",
+            "It's high time we left."
           ],
           "correct_answer": "It's high time we left."
         },
@@ -192,210 +394,8 @@
           "audio_text": "By the time we arrived, the movie had already started.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "By the time we arrived, the movie had already started.",
-            "By the time we arrived, the movie was already started.",
-            "By the time we arrived, the movie has already started."
-          ],
-          "correct_answer": "By the time we arrived, the movie had already started."
-        }
-      ]
-    },
-    {
-      "order": 3,
-      "title_en": "Grammar Practice 3",
-      "title_it": "Esercizio di Grammatica 3",
-      "type": "grammar",
-      "estimated_minutes": 3,
-      "exercises": [
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Se l'avessi saputo, ti avrei aiutato.\"",
-          "correct_answer": "If I had known, I would have helped you.",
-          "grammar_rule": "Third Conditional: Ipotesi irreali."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
-          "correct_answer": "ubiquitous",
-          "options": [
-            "ubiquitous",
-            "isolated",
-            "unique",
-            "rare"
-          ],
-          "grammar_rule": "Third Conditional: Ipotesi irreali."
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
-          "options": [
-            "However the rain, we went for a walk.",
-            "Although the rain, we went for a walk.",
-            "Even though the rain, we went for a walk.",
-            "Despite the rain, we went for a walk."
-          ],
-          "correct_answer": "Despite the rain, we went for a walk.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\".",
-          "grammar_rule": "Third Conditional: Ipotesi irreali."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"La casa verrà dipinta la prossima settimana.\"",
-          "correct_answer": "The house is being painted next week.",
-          "grammar_rule": "Third Conditional: Ipotesi irreali."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
-          "correct_answer": "stealing",
-          "options": [
-            "stealing",
-            "to steal",
-            "stolen",
-            "stole"
-          ],
-          "grammar_rule": "Third Conditional: Ipotesi irreali."
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
-          "options": [
-            "I would rather you don't smoke here.",
-            "I would rather you not smoke here.",
-            "I would rather you didn't smoke here.",
-            "I would rather you won't smoke here."
-          ],
-          "correct_answer": "I would rather you didn't smoke here.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\".",
-          "grammar_rule": "Third Conditional: Ipotesi irreali."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"È ora che ce ne andiamo.\"",
-          "correct_answer": "It's high time we left.",
-          "grammar_rule": "Third Conditional: Ipotesi irreali."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
-          "correct_answer": "had",
-          "options": [
-            "did",
-            "has",
-            "had",
-            "was"
-          ],
-          "grammar_rule": "Third Conditional: Ipotesi irreali."
-        }
-      ]
-    },
-    {
-      "order": 4,
-      "title_en": "Listening Practice 4",
-      "title_it": "Esercizio di Ascolto 4",
-      "type": "listening",
-      "estimated_minutes": 5,
-      "exercises": [
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "If I had known, I would have helped you.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "If I had knew, I would have helped you.",
-            "If I had known, I would have helped you.",
-            "If I had know, I would have helped you."
-          ],
-          "correct_answer": "If I had known, I would have helped you."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "The phenomenon is completely ubiquitous.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "The phenomenon is completely unique.",
-            "The phenomenon is completely rare.",
-            "The phenomenon is completely ubiquitous."
-          ],
-          "correct_answer": "The phenomenon is completely ubiquitous."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "Despite the rain, we went for a walk.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "Despite the rain, we went for a walk.",
-            "Although the rain, we went for a walk.",
-            "Even though the rain, we went for a walk."
-          ],
-          "correct_answer": "Despite the rain, we went for a walk."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "The house is being painted next week.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "The house is be painted next week.",
-            "The house is been painted next week.",
-            "The house is being painted next week."
-          ],
-          "correct_answer": "The house is being painted next week."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "He denied stealing the money.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "He denied to steal the money.",
-            "He denied stealing the money.",
-            "He denied stole the money."
-          ],
-          "correct_answer": "He denied stealing the money."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "I would rather you didn't smoke here.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I would rather you don't smoke here.",
-            "I would rather you won't smoke here.",
-            "I would rather you didn't smoke here."
-          ],
-          "correct_answer": "I would rather you didn't smoke here."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "It's high time we left.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "It's high time we leaving.",
-            "It's high time we left.",
-            "It's high time we leave."
-          ],
-          "correct_answer": "It's high time we left."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "By the time we arrived, the movie had already started.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "By the time we arrived, the movie had already started.",
             "By the time we arrived, the movie has already started.",
+            "By the time we arrived, the movie had already started.",
             "By the time we arrived, the movie was already started."
           ],
           "correct_answer": "By the time we arrived, the movie had already started."
@@ -421,10 +421,10 @@
           "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
           "correct_answer": "ubiquitous",
           "options": [
-            "rare",
+            "ubiquitous",
             "unique",
-            "isolated",
-            "ubiquitous"
+            "rare",
+            "isolated"
           ]
         },
         {
@@ -432,10 +432,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
           "options": [
-            "Even though the rain, we went for a walk.",
             "However the rain, we went for a walk.",
+            "Despite the rain, we went for a walk.",
             "Although the rain, we went for a walk.",
-            "Despite the rain, we went for a walk."
+            "Even though the rain, we went for a walk."
           ],
           "correct_answer": "Despite the rain, we went for a walk.",
           "explanation_it": "L'unica forma corretta e naturale è: \"Despite the rain, we went for a walk.\"."
@@ -463,9 +463,9 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
           "options": [
-            "I would rather you didn't smoke here.",
             "I would rather you don't smoke here.",
             "I would rather you won't smoke here.",
+            "I would rather you didn't smoke here.",
             "I would rather you not smoke here."
           ],
           "correct_answer": "I would rather you didn't smoke here.",
@@ -483,10 +483,10 @@
           "prompt_en": "L'italiano è: Quando siamo arrivati, il film era già iniziato.. Completa la frase in inglese: By the time we arrived, the movie ___ already started.",
           "correct_answer": "had",
           "options": [
+            "did",
             "was",
-            "has",
             "had",
-            "did"
+            "has"
           ]
         }
       ]
@@ -511,10 +511,10 @@
           "prompt_en": "L'italiano è: Il fenomeno è completamente onnipresente.. Completa la frase in inglese: The phenomenon is completely ___.",
           "correct_answer": "ubiquitous",
           "options": [
-            "isolated",
-            "ubiquitous",
             "unique",
-            "rare"
+            "rare",
+            "ubiquitous",
+            "isolated"
           ],
           "grammar_rule": "Third Conditional: Ipotesi irreali."
         },
@@ -523,9 +523,9 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Nonostante la pioggia, siamo andati a fare una passeggiata.\"?",
           "options": [
+            "Even though the rain, we went for a walk.",
             "Despite the rain, we went for a walk.",
             "Although the rain, we went for a walk.",
-            "Even though the rain, we went for a walk.",
             "However the rain, we went for a walk."
           ],
           "correct_answer": "Despite the rain, we went for a walk.",
@@ -545,10 +545,10 @@
           "prompt_en": "L'italiano è: Ha negato di aver rubato i soldi.. Completa la frase in inglese: He denied ___ the money.",
           "correct_answer": "stealing",
           "options": [
+            "stolen",
             "stealing",
-            "to steal",
             "stole",
-            "stolen"
+            "to steal"
           ],
           "grammar_rule": "Third Conditional: Ipotesi irreali."
         },
@@ -557,10 +557,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Preferirei che tu non fumassi qui.\"?",
           "options": [
-            "I would rather you won't smoke here.",
             "I would rather you don't smoke here.",
             "I would rather you didn't smoke here.",
-            "I would rather you not smoke here."
+            "I would rather you not smoke here.",
+            "I would rather you won't smoke here."
           ],
           "correct_answer": "I would rather you didn't smoke here.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I would rather you didn't smoke here.\".",
@@ -580,9 +580,9 @@
           "correct_answer": "had",
           "options": [
             "had",
+            "has",
             "was",
-            "did",
-            "has"
+            "did"
           ],
           "grammar_rule": "Third Conditional: Ipotesi irreali."
         }

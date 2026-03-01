@@ -26,9 +26,9 @@
           "correct_answer": "cat",
           "options": [
             "mouse",
-            "bird",
+            "dog",
             "cat",
-            "dog"
+            "bird"
           ]
         },
         {
@@ -36,10 +36,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
-            "We went to school every day.",
+            "We go to school every day.",
             "We going to school every day.",
-            "We goes to school every day.",
-            "We go to school every day."
+            "We went to school every day.",
+            "We goes to school every day."
           ],
           "correct_answer": "We go to school every day.",
           "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\"."
@@ -58,8 +58,8 @@
           "options": [
             "friends",
             "enemies",
-            "teachers",
-            "parents"
+            "parents",
+            "teachers"
           ]
         },
         {
@@ -67,10 +67,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
           "options": [
+            "I have a red car.",
             "I had a red car.",
-            "I having a red car.",
             "I has a red car.",
-            "I have a red car."
+            "I having a red car."
           ],
           "correct_answer": "I have a red car.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\"."
@@ -88,8 +88,8 @@
           "correct_answer": "am",
           "options": [
             "be",
-            "am",
             "are",
+            "am",
             "is"
           ]
         }
@@ -111,208 +111,6 @@
             "She likes apples.",
             "She like apples.",
             "She liking apples."
-          ],
-          "correct_answer": "She likes apples."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "The cat is black.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "The cat is black.",
-            "The dog is black.",
-            "The bird is black."
-          ],
-          "correct_answer": "The cat is black."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "We go to school every day.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "We go to school every day.",
-            "We goes to school every day.",
-            "We going to school every day."
-          ],
-          "correct_answer": "We go to school every day."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "My name is John.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "My name is John.",
-            "My age is John.",
-            "My house is John."
-          ],
-          "correct_answer": "My name is John."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "They are my friends.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "They are my friends.",
-            "They are my enemies.",
-            "They are my teachers."
-          ],
-          "correct_answer": "They are my friends."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "I have a red car.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I having a red car.",
-            "I have a red car.",
-            "I has a red car."
-          ],
-          "correct_answer": "I have a red car."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "You read a book.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "You read a book.",
-            "You write a book.",
-            "You listen a book."
-          ],
-          "correct_answer": "You read a book."
-        },
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "I am a student.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I am a student.",
-            "I is a student.",
-            "I are a student."
-          ],
-          "correct_answer": "I am a student."
-        }
-      ]
-    },
-    {
-      "order": 3,
-      "title_en": "Grammar Practice 3",
-      "title_it": "Esercizio di Grammatica 3",
-      "type": "grammar",
-      "estimated_minutes": 3,
-      "exercises": [
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
-          "correct_answer": "She likes apples.",
-          "grammar_rule": "Present Simple: Uso di base per routine."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
-          "correct_answer": "cat",
-          "options": [
-            "cat",
-            "dog",
-            "bird",
-            "mouse"
-          ],
-          "grammar_rule": "Present Simple: Uso di base per routine."
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
-          "options": [
-            "We go to school every day.",
-            "We goes to school every day.",
-            "We going to school every day.",
-            "We went to school every day."
-          ],
-          "correct_answer": "We go to school every day.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\".",
-          "grammar_rule": "Present Simple: Uso di base per routine."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
-          "correct_answer": "My name is John.",
-          "grammar_rule": "Present Simple: Uso di base per routine."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
-          "correct_answer": "friends",
-          "options": [
-            "friends",
-            "enemies",
-            "teachers",
-            "parents"
-          ],
-          "grammar_rule": "Present Simple: Uso di base per routine."
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 2,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
-          "options": [
-            "I have a red car.",
-            "I having a red car.",
-            "I has a red car.",
-            "I had a red car."
-          ],
-          "correct_answer": "I have a red car.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\".",
-          "grammar_rule": "Present Simple: Uso di base per routine."
-        },
-        {
-          "type": "translation",
-          "difficulty": 2,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
-          "correct_answer": "You read a book.",
-          "grammar_rule": "Present Simple: Uso di base per routine."
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 2,
-          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
-          "correct_answer": "am",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "grammar_rule": "Present Simple: Uso di base per routine."
-        }
-      ]
-    },
-    {
-      "order": 4,
-      "title_en": "Listening Practice 4",
-      "title_it": "Esercizio di Ascolto 4",
-      "type": "listening",
-      "estimated_minutes": 5,
-      "exercises": [
-        {
-          "type": "listening",
-          "difficulty": 2,
-          "audio_text": "She likes apples.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "She liking apples.",
-            "She like apples.",
-            "She likes apples."
           ],
           "correct_answer": "She likes apples."
         },
@@ -346,8 +144,8 @@
           "audio_text": "My name is John.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "My age is John.",
             "My name is John.",
+            "My age is John.",
             "My house is John."
           ],
           "correct_answer": "My name is John."
@@ -361,6 +159,208 @@
             "They are my teachers.",
             "They are my enemies.",
             "They are my friends."
+          ],
+          "correct_answer": "They are my friends."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "I have a red car.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "I have a red car.",
+            "I has a red car.",
+            "I having a red car."
+          ],
+          "correct_answer": "I have a red car."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "You read a book.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "You write a book.",
+            "You read a book.",
+            "You listen a book."
+          ],
+          "correct_answer": "You read a book."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "I am a student.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "I are a student.",
+            "I is a student.",
+            "I am a student."
+          ],
+          "correct_answer": "I am a student."
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title_en": "Grammar Practice 3",
+      "title_it": "Esercizio di Grammatica 3",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"A lei piacciono le mele.\"",
+          "correct_answer": "She likes apples.",
+          "grammar_rule": "Present Simple: Uso di base per routine."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
+          "correct_answer": "cat",
+          "options": [
+            "cat",
+            "mouse",
+            "dog",
+            "bird"
+          ],
+          "grammar_rule": "Present Simple: Uso di base per routine."
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
+          "options": [
+            "We went to school every day.",
+            "We goes to school every day.",
+            "We going to school every day.",
+            "We go to school every day."
+          ],
+          "correct_answer": "We go to school every day.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\".",
+          "grammar_rule": "Present Simple: Uso di base per routine."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Il mio nome è John.\"",
+          "correct_answer": "My name is John.",
+          "grammar_rule": "Present Simple: Uso di base per routine."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
+          "correct_answer": "friends",
+          "options": [
+            "friends",
+            "enemies",
+            "parents",
+            "teachers"
+          ],
+          "grammar_rule": "Present Simple: Uso di base per routine."
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 2,
+          "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
+          "options": [
+            "I have a red car.",
+            "I has a red car.",
+            "I having a red car.",
+            "I had a red car."
+          ],
+          "correct_answer": "I have a red car.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\".",
+          "grammar_rule": "Present Simple: Uso di base per routine."
+        },
+        {
+          "type": "translation",
+          "difficulty": 2,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Tu leggi un libro.\"",
+          "correct_answer": "You read a book.",
+          "grammar_rule": "Present Simple: Uso di base per routine."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 2,
+          "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
+          "correct_answer": "am",
+          "options": [
+            "are",
+            "be",
+            "is",
+            "am"
+          ],
+          "grammar_rule": "Present Simple: Uso di base per routine."
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title_en": "Listening Practice 4",
+      "title_it": "Esercizio di Ascolto 4",
+      "type": "listening",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "She likes apples.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "She liking apples.",
+            "She like apples.",
+            "She likes apples."
+          ],
+          "correct_answer": "She likes apples."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "The cat is black.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "The bird is black.",
+            "The cat is black.",
+            "The dog is black."
+          ],
+          "correct_answer": "The cat is black."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "We go to school every day.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "We go to school every day.",
+            "We goes to school every day.",
+            "We going to school every day."
+          ],
+          "correct_answer": "We go to school every day."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "My name is John.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "My house is John.",
+            "My age is John.",
+            "My name is John."
+          ],
+          "correct_answer": "My name is John."
+        },
+        {
+          "type": "listening",
+          "difficulty": 2,
+          "audio_text": "They are my friends.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "They are my friends.",
+            "They are my teachers.",
+            "They are my enemies."
           ],
           "correct_answer": "They are my friends."
         },
@@ -421,10 +421,10 @@
           "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
           "correct_answer": "cat",
           "options": [
-            "dog",
+            "mouse",
             "bird",
-            "cat",
-            "mouse"
+            "dog",
+            "cat"
           ]
         },
         {
@@ -433,9 +433,9 @@
           "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
             "We go to school every day.",
-            "We goes to school every day.",
             "We going to school every day.",
-            "We went to school every day."
+            "We went to school every day.",
+            "We goes to school every day."
           ],
           "correct_answer": "We go to school every day.",
           "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\"."
@@ -454,8 +454,8 @@
           "options": [
             "parents",
             "teachers",
-            "enemies",
-            "friends"
+            "friends",
+            "enemies"
           ]
         },
         {
@@ -463,10 +463,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
           "options": [
-            "I have a red car.",
             "I has a red car.",
-            "I having a red car.",
-            "I had a red car."
+            "I had a red car.",
+            "I have a red car.",
+            "I having a red car."
           ],
           "correct_answer": "I have a red car.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\"."
@@ -484,8 +484,8 @@
           "correct_answer": "am",
           "options": [
             "are",
-            "is",
             "be",
+            "is",
             "am"
           ]
         }
@@ -512,9 +512,9 @@
           "correct_answer": "cat",
           "options": [
             "mouse",
-            "dog",
+            "bird",
             "cat",
-            "bird"
+            "dog"
           ],
           "grammar_rule": "Present Simple: Uso di base per routine."
         },
@@ -523,10 +523,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
-            "We go to school every day.",
             "We goes to school every day.",
-            "We going to school every day.",
-            "We went to school every day."
+            "We went to school every day.",
+            "We go to school every day.",
+            "We going to school every day."
           ],
           "correct_answer": "We go to school every day.",
           "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\".",
@@ -546,9 +546,9 @@
           "correct_answer": "friends",
           "options": [
             "friends",
+            "enemies",
             "teachers",
-            "parents",
-            "enemies"
+            "parents"
           ],
           "grammar_rule": "Present Simple: Uso di base per routine."
         },
@@ -557,10 +557,10 @@
           "difficulty": 2,
           "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
           "options": [
-            "I has a red car.",
-            "I had a red car.",
             "I have a red car.",
-            "I having a red car."
+            "I had a red car.",
+            "I having a red car.",
+            "I has a red car."
           ],
           "correct_answer": "I have a red car.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\".",
@@ -580,9 +580,9 @@
           "correct_answer": "am",
           "options": [
             "am",
+            "be",
             "are",
-            "is",
-            "be"
+            "is"
           ],
           "grammar_rule": "Present Simple: Uso di base per routine."
         }

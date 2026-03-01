@@ -25,9 +25,9 @@
           "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
           "correct_answer": "better",
           "options": [
-            "well",
             "best",
             "good",
+            "well",
             "better"
           ]
         },
@@ -36,9 +36,9 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
           "options": [
+            "We will meet tomorrow at noon.",
             "We did meet tomorrow at noon.",
             "We would meet tomorrow at noon.",
-            "We will meet tomorrow at noon.",
             "We do meet tomorrow at noon."
           ],
           "correct_answer": "We will meet tomorrow at noon.",
@@ -56,10 +56,10 @@
           "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
           "correct_answer": "sleeping",
           "options": [
-            "sleep",
             "slept",
             "sleeps",
-            "sleeping"
+            "sleeping",
+            "sleep"
           ]
         },
         {
@@ -67,10 +67,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
           "options": [
-            "I don't want to buy something.",
             "I don't want to buy anything.",
+            "I don't want to buy nothing.",
             "I don't want to buy everything.",
-            "I don't want to buy nothing."
+            "I don't want to buy something."
           ],
           "correct_answer": "I don't want to buy anything.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\"."
@@ -87,10 +87,10 @@
           "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
           "correct_answer": "went",
           "options": [
-            "went",
-            "go",
+            "going",
             "gone",
-            "going"
+            "go",
+            "went"
           ]
         }
       ]
@@ -108,211 +108,9 @@
           "audio_text": "She is cooking dinner right now.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "She is cooked dinner right now.",
             "She is cooks dinner right now.",
-            "She is cooking dinner right now."
-          ],
-          "correct_answer": "She is cooking dinner right now."
-        },
-        {
-          "type": "listening",
-          "difficulty": 1,
-          "audio_text": "This book is better than that one.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "This book is better than that one.",
-            "This book is good than that one.",
-            "This book is best than that one."
-          ],
-          "correct_answer": "This book is better than that one."
-        },
-        {
-          "type": "listening",
-          "difficulty": 1,
-          "audio_text": "We will meet tomorrow at noon.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "We would meet tomorrow at noon.",
-            "We do meet tomorrow at noon.",
-            "We will meet tomorrow at noon."
-          ],
-          "correct_answer": "We will meet tomorrow at noon."
-        },
-        {
-          "type": "listening",
-          "difficulty": 1,
-          "audio_text": "Have you ever been to Paris?",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "Have you always been to Paris?",
-            "Have you never been to Paris?",
-            "Have you ever been to Paris?"
-          ],
-          "correct_answer": "Have you ever been to Paris?"
-        },
-        {
-          "type": "listening",
-          "difficulty": 1,
-          "audio_text": "He was sleeping when the phone rang.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "He was sleeps when the phone rang.",
-            "He was sleeping when the phone rang.",
-            "He was slept when the phone rang."
-          ],
-          "correct_answer": "He was sleeping when the phone rang."
-        },
-        {
-          "type": "listening",
-          "difficulty": 1,
-          "audio_text": "I don't want to buy anything.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I don't want to buy anything.",
-            "I don't want to buy something.",
-            "I don't want to buy nothing."
-          ],
-          "correct_answer": "I don't want to buy anything."
-        },
-        {
-          "type": "listening",
-          "difficulty": 1,
-          "audio_text": "They must leave immediately.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "They can leave immediately.",
-            "They must leave immediately.",
-            "They may leave immediately."
-          ],
-          "correct_answer": "They must leave immediately."
-        },
-        {
-          "type": "listening",
-          "difficulty": 1,
-          "audio_text": "I went to the cinema yesterday.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "I went to the cinema yesterday.",
-            "I go to the cinema yesterday.",
-            "I gone to the cinema yesterday."
-          ],
-          "correct_answer": "I went to the cinema yesterday."
-        }
-      ]
-    },
-    {
-      "order": 3,
-      "title_en": "Grammar Practice 3",
-      "title_it": "Esercizio di Grammatica 3",
-      "type": "grammar",
-      "estimated_minutes": 3,
-      "exercises": [
-        {
-          "type": "translation",
-          "difficulty": 1,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
-          "correct_answer": "She is cooking dinner right now.",
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 1,
-          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
-          "correct_answer": "better",
-          "options": [
-            "good",
-            "better",
-            "best",
-            "well"
-          ],
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
-          "options": [
-            "We do meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
-            "We will meet tomorrow at noon.",
-            "We did meet tomorrow at noon."
-          ],
-          "correct_answer": "We will meet tomorrow at noon.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\".",
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "translation",
-          "difficulty": 1,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
-          "correct_answer": "Have you ever been to Paris?",
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 1,
-          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
-          "correct_answer": "sleeping",
-          "options": [
-            "sleep",
-            "slept",
-            "sleeps",
-            "sleeping"
-          ],
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "multiple_choice",
-          "difficulty": 1,
-          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
-          "options": [
-            "I don't want to buy everything.",
-            "I don't want to buy anything.",
-            "I don't want to buy something.",
-            "I don't want to buy nothing."
-          ],
-          "correct_answer": "I don't want to buy anything.",
-          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\".",
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "translation",
-          "difficulty": 1,
-          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
-          "correct_answer": "They must leave immediately.",
-          "grammar_rule": "Aggettivi Comparativi"
-        },
-        {
-          "type": "fill_in_the_blank",
-          "difficulty": 1,
-          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
-          "correct_answer": "went",
-          "options": [
-            "gone",
-            "going",
-            "went",
-            "go"
-          ],
-          "grammar_rule": "Aggettivi Comparativi"
-        }
-      ]
-    },
-    {
-      "order": 4,
-      "title_en": "Listening Practice 4",
-      "title_it": "Esercizio di Ascolto 4",
-      "type": "listening",
-      "estimated_minutes": 5,
-      "exercises": [
-        {
-          "type": "listening",
-          "difficulty": 1,
-          "audio_text": "She is cooking dinner right now.",
-          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
-          "options": [
-            "She is cooking dinner right now.",
             "She is cooked dinner right now.",
-            "She is cooks dinner right now."
+            "She is cooking dinner right now."
           ],
           "correct_answer": "She is cooking dinner right now."
         },
@@ -347,8 +145,210 @@
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
             "Have you always been to Paris?",
-            "Have you ever been to Paris?",
-            "Have you never been to Paris?"
+            "Have you never been to Paris?",
+            "Have you ever been to Paris?"
+          ],
+          "correct_answer": "Have you ever been to Paris?"
+        },
+        {
+          "type": "listening",
+          "difficulty": 1,
+          "audio_text": "He was sleeping when the phone rang.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "He was slept when the phone rang.",
+            "He was sleeps when the phone rang.",
+            "He was sleeping when the phone rang."
+          ],
+          "correct_answer": "He was sleeping when the phone rang."
+        },
+        {
+          "type": "listening",
+          "difficulty": 1,
+          "audio_text": "I don't want to buy anything.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "I don't want to buy anything.",
+            "I don't want to buy something.",
+            "I don't want to buy nothing."
+          ],
+          "correct_answer": "I don't want to buy anything."
+        },
+        {
+          "type": "listening",
+          "difficulty": 1,
+          "audio_text": "They must leave immediately.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "They may leave immediately.",
+            "They can leave immediately.",
+            "They must leave immediately."
+          ],
+          "correct_answer": "They must leave immediately."
+        },
+        {
+          "type": "listening",
+          "difficulty": 1,
+          "audio_text": "I went to the cinema yesterday.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "I gone to the cinema yesterday.",
+            "I go to the cinema yesterday.",
+            "I went to the cinema yesterday."
+          ],
+          "correct_answer": "I went to the cinema yesterday."
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title_en": "Grammar Practice 3",
+      "title_it": "Esercizio di Grammatica 3",
+      "type": "grammar",
+      "estimated_minutes": 3,
+      "exercises": [
+        {
+          "type": "translation",
+          "difficulty": 1,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Lei sta preparando la cena in questo momento.\"",
+          "correct_answer": "She is cooking dinner right now.",
+          "grammar_rule": "Aggettivi Comparativi"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 1,
+          "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
+          "correct_answer": "better",
+          "options": [
+            "good",
+            "better",
+            "well",
+            "best"
+          ],
+          "grammar_rule": "Aggettivi Comparativi"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
+          "options": [
+            "We did meet tomorrow at noon.",
+            "We do meet tomorrow at noon.",
+            "We would meet tomorrow at noon.",
+            "We will meet tomorrow at noon."
+          ],
+          "correct_answer": "We will meet tomorrow at noon.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\".",
+          "grammar_rule": "Aggettivi Comparativi"
+        },
+        {
+          "type": "translation",
+          "difficulty": 1,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Sei mai stato a Parigi?\"",
+          "correct_answer": "Have you ever been to Paris?",
+          "grammar_rule": "Aggettivi Comparativi"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 1,
+          "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
+          "correct_answer": "sleeping",
+          "options": [
+            "slept",
+            "sleeping",
+            "sleeps",
+            "sleep"
+          ],
+          "grammar_rule": "Aggettivi Comparativi"
+        },
+        {
+          "type": "multiple_choice",
+          "difficulty": 1,
+          "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
+          "options": [
+            "I don't want to buy something.",
+            "I don't want to buy anything.",
+            "I don't want to buy everything.",
+            "I don't want to buy nothing."
+          ],
+          "correct_answer": "I don't want to buy anything.",
+          "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\".",
+          "grammar_rule": "Aggettivi Comparativi"
+        },
+        {
+          "type": "translation",
+          "difficulty": 1,
+          "prompt_it": "Traduci l'intera frase in inglese: \"Devono partire immediatamente.\"",
+          "correct_answer": "They must leave immediately.",
+          "grammar_rule": "Aggettivi Comparativi"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "difficulty": 1,
+          "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
+          "correct_answer": "went",
+          "options": [
+            "went",
+            "go",
+            "gone",
+            "going"
+          ],
+          "grammar_rule": "Aggettivi Comparativi"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title_en": "Listening Practice 4",
+      "title_it": "Esercizio di Ascolto 4",
+      "type": "listening",
+      "estimated_minutes": 5,
+      "exercises": [
+        {
+          "type": "listening",
+          "difficulty": 1,
+          "audio_text": "She is cooking dinner right now.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "She is cooking dinner right now.",
+            "She is cooks dinner right now.",
+            "She is cooked dinner right now."
+          ],
+          "correct_answer": "She is cooking dinner right now."
+        },
+        {
+          "type": "listening",
+          "difficulty": 1,
+          "audio_text": "This book is better than that one.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "This book is best than that one.",
+            "This book is good than that one.",
+            "This book is better than that one."
+          ],
+          "correct_answer": "This book is better than that one."
+        },
+        {
+          "type": "listening",
+          "difficulty": 1,
+          "audio_text": "We will meet tomorrow at noon.",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "We do meet tomorrow at noon.",
+            "We would meet tomorrow at noon.",
+            "We will meet tomorrow at noon."
+          ],
+          "correct_answer": "We will meet tomorrow at noon."
+        },
+        {
+          "type": "listening",
+          "difficulty": 1,
+          "audio_text": "Have you ever been to Paris?",
+          "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
+          "options": [
+            "Have you always been to Paris?",
+            "Have you never been to Paris?",
+            "Have you ever been to Paris?"
           ],
           "correct_answer": "Have you ever been to Paris?"
         },
@@ -370,9 +370,9 @@
           "audio_text": "I don't want to buy anything.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "I don't want to buy nothing.",
             "I don't want to buy something.",
-            "I don't want to buy anything.",
-            "I don't want to buy nothing."
+            "I don't want to buy anything."
           ],
           "correct_answer": "I don't want to buy anything."
         },
@@ -382,9 +382,9 @@
           "audio_text": "They must leave immediately.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "They must leave immediately.",
+            "They may leave immediately.",
             "They can leave immediately.",
-            "They may leave immediately."
+            "They must leave immediately."
           ],
           "correct_answer": "They must leave immediately."
         },
@@ -394,9 +394,9 @@
           "audio_text": "I went to the cinema yesterday.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "I gone to the cinema yesterday.",
             "I went to the cinema yesterday.",
-            "I go to the cinema yesterday."
+            "I go to the cinema yesterday.",
+            "I gone to the cinema yesterday."
           ],
           "correct_answer": "I went to the cinema yesterday."
         }
@@ -421,10 +421,10 @@
           "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
           "correct_answer": "better",
           "options": [
-            "better",
             "best",
             "good",
-            "well"
+            "well",
+            "better"
           ]
         },
         {
@@ -432,10 +432,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
           "options": [
-            "We did meet tomorrow at noon.",
-            "We do meet tomorrow at noon.",
+            "We will meet tomorrow at noon.",
             "We would meet tomorrow at noon.",
-            "We will meet tomorrow at noon."
+            "We do meet tomorrow at noon.",
+            "We did meet tomorrow at noon."
           ],
           "correct_answer": "We will meet tomorrow at noon.",
           "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\"."
@@ -452,10 +452,10 @@
           "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
           "correct_answer": "sleeping",
           "options": [
-            "sleeping",
+            "sleep",
             "sleeps",
             "slept",
-            "sleep"
+            "sleeping"
           ]
         },
         {
@@ -463,10 +463,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
           "options": [
-            "I don't want to buy everything.",
-            "I don't want to buy nothing.",
             "I don't want to buy something.",
-            "I don't want to buy anything."
+            "I don't want to buy everything.",
+            "I don't want to buy anything.",
+            "I don't want to buy nothing."
           ],
           "correct_answer": "I don't want to buy anything.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\"."
@@ -483,9 +483,9 @@
           "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
           "correct_answer": "went",
           "options": [
+            "going",
             "gone",
             "go",
-            "going",
             "went"
           ]
         }
@@ -511,10 +511,10 @@
           "prompt_en": "L'italiano è: Questo libro è migliore di quello.. Completa la frase in inglese: This book is ___ than that one.",
           "correct_answer": "better",
           "options": [
-            "well",
-            "best",
+            "better",
             "good",
-            "better"
+            "best",
+            "well"
           ],
           "grammar_rule": "Aggettivi Comparativi"
         },
@@ -523,10 +523,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Ci incontreremo domani a mezzogiorno.\"?",
           "options": [
-            "We will meet tomorrow at noon.",
-            "We would meet tomorrow at noon.",
             "We did meet tomorrow at noon.",
-            "We do meet tomorrow at noon."
+            "We do meet tomorrow at noon.",
+            "We would meet tomorrow at noon.",
+            "We will meet tomorrow at noon."
           ],
           "correct_answer": "We will meet tomorrow at noon.",
           "explanation_it": "L'unica forma corretta e naturale è: \"We will meet tomorrow at noon.\".",
@@ -545,8 +545,8 @@
           "prompt_en": "L'italiano è: Stava dormendo quando il telefono ha squillato.. Completa la frase in inglese: He was ___ when the phone rang.",
           "correct_answer": "sleeping",
           "options": [
-            "sleeping",
             "sleeps",
+            "sleeping",
             "slept",
             "sleep"
           ],
@@ -557,10 +557,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Non voglio comprare niente.\"?",
           "options": [
-            "I don't want to buy everything.",
             "I don't want to buy nothing.",
             "I don't want to buy something.",
-            "I don't want to buy anything."
+            "I don't want to buy anything.",
+            "I don't want to buy everything."
           ],
           "correct_answer": "I don't want to buy anything.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I don't want to buy anything.\".",
@@ -579,10 +579,10 @@
           "prompt_en": "L'italiano è: Sono andato al cinema ieri.. Completa la frase in inglese: I ___ to the cinema yesterday.",
           "correct_answer": "went",
           "options": [
+            "going",
             "gone",
-            "go",
             "went",
-            "going"
+            "go"
           ],
           "grammar_rule": "Aggettivi Comparativi"
         }

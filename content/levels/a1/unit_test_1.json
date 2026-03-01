@@ -25,10 +25,10 @@
           "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
           "correct_answer": "cat",
           "options": [
-            "bird",
             "mouse",
-            "cat",
-            "dog"
+            "bird",
+            "dog",
+            "cat"
           ]
         },
         {
@@ -36,9 +36,9 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
-            "We went to school every day.",
             "We go to school every day.",
             "We goes to school every day.",
+            "We went to school every day.",
             "We going to school every day."
           ],
           "correct_answer": "We go to school every day.",
@@ -56,10 +56,10 @@
           "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
           "correct_answer": "friends",
           "options": [
-            "parents",
             "teachers",
             "enemies",
-            "friends"
+            "friends",
+            "parents"
           ]
         },
         {
@@ -69,8 +69,8 @@
           "options": [
             "I have a red car.",
             "I has a red car.",
-            "I had a red car.",
-            "I having a red car."
+            "I having a red car.",
+            "I had a red car."
           ],
           "correct_answer": "I have a red car.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\"."
@@ -108,9 +108,9 @@
           "audio_text": "She likes apples.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "She liking apples.",
             "She likes apples.",
-            "She like apples.",
-            "She liking apples."
+            "She like apples."
           ],
           "correct_answer": "She likes apples."
         },
@@ -133,8 +133,8 @@
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
             "We go to school every day.",
-            "We going to school every day.",
-            "We goes to school every day."
+            "We goes to school every day.",
+            "We going to school every day."
           ],
           "correct_answer": "We go to school every day."
         },
@@ -144,8 +144,8 @@
           "audio_text": "My name is John.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "My age is John.",
             "My name is John.",
+            "My age is John.",
             "My house is John."
           ],
           "correct_answer": "My name is John."
@@ -157,8 +157,8 @@
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
             "They are my friends.",
-            "They are my teachers.",
-            "They are my enemies."
+            "They are my enemies.",
+            "They are my teachers."
           ],
           "correct_answer": "They are my friends."
         },
@@ -180,9 +180,9 @@
           "audio_text": "You read a book.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "You listen a book.",
+            "You read a book.",
             "You write a book.",
-            "You read a book."
+            "You listen a book."
           ],
           "correct_answer": "You read a book."
         },
@@ -220,10 +220,10 @@
           "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
           "correct_answer": "cat",
           "options": [
-            "cat",
             "mouse",
+            "bird",
             "dog",
-            "bird"
+            "cat"
           ],
           "grammar_rule": "Verb To Be: Essere in inglese."
         },
@@ -256,8 +256,8 @@
           "options": [
             "parents",
             "teachers",
-            "enemies",
-            "friends"
+            "friends",
+            "enemies"
           ],
           "grammar_rule": "Verb To Be: Essere in inglese."
         },
@@ -266,10 +266,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
           "options": [
+            "I have a red car.",
             "I has a red car.",
-            "I had a red car.",
             "I having a red car.",
-            "I have a red car."
+            "I had a red car."
           ],
           "correct_answer": "I have a red car.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\".",
@@ -288,10 +288,10 @@
           "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
           "correct_answer": "am",
           "options": [
-            "be",
-            "are",
             "is",
-            "am"
+            "am",
+            "are",
+            "be"
           ],
           "grammar_rule": "Verb To Be: Essere in inglese."
         }
@@ -310,9 +310,9 @@
           "audio_text": "She likes apples.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "She liking apples.",
+            "She likes apples.",
             "She like apples.",
-            "She likes apples."
+            "She liking apples."
           ],
           "correct_answer": "She likes apples."
         },
@@ -334,9 +334,9 @@
           "audio_text": "We go to school every day.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "We go to school every day.",
+            "We going to school every day.",
             "We goes to school every day.",
-            "We going to school every day."
+            "We go to school every day."
           ],
           "correct_answer": "We go to school every day."
         },
@@ -346,9 +346,9 @@
           "audio_text": "My name is John.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
+            "My house is John.",
             "My age is John.",
-            "My name is John.",
-            "My house is John."
+            "My name is John."
           ],
           "correct_answer": "My name is John."
         },
@@ -370,9 +370,9 @@
           "audio_text": "I have a red car.",
           "prompt_it": "Trascrivi esattamente la frase in inglese che hai sentito.",
           "options": [
-            "I have a red car.",
+            "I having a red car.",
             "I has a red car.",
-            "I having a red car."
+            "I have a red car."
           ],
           "correct_answer": "I have a red car."
         },
@@ -421,9 +421,9 @@
           "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
           "correct_answer": "cat",
           "options": [
-            "cat",
-            "dog",
             "bird",
+            "dog",
+            "cat",
             "mouse"
           ]
         },
@@ -432,9 +432,9 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
+            "We went to school every day.",
             "We go to school every day.",
             "We goes to school every day.",
-            "We went to school every day.",
             "We going to school every day."
           ],
           "correct_answer": "We go to school every day.",
@@ -452,10 +452,10 @@
           "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
           "correct_answer": "friends",
           "options": [
-            "friends",
-            "enemies",
             "parents",
-            "teachers"
+            "teachers",
+            "enemies",
+            "friends"
           ]
         },
         {
@@ -463,10 +463,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
           "options": [
-            "I has a red car.",
-            "I having a red car.",
             "I have a red car.",
-            "I had a red car."
+            "I has a red car.",
+            "I had a red car.",
+            "I having a red car."
           ],
           "correct_answer": "I have a red car.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\"."
@@ -483,10 +483,10 @@
           "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
           "correct_answer": "am",
           "options": [
-            "be",
-            "are",
+            "am",
             "is",
-            "am"
+            "are",
+            "be"
           ]
         }
       ]
@@ -511,10 +511,10 @@
           "prompt_en": "L'italiano è: Il gatto è nero.. Completa la frase in inglese: The ___ is black.",
           "correct_answer": "cat",
           "options": [
-            "mouse",
-            "bird",
             "dog",
-            "cat"
+            "cat",
+            "bird",
+            "mouse"
           ],
           "grammar_rule": "Verb To Be: Essere in inglese."
         },
@@ -523,10 +523,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Andiamo a scuola tutti i giorni.\"?",
           "options": [
-            "We went to school every day.",
-            "We going to school every day.",
+            "We go to school every day.",
             "We goes to school every day.",
-            "We go to school every day."
+            "We going to school every day.",
+            "We went to school every day."
           ],
           "correct_answer": "We go to school every day.",
           "explanation_it": "L'unica forma corretta e naturale è: \"We go to school every day.\".",
@@ -545,10 +545,10 @@
           "prompt_en": "L'italiano è: Loro sono i miei amici.. Completa la frase in inglese: They are my ___.",
           "correct_answer": "friends",
           "options": [
-            "friends",
-            "enemies",
+            "parents",
             "teachers",
-            "parents"
+            "enemies",
+            "friends"
           ],
           "grammar_rule": "Verb To Be: Essere in inglese."
         },
@@ -557,10 +557,10 @@
           "difficulty": 1,
           "prompt_it": "Qual è la traduzione esatta per: \"Ho una macchina rossa.\"?",
           "options": [
-            "I having a red car.",
             "I has a red car.",
+            "I have a red car.",
             "I had a red car.",
-            "I have a red car."
+            "I having a red car."
           ],
           "correct_answer": "I have a red car.",
           "explanation_it": "L'unica forma corretta e naturale è: \"I have a red car.\".",
@@ -579,10 +579,10 @@
           "prompt_en": "L'italiano è: Io sono uno studente.. Completa la frase in inglese: I ___ a student.",
           "correct_answer": "am",
           "options": [
+            "be",
             "am",
-            "is",
             "are",
-            "be"
+            "is"
           ],
           "grammar_rule": "Verb To Be: Essere in inglese."
         }
