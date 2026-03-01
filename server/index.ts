@@ -323,6 +323,12 @@ function checkAndAwardBadges(db: any, totalXp: number, streak: number, accuracy:
     if (accuracy === 100) award('perfect_lesson')
 }
 
+// Global error handler
+app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
+    console.error('[ServerError]', err)
+    res.status(500).json({ ok: false, error: 'Internal Server Error', details: err.message })
+})
+
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
