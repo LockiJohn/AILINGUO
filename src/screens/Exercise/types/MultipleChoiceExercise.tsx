@@ -12,15 +12,16 @@ interface Props {
 export default function MultipleChoiceExercise({ exercise, onAnswer, onNext }: Props) {
     const [selected, setSelected] = useState<string | null>(null)
     const [answered, setAnswered] = useState(false)
-    const options: string[] = exercise.options_json ? JSON.parse(exercise.options_json) : []
+    const options: string[] = exercise.options_json ? (JSON.parse(exercise.options_json) as string[]) : []
 
-    const isCorrect = selected === exercise.correct_answer
+    const normalize = (s: string) => s?.trim().toLowerCase().replace(/[.!?,;:]/g, '').replace(/\s+/g, ' ') || ''
+    const isCorrect = normalize(selected || '') === normalize(exercise.correct_answer || '')
 
     const handleSelect = (opt: string) => {
         if (answered) return
         setSelected(opt)
         setAnswered(true)
-        onAnswer(opt === exercise.correct_answer, opt)
+        onAnswer(normalize(opt) === normalize(exercise.correct_answer), opt)
     }
 
     return (
@@ -42,7 +43,7 @@ export default function MultipleChoiceExercise({ exercise, onAnswer, onNext }: P
                 {options.map((opt) => {
                     let cls = 'option-btn'
                     if (answered) {
-                        if (opt === exercise.correct_answer) cls += ' correct'
+                        if (normalize(opt) === normalize(exercise.correct_answer || '')) cls += ' correct'
                         else if (opt === selected) cls += ' wrong'
                     } else if (opt === selected) {
                         cls += ' selected'
