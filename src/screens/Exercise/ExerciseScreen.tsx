@@ -161,6 +161,7 @@ export default function ExerciseScreen() {
             {/* Exercise content */}
             <div style={{ flex: 1, overflow: 'auto' }}>
                 <ExerciseRenderer
+                    key={exercise.id.toString() + currentIndex.toString()}
                     exercise={exercise}
                     onAnswer={handleAnswer}
                     onNext={nextExercise}

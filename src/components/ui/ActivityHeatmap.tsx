@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import type { StudySession } from '../../types'
+import { api } from '../../services/api'
 
 export default function ActivityHeatmap() {
     const [sessions, setSessions] = useState<StudySession[]>([])
@@ -11,7 +12,7 @@ export default function ActivityHeatmap() {
         async function fetchHistory() {
             try {
                 // Prendi le ultime 24 settimane di storia
-                const hist = await window.ailingo.getStudySessions(DAYS_TO_SHOW)
+                const hist = await api.getStudySessions(DAYS_TO_SHOW)
                 setSessions(hist)
             } catch (err) {
                 console.error("Failed to load study heatmap:", err)

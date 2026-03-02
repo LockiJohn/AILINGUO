@@ -47,8 +47,10 @@
 
   /* Gradients */
   --gradient-primary: linear-gradient(135deg, #6337f5 0%, #22e5a0 100%);
-  --gradient-card: linear-gradient(135deg, rgba(99, 55, 245, 0.15) 0%, rgba(34, 229, 160, 0.05) 100%);
-  --gradient-glow: radial-gradient(ellipse at center, rgba(99, 55, 245, 0.2) 0%, transparent 70%);
+  --gradient-card: linear-gradient(135deg, rgba(99, 55, 245, 0.25) 0%, rgba(34, 229, 160, 0.08) 100%);
+  --gradient-glow: radial-gradient(ellipse at center, rgba(99, 55, 245, 0.35) 0%, transparent 70%);
+  --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.01) 100%);
+  --gradient-bg-body: radial-gradient(circle at 15% 50%, rgba(99, 55, 245, 0.08), transparent 35%), radial-gradient(circle at 85% 30%, rgba(34, 229, 160, 0.05), transparent 40%), var(--clr-bg-base);
 
   /* Spacing */
   --space-1: 4px;
@@ -122,7 +124,8 @@ html {
 
 body {
   font-family: var(--font-base);
-  background-color: var(--clr-bg-base);
+  background: var(--gradient-bg-body);
+  background-attachment: fixed;
   color: var(--clr-text-primary);
   line-height: 1.6;
   min-height: 100vh;
@@ -301,11 +304,14 @@ a:hover {
 
 /* --- Cards --- */
 .card {
-  background: var(--clr-bg-card);
-  border: 1px solid var(--clr-border);
+  background: rgba(24, 24, 37, 0.65);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: var(--radius-lg);
   padding: var(--space-6);
   transition: all var(--transition-base);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
 .card-interactive {
@@ -508,8 +514,10 @@ a:hover {
 /* --- Sidebar --- */
 .sidebar {
   width: 240px;
-  background: var(--clr-bg-surface);
-  border-right: 1px solid var(--clr-border);
+  background: rgba(17, 17, 24, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(255, 255, 255, 0.04);
   display: flex;
   flex-direction: column;
   padding: var(--space-5) var(--space-4);

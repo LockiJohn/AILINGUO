@@ -6,6 +6,8 @@ const NAV_ITEMS = [
     { to: '/dashboard', icon: '🏠', label: 'Home' },
     { to: '/course', icon: '🗺️', label: 'Corso' },
     { to: '/review', icon: '🔁', label: 'Ripassa' },
+    { to: '/games', icon: '🕹️', label: 'Arcade' },
+    { to: '/tutor', icon: '💬', label: 'AI Tutor' },
     { to: '/stats', icon: '📊', label: 'Statistiche' },
     { to: '/settings', icon: '⚙️', label: 'Impostazioni' },
     { to: '/help', icon: '❓', label: 'Guida App' },

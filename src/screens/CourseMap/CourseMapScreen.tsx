@@ -11,6 +11,8 @@ export default function CourseMapScreen() {
     const [expandedUnit, setExpandedUnit] = useState<number | null>(null)
     const [isLoading, setIsLoading] = useState(true)
     const { startSession, setLesson } = useSessionStore()
+    const [selectedLesson, setSelectedLesson] = useState<Lesson | null>(null)
+    const [starting, setStarting] = useState(false)
     const navigate = useNavigate()
 
     const levelCode = user?.current_level ?? 'A1'
@@ -23,10 +25,16 @@ export default function CourseMapScreen() {
         })
     }, [levelCode])
 
-    const handleStartLesson = async (lesson: Lesson) => {
+    const handleLessonSelect = (lesson: Lesson) => {
+        setSelectedLesson(lesson)
+    }
+
+    const handleStartLesson = async () => {
+        if (!selectedLesson) return
+        setStarting(true)
         await startSession()
-        const exercises = await api.getLessonExercises(lesson.id)
-        setLesson({ id: lesson.id, title: lesson.title_it }, exercises)
+        const exercises = await api.getLessonExercises(selectedLesson.id)
+        setLesson({ id: selectedLesson.id, title: selectedLesson.title_it }, exercises)
         navigate('/exercise')
     }
 
@@ -101,14 +109,46 @@ export default function CourseMapScreen() {
 
                             {/* Expanded lessons list - for MVP, show a "Inizia" CTA per unit */}
                             {isExpanded && !isLocked && (
-                                <div style={{ marginTop: 'var(--space-4)', paddingTop: 'var(--space-4)', borderTop: '1px solid var(--clr-border)' }}>
-                                    <UnitLessons unitId={unit.id} onStart={handleStartLesson} />
+                                <div style={{ marginTop: 'var(--space-4)', paddingTop: 'var(--space-4)', borderTop: '1px solid var(--clr-border)' }} onClick={(e) => e.stopPropagation()}>
+                                    <UnitLessons unitId={unit.id} onStart={handleLessonSelect} />
                                 </div>
                             )}
                         </div>
                     )
                 })}
             </div>
+
+            {/* Pedagogical Objectives Modal */}
+            {selectedLesson && (
+                <div style={{
+                    position: 'fixed', inset: 0, backgroundColor: 'rgba(0,0,0,0.85)', zIndex: 9999,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', backdropFilter: 'blur(5px)'
+                }}>
+                    <div className="card animate-scale-in" style={{ maxWidth: 450, width: '90%', border: '1px solid var(--clr-border-accent)', background: 'var(--gradient-card)' }}>
+                        <h2 style={{ marginBottom: 'var(--space-2)', fontSize: '1.4rem' }}>🎯 Obiettivi di Apprendimento</h2>
+                        <h3 style={{ color: 'var(--clr-primary-400)', marginBottom: 'var(--space-5)' }}>{selectedLesson.title_it}</h3>
+
+                        <p style={{ color: 'var(--clr-text-muted)', fontSize: '0.95rem', marginBottom: 'var(--space-4)', lineHeight: 1.5 }}>
+                            Prima di iniziare, preparati ad affrontare questi argomenti. La ricerca dimostra che conoscere gli obiettivi <strong>aumenta la ritenzione fino al 30%</strong>.
+                        </p>
+
+                        <ul style={{ marginBottom: 'var(--space-6)', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '1.05rem' }}>
+                            <li>Comprendere nuovi vocaboli nel loro contesto naturale.</li>
+                            <li>Praticare l'ascolto attivo e la pronuncia di frasi chiave.</li>
+                            <li>Ricostruire correttamente la grammatica inglese soggetto-verbo.</li>
+                        </ul>
+
+                        <div style={{ display: 'flex', gap: 'var(--space-3)' }}>
+                            <button className="btn btn-ghost" style={{ flex: 1 }} onClick={() => setSelectedLesson(null)} disabled={starting}>
+                                Annulla
+                            </button>
+                            <button className="btn btn-primary" style={{ flex: 2 }} onClick={handleStartLesson} disabled={starting}>
+                                {starting ? 'Caricamento...' : "Ho capito, Iniziamo!"}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     )
 }

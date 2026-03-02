@@ -84,6 +84,38 @@ export default function DashboardScreen() {
                 </div>
             </div>
 
+            {/* AI Tutor Hero Banner */}
+            <div
+                className="card card-interactive"
+                style={{
+                    marginBottom: 'var(--space-6)',
+                    background: 'var(--gradient-primary)',
+                    color: '#fff',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 'var(--space-4)',
+                    boxShadow: '0 8px 32px rgba(99, 55, 245, 0.4)',
+                    border: 'none',
+                    padding: 'var(--space-6) var(--space-8)'
+                }}
+                onClick={() => navigate('/tutor')}
+            >
+                <div style={{ fontSize: '3.5rem', filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.2))' }}>🤖</div>
+                <div style={{ flex: 1 }}>
+                    <h2 style={{ margin: 0, color: '#fff', fontSize: 'var(--text-2xl)', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
+                        Il tuo AI Tutor è online!
+                    </h2>
+                    <p style={{ color: 'rgba(255,255,255,0.9)', margin: 0, marginTop: 'var(--space-1)', fontSize: 'var(--text-lg)', fontWeight: 500 }}>
+                        Conversa o fai domande su grammatica e lessico al tuo nuovo assistente personale intelligente integrato in AILINGO.
+                    </p>
+                </div>
+                <div>
+                    <button className="btn" style={{ background: '#fff', color: 'var(--clr-primary-600)', padding: 'var(--space-3) var(--space-6)', fontSize: 'var(--text-lg)', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
+                        Inizia Chat ✨
+                    </button>
+                </div>
+            </div>
+
             {/* CTA buttons */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-4)', marginBottom: 'var(--space-8)' }}>
                 <button className="btn btn-primary btn-lg" style={{ flexDirection: 'column', gap: 8, padding: 'var(--space-4)' }} onClick={() => navigate('/course')}>

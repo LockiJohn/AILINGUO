@@ -12,6 +12,8 @@ import ReviewScreen from './screens/Review/ReviewScreen'
 import StatsScreen from './screens/Stats/StatsScreen'
 import SettingsScreen from './screens/Settings/SettingsScreen'
 import HelpScreen from './screens/Help/HelpScreen'
+import TutorScreen from './screens/Tutor/TutorScreen'
+import GamesScreen from './screens/Games/GamesScreen'
 
 function AppLayout() {
     return (
@@ -28,6 +30,8 @@ function AppLayout() {
                     <Route path="/review" element={<ReviewScreen />} />
                     <Route path="/stats" element={<StatsScreen />} />
                     <Route path="/settings" element={<SettingsScreen />} />
+                    <Route path="/tutor" element={<TutorScreen />} />
+                    <Route path="/games" element={<GamesScreen />} />
                     <Route path="/help" element={<HelpScreen />} />
                 </Routes>
             </main>
