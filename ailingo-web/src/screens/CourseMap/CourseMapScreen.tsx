@@ -132,19 +132,27 @@ export default function CourseMapScreen() {
 
             {/* Pedagogical Objectives Modal */}
             {selectedLesson && (
-                <div style={{
-                    position: 'fixed', inset: 0, backgroundColor: 'rgba(0,0,0,0.85)', zIndex: 9999,
-                    display: 'flex', alignItems: 'center', justifyContent: 'center', backdropFilter: 'blur(5px)'
-                }}>
-                    <div className="card animate-scale-in" style={{ maxWidth: 450, width: '90%', border: '1px solid var(--clr-border-accent)', background: 'var(--gradient-card)' }}>
-                        <h2 style={{ marginBottom: 'var(--space-2)', fontSize: '1.4rem' }}>🎯 Obiettivi di Apprendimento</h2>
-                        <h3 style={{ color: 'var(--clr-primary-400)', marginBottom: 'var(--space-5)' }}>{selectedLesson.title_it}</h3>
+                <div
+                    style={{
+                        position: 'fixed', inset: 0, backgroundColor: 'rgba(0,0,0,0.85)', zIndex: 9999,
+                        display: 'flex', alignItems: 'center', justifyContent: 'center', backdropFilter: 'blur(5px)',
+                        padding: 'var(--space-4)',
+                    }}
+                    onClick={() => !starting && setSelectedLesson(null)}
+                >
+                    <div
+                        className="card animate-scale-in"
+                        style={{ maxWidth: 450, width: '100%', border: '1px solid var(--clr-border-accent)', background: 'var(--gradient-card)', maxHeight: '90svh', overflowY: 'auto' }}
+                        onClick={e => e.stopPropagation()}
+                    >
+                        <h2 style={{ marginBottom: 'var(--space-2)', fontSize: '1.3rem' }}>🎯 Obiettivi di Apprendimento</h2>
+                        <h3 style={{ color: 'var(--clr-primary-400)', marginBottom: 'var(--space-4)' }}>{selectedLesson.title_it}</h3>
 
-                        <p style={{ color: 'var(--clr-text-muted)', fontSize: '0.95rem', marginBottom: 'var(--space-4)', lineHeight: 1.5 }}>
+                        <p style={{ color: 'var(--clr-text-muted)', fontSize: '0.9rem', marginBottom: 'var(--space-4)', lineHeight: 1.5 }}>
                             Prima di iniziare, preparati ad affrontare questi argomenti. La ricerca dimostra che conoscere gli obiettivi <strong>aumenta la ritenzione fino al 30%</strong>.
                         </p>
 
-                        <ul style={{ marginBottom: 'var(--space-6)', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '1.05rem' }}>
+                        <ul style={{ marginBottom: 'var(--space-5)', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '0.95rem' }}>
                             <li>Comprendere nuovi vocaboli nel loro contesto naturale.</li>
                             <li>Praticare l'ascolto attivo e la pronuncia di frasi chiave.</li>
                             <li>Ricostruire correttamente la grammatica inglese soggetto-verbo.</li>

@@ -3,8 +3,9 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = "file:./dev.db"
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 model User {
@@ -140,12 +141,15 @@ model ReviewQueue {
 }
 
 model UserStats {
-  userId        Int      @id @map("user_id")
-  totalXp       Int      @default(0) @map("total_xp")
-  currentStreak Int      @default(0) @map("current_streak")
-  longestStreak Int      @default(0) @map("longest_streak")
-  lastStudyDate String?  @map("last_study_date") // e.g. "2023-10-15"
-  userLevel     Int      @default(1) @map("user_level")
+  userId              Int      @id @map("user_id")
+  totalXp             Int      @default(0) @map("total_xp")
+  currentStreak       Int      @default(0) @map("current_streak")
+  longestStreak       Int      @default(0) @map("longest_streak")
+  lastStudyDate       String?  @map("last_study_date")
+  userLevel           Int      @default(1) @map("user_level")
+  wordsLearned        Int      @default(0) @map("words_learned")
+  accuracyAvg         Float    @default(0) @map("accuracy_avg")
+  timeStudiedMinutes  Int      @default(0) @map("time_studied_minutes")
 
   user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 

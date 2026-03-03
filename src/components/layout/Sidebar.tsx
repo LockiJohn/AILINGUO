@@ -7,10 +7,10 @@ const NAV_ITEMS = [
     { to: '/course', icon: '🗺️', label: 'Corso' },
     { to: '/review', icon: '🔁', label: 'Ripassa' },
     { to: '/games', icon: '🕹️', label: 'Arcade' },
-    { to: '/tutor', icon: '💬', label: 'AI Tutor' },
-    { to: '/stats', icon: '📊', label: 'Statistiche' },
-    { to: '/settings', icon: '⚙️', label: 'Impostazioni' },
-    { to: '/help', icon: '❓', label: 'Guida App' },
+    { to: '/tutor', icon: '💬', label: 'Tutor' },
+    { to: '/stats', icon: '📊', label: 'Stats', mobileHide: true },
+    { to: '/settings', icon: '⚙️', label: 'Setup', mobileHide: true },
+    { to: '/help', icon: '❓', label: 'Guida', mobileHide: true },
 ]
 
 export default function Sidebar() {
@@ -54,7 +54,7 @@ export default function Sidebar() {
                 <NavLink
                     key={item.to}
                     to={item.to}
-                    className={({ isActive }) => `sidebar-nav-item ${isActive ? 'active' : ''}`}
+                    className={({ isActive }) => `sidebar-nav-item ${isActive ? 'active' : ''} ${item.mobileHide ? 'nav-mobile-hide' : ''}`}
                 >
                     <span className="nav-icon">{item.icon}</span>
                     {item.label}

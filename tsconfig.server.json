@@ -15,5 +15,8 @@
         "server/**/*",
         "electron/db/**/*",
         "electron/content/**/*"
+    ],
+    "exclude": [
+        "content/**/*"
     ]
 }
