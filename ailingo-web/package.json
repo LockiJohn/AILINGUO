@@ -18,7 +18,6 @@
     "bcryptjs": "^3.0.3",
     "next": "16.1.6",
     "next-auth": "^5.0.0-beta.30",
-    "openai": "^6.27.0",
     "prisma": "^6.19.2",
     "react": "19.2.3",
     "react-dom": "19.2.3"

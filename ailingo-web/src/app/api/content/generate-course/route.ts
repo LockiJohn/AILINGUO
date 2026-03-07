@@ -1,15 +1,12 @@
 import { NextResponse } from 'next/server'
-import OpenAI from 'openai'
 import { prisma } from '@/lib/prisma'
 import { auth } from '@/auth'
 
 export const dynamic = 'force-dynamic'
 
-// This endpoint dynamically builds a course for a given subject and level
+// This endpoint builds a course for a given subject and level using a static predefined response (LLM API Removed)
 export async function POST(req: Request) {
     try {
-        const openai = new OpenAI() // Initialize inside to avoid build-time errors if env var is missing
-
         const session = await auth()
         if (!session || !session.user) {
             return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
@@ -31,14 +28,13 @@ export async function POST(req: Request) {
             return NextResponse.json({ success: true, message: "Course already generated" })
         }
 
-        console.log(`[AI Gen] Generating course for ${subject} ${level}...`)
+        console.log(`[Static Gen] Generating mock course for ${subject} ${level}...`)
 
         // 2. We need to create the Level first if it doesn't exist
         const subjectNames: Record<string, string> = {
             'physics': 'Fisica',
             'chemistry': 'Chimica',
-            'math': 'Matematica',
-            'biology': 'Biologia'
+            'english': 'Inglese'
         }
         const sName = subjectNames[subject.toLowerCase()] || subject
 
@@ -49,108 +45,96 @@ export async function POST(req: Request) {
                 code: levelCode,
                 nameIt: `${sName} ${level}`,
                 nameEn: `${subject} ${level}`,
-                descriptionIt: `Corso di ${sName} generato con AI`,
+                descriptionIt: `Corso base statico di ${sName}`,
                 sortOrder: 100
             }
         })
 
-        // 3. Call OpenAI for structured generation
-        const systemPrompt = `Sei un tutor esperto di didattica.
-Devi creare un mini-corso base di **${sName}** (livello ${level}) per uno studente italiano.
-Il corso deve essere diviso in 2 Unità (Units). Ognuna con un ordine incrementale.
-Ogni Unità deve avere 2 Lezioni (Lessons).
-Ogni Lezione deve avere un type "theory" oppure "quiz", ma usa sempre "theory" per i primi concetti.
-Ogni Lezione deve contenere 6 esercizi (Exercises) pratici.
-L'obiettivo è testare la comprensione dei concetti teorici attraverso domande a scelta multipla.
+        // 3. Static Predefined Content (Replacing LLM)
+        let predefinedUnits = []
 
-Formato Esercizio:
-- "prompt_it": la domanda chiara in italiano.
-- "correct_answer": la risposta corretta breve.
-- "options": un array di 4 stringhe (inclusa la corretta e 3 distrattori plausibili).
-- "explanation_it": una spiegazione di max 2 frasi del perché è corretto.
-
-Evita formule complesse se il livello è Principiante. Mantieni un tono motivante.
-
-Esporta ESATTAMENTE i dati in base allo schema JSON richiesto.`
-
-        const completion = await openai.chat.completions.create({
-            model: "gpt-4o-mini",
-            messages: [
-                { role: "system", content: systemPrompt },
-                { role: "user", content: "Genera il sillabo completo in JSON ora." }
-            ],
-            response_format: {
-                type: "json_schema",
-                json_schema: {
-                    name: "course_generation",
-                    strict: true,
-                    schema: {
-                        type: "object",
-                        properties: {
-                            units: {
-                                type: "array",
-                                items: {
-                                    type: "object",
-                                    properties: {
-                                        title_it: { type: "string", description: "Es: 'Introduzione alla Fisica'" },
-                                        description_it: { type: "string" },
-                                        icon: { type: "string", description: "Un'emoji rappresentativa" },
-                                        lessons: {
-                                            type: "array",
-                                            items: {
-                                                type: "object",
-                                                properties: {
-                                                    title_it: { type: "string" },
-                                                    type: { type: "string", enum: ["theory", "vocabulary", "grammar"] },
-                                                    exercises: {
-                                                        type: "array",
-                                                        items: {
-                                                            type: "object",
-                                                            properties: {
-                                                                type: { type: "string", enum: ["multiple_choice"] },
-                                                                prompt_it: { type: "string" },
-                                                                correct_answer: { type: "string" },
-                                                                options: {
-                                                                    type: "array",
-                                                                    items: { type: "string" }
-                                                                },
-                                                                explanation_it: { type: "string" }
-                                                            },
-                                                            required: ["type", "prompt_it", "correct_answer", "options", "explanation_it"],
-                                                            additionalProperties: false
-                                                        }
-                                                    }
-                                                },
-                                                required: ["title_it", "type", "exercises"],
-                                                additionalProperties: false
-                                            }
-                                        }
-                                    },
-                                    required: ["title_it", "description_it", "icon", "lessons"],
-                                    additionalProperties: false
-                                }
-                            }
-                        },
-                        required: ["units"],
-                        additionalProperties: false
-                    }
+        if (subject.toLowerCase() === 'physics') {
+            predefinedUnits = [
+                {
+                    title_it: "Cos'è la Fisica?",
+                    description_it: "Le grandezze e il metodo scientifico",
+                    icon: "📏",
+                    lessons: [
+                        {
+                            title_it: "Grandezze Fondamentali",
+                            type: "theory",
+                            exercises: [
+                                { type: "multiple_choice", prompt_it: "Quale di queste è una grandezza fondamentale nel SI?", correct_answer: "Lunghezza", options: ["Forza", "Velocità", "Lunghezza", "Accelerazione"], explanation_it: "La lunghezza è fondamentale, le altre derivano." },
+                                { type: "multiple_choice", prompt_it: "L'unità di misura della massa è:", correct_answer: "Kilogrammo", options: ["Newton", "Litro", "Grammo", "Kilogrammo"], explanation_it: "Nel Sistema Internazionale si usa il kilogrammo (kg)." },
+                                { type: "multiple_choice", prompt_it: "Cos'è un vettore?", correct_answer: "Una grandezza con direzione e verso", options: ["Un numero puro", "Una forza nucleare", "Una grandezza con direzione e verso", "La misura del tempo"], explanation_it: "I vettori hanno modulo, direzione e verso." }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title_it: "La Cinematica",
+                    description_it: "Il movimento dei corpi",
+                    icon: "🚗",
+                    lessons: [
+                        {
+                            title_it: "Velocità e Moto",
+                            type: "theory",
+                            exercises: [
+                                { type: "multiple_choice", prompt_it: "La velocità costante indica un moto:", correct_answer: "Rettilineo Uniforme", options: ["Accelerato", "Rettilineo Uniforme", "Circolare", "Parabolico"], explanation_it: "Moto rettilineo uniforme significa velocità costante nel tempo." },
+                                { type: "multiple_choice", prompt_it: "Cos'è l'accelerazione?", correct_answer: "La variazione della velocità", options: ["Lo spazio percorso dritto", "La variazione della velocità", "Il peso di un corpo in caduta", "L'energia di un corpo in movimento"], explanation_it: "L'accelerazione misura quanto rapidamente cambia la velocità." },
+                                { type: "multiple_choice", prompt_it: "La forza d'attrito:", correct_answer: "Si oppone al movimento", options: ["Aumenta l'accelerazione", "Si oppone al movimento", "È proporzionale al volume", "Non esiste nel vuoto"], explanation_it: "L'attrito è una forza che frena lo scivolamento tra superfici." }
+                            ]
+                        }
+                    ]
                 }
-            }
-        });
-
-        const resultText = completion.choices[0].message.content
-        if (!resultText) throw new Error("Empty AI response")
-
-        const courseData = JSON.parse(resultText)
+            ]
+        } else if (subject.toLowerCase() === 'chemistry') {
+            predefinedUnits = [
+                {
+                    title_it: "Stati della Materia",
+                    description_it: "Solido, Liquido, Gas",
+                    icon: "🧊",
+                    lessons: [
+                        {
+                            title_it: "Le tre fasi principali",
+                            type: "theory",
+                            exercises: [
+                                { type: "multiple_choice", prompt_it: "L'acqua che bolle diventa vapore. Questo passaggio si chiama:", correct_answer: "Evaporazione", options: ["Condensazione", "Sublimazione", "Evaporazione", "Fusione"], explanation_it: "Da liquido a vapore si chiama evaporazione o ebollizione." },
+                                { type: "multiple_choice", prompt_it: "Quale stato della materia ha volume proprio ma prende la forma del contenitore?", correct_answer: "Liquido", options: ["Solido", "Gas", "Liquido", "Plasma"], explanation_it: "Nei liquidi le molecole scorrono prendendo la forma del contenitore." },
+                                { type: "multiple_choice", prompt_it: "Da solido a gas senza passare per il fluido si chiama:", correct_answer: "Sublimazione", options: ["Brinamento", "Sublimazione", "Evaporazione", "Fusione"], explanation_it: "Esempio: il ghiaccio secco si sublima a temperatura ambiente." }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        } else {
+            // Default generic fallback
+            predefinedUnits = [
+                {
+                    title_it: `Fondamenti di ${sName}`,
+                    description_it: `Corso introduttivo generato automaticamente`,
+                    icon: "💡",
+                    lessons: [
+                        {
+                            title_it: "Prima Lezione",
+                            type: "theory",
+                            exercises: [
+                                { type: "multiple_choice", prompt_it: `Ecco la tua prima domanda di ${sName}. Prova!`, correct_answer: "Risposta Corretta", options: ["Risposta Errata 1", "Risposta Corretta", "Risposta Errata 2", "Opzione a caso"], explanation_it: "Questo è un corso dimostrativo statico." }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
 
         // 4. Save to Database
         let unitOrder = 1;
-        for (const unitData of courseData.units) {
+        for (const unitData of predefinedUnits) {
             const unit = await prisma.unit.create({
                 data: {
                     levelCode: levelCode,
                     sortOrder: unitOrder,
-                    titleEn: unitData.title_it, // fallback
+                    titleEn: unitData.title_it,
                     titleIt: unitData.title_it,
                     descriptionIt: unitData.description_it,
                     icon: unitData.icon || '📘',
@@ -189,9 +173,12 @@ Esporta ESATTAMENTE i dati in base allo schema JSON richiesto.`
             unitOrder++;
         }
 
-        console.log(`[AI Gen] Successfully saved ${courseData.units.length} units to DB.`)
+        console.log(`[Static Gen] Successfully saved ${predefinedUnits.length} units to DB.`)
 
-        return NextResponse.json({ success: true, count: courseData.units.length })
+        // Simulate network delay to show the nice loading screen
+        await new Promise(r => setTimeout(r, 2000));
+
+        return NextResponse.json({ success: true, count: predefinedUnits.length })
     } catch (e: any) {
         console.error("Course Generation Error:", e)
         return NextResponse.json({ error: "Failed to generate course", details: e.message }, { status: 500 })
