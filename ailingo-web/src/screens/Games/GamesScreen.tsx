@@ -1,42 +1,59 @@
 "use client"
 import { useState } from 'react'
 import MemoryGame from './MemoryGame'
-import WordDropGame from './WordDropGame'
+import AsteroidWords from './AsteroidWords'
+import PictureQuiz from './PictureQuiz'
 
 const GAMES = [
+    {
+        id: 'asteroid' as const,
+        icon: '🚀',
+        title: 'Asteroid Defense',
+        desc: 'Asteroidi con parole italiane cadono sulla tua città! Digita la traduzione inglese per distruggerli prima che colpiscano.',
+        difficulty: 'Medio',
+        skill: '⚡ Velocità',
+        skillColor: 'rgba(239,68,68,0.12)',
+        skillTextColor: 'var(--clr-error)',
+        diffColor: 'rgba(245,158,11,0.15)',
+        diffTextColor: 'var(--clr-warning)',
+        gradient: 'linear-gradient(135deg, rgba(99,55,245,0.18) 0%, rgba(239,68,68,0.08) 100%)',
+    },
+    {
+        id: 'picturequiz' as const,
+        icon: '🖼️',
+        title: 'Picture Quiz',
+        desc: 'Guarda l\'emoji e scrivi la parola inglese che rappresenta. Usa i suggerimenti e accumula streak per più punti!',
+        difficulty: 'Facile',
+        skill: '👁️ Visivo',
+        skillColor: 'rgba(59,130,246,0.15)',
+        skillTextColor: 'var(--clr-info)',
+        diffColor: 'rgba(34,197,94,0.15)',
+        diffTextColor: 'var(--clr-success)',
+        gradient: 'linear-gradient(135deg, rgba(34,229,160,0.12) 0%, rgba(59,130,246,0.08) 100%)',
+    },
     {
         id: 'memory' as const,
         icon: '🎴',
         title: 'Memory Match',
         desc: 'Gira le carte e abbina parole inglesi alle loro traduzioni. Tecnica provata per fissare vocaboli a lungo termine.',
-        difficulty: 'Facile',
+        difficulty: 'Medio',
         skill: '🧠 Memoria',
         skillColor: 'rgba(34,229,160,0.15)',
         skillTextColor: 'var(--clr-accent-400)',
-        diffColor: 'rgba(34,197,94,0.15)',
-        diffTextColor: 'var(--clr-success)',
-        gradient: 'linear-gradient(135deg, rgba(34,229,160,0.15) 0%, rgba(99,55,245,0.05) 100%)',
-    },
-    {
-        id: 'worddrop' as const,
-        icon: '☄️',
-        title: 'Word Drop',
-        desc: 'Le parole cadono dal cielo — scrivi la traduzione prima che tocchino terra! Allena riflessi e automatismi linguistici.',
-        difficulty: 'Medio',
-        skill: '⚡ Riflessi',
-        skillColor: 'rgba(245,158,11,0.15)',
-        skillTextColor: 'var(--clr-warning)',
         diffColor: 'rgba(245,158,11,0.15)',
         diffTextColor: 'var(--clr-warning)',
-        gradient: 'linear-gradient(135deg, rgba(245,158,11,0.12) 0%, rgba(99,55,245,0.05) 100%)',
+        gradient: 'linear-gradient(135deg, rgba(34,229,160,0.15) 0%, rgba(99,55,245,0.05) 100%)',
     },
 ]
 
+type GameId = 'hub' | 'asteroid' | 'picturequiz' | 'memory'
+
 export default function GamesScreen() {
-    const [activeGame, setActiveGame] = useState<'hub' | 'memory' | 'worddrop'>('hub')
+    const [activeGame, setActiveGame] = useState<GameId>('hub')
 
     if (activeGame === 'memory') return <MemoryGame onBack={() => setActiveGame('hub')} />
-    if (activeGame === 'worddrop') return <WordDropGame onBack={() => setActiveGame('hub')} />
+    if (activeGame === 'asteroid') return <AsteroidWords onBack={() => setActiveGame('hub')} />
+    if (activeGame === 'picturequiz') return <PictureQuiz onBack={() => setActiveGame('hub')} />
 
     return (
         <div className="screen-container animate-fade-in">
@@ -120,7 +137,7 @@ export default function GamesScreen() {
                 color: 'var(--clr-text-muted)',
                 lineHeight: 1.6,
             }}>
-                💡 <strong style={{ color: 'var(--clr-text-secondary)' }}>Consiglio pedagogico:</strong> i giochi usano le stesse parole del tuo corso attivo —
+                💡 <strong style={{ color: 'var(--clr-text-secondary)' }}>Consiglio pedagogico:</strong> i giochi consolidano le parole del tuo corso —
                 giocare 5 minuti dopo una lezione aumenta la ritenzione del <strong style={{ color: 'var(--clr-accent-400)' }}>40%</strong>.
             </div>
         </div>

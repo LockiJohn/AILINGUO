@@ -25,15 +25,26 @@ export default function ExerciseScreen() {
 
     if (!exercises.length) return null
 
-    const isFinished = currentIndex >= exercises.length
+    // Filter out exercises with null/empty prompts (bad DB data)
+    const validExercises = exercises.filter(ex =>
+        (ex.prompt_it && ex.prompt_it.trim() && ex.prompt_it !== 'null') ||
+        (ex.prompt_en && ex.prompt_en.trim() && ex.prompt_en !== 'null')
+    )
+
+    if (!validExercises.length) {
+        handleFinish()
+        return null
+    }
+
+    const isFinished = currentIndex >= validExercises.length
 
     if (isFinished) {
         handleFinish()
         return null
     }
 
-    const exercise = exercises[currentIndex]
-    const progress = Math.round((currentIndex / exercises.length) * 100)
+    const exercise = validExercises[currentIndex]
+    const progress = Math.round((currentIndex / validExercises.length) * 100)
 
     async function handleFinish() {
         const { xp, accuracy } = await endSession()
@@ -65,12 +76,12 @@ export default function ExerciseScreen() {
                         <div className="progress-bar__fill" style={{ width: `${progress}%` }} />
                     </div>
                 </div>
-                <div className="xp-chip">❤️ {exercises.length - currentIndex}</div>
+                <div className="xp-chip">❤️ {validExercises.length - currentIndex}</div>
             </div>
 
             {/* Lesson title */}
             <div style={{ fontSize: 'var(--text-sm)', color: 'var(--clr-text-muted)', marginBottom: 'var(--space-4)', fontWeight: 600 }}>
-                {currentLesson?.title} · {currentIndex + 1}/{exercises.length}
+                {currentLesson?.title} · {currentIndex + 1}/{validExercises.length}
             </div>
 
             {/* Exercise content */}

@@ -1067,7 +1067,13 @@ a:hover {
   }
 
   .screen-container {
-    padding: var(--space-4) var(--space-4) var(--space-12);
+    padding: var(--space-3) var(--space-3) calc(var(--space-12) + 16px);
+  }
+
+  /* Single column game cards on mobile */
+  .screen-container>div[style*="grid"],
+  .screen-container [style*="gridTemplateColumns"] {
+    grid-template-columns: 1fr !important;
   }
 
   /* Increase touch targets for buttons on mobile */
@@ -1179,6 +1185,24 @@ a:hover {
   }
 
   .screen-container {
-    padding: var(--space-3);
+    padding: var(--space-2) var(--space-2) calc(var(--space-12) + 20px);
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+}
+
+/* --- Game screens: full height on mobile --- */
+@media (max-width: 768px) {
+
+  /* Ensure game screens use all available vertical space */
+  .main-content>div[style*="height: 100%"],
+  .main-content>div[style*="height:100%"] {
+    min-height: calc(100dvh - 80px);
   }
 }
