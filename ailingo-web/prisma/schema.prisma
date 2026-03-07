@@ -15,6 +15,7 @@ model User {
   name                String
   nativeLanguage      String    @default("it") @map("native_language")
   targetLanguage      String    @default("en") @map("target_language")
+  learningGoal        String    @default("english") @map("learning_goal")
   currentLevel        String    @default("A1") @map("current_level")
   onboardingComplete  Boolean   @default(false) @map("onboarding_complete")
   createdAt           DateTime  @default(now()) @map("created_at")

@@ -11,7 +11,7 @@ export async function GET() {
 
         const user = await prisma.user.findUnique({
             where: { id: parseInt(session.user.id!) },
-            select: { id: true, name: true, email: true, currentLevel: true, nativeLanguage: true, targetLanguage: true, onboardingComplete: true }
+            select: { id: true, name: true, email: true, currentLevel: true, nativeLanguage: true, targetLanguage: true, learningGoal: true, onboardingComplete: true }
         })
 
         if (!user) {
@@ -32,7 +32,7 @@ export async function PATCH(req: Request) {
             return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
         }
 
-        const { name, currentLevel, onboardingComplete } = await req.json()
+        const { name, currentLevel, learningGoal, onboardingComplete } = await req.json()
 
         // In complete-lesson or onboarding updates
         const user = await prisma.user.update({
@@ -40,6 +40,7 @@ export async function PATCH(req: Request) {
             data: {
                 ...(name && { name }),
                 ...(currentLevel && { currentLevel }),
+                ...(learningGoal && { learningGoal }),
                 ...(onboardingComplete !== undefined && { onboardingComplete })
             }
         })

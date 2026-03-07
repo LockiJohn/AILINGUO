@@ -14,28 +14,62 @@ export default function CourseMapScreen() {
     const { startSession, setLesson } = useSessionStore()
     const [selectedLesson, setSelectedLesson] = useState<Lesson | null>(null)
     const [starting, setStarting] = useState(false)
+    const [generatingCourse, setGeneratingCourse] = useState(false)
     const router = useRouter()
 
-    const levelCode = (user as any)?.currentLevel || user?.current_level || 'A1'
+    const subject = (user as any)?.learning_goal || user?.learning_goal || 'english'
+    const baseLevel = (user as any)?.currentLevel || user?.current_level || 'A1'
+    const levelCode = subject === 'english' ? baseLevel : `${subject.toUpperCase()}_${baseLevel}`
+    const subjectNames: Record<string, string> = { 'physics': 'Fisica', 'chemistry': 'Chimica', 'english': 'Inglese' }
 
-    useEffect(() => {
+    const fetchUnits = () => {
+        setIsLoading(true)
         fetch('/api/content/units?level=' + levelCode)
             .then(res => res.json())
-            .then(u => {
-                if (Array.isArray(u)) {
+            .then(async u => {
+                if (Array.isArray(u) && u.length > 0) {
                     setUnits(u)
-                    if (u.length > 0) setExpandedUnit(u[0].id)
+                    setExpandedUnit(u[0].id)
+                    setIsLoading(false)
+                } else if (subject !== 'english') {
+                    // Trigger AI Generation
+                    setGeneratingCourse(true)
+                    try {
+                        const res = await fetch('/api/content/generate-course', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ subject, level: baseLevel })
+                        })
+                        if (res.ok) {
+                            // Retry fetch after generation
+                            const newRes = await fetch('/api/content/units?level=' + levelCode)
+                            const newU = await newRes.json()
+                            if (Array.isArray(newU)) {
+                                setUnits(newU)
+                                if (newU.length > 0) setExpandedUnit(newU[0].id)
+                            }
+                        }
+                    } catch (e) {
+                        console.error("AI Generation failed", e)
+                    } finally {
+                        setGeneratingCourse(false)
+                        setIsLoading(false)
+                    }
                 } else {
-                    console.error('Failed to load units:', u)
                     setUnits([])
+                    setIsLoading(false)
                 }
-                setIsLoading(false)
             })
             .catch(err => {
                 console.error(err)
                 setIsLoading(false)
+                setGeneratingCourse(false)
             })
-    }, [levelCode])
+    }
+
+    useEffect(() => {
+        if (user) fetchUnits()
+    }, [levelCode, user])
 
     const handleLessonSelect = (lesson: Lesson) => {
         setSelectedLesson(lesson)
@@ -50,10 +84,16 @@ export default function CourseMapScreen() {
         router.push('/exercise')
     }
 
-    if (isLoading) {
+    if (isLoading || generatingCourse) {
         return (
-            <div className="screen-container flex flex-center" style={{ height: '100%' }}>
-                <p className="text-muted animate-pulse">Caricamento corso…</p>
+            <div className="screen-container flex flex-center flex-col" style={{ height: '100vh', textAlign: 'center' }}>
+                <div style={{ fontSize: '3rem', marginBottom: 'var(--space-4)' }}>{generatingCourse ? '🧠' : '📚'}</div>
+                <h2 style={{ marginBottom: 'var(--space-2)' }}>
+                    {generatingCourse ? "L'AI sta creando il tuo corso..." : "Caricamento corso..."}
+                </h2>
+                <p className="text-secondary animate-pulse" style={{ maxWidth: 300 }}>
+                    {generatingCourse ? `Stiamo generando le lezioni di ${subjectNames[subject] || subject} su misura per te. Potrebbe richiedere qualche secondo.` : 'Preparazione dei contenuti in corso.'}
+                </p>
             </div>
         )
     }
@@ -62,7 +102,7 @@ export default function CourseMapScreen() {
         <div className="screen-container animate-fade-in">
             <div style={{ marginBottom: 'var(--space-8)' }}>
                 <h1>
-                    <span className="gradient-text">Corso {levelCode}</span>
+                    <span className="gradient-text">Corso {subjectNames[subject] || subject} {baseLevel}</span>
                 </h1>
                 <p className="text-secondary">Seleziona un'unità e inizia a studiare</p>
             </div>

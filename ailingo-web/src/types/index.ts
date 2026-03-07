@@ -6,6 +6,7 @@ export interface User {
     name: string
     native_language: string
     target_language: string
+    learning_goal: string
     current_level: string
     onboarding_complete: number
     created_at: string
