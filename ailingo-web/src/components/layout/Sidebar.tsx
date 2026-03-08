@@ -8,6 +8,7 @@ import { useEffect } from 'react'
 const NAV_ITEMS = [
     { to: '/dashboard', icon: '🏠', label: 'Home' },
     { to: '/course', icon: '🗺️', label: 'Corso' },
+    { to: '/study', icon: '📖', label: 'Studio' },
     { to: '/review', icon: '🔁', label: 'Ripassa' },
     { to: '/games', icon: '🕹️', label: 'Arcade' },
     { to: '/tutor', icon: '💬', label: 'Tutor' },
