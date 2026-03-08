@@ -16,7 +16,7 @@ const SUBJECTS = [
 ]
 
 export default function OnboardingScreen() {
-    const [step, setStep] = useState<'welcome' | 'subject' | 'level' | 'name'>('welcome')
+    const [step, setStep] = useState<'welcome' | 'subject' | 'level' | 'name'>('subject')
     const [name, setName] = useState('')
     const [selectedSubject, setSelectedSubject] = useState<string | null>(null)
     const [selectedLevel, setSelectedLevel] = useState<string | null>(null)
@@ -106,9 +106,7 @@ export default function OnboardingScreen() {
                     >
                         Continua →
                     </button>
-                    <button className="btn btn-ghost btn-sm" style={{ marginTop: 'var(--space-3)' }} onClick={() => setStep('welcome')}>
-                        ← Indietro
-                    </button>
+                    {/* Pulsante 'Indietro' a 'welcome' rimosso, siccome è la schermata d'ingresso */}
                 </div>
             </div>
         )
