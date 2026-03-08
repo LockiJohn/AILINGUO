@@ -1,0 +1,1311 @@
+﻿
+> ailingo-web@0.1.0 build
+> next build
+
+node.exe : ÔÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but it 
+may not be correct.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (ÔÜá Warning:    
+ Ne...not be correc    
+t.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of C:\Use
+rs\Michele\package-lock
+.json as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs.o
+rg/docs/app/api-referen
+ce/config/next-config-j
+s/turbopack#root-direct
+ory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\Michele\D
+esktop\AILINGO\ailingo-
+web\package-lock.json
+   * C:\Users\Michele\D
+esktop\AILINGO\package-
+lock.json
+
+Ôû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build 
+failed with 16 errors:
+./Desktop/AILINGO/ailin
+go-web/src/auth.ts:3:1
+Module not found: 
+Can't resolve 
+'./lib/prisma'
+[0m [90m 1 |[39m 
+[36mimport[39m 
+[33mNextAuth[39m 
+[36mfrom[39m 
+[32m"next-auth"[39m
+ [90m 2 |[39m 
+[36mimport[39m [33mC
+redentialsProvider[39m
+ [36mfrom[39m [32m"n
+ext-auth/providers/cred
+entials"[39m
+[31m[1m>[22m[39m[9
+0m 3 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"./
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 4 |[39m 
+[36mimport[39m 
+bcrypt [36mfrom[39m 
+[32m"bcryptjs"[39m
+ [90m 5 |[39m
+ [90m 6 |[39m 
+[36mexport[39m 
+[36mconst[39m { 
+handlers[33m,[39m 
+auth[33m,[39m 
+signIn[33m,[39m 
+signOut } [33m=[39m 
+[33mNextAuth[39m({[0m
+
+
+
+Import traces:
+  App Route:
+    ./Desktop/AILINGO/a
+ilingo-web/src/auth.ts
+    ./Desktop/AILINGO/a
+ilingo-web/src/app/api/
+auth/[...nextauth]/rout
+e.ts
+
+  Server Component:
+    ./Desktop/AILINGO/a
+ilingo-web/src/auth.ts
+    ./Desktop/AILINGO/a
+ilingo-web/src/app/(app
+)/layout.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/auth
+/register/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m 
+bcrypt [36mfrom[39m 
+[32m"bcryptjs"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/badg
+es/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/cont
+ent/exercises/route.ts:
+1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 3 |[39m
+ [90m 4 |[39m 
+[90m// GET /api/conten
+t/exercises?lesson=1 
+-> 
+`get-lesson-exercises` 
+IPC[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/cont
+ent/lesson/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 3 |[39m
+ [90m 4 |[39m 
+[90m// GET /api/conten
+t/lesson?id=1 -> 
+get-lesson IPC[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/cont
+ent/lessons/route.ts:1:
+1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 3 |[39m
+ [90m 4 |[39m 
+[90m// GET /api/conten
+t/lessons?unit=1 -> 
+`get-unit-lessons` 
+IPC[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/cont
+ent/levels/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 3 |[39m
+ [90m 4 |[39m 
+[90m// GET 
+/api/content/levels -> 
+`get-levels` 
+IPC[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/cont
+ent/units/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/prog
+ress/exercise/route.ts:
+1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/prog
+ress/lesson/route.ts:1:
+1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/revi
+ew/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/sess
+ion/end/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/sess
+ion/start/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/sess
+ions/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/stat
+s/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Desktop/AILINGO/ailin
+go-web/src/app/api/user
+/route.ts:1:1
+Module not found: 
+Can't resolve 
+'@/lib/prisma'
+[0m[31m[1m>[22m[39
+m[90m 1 |[39m 
+[36mimport[39m { 
+prisma } 
+[36mfrom[39m [32m"@/
+lib/prisma"[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+ [90m 2 |[39m 
+[36mimport[39m { 
+auth } [36mfrom[39m 
+[32m"@/auth"[39m
+ [90m 3 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m 
+[32m"next/server"[39m
+ [90m 4 |[39m[0m
+
+Import map: aliased to 
+relative 
+'./src/lib/prisma' 
+inside of [project]/Des
+ktop/AILINGO/ailingo-we
+b
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/auth.ts:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/auth/regi
+ster/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/badges/ro
+ute.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/content/e
+xercises/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/content/l
+esson/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/content/l
+essons/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/content/l
+evels/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/content/u
+nits/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/progress/
+exercise/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/progress/
+lesson/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/review/ro
+ute.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/session/e
+nd/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/session/s
+tart/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/sessions/
+route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/stats/rou
+te.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Des
+ktop/AILINGO/ailingo-we
+b/src/app/api/user/rout
+e.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)

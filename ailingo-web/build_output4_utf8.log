@@ -1,0 +1,113 @@
+﻿
+> ailingo-web@0.1.0 build
+> next build
+
+node.exe : ÔÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but it 
+may not be correct.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : 
+NotSpecified: (ÔÜá     
+Warning: Ne...not be   
+  correct.:String) [], 
+R    emoteException
+    + 
+FullyQualifiedErrorI   
+ d : NativeCommandError
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of C:\Use
+rs\Michele\package-lock
+.json as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs.o
+rg/docs/app/api-referen
+ce/config/next-config-j
+s/turbopack#root-direct
+ory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\Michele\D
+esktop\AILINGO\ailingo-
+web\package-lock.json
+   * C:\Users\Michele\D
+esktop\AILINGO\package-
+lock.json
+
+Ôû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+Ô£ô Compiled successfully in 3.4s
+  Running TypeScript ...
+Failed to compile.
+
+./src/app/api/badges/ro
+ute.ts:12:33
+Type error: Argument 
+of type 'string | 
+undefined' is not 
+assignable to 
+parameter of type 
+'string'.
+  Type 'undefined' is 
+not assignable to type 
+'string'.
+
+[0m [90m 10 |[39m   
+          
+[36mreturn[39m [33mN
+extResponse[39m[33m.
+[39mjson({ 
+error[33m:[39m [32m"
+Unauthorized"[39m 
+}[33m,[39m { 
+status[33m:[39m 
+[35m401[39m })
+ [90m 11 |[39m       
+  }
+[31m[1m>[22m[39m[9
+0m 12 |[39m         
+[36mconst[39m userId 
+[33m=[39m parseInt(se
+ssion[33m.[39muser[3
+3m.[39mid)
+ [90m    |[39m       
+                       
+   [31m[1m^[22m[39m
+ [90m 13 |[39m
+ [90m 14 |[39m       
+  [36mconst[39m 
+allBadges [33m=[39m 
+[36mawait[39m prisma
+[33m.[39mbadge[33m.[
+39mfindMany({
+ [90m 15 |[39m       
+      
+orderBy[33m:[39m { 
+id[33m:[39m 
+[32m'asc'[39m }[0m
+Next.js build worker 
+exited with code: 1 
+and signal: null
