@@ -28,7 +28,7 @@ export default function LessonScreen() {
     const handleStart = async () => {
         if (!lesson) return
         await startSession()
-        setSessionLesson({ id: lesson.id, title: lesson.title_it }, exercises)
+        setSessionLesson({ id: lesson.id, title: lesson.title_it, content_json: lesson.content_json }, exercises)
         router.push('/exercise')
     }
 

@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useSessionStore } from '../../store/sessionStore'
 import MultipleChoiceExercise from './types/MultipleChoiceExercise'
@@ -10,11 +10,14 @@ import ListenWriteExercise from './types/ListenWriteExercise'
 import SpeakingExercise from './types/SpeakingExercise'
 import MatchPairsExercise from './types/MatchPairsExercise'
 import type { Exercise } from '../../types'
+import ContextReader from './components/ContextReader'
+import ExerciseRenderer from './components/ExerciseRenderer'
 
 export default function ExerciseScreen() {
     const router = useRouter()
     const { exercises, currentIndex, currentLesson, results, recordResult, nextExercise, endSession } = useSessionStore()
     const startTimeRef = useRef<number>(Date.now())
+    const [showContext, setShowContext] = useState(!!currentLesson?.content_json)
 
     useEffect(() => {
         if (!exercises.length) {
@@ -66,6 +69,24 @@ export default function ExerciseScreen() {
 
     const correctCount = results.filter(r => r.isCorrect).length
 
+    if (showContext && currentLesson?.content_json) {
+        return (
+            <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', padding: 'var(--space-6)', overflowY: 'auto' }}>
+                <div className="flex flex-between" style={{ marginBottom: 'var(--space-6)', gap: 'var(--space-4)' }}>
+                    <button className="btn btn-ghost btn-sm" onClick={() => router.push('/course')}>✕</button>
+                    <div style={{ flex: 1, textAlign: 'center', fontWeight: 'bold' }}>{currentLesson.title}</div>
+                </div>
+                <ContextReader 
+                    contentJson={currentLesson.content_json} 
+                    onContinue={() => {
+                        setShowContext(false)
+                        startTimeRef.current = Date.now()
+                    }} 
+                />
+            </div>
+        )
+    }
+
     return (
         <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', padding: 'var(--space-6)' }}>
             {/* Top bar */}
@@ -87,6 +108,7 @@ export default function ExerciseScreen() {
             {/* Exercise content */}
             <div style={{ flex: 1, overflow: 'auto' }}>
                 <ExerciseRenderer
+                    key={currentIndex}
                     exercise={exercise}
                     onAnswer={handleAnswer}
                     onNext={nextExercise}
@@ -94,37 +116,5 @@ export default function ExerciseScreen() {
             </div>
         </div>
     )
-}
-
-function ExerciseRenderer({
-    exercise,
-    onAnswer,
-    onNext,
-}: {
-    exercise: Exercise
-    onAnswer: (correct: boolean, answer: string) => void
-    onNext: () => void
-}) {
-    const props = { exercise, onAnswer, onNext }
-
-    switch (exercise.type) {
-        case 'multiple_choice':
-            return <MultipleChoiceExercise {...props} />
-        case 'translation_it_en':
-        case 'translation_en_it':
-            return <TranslationExercise {...props} />
-        case 'word_order':
-            return <WordOrderExercise {...props} />
-        case 'fill_blank':
-            return <FillBlankExercise {...props} />
-        case 'listen_write':
-            return <ListenWriteExercise {...props} />
-        case 'speaking':
-            return <SpeakingExercise {...props} />
-        case 'match_pairs':
-            return <MatchPairsExercise {...props} />
-        default:
-            return <TranslationExercise {...props} />
-    }
 }
 

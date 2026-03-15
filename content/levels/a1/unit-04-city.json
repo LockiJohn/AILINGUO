@@ -8,121 +8,330 @@
     "lessons": [
         {
             "order": 1,
-            "title_en": "City Vocabulary",
-            "title_it": "Luoghi in Città",
-            "type": "vocabulary",
-            "estimated_minutes": 5,
+            "title_en": "Finding the Way",
+            "title_it": "Trovare la Strada",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "Lost in the City",
+                    "text": "Excuse me, where is the train station? It is near the park. Go straight on and turn left at the hospital. The station is on the right. Thank you very much!",
+                    "translation": "Scusi, dov'è la stazione ferroviaria? È vicino al parco. Vada dritto e giri a sinistra all'ospedale. La stazione è sulla destra. Grazie mille!",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "u4-g1",
+                        "title": "Chiedere 'Dove': Where is...?",
+                        "explanation": "Usa 'Where is' per chiedere la posizione.",
+                        "examples": [
+                            { "en": "Where is the station?", "it": "Dov'è la stazione?" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "near", "translation": "vicino", "context": "Near the park." },
+                    { "word": "straight on", "translation": "dritto", "context": "Go straight on." }
+                ]
+            },
             "exercises": [
                 {
-                    "type": "match_pairs",
-                    "prompt_it": "Abbina i luoghi della città:",
-                    "options": [
-                        "farmacia",
-                        "stazione",
-                        "chiesa",
-                        "piazza",
-                        "pharmacy",
-                        "station",
-                        "church",
-                        "square"
-                    ],
-                    "correct_answer": "farmacia:pharmacy|stazione:station|chiesa:church|piazza:square",
-                    "difficulty": 1
-                },
-                {
                     "type": "multiple_choice",
-                    "prompt_it": "Come si dice 'Dov'è il bagno?' in inglese?",
-                    "audio_text": "Where is the bathroom?",
-                    "options": [
-                        "Where is the bathroom?",
-                        "Where are the bathroom?",
-                        "Where is the bath?",
-                        "Where bathroom is?"
-                    ],
-                    "correct_answer": "Where is the bathroom?",
-                    "explanation_it": "'Where is' (Dov'è) è singolare. 'Bathroom' o 'Restroom' sono più educati di 'Toilet'.",
-                    "grammar_rule": "Where is + singolare | Where are + plurale",
-                    "difficulty": 1
-                },
-                {
-                    "type": "translation_it_en",
-                    "prompt_it": "Traduci: La banca è vicina.",
-                    "audio_text": "The bank is near.",
-                    "correct_answer": "The bank is near.",
-                    "explanation_it": "'Near' o 'Close' significano vicino. Attenzione a 'bank', che significa banca (l'istituto), non 'banco' (desk).",
-                    "grammar_rule": "Near / Close = vicino | Far = lontano",
-                    "difficulty": 2
+                    "prompt_it": "Stai guidando... cosa significa 'turn left'?",
+                    "options": ["Gira a sinistra", "Gira a destra", "Vai dritto", "Fermati"],
+                    "correct_answer": "Gira a sinistra",
+                    "explanation_it": "Esatto! 'Left' è sinistra, 'Right' è destra. Una bussola verbale fondamentale! 🧭",
+                    "difficulty": 1,
+                    "topic": "Directions",
+                    "grammar_category": "Imperative"
                 },
                 {
                     "type": "fill_blank",
-                    "prompt_en": "Excuse me, _____ is the train station?",
-                    "prompt_it": "Completa la richiesta di indicazioni:",
+                    "prompt_en": "Excuse me, _____ is the hospital?",
+                    "prompt_it": "Completa la domanda: 'Dov'è...?'",
                     "correct_answer": "where",
-                    "explanation_it": "Per chiedere indicazioni usa sempre 'where' (dove).",
-                    "difficulty": 2
+                    "explanation_it": "Ottimo! 'Where' è la parola chiave per chiedere la posizione di qualsiasi cosa in città. 🏥",
+                    "difficulty": 1,
+                    "topic": "Directions",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "La stazione è sulla destra",
+                    "options": ["The", "station", "is", "on", "the", "right"],
+                    "correct_answer": "The station is on the right",
+                    "difficulty": 2,
+                    "topic": "Directions",
+                    "grammar_category": "Prepositions"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Dove si trova la stazione nella storia?",
+                    "options": ["near the park", "behind the park", "in the park", "far from the park"],
+                    "correct_answer": "near the park",
+                    "difficulty": 1,
+                    "topic": "Directions",
+                    "grammar_category": "Prepositions"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Vada dritto.",
+                    "audio_text": "Go straight on.",
+                    "correct_answer": "Go straight on.",
+                    "difficulty": 1,
+                    "topic": "Directions",
+                    "grammar_category": "Imperative"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i luoghi della città:",
+                    "options": ["hospital", "ospedale", "station", "stazione", "park", "parco", "museum", "museo"],
+                    "correct_answer": "hospital:ospedale|station:stazione|park:parco|museum:museo",
+                    "difficulty": 1,
+                    "topic": "Directions",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Turn left _____ the hospital.",
+                    "prompt_it": "Gira a sinistra ALL'ospedale:",
+                    "correct_answer": "at",
+                    "difficulty": 2,
+                    "topic": "Directions",
+                    "grammar_category": "Prepositions"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'on the right'?",
+                    "options": ["sulla destra", "sulla sinistra", "dietro", "davanti"],
+                    "correct_answer": "sulla destra",
+                    "difficulty": 1,
+                    "topic": "Directions",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "Thank you very much!",
+                    "audio_text": "Thank you very much!",
+                    "correct_answer": "Grazie mille!",
+                    "difficulty": 1,
+                    "topic": "Greetings",
+                    "grammar_category": "Fixed Phrases"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Scusi, dov'è il museo?",
+                    "options": ["Excuse", "me", "where", "is", "the", "museum"],
+                    "correct_answer": "Excuse me where is the museum",
+                    "difficulty": 2,
+                    "topic": "Directions",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "Go straight on and turn right.",
+                    "correct_answer": "Go straight on and turn right.",
+                    "difficulty": 2,
+                    "topic": "Directions",
+                    "grammar_category": "Imperative"
                 },
                 {
                     "type": "speaking",
-                    "prompt_it": "Pronuncia la frase per ringraziare chi ti ha aiutato:",
-                    "audio_text": "Thank you very much!",
-                    "correct_answer": "Thank you very much!",
-                    "difficulty": 2
+                    "prompt_it": "Dì: 'The station is near the park'",
+                    "audio_text": "The station is near the park",
+                    "correct_answer": "The station is near the park",
+                    "difficulty": 2,
+                    "topic": "Directions",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Is the museum _____ here? Yes, it is very close.",
+                    "prompt_it": "Vicino",
+                    "correct_answer": "near",
+                    "difficulty": 1,
+                    "topic": "Directions",
+                    "grammar_category": "Vocabulary"
                 },
                 {
                     "type": "free_dictation",
-                    "prompt_it": "Ascolta l'indirizzo e scrivilo correttamente (Dettato Libero)",
-                    "audio_text": "The hospital is on the left.",
-                    "correct_answer": "The hospital is on the left.",
-                    "grammar_rule": "Direzioni: on the left (a sinistra) | on the right (a destra) | straight on (dritto)",
-                    "difficulty": 3
+                    "audio_text": "Excuse me, where is the park?",
+                    "correct_answer": "Excuse me where is the park?",
+                    "difficulty": 3,
+                    "topic": "Directions",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è l'opposto di 'left'?",
+                    "options": ["right", "straight", "back", "next"],
+                    "correct_answer": "right",
+                    "difficulty": 1,
+                    "topic": "Directions",
+                    "grammar_category": "Vocabulary"
                 }
             ]
         },
         {
             "order": 2,
-            "title_en": "Taking the Bus",
-            "title_it": "Prendere l'Autobus",
-            "type": "vocabulary",
-            "estimated_minutes": 6,
+            "title_en": "At the Bus Stop",
+            "title_it": "Alla Fermata",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "Taking the Bus",
+                    "text": "I am at the bus stop. The next bus is the number 10. Does this bus go to the city center? Yes, it does. I need a ticket. How much is it? It's 2 dollars.",
+                    "translation": "Sono alla fermata dell'autobus. Il prossimo autobus è il numero 10. Questo autobus va in centro città? Sì. Mi serve un biglietto. Quanto costa? Sono 2 dollari.",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "u4-g3",
+                        "title": "Domande con 'Does'",
+                        "explanation": "Usa 'Does' per la terza persona singolare.",
+                        "examples": [
+                            { "en": "Does it go?", "it": "Va?" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "ticket", "translation": "biglietto", "context": "I need a ticket." }
+                ]
+            },
             "exercises": [
                 {
                     "type": "multiple_choice",
-                    "prompt_it": "Cosa significa 'Stop' in città?",
-                    "audio_text": "The next stop is Museum.",
-                    "options": [
-                        "Fermata dell'autobus/treno",
-                        "Fermati subito, pericolo!",
-                        "Un negozio di vestiti",
-                        "Uno stop della macchina"
-                    ],
-                    "correct_answer": "Fermata dell'autobus/treno",
-                    "explanation_it": "Sui mezzi pubblici, 'stop' è la fermata (es: bus stop). Da non confondere con il verbo fermare (to stop).",
-                    "difficulty": 1
+                    "prompt_it": "Domanda corretta per l'autobus?",
+                    "options": ["Does this bus go to the center?", "Do this bus go to the center?", "Is this bus go to the center?", "Bus go center?"],
+                    "correct_answer": "Does this bus go to the center?",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
                 },
                 {
                     "type": "fill_blank",
                     "prompt_en": "I need a _____ for the bus.",
-                    "prompt_it": "Cosa ti serve per salire sul pullman?",
+                    "prompt_it": "Biglietto",
                     "correct_answer": "ticket",
-                    "explanation_it": "Il 'ticket' è il biglietto. Attenzione ai falsi amici: si dice 'ticket' per treni/bus, ma 'receipt' per lo scontrino del bar!",
-                    "difficulty": 2
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Quanto costa?",
+                    "options": ["How", "much", "is", "it"],
+                    "correct_answer": "How much is it",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'center'?",
+                    "options": ["centro", "periferia", "stazione", "fermata"],
+                    "correct_answer": "centro",
+                    "difficulty": 1,
+                    "topic": "Directions",
+                    "grammar_category": "Vocabulary"
                 },
                 {
                     "type": "translation_it_en",
-                    "prompt_it": "Traduci: Quanto costa un biglietto?",
-                    "audio_text": "How much is a ticket?",
-                    "correct_answer": "How much is a ticket?",
-                    "explanation_it": "Si usa sempre 'How much' per i soldi perché il denaro non è numerabile in inglese.",
-                    "grammar_rule": "How much + verbo essere per chiedere il prezzo",
-                    "difficulty": 2
+                    "prompt_it": "Il prossimo autobus.",
+                    "audio_text": "The next bus.",
+                    "correct_answer": "The next bus.",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i trasporti:",
+                    "options": ["bus", "autobus", "train", "treno", "plane", "aereo", "taxi", "taxi"],
+                    "correct_answer": "bus:autobus|train:treno|plane:aereo|taxi:taxi",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "_____ the bus go to the airport?",
+                    "prompt_it": "Usa Do o Does:",
+                    "correct_answer": "Does",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'bus stop'?",
+                    "options": ["fermata dell'autobus", "stazione dei bus", "parcheggio", "strada"],
+                    "correct_answer": "fermata dell'autobus",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "It's two dollars.",
+                    "audio_text": "It's two dollars.",
+                    "correct_answer": "Costa due dollari.",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Numbers"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Sono alla fermata dell'autobus",
+                    "options": ["I", "am", "at", "the", "bus", "stop"],
+                    "correct_answer": "I am at the bus stop",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "I need two tickets please.",
+                    "correct_answer": "I need two tickets please.",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'Does this bus go to London?'",
+                    "audio_text": "Does this bus go to London?",
+                    "correct_answer": "Does this bus go to London?",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Where is the _____? I want to buy a ticket.",
+                    "prompt_it": "Ufficio/Biglietteria (qui inteso come luogo per comprare ticket)",
+                    "correct_answer": "ticket office",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
                 },
                 {
                     "type": "free_dictation",
-                    "prompt_it": "Ascolta e scrivi la domanda all'autista (Dettato)",
-                    "audio_text": "Does this bus go to the center?",
-                    "correct_answer": "Does this bus go to the center?",
-                    "grammar_rule": "Domande presenti (He/She/It): Does + Soggetto + Verbo base",
-                    "difficulty": 3
+                    "audio_text": "The bus is number ten.",
+                    "correct_answer": "The bus is number ten",
+                    "difficulty": 3,
+                    "topic": "Travel",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'how much'?",
+                    "options": ["quanto", "perché", "quando", "chi"],
+                    "correct_answer": "quanto",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Interrogatives"
                 }
             ]
         }

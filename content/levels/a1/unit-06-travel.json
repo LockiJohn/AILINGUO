@@ -1,0 +1,315 @@
+{
+    "levelCode": "A1",
+    "order": 6,
+    "title_en": "Travel & Transport",
+    "title_it": "Viaggi e Trasporti",
+    "description_it": "Spostati in città e pianifica i tuoi viaggi",
+    "icon": "✈️",
+    "lessons": [
+        {
+            "order": 1,
+            "title_en": "Getting Around",
+            "title_it": "Spostarsi",
+            "type": "vocabulary",
+            "estimated_minutes": 10,
+            "exercises": [
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i mezzi di trasporto:",
+                    "options": ["train", "treno", "bus", "autobus", "car", "auto", "plane", "aereo"],
+                    "correct_answer": "train:treno|bus:autobus|car:auto|plane:aereo",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Pronti a partire! Come si dice 'stazione ferroviaria'?",
+                    "options": ["bus stop", "train station", "airport", "car park"],
+                    "correct_answer": "train station",
+                    "explanation_it": "Perfetto! 'Station' è la radice, poi aggiungiamo 'train' (treno) o 'bus' (autobus) davanti. 🚂",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Il treno è in orario.",
+                    "audio_text": "The train is on time.",
+                    "correct_answer": "The train is on time.",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I go to work by _____. (autobus)",
+                    "correct_answer": "bus",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'Where is the bus stop?'",
+                    "audio_text": "Where is the bus stop?",
+                    "correct_answer": "Where is the bus stop?",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'on time'?",
+                    "options": ["in orario", "in ritardo", "presto", "mai"],
+                    "correct_answer": "in orario",
+                    "difficulty": 1,
+                    "topic": "Time",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "Does the train stop here?",
+                    "audio_text": "Does the train stop here?",
+                    "correct_answer": "Il treno si ferma qui?",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Vado in auto",
+                    "options": ["I", "go", "by", "car"],
+                    "correct_answer": "I go by car",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "The airport is far from here.",
+                    "correct_answer": "The airport is far from here.",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "We travel _____ plane.",
+                    "prompt_it": "Viaggiamo IN aereo (usando 'by'):",
+                    "correct_answer": "by",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Prepositions"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'car park'?",
+                    "options": ["parcheggio", "strada", "garage", "fermata"],
+                    "correct_answer": "parcheggio",
+                    "difficulty": 1,
+                    "topic": "City",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Dov'è la stazione?",
+                    "audio_text": "Where is the station?",
+                    "correct_answer": "Where is the station?",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Il prossimo treno",
+                    "options": ["The", "next", "train"],
+                    "correct_answer": "The next train",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "The bus is late today.",
+                    "correct_answer": "The bus is late today",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina gli opposti:",
+                    "options": ["on time", "in orario", "late", "in ritardo", "fast", "veloce", "slow", "lento"],
+                    "correct_answer": "on time:in orario|late:in ritardo|fast:veloce|slow:lento",
+                    "difficulty": 2,
+                    "topic": "Adjectives",
+                    "grammar_category": "Vocabulary"
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "title_en": "At the Airport",
+            "title_it": "In Aeroporto",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "Checking In",
+                    "text": "Good morning. Can I see your passport? Yes, here you are. Do you have any luggage? Just this suitcase. Excellent. Have a nice flight!",
+                    "translation": "Buongiorno. Posso vedere il suo passaporto? Sì, eccolo. Ha dei bagagli? Solo questa valigia. Eccellente. Buon volo!",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "gp-t1",
+                        "title": "Richieste: Can I see...?",
+                        "explanation": "Usa 'Can I...?' per chiedere il permesso.",
+                        "examples": [
+                            { "en": "Can I see your passport?", "it": "Posso vedere il suo passaporto?" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "luggage", "translation": "bagagli", "context": "Any luggage?" },
+                    { "word": "suitcase", "translation": "valigia", "context": "This suitcase." }
+                ]
+            },
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'luggage'?",
+                    "options": ["passaporto", "bagagli", "biglietto", "volo"],
+                    "correct_answer": "bagagli",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "Have a nice flight!",
+                    "audio_text": "Have a nice flight!",
+                    "correct_answer": "Buon volo!",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Fixed Phrases"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Posso vedere il tuo passaporto?",
+                    "options": ["Can", "I", "see", "your", "passport"],
+                    "correct_answer": "Can I see your passport",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "Do you have any luggage?",
+                    "correct_answer": "Do you have any luggage?",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Can I _____ some water?",
+                    "prompt_it": "Posso AVERE dell'acqua?",
+                    "correct_answer": "have",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Verbs"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'suitcase'?",
+                    "options": ["valigia", "borsa", "zaino", "biglietto"],
+                    "correct_answer": "valigia",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Solo questa valigia.",
+                    "audio_text": "Just this suitcase.",
+                    "correct_answer": "Just this suitcase.",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i termini dell'aeroporto:",
+                    "options": ["passport", "passaporto", "flight", "volo", "gate", "gate", "terminal", "terminal"],
+                    "correct_answer": "passport:passaporto|flight:volo|gate:gate|terminal:terminal",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Here _____ are.",
+                    "prompt_it": "Eccoti/Eccole (formale):",
+                    "correct_answer": "you",
+                    "difficulty": 1,
+                    "topic": "Greetings",
+                    "grammar_category": "Fixed Phrases"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'excellent'?",
+                    "options": ["eccellente", "buono", "male", "orribile"],
+                    "correct_answer": "eccellente",
+                    "difficulty": 1,
+                    "topic": "Descriptive",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Buon viaggio!",
+                    "options": ["Have", "a", "nice", "trip"],
+                    "correct_answer": "Have a nice trip",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Fixed Phrases"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "I have two suitcases.",
+                    "correct_answer": "I have two suitcases.",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Plurals"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'Can I see the ticket?'",
+                    "audio_text": "Can I see the ticket?",
+                    "correct_answer": "Can I see the ticket?",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "Where is my luggage?",
+                    "correct_answer": "Where is my luggage?",
+                    "difficulty": 3,
+                    "topic": "Travel",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Plurale di 'suitcase'?",
+                    "options": ["suitcases", "suitcasis", "suitcasees", "suitcase"],
+                    "correct_answer": "suitcases",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Plurals"
+                }
+            ]
+        }
+    ]
+}

@@ -21,7 +21,8 @@ export async function GET(req: Request) {
             title_en: lesson.titleEn,
             title_it: lesson.titleIt,
             type: lesson.type,
-            estimated_minutes: lesson.estimatedMinutes
+            estimated_minutes: lesson.estimatedMinutes,
+            content_json: lesson.contentJson
         }
 
         return NextResponse.json(formattedLesson)

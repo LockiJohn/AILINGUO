@@ -1,0 +1,294 @@
+{
+    "levelCode": "A1",
+    "order": 7,
+    "title_en": "Work & Careers",
+    "title_it": "Lavoro e Carriera",
+    "description_it": "Parla del tuo lavoro e della tua routine professionale",
+    "icon": "💼",
+    "lessons": [
+        {
+            "order": 1,
+            "title_en": "Common Jobs",
+            "title_it": "Lavori Comuni",
+            "type": "vocabulary",
+            "estimated_minutes": 10,
+            "exercises": [
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i lavori:",
+                    "options": ["doctor", "dottore", "teacher", "insegnante", "engineer", "ingegnere", "cook", "cuoco"],
+                    "correct_answer": "doctor:dottore|teacher:insegnante|engineer:ingegnere|cook:cuoco",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qualcuno non si sente bene... Dove lavora un dottore?",
+                    "options": ["hospital", "office", "school", "shop"],
+                    "correct_answer": "hospital",
+                    "explanation_it": "Esatto! Ricorda: 'Hospital' (ospedale) è il luogo di lavoro, mentre 'Doctor' è la professione. Due parole indispensabili! 🩺",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Io lavoro in un ufficio.",
+                    "audio_text": "I work in an office.",
+                    "correct_answer": "I work in an office.",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Articles"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "She is _____ teacher.",
+                    "prompt_it": "Usa a o an:",
+                    "correct_answer": "a",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Articles"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'What is your job?'",
+                    "audio_text": "What is your job?",
+                    "correct_answer": "What is your job?",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'cook'?",
+                    "options": ["cuoco", "cameriere", "dottore", "artista"],
+                    "correct_answer": "cuoco",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "I am a software engineer.",
+                    "audio_text": "I am a software engineer.",
+                    "correct_answer": "Sono un ingegnere informatico.",
+                    "difficulty": 3,
+                    "topic": "Work",
+                    "grammar_category": "Articles"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Lui è un insegnante.",
+                    "options": ["He", "is", "a", "teacher"],
+                    "correct_answer": "He is a teacher",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "They work in a big office.",
+                    "correct_answer": "They work in a big office.",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Are you _____ engineer? No, I'm a doctor.",
+                    "prompt_it": "Usa a o an:",
+                    "correct_answer": "an",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Articles"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Chi lavora in una 'school'?",
+                    "options": ["teacher", "waiter", "engineer", "doctor"],
+                    "correct_answer": "teacher",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Qual è il tuo lavoro?",
+                    "audio_text": "What is your job?",
+                    "correct_answer": "What is your job?",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Mia sorella è dottoressa",
+                    "options": ["My", "sister", "is", "a", "doctor"],
+                    "correct_answer": "My sister is a doctor",
+                    "difficulty": 2,
+                    "topic": "Family",
+                    "grammar_category": "Articles"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "He works in a hospital.",
+                    "correct_answer": "He works in a hospital",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i luoghi e i lavori:",
+                    "options": ["hospital", "doctor", "school", "teacher", "office", "manager", "kitchen", "cook"],
+                    "correct_answer": "hospital:doctor|school:teacher|office:manager|kitchen:cook",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Vocabulary"
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "title_en": "Professional Life",
+            "title_it": "Vita Professionale",
+            "type": "grammar",
+            "estimated_minutes": 10,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'company'?",
+                    "options": ["azienda", "fabbrica", "negozio", "ufficio"],
+                    "correct_answer": "azienda",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "I have a meeting at nine o'clock.",
+                    "audio_text": "I have a meeting at nine o'clock.",
+                    "correct_answer": "Ho una riunione alle nove.",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Lui lavora per una grande azienda.",
+                    "options": ["He", "works", "for", "a", "big", "company"],
+                    "correct_answer": "He works for a big company",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "Are you busy at work?",
+                    "correct_answer": "Are you busy at work?",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I finish work _____ 6 PM.",
+                    "prompt_it": "Preposizione per l'ora:",
+                    "correct_answer": "at",
+                    "difficulty": 2,
+                    "topic": "Time",
+                    "grammar_category": "Prepositions"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'busy'?",
+                    "options": ["occupato", "libero", "felice", "triste"],
+                    "correct_answer": "occupato",
+                    "difficulty": 1,
+                    "topic": "Feelings",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Ho molto lavoro oggi.",
+                    "audio_text": "I have a lot of work today.",
+                    "correct_answer": "I have a lot of work today.",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i termini ufficio:",
+                    "options": ["meeting", "riunione", "manager", "manager", "client", "cliente", "colleague", "collega"],
+                    "correct_answer": "meeting:riunione|manager:manager|client:cliente|colleague:collega",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Does he _____ in an office? Yes, he does.",
+                    "prompt_it": "Egli lavora... (senza s nella domanda):",
+                    "correct_answer": "work",
+                    "difficulty": 3,
+                    "topic": "Work",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'meeting'?",
+                    "options": ["riunione", "pranzo", "viaggio", "festa"],
+                    "correct_answer": "riunione",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Lei lavora per una piccola azienda",
+                    "options": ["She", "works", "for", "a", "small", "company"],
+                    "correct_answer": "She works for a small company",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "I start work at eight o'clock.",
+                    "correct_answer": "I start work at eight o'clock.",
+                    "difficulty": 2,
+                    "topic": "Time",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'I am very busy today'",
+                    "audio_text": "I am very busy today",
+                    "correct_answer": "I am very busy today",
+                    "difficulty": 2,
+                    "topic": "Feelings",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "He works for a big international company.",
+                    "correct_answer": "He works for a big international company",
+                    "difficulty": 3,
+                    "topic": "Work",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è il plurale di 'company'?",
+                    "options": ["companies", "companys", "companyes", "compani"],
+                    "correct_answer": "companies",
+                    "difficulty": 3,
+                    "topic": "Work",
+                    "grammar_category": "Plurals"
+                }
+            ]
+        }
+    ]
+}

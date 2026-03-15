@@ -62,7 +62,7 @@ export default function TranslationExercise({ exercise, onAnswer, onNext }: Prop
             {answered && (
                 <FeedbackPanel
                     isCorrect={isCorrect}
-                    correctAnswer={exercise.correct_answer}
+                    correctAnswer={exercise.correct_answer || (exercise as any).correctAnswer}
                     userAnswer={input}
                     explanation={exercise.explanation_it}
                     grammarRule={exercise.grammar_rule}

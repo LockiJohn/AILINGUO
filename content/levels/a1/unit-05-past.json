@@ -1,0 +1,353 @@
+{
+    "levelCode": "A1",
+    "order": 5,
+    "title_en": "Memories & The Past",
+    "title_it": "Ricordi e Passato",
+    "description_it": "Racconta storie del passato con il Past Simple",
+    "icon": "⏳",
+    "lessons": [
+        {
+            "order": 1,
+            "title_en": "Last Weekend",
+            "title_it": "Lo Scorso Weekend",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "A Great Weekend",
+                    "text": "Last Saturday, I visited my grandparents. We stayed in their garden and talked for hours. On Sunday, I went to the cinema with my friends. We saw a very funny movie. I didn't work at all!",
+                    "translation": "Sabato scorso ho visitato i miei nonni. Siamo stati nel loro giardino e abbiamo parlato per ore. Domenica sono andato al cinema con i miei amici. Abbiamo visto un film molto divertente. Non ho lavorato per niente!",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "u5-g1",
+                        "title": "Past Simple: Regolari",
+                        "explanation": "Aggiungi '-ed'.",
+                        "examples": [
+                            { "en": "visit -> visited", "it": "visitare -> visitato" }
+                        ]
+                    },
+                    {
+                        "id": "u5-g2",
+                        "title": "Negativo: didn't",
+                        "explanation": "Usa 'didn't' + forma base.",
+                        "examples": [
+                            { "en": "I didn't work", "it": "Non ho lavorato" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "last", "translation": "scorso", "context": "Last week." },
+                    { "word": "stayed", "translation": "rimasti", "context": "We stayed home." }
+                ]
+            },
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "prompt_it": "Viaggiamo nel tempo! Passato di 'visit': I _____ my grandparents.",
+                    "correct_answer": "visited",
+                    "explanation_it": "Ottimo! Per i verbi regolari come 'visit', aggiungiamo semplicemente '-ed' alla fine. Una regola d'oro del passato! ⏳",
+                    "difficulty": 1,
+                    "topic": "Family",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Sabato di relax... Come si dice 'Non ho lavorato'?",
+                    "options": ["I not worked", "I don't worked", "I didn't work", "I didn't worked"],
+                    "correct_answer": "I didn't work",
+                    "explanation_it": "Esatto! Ricorda: 'didn't' vuole sempre il verbo alla forma base (senza '-ed'). È un errore comune, ma tu l'hai evitato! 👏",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Siamo stati nel loro giardino",
+                    "options": ["We", "stayed", "in", "their", "garden"],
+                    "correct_answer": "we stayed in their garden",
+                    "difficulty": 2,
+                    "topic": "House",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa hanno fatto domenica?",
+                    "options": ["went to the cinema", "visited grandparents", "worked at home", "stayed in the garden"],
+                    "correct_answer": "went to the cinema",
+                    "difficulty": 1,
+                    "topic": "Leisure",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Abbiamo visto un film divertente.",
+                    "audio_text": "We saw a funny movie.",
+                    "correct_answer": "We saw a funny movie.",
+                    "difficulty": 2,
+                    "topic": "Leisure",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i verbi al passato:",
+                    "options": ["visited", "visitato", "stayed", "rimasto", "talked", "parlato", "worked", "lavorato"],
+                    "correct_answer": "visited:visitato|stayed:rimasto|talked:parlato|worked:lavorato",
+                    "difficulty": 1,
+                    "topic": "Verbs",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I _____ (not/go) to the party.",
+                    "prompt_it": "Non sono andato (negativo passato):",
+                    "correct_answer": "didn't go",
+                    "difficulty": 2,
+                    "topic": "Social",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'funny'?",
+                    "options": ["divertente", "noioso", "serio", "lungo"],
+                    "correct_answer": "divertente",
+                    "difficulty": 1,
+                    "topic": "Leisure",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "We talked for hours.",
+                    "audio_text": "We talked for hours.",
+                    "correct_answer": "Abbiamo parlato per ore.",
+                    "difficulty": 2,
+                    "topic": "Social",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Non ho studiato ieri",
+                    "options": ["I", "didn't", "study", "yesterday"],
+                    "correct_answer": "I didn't study yesterday",
+                    "difficulty": 2,
+                    "topic": "Education",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "I visited my friends last Sunday.",
+                    "correct_answer": "I visited my friends last Sunday.",
+                    "difficulty": 2,
+                    "topic": "Social",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'I didn't work on Saturday'",
+                    "audio_text": "I didn't work on Saturday",
+                    "correct_answer": "I didn't work on Saturday",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "They _____ (play) football yesterday.",
+                    "prompt_it": "Passato regolare di play:",
+                    "correct_answer": "played",
+                    "difficulty": 1,
+                    "topic": "Sports",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "We stayed in the garden all day.",
+                    "correct_answer": "We stayed in the garden all day",
+                    "difficulty": 3,
+                    "topic": "House",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Passato di 'clean'?",
+                    "options": ["cleaned", "cleant", "cloned", "cleans"],
+                    "correct_answer": "cleaned",
+                    "difficulty": 1,
+                    "topic": "House",
+                    "grammar_category": "Past Simple"
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "title_en": "Irregular Memories",
+            "title_it": "Ricordi Irregolari",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "My First Day",
+                    "text": "I remember my first day in London. I was very nervous. I took the train from the airport. I met my host family at the station. They were very kind. We had tea and talked about my trip.",
+                    "translation": "Ricordo il mio primo giorno a Londra. Ero molto nervoso. Ho preso il treno dall'aeroporto. Ho incontrato la mia famiglia ospitante in stazione. Erano molto gentili. Abbiamo preso il tè e parlato del mio viaggio.",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "u5-g3",
+                        "title": "Irregolari comuni",
+                        "explanation": "Go -> Went, Take -> Took, Meet -> Met, Have -> Had.",
+                        "examples": [
+                            { "en": "I go -> I went", "it": "Io vado -> Io sono andato" }
+                        ]
+                    },
+                    {
+                        "id": "u5-g4",
+                        "title": "Essere al passato: Was/Were",
+                        "explanation": "I/He/She/It was, We/You/They were.",
+                        "examples": [
+                            { "en": "I was nervous", "it": "Ero nervoso" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "nerovus", "translation": "nervoso", "context": "I was nervous." }
+                ]
+            },
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Passato di 'go'?",
+                    "options": ["goed", "went", "gone", "was"],
+                    "correct_answer": "went",
+                    "difficulty": 1,
+                    "topic": "Verbs",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_it": "They _____ very kind.",
+                    "correct_answer": "were",
+                    "difficulty": 2,
+                    "topic": "Feelings",
+                    "grammar_category": "Verb To Be"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Ho preso il treno.",
+                    "audio_text": "I took the train.",
+                    "correct_answer": "I took the train.",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'trip'?",
+                    "options": ["viaggio", "treno", "famiglia", "lavoro"],
+                    "correct_answer": "viaggio",
+                    "difficulty": 1,
+                    "topic": "Travel",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Ero molto nervoso.",
+                    "audio_text": "I was very nervous.",
+                    "correct_answer": "I was very nervous.",
+                    "difficulty": 2,
+                    "topic": "Feelings",
+                    "grammar_category": "Verb To Be"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina gli irregolari:",
+                    "options": ["met", "incontrato", "had", "avuto", "took", "preso", "was", "ero/era"],
+                    "correct_answer": "met:incontrato|had:avuto|took:preso|was:ero/era",
+                    "difficulty": 1,
+                    "topic": "Verbs",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "We _____ (have) tea.",
+                    "prompt_it": "Passato di 'have':",
+                    "correct_answer": "had",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Passato di 'meet'?",
+                    "options": ["met", "metted", "meeted", "meet"],
+                    "correct_answer": "met",
+                    "difficulty": 2,
+                    "topic": "Social",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "They were very kind.",
+                    "audio_text": "They were very kind.",
+                    "correct_answer": "Erano molto gentili.",
+                    "difficulty": 2,
+                    "topic": "Feelings",
+                    "grammar_category": "Verb To Be"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Ho incontrato la mia famiglia",
+                    "options": ["I", "met", "my", "family"],
+                    "correct_answer": "I met my family",
+                    "difficulty": 2,
+                    "topic": "Family",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "I took the train from the airport.",
+                    "correct_answer": "I took the train from the airport.",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'I was in London'",
+                    "audio_text": "I was in London",
+                    "correct_answer": "I was in London",
+                    "difficulty": 2,
+                    "topic": "Travel",
+                    "grammar_category": "Verb To Be"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "_____ you tired? Yes, I was.",
+                    "prompt_it": "Eri stanco? (Were/Was)",
+                    "correct_answer": "Were",
+                    "difficulty": 3,
+                    "topic": "Feelings",
+                    "grammar_category": "Verb To Be"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "We talked about my trip.",
+                    "correct_answer": "We talked about my trip",
+                    "difficulty": 3,
+                    "topic": "Social",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Passato di 'is'?",
+                    "options": ["was", "were", "been", "is"],
+                    "correct_answer": "was",
+                    "difficulty": 1,
+                    "topic": "Verbs",
+                    "grammar_category": "Verb To Be"
+                }
+            ]
+        }
+    ]
+}

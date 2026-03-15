@@ -8,10 +8,9 @@ import { useEffect } from 'react'
 const NAV_ITEMS = [
     { to: '/dashboard', icon: '🏠', label: 'Home' },
     { to: '/course', icon: '🗺️', label: 'Corso' },
-    { to: '/study', icon: '📖', label: 'Studio' },
+    { to: '/book', icon: '📖', label: 'Libro' },
     { to: '/review', icon: '🔁', label: 'Ripassa' },
     { to: '/games', icon: '🕹️', label: 'Arcade' },
-    { to: '/tutor', icon: '💬', label: 'Tutor' },
     { to: '/stats', icon: '📊', label: 'Stats', mobileHide: true },
     { to: '/settings', icon: '⚙️', label: 'Setup', mobileHide: true },
 ]
@@ -36,8 +35,8 @@ export default function Sidebar() {
         : 100
 
     return (
-        <nav className="sidebar">
-            <div className="sidebar-logo">AILINGO</div>
+        <nav className="sidebar glass-premium page-enter">
+            <div className="sidebar-logo text-glow">AILINGO</div>
 
             {NAV_ITEMS.map((item) => {
                 const isActive = pathname === item.to || pathname?.startsWith(item.to + '/')

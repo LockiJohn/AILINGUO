@@ -1,0 +1,78 @@
+﻿Seeding initial data...
+node.exe : PrismaClient
+KnownRequestError: 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (PrismaClientK   
+ nownRequestError:     
+:String) [], Remot    
+eException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Invalid `prisma.level.u
+psert()` invocation in
+C:\Users\Michele\Deskto
+p\AILINGO\ailingo-web\p
+risma\seed.ts:22:28
+
+  19 ]
+  20 
+  21 for (const level 
+of levels) {
+ÔåÆ 22     await 
+prisma.level.upsert(
+Cannot fetch data from 
+service:
+fetch failed
+    at 
+ei.handleRequestError (
+C:\Users\Michele\Deskto
+p\AILINGO\ailingo-web\n
+ode_modules\@prisma\cli
+ent\src\runtime\Request
+Handler.ts:228:13)
+    at ei.handleAndLogR
+equestError (C:\Users\M
+ichele\Desktop\AILINGO\
+ailingo-web\node_module
+s\@prisma\client\src\ru
+ntime\RequestHandler.ts
+:174:12)
+    at ei.request (C:\U
+sers\Michele\Desktop\AI
+LINGO\ailingo-web\node_
+modules\@prisma\client\
+src\runtime\RequestHand
+ler.ts:143:12)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:103:5)
+    at async a (C:\User
+s\Michele\Desktop\AILIN
+GO\ailingo-web\node_mod
+ules\@prisma\client\src
+\runtime\getPrismaClien
+t.ts:833:24)
+    at async main (C:\U
+sers\Michele\Desktop\AI
+LINGO\ailingo-web\prism
+a\seed.ts:22:9) {
+  code: 'P5010',
+  meta: { modelName: 
+'Level' },
+  clientVersion: 
+'6.19.2'
+}

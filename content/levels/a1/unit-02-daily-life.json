@@ -1,163 +1,346 @@
 {
     "levelCode": "A1",
     "order": 2,
-    "title_en": "Daily Life & Verbs",
+    "title_en": "Daily Life & Routines",
     "title_it": "Vita Quotidiana",
     "description_it": "Parla delle tue abitudini quotidiane con il Present Simple",
     "icon": "🌅",
     "lessons": [
         {
             "order": 1,
-            "title_en": "Common Verbs",
-            "title_it": "Verbi Comuni",
-            "type": "vocabulary",
-            "estimated_minutes": 6,
+            "title_en": "My Morning",
+            "title_it": "La Mia Mattina",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "A Typical Morning",
+                    "text": "I wake up at 7 o'clock every morning. I'm usually tired, but I get up and go to the kitchen. I eat breakfast and drink coffee. Then, I go to work by bus. I start work at 9 o'clock.",
+                    "translation": "Mi sveglio alle 7 ogni mattina. Di solito sono stanco, ma mi alzo e vado in cucina. Faccio colazione e bevo il caffè. Poi, vado al lavoro in autobus. Inizio a lavorare alle 9.",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "u2-g1",
+                        "title": "Present Simple (I)",
+                        "explanation": "Usa il Present Simple per azioni abituali. Con 'I' (io), il verbo rimane alla forma base.",
+                        "examples": [
+                            { "en": "I wake up / I eat", "it": "Mi sveglio / Mangio" }
+                        ]
+                    },
+                    {
+                        "id": "u2-g2",
+                        "title": "Preposizioni: AT",
+                        "explanation": "Usa 'at' per gli orari.",
+                        "examples": [
+                            { "en": "at 7 o'clock", "it": "alle 7 in punto" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "wake up", "translation": "svegliarsi", "context": "I wake up at 7." },
+                    { "word": "breakfast", "translation": "colazione", "context": "I eat breakfast." }
+                ]
+            },
             "exercises": [
                 {
                     "type": "multiple_choice",
-                    "prompt_it": "Come si dice 'mangiare' in inglese?",
-                    "audio_text": "eat",
-                    "options": [
-                        "eat",
-                        "sleep",
-                        "drink",
-                        "work"
-                    ],
-                    "correct_answer": "eat",
-                    "difficulty": 1
-                },
-                {
-                    "type": "translation_it_en",
-                    "prompt_it": "Traduci: bere",
-                    "audio_text": "drink",
-                    "correct_answer": "drink",
-                    "difficulty": 1
-                },
-                {
-                    "type": "match_pairs",
-                    "prompt_it": "Abbina i verbi italiani con quelli inglesi:",
-                    "options": [
-                        "dormire",
-                        "lavorare",
-                        "andare",
-                        "venire",
-                        "sleep",
-                        "work",
-                        "go",
-                        "come"
-                    ],
-                    "correct_answer": "dormire:sleep|lavorare:work|andare:go|venire:come",
-                    "difficulty": 1
-                },
-                {
-                    "type": "translation_it_en",
-                    "prompt_it": "Traduci: Mi sveglio alle 7.",
-                    "audio_text": "I wake up at 7.",
-                    "correct_answer": "I wake up at 7.",
-                    "explanation_it": "'Wake up' = svegliarsi. È un phrasal verb: 'wake' + 'up' insieme hanno un significato specifico.",
-                    "grammar_rule": "wake up = svegliarsi (phrasal verb)",
-                    "difficulty": 2
+                    "prompt_it": "Il sole è alto! A che ora si sveglia Marco nel testo?",
+                    "options": ["7 o'clock", "8 o'clock", "9 o'clock", "6 o'clock"],
+                    "correct_answer": "7 o'clock",
+                    "explanation_it": "Esatto! Ricorda che per gli orari usiamo sempre la preposizione 'AT'. Ad esempio: 'at 7 o'clock'. ⏰",
+                    "difficulty": 1,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Time"
                 },
                 {
                     "type": "fill_blank",
-                    "prompt_en": "Every morning I _____ breakfast at 8 o'clock.",
-                    "prompt_it": "Completa: ogni mattina faccio colazione alle 8",
+                    "prompt_en": "I _____ breakfast and drink coffee.",
+                    "prompt_it": "Completa l'azione: 'Faccio colazione'",
                     "correct_answer": "eat",
-                    "explanation_it": "'eat breakfast' = fare colazione. In inglese si dice letteralmente 'mangiare la colazione'.",
-                    "difficulty": 2
+                    "explanation_it": "Perfetto! In inglese 'fare colazione' si dice 'eat breakfast' o 'have breakfast'. Qui il verbo corretto è 'eat'. ☕",
+                    "difficulty": 1,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Vado al lavoro in autobus",
+                    "options": ["I", "go", "to", "work", "by", "bus"],
+                    "correct_answer": "I go to work by bus",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Prepositions"
                 },
                 {
                     "type": "multiple_choice",
-                    "prompt_it": "Qual è l'orario corretto in inglese per le 3 del pomeriggio?",
-                    "audio_text": "It's three o'clock.",
-                    "options": [
-                        "It's three o'clock.",
-                        "It's the three.",
-                        "It's at three.",
-                        "It are three."
-                    ],
-                    "correct_answer": "It's three o'clock.",
-                    "explanation_it": "Per dire l'ora in inglese: 'It's [numero] o'clock'. 'O'clock' significa '...in punto'.",
-                    "grammar_rule": "It's [hour] o'clock = Sono le [ora] in punto",
-                    "difficulty": 2
+                    "prompt_it": "Come si dice 'di solito'?",
+                    "options": ["usually", "always", "sometimes", "never"],
+                    "correct_answer": "usually",
+                    "difficulty": 1,
+                    "topic": "Adverbs",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Bevo caffè.",
+                    "audio_text": "I drink coffee.",
+                    "correct_answer": "I drink coffee.",
+                    "difficulty": 1,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina le azioni:",
+                    "options": ["wake up", "svegliarsi", "get up", "alzarsi", "eat", "mangiare", "drink", "bere"],
+                    "correct_answer": "wake up:svegliarsi|get up:alzarsi|eat:mangiare|drink:bere",
+                    "difficulty": 1,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I get up _____ 7:30.",
+                    "prompt_it": "Usa la preposizione corretta per l'ora:",
+                    "correct_answer": "at",
+                    "difficulty": 1,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Prepositions"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'tired'?",
+                    "options": ["stanco", "felice", "triste", "arrabbiato"],
+                    "correct_answer": "stanco",
+                    "difficulty": 1,
+                    "topic": "Feelings",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "I start work at 9 o'clock.",
+                    "audio_text": "I start work at 9 o'clock.",
+                    "correct_answer": "Inizio a lavorare alle 9.",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Sono solitamente stanco",
+                    "options": ["I", "am", "usually", "tired"],
+                    "correct_answer": "I am usually tired",
+                    "difficulty": 2,
+                    "topic": "Adverbs",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "I eat breakfast in the kitchen.",
+                    "correct_answer": "I eat breakfast in the kitchen.",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'I wake up at seven'",
+                    "audio_text": "I wake up at seven",
+                    "correct_answer": "I wake up at seven",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I go to _____ by bus.",
+                    "prompt_it": "Vado al lavoro",
+                    "correct_answer": "work",
+                    "difficulty": 1,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "I drink coffee every morning.",
+                    "correct_answer": "I drink coffee every morning",
+                    "difficulty": 3,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è il contrario di 'morning'?",
+                    "options": ["evening", "early", "dawn", "noon"],
+                    "correct_answer": "evening",
+                    "difficulty": 1,
+                    "topic": "Time",
+                    "grammar_category": "Vocabulary"
                 }
             ]
         },
         {
             "order": 2,
-            "title_en": "Present Simple",
-            "title_it": "Presente Semplice",
-            "type": "grammar",
-            "estimated_minutes": 8,
+            "title_en": "John's Evening",
+            "title_it": "La Sera di John",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "John's Routine",
+                    "text": "My friend John lives in London. He works in an office. He finishes work at 5 o'clock and goes home. He has dinner at 7 o'clock. Then, he watches TV and goes to bed at 11 o'clock.",
+                    "translation": "Il mio amico John vive a Londra. Lavora in un ufficio. Finisce di lavorare alle 5 e va a casa. Cena alle 7. Poi, guarda la TV e va a letto alle 11.",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "u2-g3",
+                        "title": "Present Simple (He, She, It)",
+                        "explanation": "Aggiungi '-s' o '-es' alla terza persona singolare.",
+                        "examples": [
+                            { "en": "He works / He goes", "it": "Lui lavora / Lui va" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "lives", "translation": "vive", "context": "John lives in London." },
+                    { "word": "dinner", "translation": "cena", "context": "He has dinner." }
+                ]
+            },
             "exercises": [
                 {
                     "type": "multiple_choice",
-                    "prompt_it": "Qual è la forma corretta? 'Lei mangia la pizza.'",
-                    "audio_text": "She eats pizza.",
-                    "options": [
-                        "She eats pizza.",
-                        "She eat pizza.",
-                        "She eating pizza.",
-                        "She is eat pizza."
-                    ],
-                    "correct_answer": "She eats pizza.",
-                    "explanation_it": "Con he/she/it al Present Simple aggiunge sempre la -s al verbo: eat → eats, work → works, go → goes.",
-                    "grammar_rule": "Present Simple: he/she/it + verbo + S (eat→eats, go→goes, watch→watches)",
-                    "difficulty": 2
+                    "prompt_it": "Qual è la forma corretta per John?",
+                    "options": ["work", "works", "working", "workes"],
+                    "correct_answer": "works",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
                 },
                 {
                     "type": "fill_blank",
-                    "prompt_en": "He _____ to work every day. (go)",
-                    "prompt_it": "Completa con la forma corretta di 'go':",
-                    "correct_answer": "goes",
-                    "explanation_it": "Con 'he' al Present Simple, 'go' diventa 'goes' (non goess). Attenzione: verbi che finiscono in -o/-go/-do aggiungono -es.",
-                    "grammar_rule": "go → goes | do → does | watch → watches",
-                    "difficulty": 2
-                },
-                {
-                    "type": "multiple_choice",
-                    "prompt_it": "Come formi una domanda al Present Simple?",
-                    "audio_text": "Do you work here?",
-                    "options": [
-                        "Do you work here?",
-                        "You work here?",
-                        "Are you work here?",
-                        "Does you work here?"
-                    ],
-                    "correct_answer": "Do you work here?",
-                    "explanation_it": "Le domande al Present Simple usano l'ausiliare DO/DOES: DO (I/you/we/they) + verbo base. DOES (he/she/it) + verbo base.",
-                    "grammar_rule": "Domande: DO/DOES + soggetto + verbo base",
-                    "difficulty": 2
-                },
-                {
-                    "type": "translation_it_en",
-                    "prompt_it": "Traduci: Non lavoro il sabato.",
-                    "audio_text": "I don't work on Saturdays.",
-                    "correct_answer": "I don't work on Saturdays.",
-                    "explanation_it": "Forma negativa: soggetto + DON'T/DOESN'T + verbo base. 'Don't' = do not (contrazione).",
-                    "grammar_rule": "Negazione: I/you/we/they + don't + verbo | he/she/it + doesn't + verbo",
-                    "difficulty": 3
+                    "prompt_en": "He _____ TV and goes to bed.",
+                    "prompt_it": "Completa con 'guarda':",
+                    "correct_answer": "watches",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
                 },
                 {
                     "type": "word_order",
-                    "prompt_it": "Riordina: 'Lui non mangia carne'",
-                    "options": [
-                        "He",
-                        "doesn't",
-                        "meat",
-                        "eat"
-                    ],
-                    "correct_answer": "He doesn't eat meat",
-                    "explanation_it": "Con 'he' la negazione usa 'doesn't' (does not). Il verbo principale rimane alla forma base: 'eat' (non 'eats').",
-                    "difficulty": 3
+                    "prompt_it": "Lui vive a Londra",
+                    "options": ["He", "lives", "in", "London"],
+                    "correct_answer": "He lives in London",
+                    "difficulty": 2,
+                    "topic": "Introductions",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Dove lavora John?",
+                    "options": ["in an office", "in a school", "in a shop", "at home"],
+                    "correct_answer": "in an office",
+                    "difficulty": 1,
+                    "topic": "Work",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Lui cena alle sette.",
+                    "audio_text": "He has dinner at seven.",
+                    "correct_answer": "He has dinner at seven.",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i verbi (He form):",
+                    "options": ["finishes", "finisce", "goes", "va", "watches", "guarda", "has", "ha"],
+                    "correct_answer": "finishes:finisce|goes:va|watches:guarda|has:ha",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
                 },
                 {
                     "type": "fill_blank",
-                    "prompt_en": "_____ she speak Italian? Yes, she _____!",
-                    "prompt_it": "Completa la domanda e la risposta breve:",
-                    "correct_answer": "Does she speak Italian? Yes, she does!",
-                    "explanation_it": "Con she: Does + she + verbo base? La risposta breve è 'Yes, she does' (non 'Yes, she speaks').",
-                    "difficulty": 3
+                    "prompt_en": "John _____ work at 5 o'clock.",
+                    "prompt_it": "John finisce di lavorare...",
+                    "correct_answer": "finishes",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice 'letto'?",
+                    "options": ["bed", "bad", "bath", "back"],
+                    "correct_answer": "bed",
+                    "difficulty": 1,
+                    "topic": "House",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "He goes to bed at 11 o'clock.",
+                    "audio_text": "He goes to bed at 11 o'clock.",
+                    "correct_answer": "Va a letto alle 11.",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Lui va a casa",
+                    "options": ["He", "goes", "home"],
+                    "correct_answer": "He goes home",
+                    "difficulty": 1,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "My friend lives in London.",
+                    "correct_answer": "My friend lives in London.",
+                    "difficulty": 2,
+                    "topic": "Introductions",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'He works in an office'",
+                    "audio_text": "He works in an office",
+                    "correct_answer": "He works in an office",
+                    "difficulty": 2,
+                    "topic": "Work",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Does he _____ TV? Yes, he does.",
+                    "prompt_it": "Lui guarda la TV? (Domanda)",
+                    "correct_answer": "watch",
+                    "difficulty": 3,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "He finishes work late.",
+                    "correct_answer": "He finishes work late",
+                    "difficulty": 3,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è il plurale di 'friend'?",
+                    "options": ["friends", "friendes", "frendi", "friend's"],
+                    "correct_answer": "friends",
+                    "difficulty": 1,
+                    "topic": "People",
+                    "grammar_category": "Plurals"
                 }
             ]
         }

@@ -1,0 +1,293 @@
+{
+    "levelCode": "A1",
+    "order": 9,
+    "title_en": "Shopping & Fashion",
+    "title_it": "Shopping e Moda",
+    "description_it": "Compra vestiti e impara a chiedere i prezzi",
+    "icon": "🛍️",
+    "lessons": [
+        {
+            "order": 1,
+            "title_en": "Clothes & Sizes",
+            "title_it": "Vestiti e Taglie",
+            "type": "vocabulary",
+            "estimated_minutes": 10,
+            "exercises": [
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i capi:",
+                    "options": ["shirt", "camicia", "trousers", "pantaloni", "shoes", "scarpe", "dress", "vestito"],
+                    "correct_answer": "shirt:camicia|trousers:pantaloni|shoes:scarpe|dress:vestito",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Shopping time! Come si dice 'rosso'?",
+                    "options": ["blue", "red", "green", "black"],
+                    "correct_answer": "red",
+                    "explanation_it": "Esatto! 'Red' come una mela matura. 🍎 Conoscere i colori è il primo passo per descrivere il tuo stile!",
+                    "difficulty": 1,
+                    "topic": "Colors",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Indosso una camicia bianca.",
+                    "audio_text": "I am wearing a white shirt.",
+                    "correct_answer": "I am wearing a white shirt.",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Continuous"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "What _____ is this shirt? It's a Medium.",
+                    "prompt_it": "Taglia:",
+                    "correct_answer": "size",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'I like this blue dress'",
+                    "audio_text": "I like this blue dress",
+                    "correct_answer": "I like this blue dress",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'trousers'?",
+                    "options": ["pantaloni", "camicia", "scarpe", "calzini"],
+                    "correct_answer": "pantaloni",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "The shoes are black.",
+                    "audio_text": "The shoes are black.",
+                    "correct_answer": "Le scarpe sono nere.",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i vestiti 2:",
+                    "options": ["skirt", "gonna", "jacket", "giacca", "hat", "cappello", "socks", "calzini"],
+                    "correct_answer": "skirt:gonna|jacket:giacca|hat:cappello|socks:calzini",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I need a large _____.",
+                    "prompt_it": "Taglia grande (Large):",
+                    "correct_answer": "size",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'small'?",
+                    "options": ["piccolo", "grande", "medio", "lungo"],
+                    "correct_answer": "piccolo",
+                    "difficulty": 1,
+                    "topic": "Descriptive",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Indosso scarpe nuove",
+                    "options": ["I", "am", "wearing", "new", "shoes"],
+                    "correct_answer": "I am wearing new shoes",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Continuous"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "This dress is too small.",
+                    "correct_answer": "This dress is too small.",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'The white shirt is nice'",
+                    "audio_text": "The white shirt is nice",
+                    "correct_answer": "The white shirt is nice",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Her _____ are green. (occhi)",
+                    "correct_answer": "eyes",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "I like your new jacket.",
+                    "correct_answer": "I like your new jacket",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Simple"
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "title_en": "Prices & Buying",
+            "title_it": "Prezzi ed Acquisti",
+            "type": "grammar",
+            "estimated_minutes": 10,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come chiedi il prezzo?",
+                    "options": ["How much is it?", "How many is it?", "What is the price?", "How price is it?"],
+                    "correct_answer": "How much is it?",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "It costs twenty pounds.",
+                    "audio_text": "It costs twenty pounds.",
+                    "correct_answer": "Costa venti sterline.",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Posso pagare con carta?",
+                    "options": ["Can", "I", "pay", "by", "credit", "card"],
+                    "correct_answer": "Can I pay by credit card",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "Is there a discount?",
+                    "correct_answer": "Is there a discount?",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I'd like to _____ these shoes.",
+                    "prompt_it": "Comprare:",
+                    "correct_answer": "buy",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Verbs"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'expensive'?",
+                    "options": ["costoso", "economico", "bello", "brutto"],
+                    "correct_answer": "costoso",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Quanto costa quella borsa?",
+                    "audio_text": "How much is that bag?",
+                    "correct_answer": "How much is that bag?",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i pagamenti:",
+                    "options": ["cash", "contanti", "card", "carta", "price", "prezzo", "cheap", "economico"],
+                    "correct_answer": "cash:contanti|card:carta|price:prezzo|cheap:economico",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "The total is fifty _____.",
+                    "prompt_it": "Dollari:",
+                    "correct_answer": "dollars",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Numbers"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'cheap'?",
+                    "options": ["economico", "costoso", "nuovo", "vecchio"],
+                    "correct_answer": "economico",
+                    "difficulty": 1,
+                    "topic": "Shopping",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Vorrei lo sconto",
+                    "options": ["I", "would", "like", "a", "discount"],
+                    "correct_answer": "I would like a discount",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Fixed Phrases"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "It costs ten Euros.",
+                    "correct_answer": "It costs ten Euros.",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'Can I help you?'",
+                    "audio_text": "Can I help you?",
+                    "correct_answer": "Can I help you?",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "That shirt is very expensive.",
+                    "correct_answer": "That shirt is very expensive",
+                    "difficulty": 3,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è il passato di 'buy'?",
+                    "options": ["bought", "buyed", "boughten", "buy"],
+                    "correct_answer": "bought",
+                    "difficulty": 3,
+                    "topic": "Verbs",
+                    "grammar_category": "Past Simple"
+                }
+            ]
+        }
+    ]
+}

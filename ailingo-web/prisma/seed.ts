@@ -47,6 +47,13 @@ async function main() {
     }
     console.log('Badges seeded.')
 
+    // Clear existing content to prevent duplicates during refactor
+    console.log('Clearing existing content...')
+    await prisma.exercise.deleteMany({})
+    await prisma.lesson.deleteMany({})
+    await prisma.unit.deleteMany({})
+    console.log('Existing content cleared.')
+
     // Load original JSON content
     const contentDir = path.join(process.cwd(), '..', 'content', 'levels')
     if (fs.existsSync(contentDir)) {
@@ -83,7 +90,8 @@ async function main() {
                             titleEn: lessonData.title_en,
                             titleIt: lessonData.title_it,
                             type: lessonData.type || 'vocabulary',
-                            estimatedMinutes: lessonData.estimated_minutes || 5
+                            estimatedMinutes: lessonData.estimated_minutes || 5,
+                            contentJson: lessonData.content_json ? JSON.stringify(lessonData.content_json) : null
                         }
                     })
 
@@ -99,7 +107,9 @@ async function main() {
                                 correctAnswer: exData.correct_answer,
                                 explanationIt: exData.explanation_it || null,
                                 grammarRule: exData.grammar_rule || null,
-                                difficulty: exData.difficulty || 1
+                                difficulty: exData.difficulty || 1,
+                                topic: exData.topic || null,
+                                grammarCategory: exData.grammar_category || null
                             }
                         })
                     }

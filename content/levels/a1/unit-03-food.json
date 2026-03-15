@@ -8,145 +8,330 @@
     "lessons": [
         {
             "order": 1,
-            "title_en": "Food Vocabulary",
-            "title_it": "Vocabolario del Cibo",
-            "type": "vocabulary",
-            "estimated_minutes": 6,
+            "title_en": "At the Restaurant",
+            "title_it": "Al Ristorante",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "Ordering Dinner",
+                    "text": "I am at a restaurant. I'd like a pizza and a glass of water, please. The waiter is very kind. The pizza is hot and delicious! I love Italian food.",
+                    "translation": "Sono al ristorante. Vorrei una pizza e un bicchiere d'acqua, per favore. Il cameriere è molto gentile. La pizza è calda e deliziosa! Adoro il cibo italiano.",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "u3-g1",
+                        "title": "Vorrei: I'd like",
+                        "explanation": "Usa 'I'd like' per ordinare in modo educato.",
+                        "examples": [
+                            { "en": "I'd like a pizza", "it": "Vorrei una pizza" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "waiter", "translation": "cameriere", "context": "The waiter is kind." },
+                    { "word": "delicious", "translation": "delizioso", "context": "Delicious food!" }
+                ]
+            },
             "exercises": [
                 {
-                    "type": "match_pairs",
-                    "prompt_it": "Abbina le parole:",
-                    "options": [
-                        "pane",
-                        "acqua",
-                        "carne",
-                        "verdura",
-                        "bread",
-                        "water",
-                        "meat",
-                        "vegetables"
-                    ],
-                    "correct_answer": "pane:bread|acqua:water|carne:meat|verdura:vegetables",
-                    "difficulty": 1
-                },
-                {
                     "type": "multiple_choice",
-                    "prompt_it": "Come si dice 'Mi piace la pizza' in inglese?",
-                    "audio_text": "I like pizza.",
-                    "options": [
-                        "I like pizza.",
-                        "I love to pizza.",
-                        "I am like pizza.",
-                        "Pizza likes me."
-                    ],
-                    "correct_answer": "I like pizza.",
-                    "explanation_it": "'I like' = 'Mi piace'. In inglese il soggetto è sempre 'I' (io), non la cosa che ti piace come in italiano.",
-                    "grammar_rule": "I like = mi piace | I love = adoro | I don't like = non mi piace",
-                    "difficulty": 1
-                },
-                {
-                    "type": "translation_it_en",
-                    "prompt_it": "Traduci: Vorrei un caffè, per favore.",
-                    "audio_text": "I'd like a coffee, please.",
-                    "correct_answer": "I'd like a coffee, please.",
-                    "explanation_it": "'I'd like' = 'I would like' = 'Vorrei'. È la forma educata per fare richieste. Non dire 'I want' in contesti formali: è meno educato.",
-                    "grammar_rule": "I'd like = I would like = Vorrei (educato)",
-                    "difficulty": 2
+                    "prompt_it": "Sii educato! Qual è il modo migliore per ordinare al ristorante?",
+                    "options": ["I'd like a pizza", "I want a pizza", "Give me pizza", "Pizza is good"],
+                    "correct_answer": "I'd like a pizza",
+                    "explanation_it": "Bravo! 'I'd like' è la contrazione di 'I would like' (vorrei). È la scelta perfetta per essere gentili e professionali. 🍕",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Fixed Phrases"
                 },
                 {
                     "type": "fill_blank",
-                    "prompt_en": "Can I have _____ apple, please? (un'unità)",
-                    "prompt_it": "Completa con l'articolo corretto (a o an):",
-                    "correct_answer": "an",
-                    "explanation_it": "Si usa 'an' (non 'a') davanti a parole che iniziano con suono vocalico: an apple, an egg, an hour (attenzione: 'h' muta in 'hour').",
-                    "grammar_rule": "a + consonante | an + vocale (suono): a cat, an apple, an orange",
-                    "difficulty": 2
+                    "prompt_en": "I'd like a pizza and a _____ of water.",
+                    "prompt_it": "Completa: 'un bicchiere...'",
+                    "correct_answer": "glass",
+                    "explanation_it": "Esatto! 'Glass' (bicchiere) è fondamentale a tavola. Ricorda: 'a glass of...' (un bicchiere di...). 💧",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Vorrei una pizza, per favore",
+                    "options": ["I'd", "like", "a", "pizza", "please"],
+                    "correct_answer": "I'd like a pizza please",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Fixed Phrases"
                 },
                 {
                     "type": "multiple_choice",
-                    "prompt_it": "Come si dice 'Quanto costa?' in inglese?",
-                    "audio_text": "How much is it?",
-                    "options": [
-                        "How much is it?",
-                        "How many cost?",
-                        "What price?",
-                        "How cost is it?"
-                    ],
-                    "correct_answer": "How much is it?",
-                    "explanation_it": "'How much' si usa per quantità non numerabili o per il prezzo. 'How many' per quantità numerabili (es. How many apples?).",
-                    "grammar_rule": "How much = quanto (prezzo/non numerabile) | How many = quanti (numerabile)",
-                    "difficulty": 2
+                    "prompt_it": "Cosa significa 'waiter'?",
+                    "options": ["cameriere", "cuoco", "proprietario", "cliente"],
+                    "correct_answer": "cameriere",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Adoro il cibo italiano.",
+                    "audio_text": "I love Italian food.",
+                    "correct_answer": "I love Italian food.",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i termini del ristorante:",
+                    "options": ["waiter", "cameriere", "bill", "conto", "menu", "menu", "table", "tavolo"],
+                    "correct_answer": "waiter:cameriere|bill:conto|menu:menu|table:tavolo",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "The pizza is _____ and delicious!",
+                    "prompt_it": "Calda",
+                    "correct_answer": "hot",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'kind'?",
+                    "options": ["gentile", "cattivo", "veloce", "lento"],
+                    "correct_answer": "gentile",
+                    "difficulty": 1,
+                    "topic": "Feelings",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "Can I have the bill, please?",
+                    "audio_text": "Can I have the bill, please?",
+                    "correct_answer": "Posso avere il conto, per favore?",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Bicchiere d'acqua",
+                    "options": ["glass", "of", "water"],
+                    "correct_answer": "glass of water",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "The food is delicious.",
+                    "correct_answer": "The food is delicious.",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Present Simple"
                 },
                 {
                     "type": "speaking",
-                    "prompt_it": "Pronuncia la frase come se fossi in un ristorante:",
-                    "audio_text": "I'd like a pizza and a glass of water, please.",
-                    "correct_answer": "I'd like a pizza and a glass of water, please.",
-                    "difficulty": 2
+                    "prompt_it": "Dì: 'I'd like a pizza'",
+                    "audio_text": "I'd like a pizza",
+                    "correct_answer": "I'd like a pizza",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Fixed Phrases"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Is the pizza _____? Yes, it is very good!",
+                    "prompt_it": "Buona",
+                    "correct_answer": "good",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
                 },
                 {
                     "type": "free_dictation",
-                    "prompt_it": "Ascolta e scrivi l'esatta frase (Dettato Libero)",
-                    "audio_text": "I'd like a pizza and a glass of water, please.",
-                    "correct_answer": "I'd like a pizza and a glass of water, please.",
-                    "grammar_rule": "Non dimenticare di digitare l'articolo prima del cibo in inglese. E ricorda The comma (virgola) tra le due clausole, ma non preoccuparti noi ignoriamo la punteggiatura!",
-                    "difficulty": 3
+                    "audio_text": "A glass of water please.",
+                    "correct_answer": "A glass of water please",
+                    "difficulty": 3,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice 'pasta'?",
+                    "options": ["pasta", "pasticcio", "paste", "past"],
+                    "correct_answer": "pasta",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
                 }
             ]
         },
         {
             "order": 2,
-            "title_en": "Articles: a, an, the",
-            "title_it": "Articoli: a, an, the",
-            "type": "grammar",
-            "estimated_minutes": 7,
+            "title_en": "The Supermarket",
+            "title_it": "Il Supermercato",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "Buying Food",
+                    "text": "I need to buy some food. I go to the supermarket. I buy an apple and a loaf of bread. The apple is red and the bread is fresh. How much is it? It's 5 dollars.",
+                    "translation": "Devo comprare del cibo. Vado al supermercato. Compro una mela e una pagnotta di pane. La mela è rossa e il pane è fresco. Quanto costa? Sono 5 dollari.",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "u3-g2",
+                        "title": "Articoli: A vs AN",
+                        "explanation": "Usa 'a' prima di consonante, 'an' prima di vocale.",
+                        "examples": [
+                            { "en": "a loaf / an apple", "it": "una pagnotta / una mela" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "supermarket", "translation": "supermercato", "context": "I go to the supermarket." }
+                ]
+            },
             "exercises": [
                 {
                     "type": "multiple_choice",
-                    "prompt_it": "Quando si usa 'the' in inglese?",
-                    "audio_text": "The cat is on the table.",
-                    "options": [
-                        "Quando l'oggetto è già noto o specifico",
-                        "Sempre, come in italiano con 'il/la'",
-                        "Solo con i plurali",
-                        "Solo con persone"
-                    ],
-                    "correct_answer": "Quando l'oggetto è già noto o specifico",
-                    "explanation_it": "'The' è l'articolo determinativo: si usa quando ENTRAMBI sappiamo di cosa parliamo. Prima menzione → 'a/an'. Seconda menzione → 'the'.",
-                    "grammar_rule": "Primo uso: a/an (generico) | Uso successivo: the (specifico/noto)",
-                    "difficulty": 2
+                    "prompt_it": "Completa: 'I want ___ orange.'",
+                    "options": ["a", "an", "the", "some"],
+                    "correct_answer": "an",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Articles"
                 },
                 {
                     "type": "fill_blank",
-                    "prompt_en": "I have _____ dog. _____ dog is very big.",
-                    "prompt_it": "Prima menzione: a/an. Seconda menzione: the.",
-                    "correct_answer": "a the",
-                    "explanation_it": "Prima volta che menzioni il cane → 'a dog'. Poi diventa specifico → 'the dog'.",
-                    "difficulty": 2
+                    "prompt_en": "___ apple is red.",
+                    "prompt_it": "La mela (determinativo)",
+                    "correct_answer": "The",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Articles"
                 },
                 {
-                    "type": "translation_it_en",
-                    "prompt_it": "Traduci: Il sole è caldo.",
-                    "audio_text": "The sun is hot.",
-                    "correct_answer": "The sun is hot.",
-                    "explanation_it": "Con cose uniche al mondo (the sun, the moon, the sky, the Earth) si usa sempre 'the'.",
-                    "grammar_rule": "Cose uniche: the sun, the moon, the Earth, the internet",
-                    "difficulty": 2
+                    "type": "word_order",
+                    "prompt_it": "Quanto costa?",
+                    "options": ["How", "much", "is", "it"],
+                    "correct_answer": "How much is it",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Interrogatives"
                 },
                 {
                     "type": "multiple_choice",
-                    "prompt_en": "Which is correct?",
-                    "audio_text": "I go to school by bus.",
-                    "options": [
-                        "I go to school by bus.",
-                        "I go to the school by the bus.",
-                        "I go to a school by a bus.",
-                        "I go school by bus."
-                    ],
-                    "correct_answer": "I go to school by bus.",
-                    "explanation_it": "Con mezzi di trasporto NON si usa l'articolo: by bus, by car, by train. Con istituzioni come scuola/chiesa in senso astratto: go to school, go to church.",
-                    "grammar_rule": "by bus/car/train (no articolo) | go to school/work/bed (no articolo)",
-                    "difficulty": 3
+                    "prompt_it": "Cosa significa 'bread'?",
+                    "options": ["pane", "latte", "carne", "frutta"],
+                    "correct_answer": "pane",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Devo comprare del cibo.",
+                    "audio_text": "I need to buy some food.",
+                    "correct_answer": "I need to buy some food.",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina gli articoli:",
+                    "options": ["a banana", "una banana", "an orange", "un'arancia", "the milk", "il latte", "some bread", "del pane"],
+                    "correct_answer": "a banana:una banana|an orange:un'arancia|the milk:il latte|some bread:del pane",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Articles"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I buy _____ egg. (un uovo)",
+                    "prompt_it": "Usa a o an:",
+                    "correct_answer": "an",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Articles"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Come si dice 'fresco'?",
+                    "options": ["fresh", "free", "french", "fruit"],
+                    "correct_answer": "fresh",
+                    "difficulty": 1,
+                    "topic": "Descriptive",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "It costs five dollars.",
+                    "audio_text": "It costs five dollars.",
+                    "correct_answer": "Costa cinque dollari.",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Vado al supermercato",
+                    "options": ["I", "go", "to", "the", "supermarket"],
+                    "correct_answer": "I go to the supermarket",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "The apple is red.",
+                    "correct_answer": "The apple is red.",
+                    "difficulty": 1,
+                    "topic": "Food",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'How much is it?'",
+                    "audio_text": "How much is it?",
+                    "correct_answer": "How much is it?",
+                    "difficulty": 2,
+                    "topic": "Shopping",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I buy _____ apple. (una mela)",
+                    "prompt_it": "Usa a o an:",
+                    "correct_answer": "an",
+                    "difficulty": 2,
+                    "topic": "Food",
+                    "grammar_category": "Articles"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "I need some fresh bread.",
+                    "correct_answer": "I need some fresh bread",
+                    "difficulty": 3,
+                    "topic": "Food",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è il colore della mela nella storia?",
+                    "options": ["red", "green", "yellow", "blue"],
+                    "correct_answer": "red",
+                    "difficulty": 1,
+                    "topic": "Colors",
+                    "grammar_category": "Vocabulary"
                 }
             ]
         }

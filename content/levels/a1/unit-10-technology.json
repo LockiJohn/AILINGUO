@@ -1,0 +1,293 @@
+{
+    "levelCode": "A1",
+    "order": 10,
+    "title_en": "Digital Life & Technology",
+    "title_it": "Vita Digitale e Tecnologia",
+    "description_it": "Parla di tecnologia, social media e internet",
+    "icon": "💻",
+    "lessons": [
+        {
+            "order": 1,
+            "title_en": "Devices & Internet",
+            "title_it": "Dispositivi e Internet",
+            "type": "vocabulary",
+            "estimated_minutes": 10,
+            "exercises": [
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i termini:",
+                    "options": ["computer", "computer", "phone", "telefono", "website", "sito web", "password", "password"],
+                    "correct_answer": "computer:computer|phone:telefono|website:sito web|password:password",
+                    "difficulty": 1,
+                    "topic": "Technology",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Vuoi salvare un brano sul tuo PC? Come si dice 'scaricare'?",
+                    "options": ["upload", "download", "delete", "save"],
+                    "correct_answer": "download",
+                    "explanation_it": "Esatto! 'Download' significa letteralmente 'caricare giù' (sul tuo dispositivo). 'Upload' è il contrario! 📥",
+                    "difficulty": 1,
+                    "topic": "Technology",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Uso il mio telefono ogni giorno.",
+                    "audio_text": "I use my phone every day.",
+                    "correct_answer": "I use my phone every day.",
+                    "difficulty": 2,
+                    "topic": "Technology",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Enter your _____ to login.",
+                    "prompt_it": "Password:",
+                    "correct_answer": "password",
+                    "difficulty": 1,
+                    "topic": "Technology",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'The internet is fast'",
+                    "audio_text": "The internet is fast",
+                    "correct_answer": "The internet is fast",
+                    "difficulty": 2,
+                    "topic": "Technology",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'keyboard'?",
+                    "options": ["tastiera", "mouse", "monitor", "stampante"],
+                    "correct_answer": "tastiera",
+                    "difficulty": 1,
+                    "topic": "Technology",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "I need a new laptop.",
+                    "audio_text": "I need a new laptop.",
+                    "correct_answer": "Ho bisogno di un nuovo portatile.",
+                    "difficulty": 1,
+                    "topic": "Technology",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i dispositivi:",
+                    "options": ["laptop", "portatile", "tablet", "tablet", "screen", "schermo", "mouse", "mouse"],
+                    "correct_answer": "laptop:portatile|tablet:tablet|screen:schermo|mouse:mouse",
+                    "difficulty": 1,
+                    "topic": "Technology",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "My _____ is broken. I can't call you.",
+                    "prompt_it": "Telefono:",
+                    "correct_answer": "phone",
+                    "difficulty": 1,
+                    "topic": "Technology",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'wireless'?",
+                    "options": ["senza fili", "veloce", "rotto", "caro"],
+                    "correct_answer": "senza fili",
+                    "difficulty": 1,
+                    "topic": "Technology",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Questa password è segreta",
+                    "options": ["This", "password", "is", "secret"],
+                    "correct_answer": "This password is secret",
+                    "difficulty": 2,
+                    "topic": "Technology",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "The website is not working.",
+                    "correct_answer": "The website is not working.",
+                    "difficulty": 2,
+                    "topic": "Technology",
+                    "grammar_category": "Present Continuous"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'Click on the link'",
+                    "audio_text": "Click on the link",
+                    "correct_answer": "Click on the link",
+                    "difficulty": 2,
+                    "topic": "Technology",
+                    "grammar_category": "Imperative"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "I lost my phone yesterday.",
+                    "correct_answer": "I lost my phone yesterday",
+                    "difficulty": 3,
+                    "topic": "Technology",
+                    "grammar_category": "Past Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è il verbo per 'navigare' su internet?",
+                    "options": ["browse", "read", "swim", "fly"],
+                    "correct_answer": "browse",
+                    "difficulty": 2,
+                    "topic": "Technology",
+                    "grammar_category": "Vocabulary"
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "title_en": "Social Media",
+            "title_it": "Social Media",
+            "type": "vocabulary",
+            "estimated_minutes": 10,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'send a message'?",
+                    "options": ["mandare un messaggio", "ricevere", "leggere", "cancellare"],
+                    "correct_answer": "mandare un messaggio",
+                    "difficulty": 1,
+                    "topic": "Social",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "I check my email in the morning.",
+                    "audio_text": "I check my email in the morning.",
+                    "correct_answer": "Controllo la mia email al mattino.",
+                    "difficulty": 2,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Ti mando un'email più tardi.",
+                    "options": ["I", "will", "send", "you", "an", "email", "later"],
+                    "correct_answer": "I will send you an email later",
+                    "difficulty": 3,
+                    "topic": "Social",
+                    "grammar_category": "Future Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "Follow me on social media.",
+                    "correct_answer": "Follow me on social media.",
+                    "difficulty": 2,
+                    "topic": "Social",
+                    "grammar_category": "Imperative"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I have a new _____ on Instagram. (seguace/follower)",
+                    "correct_answer": "follower",
+                    "difficulty": 2,
+                    "topic": "Social",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'to post'?",
+                    "options": ["pubblicare", "leggere", "nascondere", "chiamare"],
+                    "correct_answer": "pubblicare",
+                    "difficulty": 1,
+                    "topic": "Social",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Non ho internet.",
+                    "audio_text": "I don't have internet.",
+                    "correct_answer": "I don't have internet.",
+                    "difficulty": 2,
+                    "topic": "Technology",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i termini social:",
+                    "options": ["like", "mi piace", "share", "condividi", "comment", "commento", "profile", "profilo"],
+                    "correct_answer": "like:mi piace|share:condividi|comment:commento|profile:profilo",
+                    "difficulty": 1,
+                    "topic": "Social",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Did you _____ my photo? Yes, it's very nice!",
+                    "prompt_it": "Mettere like / piacere (v. regolare):",
+                    "correct_answer": "like",
+                    "difficulty": 2,
+                    "topic": "Social",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'notifications'?",
+                    "options": ["notifiche", "messaggi", "amici", "foto"],
+                    "correct_answer": "notifiche",
+                    "difficulty": 1,
+                    "topic": "Social",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Lei ha molti followers",
+                    "options": ["She", "has", "many", "followers"],
+                    "correct_answer": "She has many followers",
+                    "difficulty": 2,
+                    "topic": "Social",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "I am online now.",
+                    "correct_answer": "I am online now.",
+                    "difficulty": 1,
+                    "topic": "Social",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'Share this with your friends'",
+                    "audio_text": "Share this with your friends",
+                    "correct_answer": "Share this with your friends",
+                    "difficulty": 2,
+                    "topic": "Social",
+                    "grammar_category": "Imperative"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "Check your email for the link.",
+                    "correct_answer": "Check your email for the link",
+                    "difficulty": 3,
+                    "topic": "Technology",
+                    "grammar_category": "Imperative"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Qual è il contrario di 'online'?",
+                    "options": ["offline", "online", "inline", "outline"],
+                    "correct_answer": "offline",
+                    "difficulty": 1,
+                    "topic": "Social",
+                    "grammar_category": "Vocabulary"
+                }
+            ]
+        }
+    ]
+}

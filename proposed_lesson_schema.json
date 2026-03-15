@@ -1,0 +1,70 @@
+{
+  "unit_id": "eng-basics-01",
+  "title": "Welcome to English: Grammar & Context",
+  "description": "A contextual approach to beginner English grammar, focusing on greetings, 'to be', and basic articles.",
+  "difficulty": "A1",
+  "learning_objectives": [
+    "Introduce yourself and others.",
+    "Use the verb 'to be' correctly.",
+    "Understand basic articles (a/an/the)."
+  ],
+  "content": {
+    "story": {
+      "title": "A New Student",
+      "text": "Hi! I am Joanna. I am from the U.S. This is Paulo. He is not from the U.S. He is from Italy. We are at a new school. The school is big. Paulo has an apple. I have a book.",
+      "translation": "Ciao! Io sono Joanna. Vengo dagli Stati Uniti. Questo è Paulo. Lui non è degli Stati Uniti. Viene dall'Italia. Siamo in una nuova scuola. La scuola è grande. Paulo ha una mela. Io ho un libro.",
+      "audio_url": ""
+    },
+    "grammar_points": [
+      {
+        "id": "gp-01",
+        "title": "Il verbo 'Essere' (To Be)",
+        "explanation": "In inglese, il verbo 'essere' è fondamentale. Si usa per presentarsi, dire l'età, la provenienza o le emozioni. Guarda la storia: 'I am Joanna' (Io sono Joanna), 'He is from Italy' (Lui è dell'Italia).",
+        "examples": [
+          { "en": "I am (I'm)", "it": "Io sono" },
+          { "en": "You are (You're)", "it": "Tu sei / Voi siete" },
+          { "en": "He/She/It is (He's/She's/It's)", "it": "Lui/Lei/Esso è" },
+          { "en": "We are (We're)", "it": "Noi siamo" },
+          { "en": "They are (They're)", "it": "Loro sono" }
+        ],
+        "context_reference": "I am Joanna. He is from Italy."
+      },
+      {
+        "id": "gp-02",
+        "title": "Articoli: A, An, The",
+        "explanation": "Usiamo 'A' o 'An' per cose generiche (un/una). Usiamo 'A' se la parola inizia per consonante ('a book') e 'An' se inizia per vocale ('an apple'). Usiamo 'The' (il/la/i/le) per cose specifiche ('The school is big').",
+        "examples": [
+          { "en": "a book", "it": "un libro" },
+          { "en": "an apple", "it": "una mela" },
+          { "en": "The school", "it": "La scuola (quella specifica di cui parliamo)" }
+        ],
+        "context_reference": "Paulo has an apple. I have a book. The school is big."
+      }
+    ],
+    "vocabulary": [
+      { "word": "school", "translation": "scuola", "context": "We are at a new school." },
+      { "word": "big", "translation": "grande", "context": "The school is big." },
+      { "word": "apple", "translation": "mela", "context": "Paulo has an apple." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ex-01",
+      "type": "fill_in_the_blank_context",
+      "instruction": "Completa le frasi tratte dalla storia con il verbo corretto.",
+      "question": "Hi! I ___ Joanna. This ___ Paulo. We ___ at a new school.",
+      "options": ["am, is, are", "is, am, are", "are, is, am"],
+      "correct_answer": "am, is, are",
+      "explanation": "I am (Io sono). This is (Questo è / Lui è). We are (Noi siamo)."
+    },
+    {
+      "id": "ex-02",
+      "type": "translation_active",
+      "instruction": "Traduci la seguente frase in inglese usando 'a' o 'an'.",
+      "question": "Io ho una mela.",
+      "options": ["I have a apple.", "I have an apple.", "I have the apple."],
+      "correct_answer": "I have an apple.",
+      "explanation": "'Apple' inizia con una vocale, quindi richiede l'articolo 'an'."
+    }
+  ]
+}

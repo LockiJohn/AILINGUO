@@ -55,6 +55,7 @@ export interface Lesson {
     title_it: string
     type: string
     estimated_minutes: number
+    content_json?: string
 }
 
 export interface Exercise {

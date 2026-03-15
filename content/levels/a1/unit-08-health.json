@@ -1,0 +1,314 @@
+{
+    "levelCode": "A1",
+    "order": 8,
+    "title_en": "Health & Body",
+    "title_it": "Salute e Corpo",
+    "description_it": "Impara le parti del corpo e come descrivere come ti senti",
+    "icon": "🏥",
+    "lessons": [
+        {
+            "order": 1,
+            "title_en": "Parts of the Body",
+            "title_it": "Parti del Corpo",
+            "type": "vocabulary",
+            "estimated_minutes": 10,
+            "exercises": [
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina le parti del corpo:",
+                    "options": ["head", "testa", "hand", "mano", "leg", "gamba", "eye", "occhio"],
+                    "correct_answer": "head:testa|hand:mano|leg:gamba|eye:occhio",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_en": "Which part of the body do you use to see? (Quale parte del corpo usi per vedere?)",
+                    "options": ["eye", "ear", "nose", "mouth"],
+                    "correct_answer": "eye",
+                    "explanation_it": "Ottimo! 'Eye' significa occhio. Ricorda il plurale: 'eyes'. Guardiamo il mondo con curiosità! 👀",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Ho due mani.",
+                    "audio_text": "I have two hands.",
+                    "correct_answer": "I have two hands.",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Plurals"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "My _____ hurts.",
+                    "prompt_it": "Mi fa male la TESTA:",
+                    "correct_answer": "head",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'I have a headache'",
+                    "audio_text": "I have a headache",
+                    "correct_answer": "I have a headache",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Fixed Phrases"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Plurale di 'foot' (piede)?",
+                    "options": ["feet", "foots", "feets", "foot"],
+                    "correct_answer": "feet",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Plurals"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "Your eyes are blue.",
+                    "audio_text": "Your eyes are blue.",
+                    "correct_answer": "I tuoi occhi sono blu.",
+                    "difficulty": 1,
+                    "topic": "Descriptive",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina gli arti:",
+                    "options": ["arm", "braccio", "leg", "gamba", "foot", "piede", "finger", "dito"],
+                    "correct_answer": "arm:braccio|leg:gamba|foot:piede|finger:dito",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I have two _____ (orecchie).",
+                    "correct_answer": "ears",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Plurals"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'mouth'?",
+                    "options": ["bocca", "naso", "orecchio", "mano"],
+                    "correct_answer": "bocca",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Mi fanno male le gambe",
+                    "options": ["My", "legs", "hurt"],
+                    "correct_answer": "My legs hurt",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "He has brown eyes.",
+                    "correct_answer": "He has brown eyes.",
+                    "difficulty": 2,
+                    "topic": "Descriptive",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'My hands are cold'",
+                    "audio_text": "My hands are cold",
+                    "correct_answer": "My hands are cold",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "I have paint on my hands.",
+                    "correct_answer": "I have paint on my hands",
+                    "difficulty": 3,
+                    "topic": "Daily Routine",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Plurale di 'tooth'?",
+                    "options": ["teeth", "tooths", "teethes", "toothes"],
+                    "correct_answer": "teeth",
+                    "difficulty": 3,
+                    "topic": "Health",
+                    "grammar_category": "Plurals"
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "title_en": "At the Doctor",
+            "title_it": "Dal Dottore",
+            "type": "contextual",
+            "estimated_minutes": 10,
+            "content_json": {
+                "story": {
+                    "title": "A Visit to the Clinic",
+                    "text": "Hello Doctor. I don't feel well. What is the problem? My stomach hurts and I have a fever. Take this medicine and rest. Thank you, Doctor.",
+                    "translation": "Buongiorno Dottore. Non mi sento bene. Qual è il problema? Mi fa male lo stomaco e ho la febre. Prenda questa medicina e riposi. Grazie, Dottore.",
+                    "audio_url": ""
+                },
+                "grammar_points": [
+                    {
+                        "id": "gp-h1",
+                        "title": "Sentirsi male: I don't feel well",
+                        "explanation": "Usa questa frase per dire che non stai bene.",
+                        "examples": [
+                            { "en": "I don't feel well / I feel sick", "it": "Non mi sento bene / Mi sento male" }
+                        ]
+                    }
+                ],
+                "vocabulary": [
+                    { "word": "fever", "translation": "febbre", "context": "I have a fever." },
+                    { "word": "medicine", "translation": "medicina", "context": "Take some medicine." }
+                ]
+            },
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'fever'?",
+                    "options": ["febbre", "raffreddore", "tosse", "dolore"],
+                    "correct_answer": "febbre",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "I need some medicine.",
+                    "audio_text": "I need some medicine.",
+                    "correct_answer": "Ho bisogno di medicina.",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Non mi sento bene oggi.",
+                    "options": ["I", "don't", "feel", "well", "today"],
+                    "correct_answer": "I don't feel well today",
+                    "difficulty": 2,
+                    "topic": "Feelings",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "Take this medicine and rest.",
+                    "correct_answer": "Take this medicine and rest.",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Imperative"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'sick'?",
+                    "options": ["malato", "sano", "forte", "veloce"],
+                    "correct_answer": "malato",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_it_en",
+                    "prompt_it": "Qual è il problema?",
+                    "audio_text": "What is the problem?",
+                    "correct_answer": "What is the problem?",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina i sintomi:",
+                    "options": ["fever", "febbre", "cough", "tosse", "headache", "mal di testa", "cold", "raffreddore"],
+                    "correct_answer": "fever:febbre|cough:tosse|headache:mal di testa|cold:raffreddore",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "I have a terrible _____. (tosse)",
+                    "correct_answer": "cough",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Cosa significa 'rest'?",
+                    "options": ["riposare", "correre", "mangiare", "lavorare"],
+                    "correct_answer": "riposare",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "translation_en_it",
+                    "prompt_en": "My stomach hurts.",
+                    "audio_text": "My stomach hurts.",
+                    "correct_answer": "Mi fa male lo stomaco.",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "word_order",
+                    "prompt_it": "Ho bisogno di una medicina",
+                    "options": ["I", "need", "a", "medicine"],
+                    "correct_answer": "I need a medicine",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "listen_write",
+                    "audio_text": "Can I see the doctor?",
+                    "correct_answer": "Can I see the doctor?",
+                    "difficulty": 2,
+                    "topic": "Health",
+                    "grammar_category": "Interrogatives"
+                },
+                {
+                    "type": "speaking",
+                    "prompt_it": "Dì: 'I feel much better now'",
+                    "audio_text": "I feel much better now",
+                    "correct_answer": "I feel much better now",
+                    "difficulty": 2,
+                    "topic": "Feelings",
+                    "grammar_category": "Present Simple"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_en": "Do you have a _____? Yes, my temperature is high.",
+                    "prompt_it": "Febbre:",
+                    "correct_answer": "fever",
+                    "difficulty": 1,
+                    "topic": "Health",
+                    "grammar_category": "Vocabulary"
+                },
+                {
+                    "type": "free_dictation",
+                    "audio_text": "The medicine is for your headache.",
+                    "correct_answer": "The medicine is for your headache",
+                    "difficulty": 3,
+                    "topic": "Health",
+                    "grammar_category": "Present Simple"
+                }
+            ]
+        }
+    ]
+}

@@ -4,12 +4,11 @@ import { useRouter } from 'next/navigation'
 import { useSessionStore } from '../../store/sessionStore'
 import type { Exercise } from '../../types'
 
+import ExerciseRenderer from '../Exercise/components/ExerciseRenderer'
+
 export default function ReviewScreen() {
     const [queue, setQueue] = useState<Exercise[]>([])
     const [currentIdx, setCurrentIdx] = useState(0)
-    const [userAnswer, setUserAnswer] = useState('')
-    const [answered, setAnswered] = useState(false)
-    const [isCorrect, setIsCorrect] = useState(false)
     const [loading, setLoading] = useState(true)
     const [done, setDone] = useState(false)
     const router = useRouter()
@@ -47,14 +46,9 @@ export default function ReviewScreen() {
     }
 
     const exercise = queue[currentIdx]
-    const normalize = (s: string) => s.trim().toLowerCase().replace(/[.!?,;:]/g, '').replace(/\s+/g, ' ')
 
-    const handleSubmit = async () => {
-        if (!userAnswer.trim() || answered) return
-        const correct = normalize(userAnswer) === normalize(exercise.correct_answer)
-        setIsCorrect(correct)
-        setAnswered(true)
-        // Update SM-2: quality 5 = perfect, 2 = hard, 0 = forgot
+    const handleAnswer = async (correct: boolean, userAnswer: string) => {
+        // Update SM-2: quality 5 = perfect, 2 = hard
         const quality = correct ? 5 : 2
         await fetch('/api/review', {
             method: 'PUT',
@@ -64,9 +58,6 @@ export default function ReviewScreen() {
     }
 
     const handleNext = () => {
-        setAnswered(false)
-        setUserAnswer('')
-        setIsCorrect(false)
         if (currentIdx + 1 >= queue.length) {
             setDone(true)
         } else {
@@ -75,62 +66,28 @@ export default function ReviewScreen() {
     }
 
     return (
-        <div className="screen-container animate-fade-in">
+        <div className="screen-container animate-fade-in" style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
             <div className="flex flex-between" style={{ marginBottom: 'var(--space-6)' }}>
-                <div>
-                    <h2>🔁 Ripasso</h2>
-                    <p className="text-muted">{currentIdx + 1} / {queue.length} esercizi</p>
+                <button className="btn btn-ghost btn-sm" onClick={() => router.push('/dashboard')}>✕</button>
+                <div style={{ flex: 1, textAlign: 'center' }}>
+                    <h2 style={{ fontSize: '1.25rem' }}>🔁 Ripasso</h2>
+                    <p className="text-muted" style={{ fontSize: '0.8rem' }}>{currentIdx + 1} / {queue.length} esercizi</p>
                 </div>
-                <div className="progress-bar" style={{ width: 200, alignSelf: 'center' }}>
-                    <div className="progress-bar__fill" style={{ width: `${((currentIdx) / queue.length) * 100}%` }} />
-                </div>
+                <div style={{ width: 40 }}></div> {/* spacer */}
             </div>
 
-            <div className="card card-glow" style={{ marginBottom: 'var(--space-6)' }}>
-                <div style={{ fontSize: 'var(--text-sm)', color: 'var(--clr-text-muted)', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 600 }}>
-                    {exercise.type === 'multiple_choice' ? 'Scelta Multipla' : 'Traduzione'}
-                </div>
-                <h3 style={{ fontSize: 'var(--text-xl)' }}>
-                    {exercise.prompt_it ?? exercise.prompt_en}
-                </h3>
+            <div className="progress-bar" style={{ marginBottom: 'var(--space-6)' }}>
+                <div className="progress-bar__fill" style={{ width: `${((currentIdx) / queue.length) * 100}%` }} />
             </div>
 
-            <input
-                className="input"
-                type="text"
-                placeholder="La tua risposta…"
-                value={userAnswer}
-                onChange={e => setUserAnswer(e.target.value)}
-                onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-                disabled={answered}
-                autoFocus
-                style={{ fontSize: 'var(--text-lg)', padding: 'var(--space-4)', marginBottom: 'var(--space-4)' }}
-            />
-
-            {!answered && (
-                <button className="btn btn-primary btn-full" onClick={handleSubmit} disabled={!userAnswer.trim()}>
-                    Conferma →
-                </button>
-            )}
-
-            {answered && (
-                <div className={`animate-slide-up ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`}>
-                    <div style={{ fontWeight: 700, marginBottom: 8 }}>
-                        {isCorrect ? '✅ Corretto!' : '❌ Sbagliato'}
-                    </div>
-                    {!isCorrect && (
-                        <div style={{ marginBottom: 8, fontSize: 'var(--text-sm)' }}>
-                            Risposta corretta: <strong>{exercise.correct_answer}</strong>
-                        </div>
-                    )}
-                    {exercise.explanation_it && (
-                        <p style={{ fontSize: 'var(--text-sm)', color: 'var(--clr-text-secondary)', marginBottom: 8 }}>{exercise.explanation_it}</p>
-                    )}
-                    <button className="btn btn-primary btn-full" onClick={handleNext}>
-                        {currentIdx + 1 >= queue.length ? 'Termina ripasso ✓' : 'Prossimo →'}
-                    </button>
-                </div>
-            )}
+            <div style={{ flex: 1, overflowY: 'auto' }}>
+                <ExerciseRenderer 
+                    key={currentIdx}
+                    exercise={exercise}
+                    onAnswer={handleAnswer}
+                    onNext={handleNext}
+                />
+            </div>
         </div>
     )
 }

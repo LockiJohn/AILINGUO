@@ -3,9 +3,8 @@ generator client {
 }
 
 datasource db {
-  provider  = "postgresql"
-  url       = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
+  provider = "sqlite"
+  url      = "file:./dev.db"
 }
 
 model User {
@@ -66,6 +65,7 @@ model Lesson {
   titleIt          String  @map("title_it")
   type             String  @default("vocabulary")
   estimatedMinutes Int     @default(5) @map("estimated_minutes")
+  contentJson      String? @map("content_json") // Stored as JSON string
 
   unit             Unit    @relation(fields: [unitId], references: [id], onDelete: Cascade)
   exercises        Exercise[]
@@ -86,6 +86,8 @@ model Exercise {
   explanationIt String? @map("explanation_it")
   grammarRule   String? @map("grammar_rule")
   difficulty    Int     @default(1)
+  topic         String?
+  grammarCategory String? @map("grammar_category")
 
   lesson        Lesson  @relation(fields: [lessonId], references: [id], onDelete: Cascade)
   results       ExerciseResult[]

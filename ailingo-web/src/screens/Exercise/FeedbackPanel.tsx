@@ -12,16 +12,22 @@ interface Props {
 }
 
 export default function FeedbackPanel({ isCorrect, correctAnswer, userAnswer, explanation, grammarRule, onNext, speaking }: Props) {
+    const feedbackMessages = isCorrect 
+        ? ["Fantastico!", "Ottimo lavoro!", "Esatto!", "Perfetto!", "Bravissimo!"]
+        : ["Ci siamo quasi!", "Non mollare!", "Riprova!", "Ops, quasi!", "Continua a provare!"]
+    
+    const randomMsg = feedbackMessages[Math.floor(Math.random() * feedbackMessages.length)]
+
     return (
-        <div className={`animate-slide-up ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`}>
+        <div className={`animate-slide-up glass-premium ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`} style={{ borderLeft: `4px solid ${isCorrect ? 'var(--clr-success)' : 'var(--clr-error)'}` }}>
             <div className="flex flex-between" style={{ marginBottom: 'var(--space-3)' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
-                    <span style={{ fontSize: '1.25rem' }}>{isCorrect ? '✅' : '❌'}</span>
-                    <span style={{ fontWeight: 700, fontSize: 'var(--text-base)', color: isCorrect ? 'var(--clr-success)' : 'var(--clr-error)' }}>
-                        {isCorrect ? 'Corretto!' : 'Risposta errata'}
+                    <span style={{ fontSize: '1.5rem', filter: 'drop-shadow(0 0 8px rgba(255,255,255,0.3))' }}>{isCorrect ? '✨' : '🧐'}</span>
+                    <span style={{ fontWeight: 800, fontSize: 'var(--text-lg)', color: isCorrect ? 'var(--clr-success)' : 'var(--clr-error)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                        {randomMsg}
                     </span>
                 </div>
-                {isCorrect && <span className="xp-chip animate-bounce">+10 XP ⭐</span>}
+                {isCorrect && <span className="xp-chip animate-bounce text-glow">+10 XP ⭐ </span>}
             </div>
 
             {!isCorrect && (
@@ -61,4 +67,3 @@ export default function FeedbackPanel({ isCorrect, correctAnswer, userAnswer, ex
         </div>
     )
 }
-

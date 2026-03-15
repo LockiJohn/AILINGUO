@@ -35,11 +35,11 @@ export default function DashboardScreen() {
     ]
 
     return (
-        <div className="screen-container animate-fade-in">
+        <div className="screen-container page-enter">
             {/* Header */}
-            <div style={{ marginBottom: 'var(--space-6)' }}>
+            <div style={{ marginBottom: 'var(--space-8)' }}>
                 <h1 style={{ lineHeight: 1.2 }}>
-                    Ciao, <span className="gradient-text">{user?.name}</span>! 👋
+                    Ciao, <span className="gradient-text text-glow">{user?.name}</span>! 👋
                 </h1>
                 <p className="text-secondary" style={{ marginTop: 'var(--space-2)' }}>
                     {streak > 0
@@ -94,10 +94,10 @@ export default function DashboardScreen() {
             </div>
 
             {/* Secondary CTAs row */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-2)', marginBottom: 'var(--space-6)' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-2)', marginBottom: 'var(--space-4)' }}>
                 {[
                     { icon: '🕹️', label: 'Arcade', href: '/games', color: 'rgba(34,229,160,0.12)', border: 'rgba(34,229,160,0.3)', text: 'var(--clr-accent-400)' },
-                    { icon: '💬', label: 'Tutor IA', href: '/tutor', color: 'rgba(99,55,245,0.12)', border: 'var(--clr-border-accent)', text: 'var(--clr-primary-300)' },
+                    { icon: '📖', label: 'Libro', href: '/book', color: 'rgba(99,55,245,0.12)', border: 'var(--clr-border-accent)', text: 'var(--clr-primary-300)' },
                     { icon: '📊', label: 'Stats', href: '/stats', color: 'rgba(255,255,255,0.04)', border: 'var(--clr-border)', text: 'var(--clr-text-secondary)' },
                 ].map(item => (
                     <button
@@ -123,6 +123,28 @@ export default function DashboardScreen() {
                     </button>
                 ))}
             </div>
+
+            {/* Beginner tip card */}
+            {xp < 100 && (
+                <div style={{
+                    marginBottom: 'var(--space-6)',
+                    padding: 'var(--space-4)',
+                    background: 'rgba(99,55,245,0.08)',
+                    border: '1px solid var(--clr-border-accent)',
+                    borderRadius: 'var(--radius-md)',
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: 'var(--space-3)',
+                }}>
+                    <span style={{ fontSize: '1.5rem' }}>💡</span>
+                    <div>
+                        <div style={{ fontWeight: 700, marginBottom: 4, fontSize: 'var(--text-sm)' }}>Consiglio per principianti</div>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--clr-text-secondary)', lineHeight: 1.5 }}>
+                            Tocca ogni parola nella storia per vederne la traduzione istantanea! Le lezioni "Immersione Contestuale" iniziano con una storia da cui imparerai la grammatica.
+                        </div>
+                    </div>
+                </div>
+            )}
 
             {/* Quick stats */}
             <h3 style={{ marginBottom: 'var(--space-3)', fontSize: '1rem', color: 'var(--clr-text-secondary)', textTransform: 'uppercase', letterSpacing: '0.06em', fontWeight: 700 }}>
