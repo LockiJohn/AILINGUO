@@ -10,9 +10,10 @@ const LEVELS = [
 ]
 
 const SUBJECTS = [
-    { code: 'english', label: 'Inglese', desc: 'Il corso completo di lingua inglese', icon: '🇬🇧' },
-    { code: 'physics', label: 'Fisica Base', desc: 'Concetti fondamentali dell\'universo', icon: '⚛️' },
-    { code: 'chemistry', label: 'Chimica Base', desc: 'Atomi, reazioni e materia', icon: '🧪' },
+    { code: 'english', label: 'Inglese', desc: 'Domina la lingua globale con immersione contestuale', icon: '🇬🇧' },
+    { code: 'physics', label: 'Fisica', desc: 'Svela i segreti dell\'Universo, dalle particelle alle galassie', icon: '⚛️' },
+    { code: 'chemistry', label: 'Chimica', desc: 'Esplora la magia della materia e delle trasformazioni', icon: '🧪' },
+    { code: 'math', label: 'Matematica', desc: 'Il linguaggio logico che governa la realtà', icon: '🔢' },
 ]
 
 export default function OnboardingScreen() {

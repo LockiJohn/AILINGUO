@@ -1,0 +1,40 @@
+{
+    "subject": "physics",
+    "levelCode": "PHYSICS_A1",
+    "order": 1,
+    "title_it": "L'Universo in Movimento",
+    "description_it": "Perché le cose cadono? Perché la macchina si ferma? Scopri le leggi invisibili che muovono tutto.",
+    "icon": "⚛️",
+    "lessons": [
+        {
+            "order": 1,
+            "title_it": "La Danza degli Oggetti: La Cinematica",
+            "type": "theory",
+            "estimated_minutes": 5,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Sei su un treno che va a 100 km/h e lanci una pallina verso l'alto. Dove cade la pallina?",
+                    "options": [
+                        "Ti colpisce in faccia perché il treno si muove",
+                        "Cade esattamente nelle tue mani",
+                        "Cade in fondo al vagone",
+                        "Svanisce nel nulla"
+                    ],
+                    "correct_answer": "Cade esattamente nelle tue mani",
+                    "explanation_it": "Galileo sarebbe fiero di te! Poiché tu e la pallina vi muovete alla stessa velocità del treno, per te la pallina si muove solo in verticale. Questo è il principio di relatività galileiana! 🚂",
+                    "difficulty": 1,
+                    "topic": "Relativity"
+                },
+                {
+                    "type": "fill_blank",
+                    "prompt_it": "La velocità media si calcola dividendo lo _____ percorso per il _____ impiegato.",
+                    "correct_answer": "spazio:tempo",
+                    "explanation_it": "Proprio così! V = S/T. Pensa alla velocità come a quanto spazio 'mangi' in ogni secondo che passa. 🏎️",
+                    "difficulty": 1,
+                    "topic": "Velocity"
+                }
+            ]
+        }
+    ]
+}

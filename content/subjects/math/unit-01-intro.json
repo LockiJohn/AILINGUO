@@ -1,0 +1,45 @@
+{
+    "subject": "math",
+    "levelCode": "MATH_A1",
+    "order": 1,
+    "title_it": "Il Linguaggio dell'Universo: I Numeri",
+    "description_it": "Non sono solo simboli, sono gli atomi del pensiero logico. Scopri come i numeri governano il mondo.",
+    "icon": "🔢",
+    "lessons": [
+        {
+            "order": 1,
+            "title_it": "Perché contiamo? L'origine dell'ordine",
+            "type": "theory",
+            "estimated_minutes": 5,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Immagina di essere un pastore nell'antichità. Come fai a sapere se tutte le tue pecore sono tornate senza saper contare?",
+                    "options": [
+                        "Uso un sassolino per ogni pecora",
+                        "Chiedo alle pecore",
+                        "Spero vivamente",
+                        "Le peso tutte insieme"
+                    ],
+                    "correct_answer": "Uso un sassolino per ogni pecora",
+                    "explanation_it": "Esatto! Questa si chiama 'corrispondenza biunivoca'. I numeri sono nati per mettere in relazione insiemi di oggetti con simboli o oggetti più semplici (come i sassolini - *calculi* in latino!).",
+                    "difficulty": 1,
+                    "topic": "History of Numbers"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina il concetto alla sua utilità:",
+                    "options": [
+                        "Somma", "Mettere insieme",
+                        "Sottrazione", "Togliere/Trovare la differenza",
+                        "Moltiplicazione", "Somma ripetuta velocemente",
+                        "Divisione", "Ripartire in parti uguali"
+                    ],
+                    "correct_answer": "Somma:Mettere insieme|Sottrazione:Togliere/Trovare la differenza|Moltiplicazione:Somma ripetuta velocemente|Divisione:Ripartire in parti uguali",
+                    "difficulty": 1,
+                    "topic": "Basic Operations"
+                }
+            ]
+        }
+    ]
+}

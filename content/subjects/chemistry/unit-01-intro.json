@@ -1,0 +1,45 @@
+{
+    "subject": "chemistry",
+    "levelCode": "CHEMISTRY_A1",
+    "order": 1,
+    "title_it": "La Magia della Materia",
+    "description_it": "Tutto ciò che vedi, tocchi e respiri è fatto di piccolissimi mattoncini. Scopri come gli atomi danzano insieme.",
+    "icon": "🧪",
+    "lessons": [
+        {
+            "order": 1,
+            "title_it": "Atomi: I Mattoncini dell'Universo",
+            "type": "theory",
+            "estimated_minutes": 5,
+            "exercises": [
+                {
+                    "type": "multiple_choice",
+                    "prompt_it": "Se potessi tagliare una mela all'infinito, ti fermeresti mai?",
+                    "options": [
+                        "Sì, arriverei all'atomo (che significa 'indivisibile')",
+                        "No, posso tagliare per sempre",
+                        "Dipende dal coltello",
+                        "La mela diventerebbe energia pura"
+                    ],
+                    "correct_answer": "Sì, arriverei all'atomo (che significa 'indivisibile')",
+                    "explanation_it": "Esatto! Gli antichi greci immaginavano l'atomo come il limite ultimo della materia. Oggi sappiamo che è fatto di ancora più piccole particelle, ma rimane il 'mattoncino' fondamentale degli elementi.",
+                    "difficulty": 1,
+                    "topic": "Atomic Theory"
+                },
+                {
+                    "type": "match_pairs",
+                    "prompt_it": "Abbina la particella alla sua carica:",
+                    "options": [
+                        "Protone", "Positiva (+)",
+                        "Elettrone", "Negativa (-)",
+                        "Neutrone", "Neutrale (0)",
+                        "Nucleo", "Centro dell'atomo"
+                    ],
+                    "correct_answer": "Protone:Positiva (+)|Elettrone:Negativa (-)|Neutrone:Neutrale (0)|Nucleo:Centro dell'atomo",
+                    "difficulty": 1,
+                    "topic": "Atomic Structure"
+                }
+            ]
+        }
+    ]
+}

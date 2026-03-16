@@ -6,20 +6,32 @@ export async function GET(req: Request) {
     try {
         const { searchParams } = new URL(req.url)
         const lessonIdStr = searchParams.get('lesson')
+        const topic = searchParams.get('topic')
+        const subject = searchParams.get('subject')
 
-        if (!lessonIdStr) {
-            return NextResponse.json({ error: "Lesson ID required" }, { status: 400 })
+        let where: any = {}
+
+        if (lessonIdStr) {
+            const lessonId = parseInt(lessonIdStr, 10)
+            if (!isNaN(lessonId)) {
+                where.lessonId = lessonId
+            }
+        } else if (topic) {
+            where.topic = { contains: topic }
+            if (subject) {
+                where.lesson = {
+                    unit: {
+                        levelCode: { contains: subject.toUpperCase() }
+                    }
+                }
+            }
+        } else {
+            return NextResponse.json({ error: "Lesson ID or Topic required" }, { status: 400 })
         }
 
-        const lessonId = parseInt(lessonIdStr, 10)
-        if (isNaN(lessonId)) {
-            return NextResponse.json({ error: "Invalid Lesson ID" }, { status: 400 })
-        }
-
-        // Prisma doesn't support ORDER BY RANDOM() natively for all DBs easily, 
-        // but we can fetch them all and shuffle in memory since exercise count per lesson is small.
         const exercises = await prisma.exercise.findMany({
-            where: { lessonId }
+            where,
+            include: topic ? { lesson: { include: { unit: true } } } : undefined
         })
 
         // Shuffle array

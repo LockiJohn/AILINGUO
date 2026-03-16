@@ -104,7 +104,7 @@ export default function CourseMapScreen() {
                 <h1>
                     <span className="gradient-text">Corso {subjectNames[subject] || subject} {baseLevel}</span>
                 </h1>
-                <p className="text-secondary">Seleziona un'unità e inizia a studiare</p>
+                <p className="text-secondary">Seleziona un'unità o vai alla <button className="link" onClick={() => router.push('/book')}>Modalità Libro 📖</button></p>
             </div>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>
@@ -193,9 +193,9 @@ export default function CourseMapScreen() {
                         </p>
 
                         <ul style={{ marginBottom: 'var(--space-5)', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '0.95rem' }}>
-                            <li>Comprendere nuovi vocaboli nel loro contesto naturale.</li>
-                            <li>Praticare l'ascolto attivo e la pronuncia di frasi chiave.</li>
-                            <li>Ricostruire correttamente la grammatica inglese soggetto-verbo.</li>
+                            <li>Comprendere i concetti chiave e la loro applicazione pratica.</li>
+                            <li>Praticare il pensiero critico e la risoluzione di problemi.</li>
+                            <li>Sviluppare un'intuizione profonda della materia.</li>
                         </ul>
 
                         <div style={{ display: 'flex', gap: 'var(--space-3)' }}>
