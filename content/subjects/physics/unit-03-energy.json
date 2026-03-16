@@ -15,7 +15,7 @@
       "exercises": [
         {
           "type": "multiple_choice",
-          "topic": "Potential Energy",
+          "topic": "Energia",
           "prompt_it": "Quando sei in cima a una montagna russa, che tipo di energia hai 'immagazzinato'?",
           "correct_answer": "Energia Potenziale",
           "options": ["Energia Cinetica", "Energia Potenziale", "Energia Termica", "Energia Elettrica"],
@@ -24,7 +24,7 @@
         },
         {
           "type": "multiple_choice",
-          "topic": "Conservation of Energy",
+          "topic": "Energia",
           "prompt_it": "L'energia può sparire nel nulla?",
           "correct_answer": "No, si trasforma solo",
           "options": ["Sì, se fa freddo", "Sì, quando l'auto si ferma", "No, si trasforma solo", "No, resta sempre calore"],

@@ -15,7 +15,7 @@
       "exercises": [
         {
           "type": "multiple_choice",
-          "topic": "Basic Algebra",
+          "topic": "Algebra",
           "prompt_it": "Se x + 5 = 10, che numero si nasconde dentro la scatola 'x'?",
           "correct_answer": "5",
           "options": ["2", "5", "10", "15"],
@@ -24,7 +24,7 @@
         },
         {
           "type": "multiple_choice",
-          "topic": "Variable Concept",
+          "topic": "Algebra",
           "prompt_it": "In algebra, cosa rappresenta di solito una lettera come 'y'?",
           "correct_answer": "Un valore incognito",
           "options": ["Una costante fissa", "Un errore di stampa", "Un valore incognito", "Un numero negativo"],

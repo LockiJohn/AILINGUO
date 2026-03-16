@@ -24,7 +24,7 @@
                     "correct_answer": "Sì, arriverei all'atomo (che significa 'indivisibile')",
                     "explanation_it": "Esatto! Gli antichi greci immaginavano l'atomo come il limite ultimo della materia. Oggi sappiamo che è fatto di ancora più piccole particelle, ma rimane il 'mattoncino' fondamentale degli elementi.",
                     "difficulty": 1,
-                    "topic": "Atomic Theory"
+                    "topic": "Atomi"
                 },
                 {
                     "type": "match_pairs",
@@ -37,7 +37,7 @@
                     ],
                     "correct_answer": "Protone:Positiva (+)|Elettrone:Negativa (-)|Neutrone:Neutrale (0)|Nucleo:Centro dell'atomo",
                     "difficulty": 1,
-                    "topic": "Atomic Structure"
+                    "topic": "Atomi"
                 }
             ]
         }

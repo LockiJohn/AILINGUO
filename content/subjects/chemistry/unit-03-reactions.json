@@ -1,0 +1,28 @@
+{
+  "subject": "chemistry",
+  "order": 3,
+  "title_it": "Trasformazioni: Le Reazioni Chimiche",
+  "title_en": "Transformations: Chemical Reactions",
+  "description_it": "Nulla si crea, nulla si distrugge, tutto si trasforma. Vediamo come gli atomi cambiano partner di danza.",
+  "icon": "💥",
+  "lessons": [
+    {
+      "order": 1,
+      "title_it": "Lavoisier e il trucco del bilanciamento",
+      "title_en": "Lavoisier and the Balancing Trick",
+      "type": "theory",
+      "estimated_min": 6,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "topic": "Reazioni",
+          "prompt_it": "Se inizio una reazione con 10 grammi di idrogeno, quanti grammi di idrogeno avrò alla fine (anche se combinato in altro)?",
+          "correct_answer": "Sempre 10 grammi",
+          "options": ["Meno", "Di più", "Sempre 10 grammi", "0 grammi"],
+          "explanation_it": "Gli atomi non spariscono! Cambiano solo con chi sono legati. La massa totale resta la stessa.",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

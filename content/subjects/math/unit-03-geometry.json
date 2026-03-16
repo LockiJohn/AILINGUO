@@ -1,0 +1,28 @@
+{
+  "subject": "math",
+  "order": 3,
+  "title_it": "Forme e Spazio: La Geometria",
+  "title_en": "Shapes and Space: Geometry",
+  "description_it": "Dalle piramidi agli smartphone, la geometria è il disegno segreto della realtà.",
+  "icon": "📐",
+  "lessons": [
+    {
+      "order": 1,
+      "title_it": "Pitagora e l'armonia dei triangoli",
+      "title_en": "Pythagoras and Triangle Harmony",
+      "type": "theory",
+      "estimated_min": 7,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "topic": "Geometria",
+          "prompt_it": "Nel Teorema di Pitagora, cosa rappresenta la 'c' in a² + b² = c²?",
+          "correct_answer": "L'ipotenusa",
+          "options": ["Il lato più corto", "L'altezza", "L'ipotenusa", "L'area"],
+          "explanation_it": "L'ipotenusa è il lato più lungo, quello opposto all'angolo retto. È la scorciatoia del triangolo!",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

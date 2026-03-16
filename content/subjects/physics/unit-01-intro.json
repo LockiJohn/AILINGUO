@@ -24,7 +24,7 @@
                     "correct_answer": "Cade esattamente nelle tue mani",
                     "explanation_it": "Galileo sarebbe fiero di te! Poiché tu e la pallina vi muovete alla stessa velocità del treno, per te la pallina si muove solo in verticale. Questo è il principio di relatività galileiana! 🚂",
                     "difficulty": 1,
-                    "topic": "Relativity"
+                    "topic": "Cinematica"
                 },
                 {
                     "type": "fill_blank",
@@ -32,7 +32,7 @@
                     "correct_answer": "spazio:tempo",
                     "explanation_it": "Proprio così! V = S/T. Pensa alla velocità come a quanto spazio 'mangi' in ogni secondo che passa. 🏎️",
                     "difficulty": 1,
-                    "topic": "Velocity"
+                    "topic": "Cinematica"
                 }
             ]
         }

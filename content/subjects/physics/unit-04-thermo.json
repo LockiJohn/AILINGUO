@@ -1,0 +1,37 @@
+{
+  "subject": "physics",
+  "order": 4,
+  "title_it": "Calore e Disordine: La Termodinamica",
+  "title_en": "Heat and Disorder: Thermodynamics",
+  "description_it": "Il calore non è solo temperatura, è il movimento frenetico di miliardi di atomi. Scopriamo perché il caffè si raffredda e l'universo tende al caos.",
+  "icon": "🔥",
+  "lessons": [
+    {
+      "order": 1,
+      "title_it": "La danza degli atomi accaldati",
+      "title_en": "The Dance of Heated Atoms",
+      "type": "theory",
+      "estimated_min": 6,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "topic": "Termodinamica",
+          "prompt_it": "Cos'è il calore, in realtà?",
+          "correct_answer": "Energia cinetica microscopica",
+          "options": ["Un liquido invisibile", "Energia cinetica microscopica", "Una sostanza magica", "L'assenza di freddo"],
+          "explanation_it": "Gli atomi che si muovono velocemente sono 'caldi'. Più ballano forte, più la temperatura sale!",
+          "difficulty": 1
+        },
+        {
+          "type": "multiple_choice",
+          "topic": "Termodinamica",
+          "prompt_it": "In che direzione fluisce sempre il calore spontaneamente?",
+          "correct_answer": "Dal caldo al freddo",
+          "options": ["Dal freddo al caldo", "Dal caldo al freddo", "Resta fermo", "Dipende dalla stagione"],
+          "explanation_it": "È come una festa: chi ha troppa energia la condivide con chi ne ha meno fino a quando tutti sono allo stesso livello.",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

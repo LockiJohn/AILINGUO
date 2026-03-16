@@ -15,7 +15,7 @@
       "exercises": [
         {
           "type": "multiple_choice",
-          "topic": "Newton's First Law",
+          "topic": "Dinamica",
           "prompt_it": "Se un oggetto è fermo e nessuna forza lo spinge, cosa succede secondo Newton?",
           "correct_answer": "Resta fermo per sempre",
           "options": ["Inizia a muoversi piano", "Resta fermo per sempre", "Cade verso il basso", "Esplode"],
@@ -24,7 +24,7 @@
         },
         {
           "type": "multiple_choice",
-          "topic": "Force",
+          "topic": "Dinamica",
           "prompt_it": "La Forza è uguale a Massa per cosa?",
           "correct_answer": "Accelerazione",
           "options": ["Velocità", "Tempo", "Spazio", "Accelerazione"],
@@ -42,7 +42,7 @@
       "exercises": [
         {
           "type": "multiple_choice",
-          "topic": "Newton's Third Law",
+          "topic": "Dinamica",
           "prompt_it": "Se spingi un muro con forza 10, con quanta forza il muro spinge te?",
           "correct_answer": "10",
           "options": ["0", "5", "10", "20"],

@@ -24,7 +24,7 @@
                     "correct_answer": "Uso un sassolino per ogni pecora",
                     "explanation_it": "Esatto! Questa si chiama 'corrispondenza biunivoca'. I numeri sono nati per mettere in relazione insiemi di oggetti con simboli o oggetti più semplici (come i sassolini - *calculi* in latino!).",
                     "difficulty": 1,
-                    "topic": "History of Numbers"
+                    "topic": "Aritmetica"
                 },
                 {
                     "type": "match_pairs",
@@ -37,7 +37,7 @@
                     ],
                     "correct_answer": "Somma:Mettere insieme|Sottrazione:Togliere/Trovare la differenza|Moltiplicazione:Somma ripetuta velocemente|Divisione:Ripartire in parti uguali",
                     "difficulty": 1,
-                    "topic": "Basic Operations"
+                    "topic": "Aritmetica"
                 }
             ]
         }
