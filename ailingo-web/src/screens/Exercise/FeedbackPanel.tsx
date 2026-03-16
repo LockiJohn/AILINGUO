@@ -1,4 +1,5 @@
 "use client"
+import { useMemo } from 'react'
 import type { Exercise } from '../../types'
 
 interface Props {
@@ -12,23 +13,24 @@ interface Props {
 }
 
 export default function FeedbackPanel({ isCorrect, correctAnswer, userAnswer, explanation, grammarRule, onNext, speaking }: Props) {
-    const feedbackMessages = isCorrect 
-        ? [
-            "Fantastico! Hai centrato il punto! 🎯", 
-            "Ottimo lavoro! La logica non mente mai. ✨", 
-            "Esatto! Vedi come tutto si incastra? 🧩", 
-            "Perfetto! Ti muovi come un vero esperto. Maestro approva! 🎩", 
-            "Bravissimo! Questo concetto è tuo per sempre. 🏅"
-        ]
-        : [
-            "Ci siamo quasi! Un piccolo inciampo fa parte del percorso. 🧐", 
-            "Non mollare! Anche Newton ha dovuto riflettere a lungo. 🍎", 
-            "Riprova! Sbagliare è il primo passo per capire davvero. 💡", 
-            "Ops, un dettaglio ti è sfuggito! Vediamo perché... 🔍", 
-            "Continua così! La perseveranza è la chiave del genio. 💪"
-        ]
-    
-    const randomMsg = feedbackMessages[Math.floor(Math.random() * feedbackMessages.length)]
+    const randomMsg = useMemo(() => {
+        const feedbackMessages = isCorrect 
+            ? [
+                "Fantastico! Hai centrato il punto! 🎯", 
+                "Ottimo lavoro! La logica non mente mai. ✨", 
+                "Esatto! Vedi come tutto si incastra? 🧩", 
+                "Perfetto! Ti muovi come un vero esperto. Maestro approva! 🎩", 
+                "Bravissimo! Questo concetto è tuo per sempre. 🏅"
+            ]
+            : [
+                "Ci siamo quasi! Un piccolo inciampo fa parte del percorso. 🧐", 
+                "Non mollare! Anche Newton ha dovuto riflettere a lungo. 🍎", 
+                "Riprova! Sbagliare è il primo passo per capire davvero. 💡", 
+                "Ops, un dettaglio ti è sfuggito! Vediamo perché... 🔍", 
+                "Continua così! La perseveranza è la chiave del genio. 💪"
+            ]
+        return feedbackMessages[Math.floor(Math.random() * feedbackMessages.length)]
+    }, [isCorrect])
 
     return (
         <div className={`animate-slide-up glass-premium ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`} style={{ borderLeft: `4px solid ${isCorrect ? 'var(--clr-success)' : 'var(--clr-error)'}` }}>
@@ -74,7 +76,7 @@ export default function FeedbackPanel({ isCorrect, correctAnswer, userAnswer, ex
             )}
 
             <button className="btn btn-primary btn-full" onClick={onNext} autoFocus>
-                Continua →
+                Continua &rarr;
             </button>
         </div>
     )

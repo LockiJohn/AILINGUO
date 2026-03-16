@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function TapTranslateText({ text, vocabulary }: { text: string, vocabulary: any[] }) {
+function TapTranslateText({ text, vocabulary }: { text: string, vocabulary: { word: string; translation: string }[] }) {
     const [activeIndex, setActiveIndex] = useState<number | null>(null)
     const [translation, setTranslation] = useState<string | null>(null)
     const [loading, setLoading] = useState(false)
@@ -18,7 +18,7 @@ function TapTranslateText({ text, vocabulary }: { text: string, vocabulary: any[
         setTranslation(null)
         
         // Local vocab check
-        const vocabMatch = vocabulary?.find((v: any) => v.word.toLowerCase() === cleanWord)
+        const vocabMatch = vocabulary?.find((v) => v.word.toLowerCase() === cleanWord)
         if (vocabMatch) {
             setTranslation(vocabMatch.translation)
             return
@@ -97,18 +97,23 @@ export default function ContextReader({
     contentJson: string
     onContinue: () => void
 }) {
-    let content: any = null
+    let content: { 
+        maestro_intro?: string; 
+        story?: { title: string; text: string; translation?: string }; 
+        vocabulary?: { word: string; translation: string; context?: string }[]; 
+        grammar_points?: { title: string; explanation: string; context_reference?: string; examples?: { en: string; it: string }[] }[] 
+    } | null = null
     try {
         content = typeof contentJson === 'string' ? JSON.parse(contentJson) : contentJson
     } catch (e) {
         return <div className="text-error">Errore nel caricamento del contesto della lezione.</div>
     }
 
-    const { story, grammar_points, vocabulary } = content
+    const { story, grammar_points, vocabulary } = content || {}
 
     return (
         <div className="animate-fade-in" style={{ padding: 'var(--space-4) 0', maxWidth: 800, margin: '0 auto' }}>
-            {content.maestro_intro && (
+            {content?.maestro_intro && (
                 <div className="glass-premium" style={{ 
                     padding: 'var(--space-4)', 
                     marginBottom: 'var(--space-6)', 
@@ -123,7 +128,7 @@ export default function ContextReader({
                         </span>
                     </div>
                     <p style={{ fontSize: '1.1rem', color: 'var(--clr-text-secondary)', fontStyle: 'italic', margin: 0, lineHeight: 1.6 }}>
-                        "{content.maestro_intro}"
+                        &quot;{content?.maestro_intro}&quot;
                     </p>
                 </div>
             )}
@@ -148,10 +153,10 @@ export default function ContextReader({
                 <div className="card" style={{ marginBottom: 'var(--space-6)' }}>
                     <h3 style={{ marginBottom: 'var(--space-3)' }}>📚 Vocabolario Chiave</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 'var(--space-3)' }}>
-                        {vocabulary.map((v: any, i: number) => (
+                        {vocabulary.map((v: { word: string; translation: string; context?: string }, i: number) => (
                             <div key={i} style={{ padding: 'var(--space-2)', borderBottom: '1px solid var(--clr-border-accent)' }}>
                                 <strong style={{ color: 'var(--clr-primary-300)' }}>{v.word}</strong>: {v.translation}
-                                {v.context && <div style={{ fontSize: '0.8rem', color: 'var(--clr-text-muted)', marginTop: 4 }}>"{v.context}"</div>}
+                                {v.context && <div style={{ fontSize: '0.8rem', color: 'var(--clr-text-muted)', marginTop: 4 }}>&quot;{v.context}&quot;</div>}
                             </div>
                         ))}
                     </div>
@@ -161,18 +166,18 @@ export default function ContextReader({
             {grammar_points && grammar_points.length > 0 && (
                 <div className="card" style={{ marginBottom: 'var(--space-6)' }}>
                     <h3 style={{ marginBottom: 'var(--space-3)' }}>🧠 Grammatica in Contesto</h3>
-                    {grammar_points.map((gp: any, i: number) => (
+                    {grammar_points.map((gp: { title: string; explanation: string; context_reference?: string; examples?: { en: string; it: string }[] }, i: number) => (
                         <div key={i} style={{ marginBottom: i < grammar_points.length - 1 ? 'var(--space-4)' : 0 }}>
                             <h4 style={{ color: 'var(--clr-accent-400)', marginBottom: 'var(--space-2)' }}>{gp.title}</h4>
                             <p style={{ marginBottom: 'var(--space-2)', lineHeight: 1.5 }}>{gp.explanation}</p>
                             {gp.context_reference && (
                                 <div style={{ fontSize: '0.85rem', color: 'var(--clr-text-secondary)', marginBottom: 'var(--space-2)', fontStyle: 'italic' }}>
-                                    Es. dalla storia: "{gp.context_reference}"
+                                    Es. dalla storia: &quot;{gp.context_reference}&quot;
                                 </div>
                             )}
                             {gp.examples && (
                                 <ul style={{ listStyle: 'none', paddingLeft: 'var(--space-2)', borderLeft: '2px solid var(--clr-primary-500)' }}>
-                                    {gp.examples.map((ex: any, j: number) => (
+                                    {gp.examples.map((ex: { en: string; it: string }, j: number) => (
                                         <li key={j} style={{ marginBottom: 4 }}>
                                             <strong>{ex.en}</strong> = {ex.it}
                                         </li>
@@ -185,7 +190,7 @@ export default function ContextReader({
             )}
 
             <button className="btn btn-primary btn-lg btn-full" onClick={onContinue}>
-                Vai agli Esercizi →
+                Vai agli Esercizi &rarr;
             </button>
         </div>
     )

@@ -1,0 +1,38 @@
+﻿FILE: C:\Users\Michele\Desktop\AILINGO\ailingo-web\src\app\api\content\exercises\route.ts
+  L13:C60 - Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
+--------------------
+FILE: C:\Users\Michele\Desktop\AILINGO\ailingo-web\src\screens\BookMode\BookModeScreen.tsx
+  L15:C30 - Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
+--------------------
+FILE: C:\Users\Michele\Desktop\AILINGO\ailingo-web\src\screens\Dashboard\DashboardScreen.tsx
+  L141:C109 - `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`. (react/no-unescaped-entities)
+  L141:C132 - `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`. (react/no-unescaped-entities)
+--------------------
+FILE: C:\Users\Michele\Desktop\AILINGO\ailingo-web\src\screens\Exercise\FeedbackPanel.tsx
+  L31:C51 - Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Michele\Desktop\AILINGO\ailingo-web\src\screens\Exercise\FeedbackPanel.tsx:31:51
+  29 |         ]
+  30 |     
+> 31 |     const randomMsg = feedbackMessages[Math.floor(Math.random() * feedbackMessages.length)]
+     |                                                   ^^^^^^^^^^^^^ Cannot call impure function
+  32 |
+  33 |     return (
+  34 |         <div className={`animate-slide-up glass-premium ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}`} style={{ borderLeft: `4px solid ${isCorrect ? 'var(--clr-success)' : 'var(--clr-error)'}` }}> (react-hooks/purity)
+--------------------
+FILE: C:\Users\Michele\Desktop\AILINGO\ailingo-web\src\screens\Exercise\components\ContextReader.tsx
+  L3:C77 - Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
+  L21:C49 - Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
+  L100:C18 - Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
+  L126:C25 - `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`. (react/no-unescaped-entities)
+  L126:C49 - `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`. (react/no-unescaped-entities)
+  L151:C45 - Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
+  L154:C129 - `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`. (react/no-unescaped-entities)
+  L154:C141 - `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`. (react/no-unescaped-entities)
+  L164:C46 - Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
+  L170:C55 - `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`. (react/no-unescaped-entities)
+  L170:C78 - `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`. (react/no-unescaped-entities)
+  L175:C59 - Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
+--------------------

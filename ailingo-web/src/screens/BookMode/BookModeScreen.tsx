@@ -12,7 +12,7 @@ export default function BookModeScreen() {
     const [loading, setLoading] = useState(false)
     const [selectedTopic, setSelectedTopic] = useState<string | null>(null)
 
-    const subject = (user as any)?.learning_goal || 'english'
+    const subject = (user as { learning_goal?: string })?.learning_goal || 'english'
     /* subjectNames removed as unused */
 
     const topics: Record<string, { label: string; icon: string; items: string[] }> = {

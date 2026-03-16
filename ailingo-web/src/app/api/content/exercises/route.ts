@@ -10,7 +10,7 @@ export async function GET(req: Request) {
         const topic = searchParams.get('topic')
         const subject = searchParams.get('subject')
 
-        const where: Prisma.ExerciseWhereInput & { topic?: any } = {}
+        const where: Prisma.ExerciseWhereInput & { topic?: unknown } = {}
 
         if (lessonIdStr) {
             const lessonId = parseInt(lessonIdStr, 10)

@@ -138,7 +138,7 @@ export default function DashboardScreen() {
                     <div>
                         <div style={{ fontWeight: 700, marginBottom: 4, fontSize: 'var(--text-sm)' }}>Consiglio per principianti</div>
                         <div style={{ fontSize: 'var(--text-xs)', color: 'var(--clr-text-secondary)', lineHeight: 1.5 }}>
-                            Tocca ogni parola nella storia per vederne la traduzione istantanea! Le lezioni "Immersione Contestuale" iniziano con una storia da cui imparerai la grammatica.
+                            Tocca ogni parola nella storia per vederne la traduzione istantanea! Le lezioni &quot;Immersione Contestuale&quot; iniziano con una storia da cui imparerai la grammatica.
                         </div>
                     </div>
                 </div>
