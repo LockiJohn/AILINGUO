@@ -108,6 +108,26 @@ export default function ContextReader({
 
     return (
         <div className="animate-fade-in" style={{ padding: 'var(--space-4) 0', maxWidth: 800, margin: '0 auto' }}>
+            {content.maestro_intro && (
+                <div className="glass-premium" style={{ 
+                    padding: 'var(--space-4)', 
+                    marginBottom: 'var(--space-6)', 
+                    borderRadius: 'var(--radius-lg)',
+                    borderLeft: '4px solid var(--clr-primary-500)',
+                    background: 'rgba(99, 102, 241, 0.05)'
+                }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-3)', marginBottom: 'var(--space-2)' }}>
+                        <span style={{ fontSize: '1.8rem' }}>🎩</span>
+                        <span style={{ fontWeight: 800, fontSize: 'var(--text-lg)', color: 'var(--clr-primary-300)', letterSpacing: '0.02em' }}>
+                            Consiglio del Maestro
+                        </span>
+                    </div>
+                    <p style={{ fontSize: '1.1rem', color: 'var(--clr-text-secondary)', fontStyle: 'italic', margin: 0, lineHeight: 1.6 }}>
+                        "{content.maestro_intro}"
+                    </p>
+                </div>
+            )}
+
             {story && (
                 <div className="card" style={{ marginBottom: 'var(--space-6)' }}>
                     <h2 style={{ marginBottom: 'var(--space-3)' }}>📖 {story.title}</h2>

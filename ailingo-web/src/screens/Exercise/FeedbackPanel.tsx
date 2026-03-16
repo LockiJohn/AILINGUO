@@ -13,8 +13,20 @@ interface Props {
 
 export default function FeedbackPanel({ isCorrect, correctAnswer, userAnswer, explanation, grammarRule, onNext, speaking }: Props) {
     const feedbackMessages = isCorrect 
-        ? ["Fantastico!", "Ottimo lavoro!", "Esatto!", "Perfetto!", "Bravissimo!"]
-        : ["Ci siamo quasi!", "Non mollare!", "Riprova!", "Ops, quasi!", "Continua a provare!"]
+        ? [
+            "Fantastico! Hai centrato il punto! 🎯", 
+            "Ottimo lavoro! La logica non mente mai. ✨", 
+            "Esatto! Vedi come tutto si incastra? 🧩", 
+            "Perfetto! Ti muovi come un vero esperto. Maestro approva! 🎩", 
+            "Bravissimo! Questo concetto è tuo per sempre. 🏅"
+        ]
+        : [
+            "Ci siamo quasi! Un piccolo inciampo fa parte del percorso. 🧐", 
+            "Non mollare! Anche Newton ha dovuto riflettere a lungo. 🍎", 
+            "Riprova! Sbagliare è il primo passo per capire davvero. 💡", 
+            "Ops, un dettaglio ti è sfuggito! Vediamo perché... 🔍", 
+            "Continua così! La perseveranza è la chiave del genio. 💪"
+        ]
     
     const randomMsg = feedbackMessages[Math.floor(Math.random() * feedbackMessages.length)]
 

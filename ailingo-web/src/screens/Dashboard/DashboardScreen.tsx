@@ -29,10 +29,7 @@ export default function DashboardScreen() {
     const getLevelName = (lvl: number) => ['', 'Principiante', 'Apprendista', 'Studente', 'Esperto', 'Maestro', 'Super', 'Elite', 'Leggenda'][lvl] ?? 'Leggenda'
     const formatTime = (min: number) => min >= 60 ? `${Math.floor(min / 60)}h ${min % 60}m` : `${min}m`
 
-    const PRIMARY_ACTIONS = [
-        { icon: '📖', label: 'Vai al Corso', href: '/course', style: 'primary' },
-        { icon: '🔁', label: 'Ripassa', href: '/review', style: 'ghost' },
-    ]
+
 
     return (
         <div className="screen-container page-enter">

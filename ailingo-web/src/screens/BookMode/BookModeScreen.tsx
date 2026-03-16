@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useUserStore } from '../../store/userStore'
 import { useSessionStore } from '../../store/sessionStore'
@@ -13,12 +13,7 @@ export default function BookModeScreen() {
     const [selectedTopic, setSelectedTopic] = useState<string | null>(null)
 
     const subject = (user as any)?.learning_goal || 'english'
-    const subjectNames: Record<string, string> = { 
-        'physics': 'Fisica', 
-        'chemistry': 'Chimica', 
-        'english': 'Inglese',
-        'math': 'Matematica'
-    }
+    /* subjectNames removed as unused */
 
     const topics: Record<string, { label: string; icon: string; items: string[] }> = {
         'english': {

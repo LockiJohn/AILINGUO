@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/prisma"
+import { Prisma } from "@prisma/client"
 import { NextResponse } from "next/server"
 
 // GET /api/content/exercises?lesson=1 -> `get-lesson-exercises` IPC
@@ -9,7 +10,7 @@ export async function GET(req: Request) {
         const topic = searchParams.get('topic')
         const subject = searchParams.get('subject')
 
-        let where: any = {}
+        const where: Prisma.ExerciseWhereInput & { topic?: any } = {}
 
         if (lessonIdStr) {
             const lessonId = parseInt(lessonIdStr, 10)

@@ -107,8 +107,9 @@ export async function POST(req: Request) {
         }
 
         return NextResponse.json({ success: true, count: unitsData.length })
-    } catch (e: any) {
-        console.error("Course Generation Error:", e)
-        return NextResponse.json({ error: "Failed to generate course", details: e.message }, { status: 500 })
+    } catch (e: unknown) {
+        const error = e as Error
+        console.error("Course Generation Error:", error)
+        return NextResponse.json({ error: "Failed to generate course", details: error.message }, { status: 500 })
     }
 }
