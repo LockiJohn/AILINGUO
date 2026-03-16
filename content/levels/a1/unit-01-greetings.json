@@ -54,7 +54,7 @@
                     "audio_text": "Good morning",
                     "options": ["Good morning", "Good afternoon", "Good night", "Good evening"],
                     "correct_answer": "Good morning",
-                    "explanation_it": "Esatto! Ricorda: 'Good morning' si usa fino a mezzogiorno preciso. Dopo, passiamo a 'Afternoon'. ☀️",
+                    "explanation_it": "Esatto! Ricorda: 'Good morning' si usa fino a mezzogiorno preciso. Dopo, passiamo a 'Afternoon'. Il sole ha i suoi orari, e così anche i nostri saluti! ☀️",
                     "difficulty": 1,
                     "topic": "Greetings",
                     "grammar_category": "Vocabulary"
@@ -162,6 +162,7 @@
                 {
                     "type": "free_dictation",
                     "audio_text": "Nice to meet you Marco.",
+                    "explanation_it": "Eccellente! Questa frase è il 'passe-partout' dell'educazione. Usala e ti aprirai molte porte con un sorriso. 😊",
                     "correct_answer": "Nice to meet you Marco",
                     "difficulty": 3,
                     "topic": "Greetings",

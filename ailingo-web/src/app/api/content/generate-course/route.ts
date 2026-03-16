@@ -32,9 +32,16 @@ export async function POST(req: Request) {
         console.log(`[Dynamic Gen] Generating course for ${subject} ${levelCode}...`)
 
         // 2. Read from JSON files
-        const subjectsDir = path.join(process.cwd(), '..', 'content', 'subjects', subject.toLowerCase())
+        let subjectsDir = path.join(process.cwd(), '..', 'content', 'subjects', subject.toLowerCase())
+        
+        // Fallback for Vercel/Production where cwd might be the root or different
         if (!fs.existsSync(subjectsDir)) {
-             return NextResponse.json({ error: "Subject not found in content library" }, { status: 404 })
+            subjectsDir = path.join(process.cwd(), 'content', 'subjects', subject.toLowerCase())
+        }
+        
+        if (!fs.existsSync(subjectsDir)) {
+             console.error(`[Dynamic Gen] Directory not found: ${subjectsDir}`)
+             return NextResponse.json({ error: `Subject directory not found for ${subject}` }, { status: 404 })
         }
 
         const files = fs.readdirSync(subjectsDir).filter(f => f.endsWith('.json'))
@@ -83,7 +90,8 @@ export async function POST(req: Request) {
                         titleEn: lessonData.title_en || lessonData.title_it,
                         titleIt: lessonData.title_it,
                         type: lessonData.type || 'vocabulary',
-                        estimatedMinutes: lessonData.estimated_minutes || 5
+                        estimatedMinutes: lessonData.estimated_minutes || 5,
+                        contentJson: lessonData.content_json ? JSON.stringify(lessonData.content_json) : null
                     }
                 })
 

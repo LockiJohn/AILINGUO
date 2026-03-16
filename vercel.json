@@ -1,8 +1,6 @@
 {
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/index.html"
-        }
-    ]
+  "framework": "nextjs",
+  "buildCommand": "cd ailingo-web && npm run build",
+  "outputDirectory": "ailingo-web/.next",
+  "installCommand": "cd ailingo-web && npm install"
 }

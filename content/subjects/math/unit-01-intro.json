@@ -11,6 +11,14 @@
             "title_it": "Perché contiamo? L'origine dell'ordine",
             "type": "theory",
             "estimated_minutes": 5,
+            "content_json": {
+                "maestro_intro": "Benvenuto nel regno della logica! Oggi non impariamo solo a contare, ma a dare un nome all'infinito. I numeri sono i tuoi nuovi migliori amici!",
+                "story": {
+                    "title": "Il Pastore e i Sassolini",
+                    "text": "Migliaia di anni fa, un pastore voleva essere sicuro di non perdere nessuna pecora. Non conosceva i numeri come li conosciamo noi, ma aveva un'idea geniale: per ogni pecora che usciva dal recinto, metteva un sassolino in un sacchetto. Al ritorno, toglieva un sassolino per ogni pecora. Se il sacchetto era vuoto, l'ordine era ristabilito!",
+                    "translation": "Thousands of years ago, a shepherd wanted to be sure not to lose any sheep. He didn't know numbers as we do, but he had a brilliant idea: for every sheep that left the pen, he put a pebble in a bag. Upon return, he took out a pebble for every sheep. If the bag was empty, order was restored!"
+                }
+            },
             "exercises": [
                 {
                     "type": "multiple_choice",

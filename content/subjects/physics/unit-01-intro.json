@@ -11,6 +11,14 @@
             "title_it": "La Danza degli Oggetti: La Cinematica",
             "type": "theory",
             "estimated_minutes": 5,
+            "content_json": {
+                "maestro_intro": "Benvenuto in Fisica! Non aver paura dei numeri: qui studiamo il respiro del mondo. Oggi scopriamo che il movimento è... relativo!",
+                "story": {
+                    "title": "Il Treno di Galileo",
+                    "text": "Immagina di essere su un treno velocissimo, ma così fluido che non senti vibrazioni. Se chiudi gli occhi, come fai a sapere se ti stai muovendo o se sei fermo in stazione? Galileo Galilei ci ha insegnato che senza guardare fuori, le leggi della fisica sono identiche!",
+                    "translation": "Imagine being on a very fast train, but so smooth you feel no vibrations. If you close your eyes, how do you know if you are moving or standing at the station? Galileo Galilei taught us that without looking outside, the laws of physics are identical!"
+                }
+            },
             "exercises": [
                 {
                     "type": "multiple_choice",
