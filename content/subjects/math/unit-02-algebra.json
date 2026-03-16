@@ -1,0 +1,37 @@
+{
+  "subject": "math",
+  "order": 2,
+  "title_it": "Misteri dell'Ignota: L'Algebra",
+  "title_en": "Mysteries of the Unknown: Algebra",
+  "description_it": "Impara ad usare le lettere come se fossero scatole magiche per trovare numeri nascosti.",
+  "icon": "✖️",
+  "lessons": [
+    {
+      "order": 1,
+      "title_it": "Il mistero della X",
+      "title_en": "The Mystery of X",
+      "type": "theory",
+      "estimated_min": 6,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "topic": "Basic Algebra",
+          "prompt_it": "Se x + 5 = 10, che numero si nasconde dentro la scatola 'x'?",
+          "correct_answer": "5",
+          "options": ["2", "5", "10", "15"],
+          "explanation_it": "Pensa all'equazione come una bilancia: se tolgo 5 da entrambi i lati, resta x = 5!",
+          "difficulty": 1
+        },
+        {
+          "type": "multiple_choice",
+          "topic": "Variable Concept",
+          "prompt_it": "In algebra, cosa rappresenta di solito una lettera come 'y'?",
+          "correct_answer": "Un valore incognito",
+          "options": ["Una costante fissa", "Un errore di stampa", "Un valore incognito", "Un numero negativo"],
+          "explanation_it": "Le lettere sono segnaposto. Ci dicono: 'Qui c'è un numero, aiutami a trovarlo!'",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

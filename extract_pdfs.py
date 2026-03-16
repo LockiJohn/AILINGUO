@@ -12,7 +12,7 @@ def extract_text(pdf_path):
 
 if __name__ == "__main__":
     folder = sys.argv[1]
-    files = ["materiale1.pdf", "materiale2.pdf", "materiale3.pdf"]
+    files = ["materiale1.pdf", "materiale2.pdf", "materiale3.pdf", "materiale4.pdf"]
     output = {}
     for f in files:
         path = os.path.join(folder, f)

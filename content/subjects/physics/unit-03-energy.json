@@ -1,0 +1,37 @@
+{
+  "subject": "physics",
+  "order": 3,
+  "title_it": "Energia: Il Carburante dell'Universo",
+  "title_en": "Energy: The Universe's Fuel",
+  "description_it": "Cos'è che fa girare tutto? Scopriamo l'energia, una moneta che non si crea né si distrugge, ma si scambia.",
+  "icon": "⚡",
+  "lessons": [
+    {
+      "order": 1,
+      "title_it": "Potenziale e Cinetica: La Montagna Russa",
+      "title_en": "Potential and Kinetic: The Roller Coaster",
+      "type": "theory",
+      "estimated_min": 7,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "topic": "Potential Energy",
+          "prompt_it": "Quando sei in cima a una montagna russa, che tipo di energia hai 'immagazzinato'?",
+          "correct_answer": "Energia Potenziale",
+          "options": ["Energia Cinetica", "Energia Potenziale", "Energia Termica", "Energia Elettrica"],
+          "explanation_it": "Sei in alto! La gravità vede la tua altezza come una riserva di energia pronta a essere usata per cadere.",
+          "difficulty": 1
+        },
+        {
+          "type": "multiple_choice",
+          "topic": "Conservation of Energy",
+          "prompt_it": "L'energia può sparire nel nulla?",
+          "correct_answer": "No, si trasforma solo",
+          "options": ["Sì, se fa freddo", "Sì, quando l'auto si ferma", "No, si trasforma solo", "No, resta sempre calore"],
+          "explanation_it": "L'universo è un contabile onesto: l'energia cambia solo vestito (da potenziale a cinetica, calore, ecc.), ma il totale è lo stesso.",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

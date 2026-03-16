@@ -1,0 +1,46 @@
+{
+  "subject": "chemistry",
+  "order": 2,
+  "title_it": "Legami e Reazioni: La Danza degli Atomi",
+  "title_en": "Bonds and Reactions: The Dance of Atoms",
+  "description_it": "Gli atomi non amano stare soli! Scopriamo come si stringono la mano per formare tutto ciò che vedi.",
+  "icon": "🧪",
+  "lessons": [
+    {
+      "order": 1,
+      "title_it": "Mancarsi per unirsi: Il Legame Chimico",
+      "title_en": "Missing to Join: The Chemical Bond",
+      "type": "theory",
+      "estimated_min": 6,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "topic": "Chemical Bonds",
+          "prompt_it": "Perché due atomi decidono di unirsi in una molecola?",
+          "correct_answer": "Per essere più stabili",
+          "options": ["Perché si annoiano", "Per essere più stabili", "Per dividere il peso", "Per fare luce"],
+          "explanation_it": "Gli atomi cercano la stabilità, un po' come noi cerchiamo un equilibrio. Insieme sono più forti e calmi!",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title_it": "La Tavola Periodica: Il Menù dell'Universo",
+      "title_en": "The Periodic Table: The Universe's Menu",
+      "type": "theory",
+      "estimated_min": 5,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "topic": "Periodic Table",
+          "prompt_it": "Chi è il 're' della tavola periodica, l'elemento n. 1?",
+          "correct_answer": "Idrogeno",
+          "options": ["Ossigeno", "Oro", "Carbonio", "Idrogeno"],
+          "explanation_it": "L'Idrogeno è l'elemento più semplice e abbondante. È il primo mattoncino creato dopo il Big Bang!",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

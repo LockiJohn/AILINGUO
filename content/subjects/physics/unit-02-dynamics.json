@@ -1,0 +1,55 @@
+{
+  "subject": "physics",
+  "order": 2,
+  "title_it": "Le Forze: Perché le Cose si Muovono?",
+  "title_en": "Forces: Why Things Move?",
+  "description_it": "Incontriamo il grande Isaac Newton per capire come le forze governano la danza del mondo.",
+  "icon": "💥",
+  "lessons": [
+    {
+      "order": 1,
+      "title_it": "Isaac Newton e la mela magica",
+      "title_en": "Isaac Newton and the Magic Apple",
+      "type": "theory",
+      "estimated_min": 6,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "topic": "Newton's First Law",
+          "prompt_it": "Se un oggetto è fermo e nessuna forza lo spinge, cosa succede secondo Newton?",
+          "correct_answer": "Resta fermo per sempre",
+          "options": ["Inizia a muoversi piano", "Resta fermo per sempre", "Cade verso il basso", "Esplode"],
+          "explanation_it": "Questa è l'Inerzia! Gli oggetti sono pigri: se sono fermi, vogliono restare fermi.",
+          "difficulty": 1
+        },
+        {
+          "type": "multiple_choice",
+          "topic": "Force",
+          "prompt_it": "La Forza è uguale a Massa per cosa?",
+          "correct_answer": "Accelerazione",
+          "options": ["Velocità", "Tempo", "Spazio", "Accelerazione"],
+          "explanation_it": "F = m * a. Più spingi (F) o meno pesi (m), più corri veloce (a)!",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title_it": "Azione e Reazione: Il Karma della Fisica",
+      "title_en": "Action and Reaction: Physics Karma",
+      "type": "theory",
+      "estimated_min": 5,
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "topic": "Newton's Third Law",
+          "prompt_it": "Se spingi un muro con forza 10, con quanta forza il muro spinge te?",
+          "correct_answer": "10",
+          "options": ["0", "5", "10", "20"],
+          "explanation_it": "Ad ogni azione corrisponde una reazione uguale e contraria. Il muro ti 'risponde' esattamente come lo tratti!",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}
