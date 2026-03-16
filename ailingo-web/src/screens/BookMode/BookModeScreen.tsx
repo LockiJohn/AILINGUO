@@ -100,9 +100,10 @@ export default function BookModeScreen() {
                 </div>
             </div>
 
-            <div className="card" style={{ background: 'rgba(99,55,245,0.05)', border: '1px dashed var(--clr-border-accent)' }}>
-                <p style={{ fontSize: '0.9rem', color: 'var(--clr-text-secondary)', textAlign: 'center' }}>
-                    <strong>Suggerimento da Maestro:</strong> La modalità libro è perfetta per ripassare concetti specifici prima di un test o per approfondire ciò che ti appassiona di più.
+            <div className="glass-premium animate-slide-up" style={{ padding: 'var(--space-6)', borderRadius: 'var(--radius-xl)', borderStyle: 'dashed', borderColor: 'var(--clr-primary-400)' }}>
+                <p style={{ fontSize: '1rem', color: 'var(--clr-text-primary)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                    <span style={{ fontSize: '1.5rem' }}>👨‍🏫</span>
+                    <span><strong>Consiglio del Maestro:</strong> La modalità libro è lo strumento segreto per i veri campioni. Approfondisci ciò che ti appassiona e diventerai imbattibile!</span>
                 </p>
             </div>
         </div>

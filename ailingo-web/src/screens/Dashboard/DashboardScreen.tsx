@@ -96,13 +96,14 @@ export default function DashboardScreen() {
             {/* Secondary CTAs row */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-2)', marginBottom: 'var(--space-4)' }}>
                 {[
-                    { icon: '🕹️', label: 'Arcade', href: '/games', color: 'rgba(34,229,160,0.12)', border: 'rgba(34,229,160,0.3)', text: 'var(--clr-accent-400)' },
-                    { icon: '📖', label: 'Libro', href: '/book', color: 'rgba(99,55,245,0.12)', border: 'var(--clr-border-accent)', text: 'var(--clr-primary-300)' },
-                    { icon: '📊', label: 'Stats', href: '/stats', color: 'rgba(255,255,255,0.04)', border: 'var(--clr-border)', text: 'var(--clr-text-secondary)' },
+                    { icon: '🕹️', label: 'Arcade', href: '/games', color: 'rgba(34,229,160,0.08)', border: 'rgba(34,229,160,0.3)', text: 'var(--clr-accent-400)' },
+                    { icon: '📖', label: 'Libro', href: '/book', color: 'rgba(99,55,245,0.08)', border: 'var(--clr-border-accent)', text: 'var(--clr-primary-300)' },
+                    { icon: '📊', label: 'Stats', href: '/stats', color: 'rgba(255,255,255,0.03)', border: 'var(--clr-border)', text: 'var(--clr-text-secondary)' },
                 ].map(item => (
                     <button
                         key={item.href}
                         onClick={() => router.push(item.href)}
+                        className="glass-premium"
                         style={{
                             display: 'flex',
                             flexDirection: 'column',
@@ -110,7 +111,7 @@ export default function DashboardScreen() {
                             gap: 4,
                             padding: 'var(--space-3) var(--space-2)',
                             background: item.color,
-                            border: `1px solid ${item.border}`,
+                            borderColor: item.border,
                             borderRadius: 'var(--radius-md)',
                             cursor: 'pointer',
                             transition: 'all var(--transition-fast)',
@@ -156,7 +157,7 @@ export default function DashboardScreen() {
                     { icon: '⏱️', label: 'Studio', value: formatTime(timeMin) },
                     { icon: '🎯', label: 'Accuratezza', value: `${accuracy}%` },
                 ].map(stat => (
-                    <div key={stat.label} className="card" style={{ textAlign: 'center', padding: 'var(--space-4) var(--space-2)' }}>
+                    <div key={stat.label} className="glass-premium" style={{ textAlign: 'center', padding: 'var(--space-4) var(--space-2)', borderRadius: 'var(--radius-lg)' }}>
                         <div style={{ fontSize: '1.5rem', marginBottom: 4 }}>{stat.icon}</div>
                         <div style={{ fontSize: 'var(--text-xl)', fontWeight: 800, color: 'var(--clr-primary-300)', lineHeight: 1.1 }}>{stat.value}</div>
                         <div style={{ fontSize: 'var(--text-xs)', color: 'var(--clr-text-muted)', marginTop: 3 }}>{stat.label}</div>
